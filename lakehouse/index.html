@@ -151,9 +151,12 @@ tr.hoverable{position:relative}
 // ═══════════════════════════════════════════════════════════════
 
 const TABS = [
+  { id: 'executive', label: 'Executive Dashboard', icon: '🏛️' },
   { id: 'overview', label: 'Lakehouse Overview', icon: '⚡' },
   { id: 'customer360', label: 'Customer 360', icon: '👥' },
+  { id: 'products', label: 'Product Analytics', icon: '📦' },
   { id: 'revenue', label: 'Revenue Analytics', icon: '📊' },
+  { id: 'growth', label: 'Growth Accounting', icon: '🌱' },
   { id: 'quality', label: 'Data Quality Hub', icon: '🛡️' },
   { id: 'catalog', label: 'Data Catalog', icon: '📚' }
 ];
@@ -428,6 +431,37 @@ const REGIONS = [
   { country: 'Canada', flag: '🇨🇦', revenue: 528700, customers: 28, pct: 5.4, growth: 8.4, topProduct: 'Analytics', qRev: [128,130,134,137] }
 ];
 
+// --- Product Analytics Data ---
+const PRODUCT_DETAILS = [
+  { name: 'Cloud Infrastructure', category: 'Cloud', revenue: 1209500, units: 2340, margin: 42, growth: 18.5, qoq: [280,305,312,312], cartAbandoned: 312, cartTotal: 1420, crossSell: ['Security Suite Pro','Analytics Platform'], avgDeal: 517, renewalRate: 88.2, topBuyer: 'Zenith Pharma Inc', satisfaction: 4.3, supportTickets: 142 },
+  { name: 'Security Suite Pro', category: 'Security', revenue: 1358500, units: 1890, margin: 58, growth: 14.2, qoq: [310,335,348,365], cartAbandoned: 187, cartTotal: 980, crossSell: ['Cloud Infrastructure','Enterprise Support'], avgDeal: 719, renewalRate: 94.1, topBuyer: 'Meridian Health Systems', satisfaction: 4.6, supportTickets: 89 },
+  { name: 'Analytics Platform', category: 'Analytics', revenue: 1346300, units: 1560, margin: 52, growth: 22.8, qoq: [290,320,355,381], cartAbandoned: 245, cartTotal: 1180, crossSell: ['Cloud Infrastructure','Training Academy'], avgDeal: 863, renewalRate: 91.5, topBuyer: 'Quantum Dynamics Corp', satisfaction: 4.5, supportTickets: 67 },
+  { name: 'Enterprise Support', category: 'Support', revenue: 1338000, units: 3200, margin: 68, growth: 5.1, qoq: [325,330,338,345], cartAbandoned: 98, cartTotal: 1540, crossSell: ['Security Suite Pro','License Renewals'], avgDeal: 418, renewalRate: 96.8, topBuyer: 'Boreal Energy Partners', satisfaction: 4.7, supportTickets: 23 },
+  { name: 'Hardware Appliances', category: 'Hardware', revenue: 1522300, units: 890, margin: 28, growth: -2.3, qoq: [395,388,380,359], cartAbandoned: 420, cartTotal: 890, crossSell: ['Enterprise Support','Pro Services'], avgDeal: 1710, renewalRate: 72.3, topBuyer: 'Atlas Manufacturing GmbH', satisfaction: 3.8, supportTickets: 210 },
+  { name: 'Training Academy', category: 'Training', revenue: 1194100, units: 4500, margin: 72, growth: 31.4, qoq: [240,280,320,354], cartAbandoned: 534, cartTotal: 2100, crossSell: ['Analytics Platform','Cloud Infrastructure'], avgDeal: 265, renewalRate: 82.7, topBuyer: 'PacificRim Trading Co', satisfaction: 4.4, supportTickets: 31 },
+  { name: 'Pro Services', category: 'Services', revenue: 1072200, units: 780, margin: 45, growth: 8.9, qoq: [255,262,270,285], cartAbandoned: 112, cartTotal: 560, crossSell: ['Hardware Appliances','Security Suite Pro'], avgDeal: 1375, renewalRate: 79.5, topBuyer: 'TerraFirma Construction', satisfaction: 4.1, supportTickets: 55 },
+  { name: 'License Renewals', category: 'License', revenue: 862000, units: 1100, margin: 85, growth: -5.7, qoq: [228,220,215,199], cartAbandoned: 156, cartTotal: 680, crossSell: ['Enterprise Support','Security Suite Pro'], avgDeal: 784, renewalRate: 68.4, topBuyer: 'Sakura Digital KK', satisfaction: 4.0, supportTickets: 45 }
+];
+
+// --- Growth Accounting Data ---
+const COHORT_DATA = [
+  { month: 'Jul 25', newCustomers: 18, returning: 385, churned: 12, reactivated: 5, revenue: 362000, newRev: 42000, expansionRev: 28000, contractionRev: -8500, churnedRev: -22000 },
+  { month: 'Aug 25', newCustomers: 22, returning: 390, churned: 8, reactivated: 7, revenue: 378000, newRev: 51000, expansionRev: 32000, contractionRev: -6200, churnedRev: -15000 },
+  { month: 'Sep 25', newCustomers: 15, returning: 398, churned: 10, reactivated: 3, revenue: 385000, newRev: 35000, expansionRev: 25000, contractionRev: -9100, churnedRev: -18000 },
+  { month: 'Oct 25', newCustomers: 28, returning: 402, churned: 6, reactivated: 8, revenue: 402000, newRev: 68000, expansionRev: 41000, contractionRev: -5800, churnedRev: -11000 },
+  { month: 'Nov 25', newCustomers: 20, returning: 418, churned: 11, reactivated: 4, revenue: 395000, newRev: 47000, expansionRev: 30000, contractionRev: -7400, churnedRev: -20000 },
+  { month: 'Dec 25', newCustomers: 25, returning: 424, churned: 9, reactivated: 6, revenue: 418000, newRev: 58000, expansionRev: 35000, contractionRev: -6100, churnedRev: -16000 },
+  { month: 'Jan 26', newCustomers: 31, returning: 435, churned: 7, reactivated: 9, revenue: 441000, newRev: 72000, expansionRev: 44000, contractionRev: -4900, churnedRev: -12000 }
+];
+
+const COHORT_RETENTION = [
+  { cohort: 'Q1 2025', m0: 100, m1: 82, m2: 74, m3: 68, m4: 65, m5: 62, m6: 60, size: 45 },
+  { cohort: 'Q2 2025', m0: 100, m1: 85, m2: 78, m3: 72, m4: 69, m5: 67, m6: null, size: 52 },
+  { cohort: 'Q3 2025', m0: 100, m1: 88, m2: 81, m3: 76, m4: 73, m5: null, m6: null, size: 55 },
+  { cohort: 'Q4 2025', m0: 100, m1: 90, m2: 84, m3: 79, m4: null, m5: null, m6: null, size: 73 },
+  { cohort: 'Jan 2026', m0: 100, m1: 91, m2: null, m3: null, m4: null, m5: null, m6: null, size: 31 }
+];
+
 const AI_VS_TRADITIONAL = {
   labels: ['Timeline', 'Cost', 'Team Size', 'DQ Score', 'Time to Insight'],
   traditional: [18, 6.8, 35, 82, 14],
@@ -439,7 +473,7 @@ const AI_VS_TRADITIONAL = {
 // CORE ENGINE — State, Rendering, Hover Widget System
 // ═══════════════════════════════════════════════════════════════
 
-let activeTab = 'overview';
+let activeTab = 'executive';
 let hoverWidget = null;
 let activeCharts = {};
 let hoverTimer = null;
@@ -1308,6 +1342,503 @@ function initCatalogCharts() {
 }
 
 
+// ─── TAB: EXECUTIVE DASHBOARD ───
+function renderExecutive() {
+  const totalRev = PRODUCTS.reduce((s, p) => s + p.revenue, 0);
+  const totalCustomers = CUSTOMERS.length * 42; // scaled
+  const avgMargin = (PRODUCTS.reduce((s, p) => s + p.margin, 0) / PRODUCTS.length).toFixed(1);
+  const avgHealth = (CUSTOMERS.reduce((s, c) => s + c.health, 0) / CUSTOMERS.length).toFixed(0);
+  const atRisk = CUSTOMERS.filter(c => c.churnRisk === 'High').length;
+  const champions = CUSTOMERS.filter(c => c.lifecycle === 'Champion').length;
+  const latestCohort = COHORT_DATA[COHORT_DATA.length - 1];
+  const nrr = ((latestCohort.revenue + latestCohort.expansionRev + latestCohort.contractionRev + latestCohort.churnedRev) / latestCohort.revenue * 100).toFixed(1);
+  const totalAbandoned = PRODUCT_DETAILS.reduce((s, p) => s + p.cartAbandoned, 0);
+  const totalCartAttempts = PRODUCT_DETAILS.reduce((s, p) => s + p.cartTotal, 0);
+  const abandonRate = (totalAbandoned / totalCartAttempts * 100).toFixed(1);
+
+  const topProducts = [...PRODUCTS].sort((a, b) => b.growth - a.growth).slice(0, 3);
+  const bottomProducts = [...PRODUCTS].sort((a, b) => a.growth - b.growth).slice(0, 3);
+
+  const alerts = [
+    { severity: 'red', msg: `${atRisk} enterprise customers flagged as High churn risk`, action: 'Review in Customer 360' },
+    { severity: 'gold', msg: `Cart abandonment at ${abandonRate}% — Hardware leading at ${(PRODUCT_DETAILS[4].cartAbandoned/PRODUCT_DETAILS[4].cartTotal*100).toFixed(0)}%`, action: 'View Product Analytics' },
+    { severity: 'green', msg: `NRR at ${nrr}% — expansion revenue growing`, action: 'View Growth Accounting' },
+    { severity: 'gold', msg: 'DQ Rule ACCURACY: revenue vs invoice failing at 87.2%', action: 'View Data Quality Hub' }
+  ];
+
+  return `
+    <div class="kpi-row">
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--accent),var(--gold))"></div><div class="kpi-label">Total Revenue (TTM)</div><div class="kpi-value">${fmt(totalRev)}</div><div class="kpi-sub">8 product lines</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--blue),var(--cyan))"></div><div class="kpi-label">Total Customers</div><div class="kpi-value">${fmtN(totalCustomers)}</div><div class="kpi-sub">${champions * 42} champions</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--green),var(--lime))"></div><div class="kpi-label">Avg Gross Margin</div><div class="kpi-value">${avgMargin}%</div><div class="kpi-sub">Across all products</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--purple),var(--pink))"></div><div class="kpi-label">Net Revenue Retention</div><div class="kpi-value">${nrr}%</div><div class="kpi-sub">Expansion + Churn</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--cyan),var(--teal))"></div><div class="kpi-label">Avg Health Score</div><div class="kpi-value">${avgHealth}/100</div><div class="kpi-sub">${atRisk} at-risk accounts</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--red),var(--gold))"></div><div class="kpi-label">Cart Abandon Rate</div><div class="kpi-value">${abandonRate}%</div><div class="kpi-sub">${fmtN(totalAbandoned)} abandoned</div></div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-title">Revenue Trend (25 Months) <span class="badge" style="background:rgba(255,153,0,.15);color:var(--accent)">MONTHLY</span></div>
+        <div class="chart-box"><canvas id="chart-exec-rev"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Revenue by Segment <span class="badge" style="background:rgba(139,92,246,.15);color:var(--purple)">BREAKDOWN</span></div>
+        <div class="chart-box"><canvas id="chart-exec-seg"></canvas></div>
+      </div>
+    </div>
+
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="card-title">Top Performers <span class="badge" style="background:rgba(16,185,129,.15);color:var(--green)">GROWTH</span></div>
+        ${topProducts.map(p => `
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border);font-size:12px">
+            <div><span style="font-weight:600">${p.name}</span><br><span style="font-size:10px;color:var(--muted)">${p.category}</span></div>
+            <div style="text-align:right"><span style="color:var(--green);font-weight:700">+${p.growth}%</span><br><span style="font-size:10px;color:var(--muted)">${fmt(p.revenue)}</span></div>
+          </div>
+        `).join('')}
+      </div>
+      <div class="card">
+        <div class="card-title">Underperformers <span class="badge" style="background:rgba(239,68,68,.15);color:var(--red)">WATCH</span></div>
+        ${bottomProducts.map(p => `
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border);font-size:12px">
+            <div><span style="font-weight:600">${p.name}</span><br><span style="font-size:10px;color:var(--muted)">${p.category}</span></div>
+            <div style="text-align:right"><span style="color:${p.growth >= 0 ? 'var(--gold)' : 'var(--red)'};font-weight:700">${p.growth >= 0 ? '+' : ''}${p.growth}%</span><br><span style="font-size:10px;color:var(--muted)">${fmt(p.revenue)}</span></div>
+          </div>
+        `).join('')}
+      </div>
+      <div class="card">
+        <div class="card-title">Alerts & Actions <span class="badge" style="background:rgba(239,68,68,.15);color:var(--red)">LIVE</span></div>
+        ${alerts.map(a => `
+          <div style="padding:8px 0;border-bottom:1px solid var(--border);font-size:11px">
+            <div style="display:flex;align-items:start;gap:8px">
+              <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--${a.severity});margin-top:4px;flex-shrink:0"></span>
+              <div>
+                <div style="color:var(--text)">${a.msg}</div>
+                <div style="font-size:10px;color:var(--accent);margin-top:2px">${a.action}</div>
+              </div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-title">Customer Lifecycle Distribution</div>
+        <div class="chart-box"><canvas id="chart-exec-lifecycle"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Data Quality Across Layers</div>
+        <div class="chart-box"><canvas id="chart-exec-dq"></canvas></div>
+      </div>
+    </div>
+  `;
+}
+
+function initExecutiveCharts() {
+  createChart('chart-exec-rev', {
+    type: 'line',
+    data: {
+      labels: MONTHLY_REV.map(m => m.m),
+      datasets: [
+        { label: 'Revenue ($K)', data: MONTHLY_REV.map(m => m.rev), borderColor: '#ff9900', backgroundColor: 'rgba(255,153,0,.08)', fill: true, tension: .3, pointRadius: 2, borderWidth: 2 },
+        { label: 'Profit ($K)', data: MONTHLY_REV.map(m => m.rev - m.cost), borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,.05)', fill: true, tension: .3, pointRadius: 2, borderWidth: 2 }
+      ]
+    },
+    options: { plugins: { legend: { position: 'bottom' } } }
+  });
+
+  createChart('chart-exec-seg', {
+    type: 'doughnut',
+    data: {
+      labels: SEGMENTS.map(s => s.name),
+      datasets: [{ data: SEGMENTS.map(s => s.revenue), backgroundColor: SEGMENTS.map(s => s.color), borderWidth: 0 }]
+    },
+    options: { cutout: '55%', plugins: { legend: { position: 'bottom' } } }
+  });
+
+  const stages = {};
+  CUSTOMERS.forEach(c => { stages[c.lifecycle] = (stages[c.lifecycle] || 0) + 1; });
+  const stageColors = { Champion: '#10b981', Loyal: '#3b82f6', Activated: '#8b5cf6', 'At-Risk': '#f59e0b', Dormant: '#6b7280', Churned: '#ef4444' };
+  createChart('chart-exec-lifecycle', {
+    type: 'bar',
+    data: {
+      labels: Object.keys(stages),
+      datasets: [{ data: Object.values(stages), backgroundColor: Object.keys(stages).map(k => stageColors[k] || '#5a6380'), borderRadius: 6 }]
+    },
+    options: { plugins: { legend: { display: false } }, indexAxis: 'y' }
+  });
+
+  createChart('chart-exec-dq', {
+    type: 'bar',
+    data: {
+      labels: DQ_LAYERS.map(l => l.layer),
+      datasets: [{ label: 'Quality Score', data: DQ_LAYERS.map(l => l.score), backgroundColor: DQ_LAYERS.map(l => l.score >= 95 ? 'rgba(16,185,129,.6)' : l.score >= 80 ? 'rgba(245,158,11,.6)' : 'rgba(239,68,68,.6)'), borderRadius: 6 }]
+    },
+    options: { plugins: { legend: { display: false } }, scales: { y: { min: 60, max: 100 } } }
+  });
+}
+
+
+// ─── TAB: PRODUCT ANALYTICS ───
+function renderProducts() {
+  const totalRev = PRODUCT_DETAILS.reduce((s, p) => s + p.revenue, 0);
+  const totalAbandoned = PRODUCT_DETAILS.reduce((s, p) => s + p.cartAbandoned, 0);
+  const totalCartAttempts = PRODUCT_DETAILS.reduce((s, p) => s + p.cartTotal, 0);
+  const abandonRate = (totalAbandoned / totalCartAttempts * 100).toFixed(1);
+  const avgRenewal = (PRODUCT_DETAILS.reduce((s, p) => s + p.renewalRate, 0) / PRODUCT_DETAILS.length).toFixed(1);
+  const avgSat = (PRODUCT_DETAILS.reduce((s, p) => s + p.satisfaction, 0) / PRODUCT_DETAILS.length).toFixed(1);
+
+  const prodRows = PRODUCT_DETAILS.map((p, i) => {
+    const catColor = p.category === 'Cloud' ? 'cyan' : p.category === 'Security' ? 'red' : p.category === 'Analytics' ? 'purple' : p.category === 'Training' ? 'green' : p.category === 'Hardware' ? 'gold' : p.category === 'License' ? 'blue' : p.category === 'Support' ? 'green' : 'blue';
+    const abandRate = (p.cartAbandoned / p.cartTotal * 100).toFixed(1);
+    return `
+      <tr class="hoverable" data-hover="proddetail" data-idx="${i}">
+        <td style="font-weight:600">${p.name}</td>
+        <td><span class="pill pill-${catColor}">${p.category}</span></td>
+        <td style="font-weight:700">${fmt(p.revenue)}</td>
+        <td>${fmtN(p.units)}</td>
+        <td style="color:${p.margin >= 60 ? 'var(--green)' : p.margin >= 40 ? 'var(--gold)' : 'var(--red)'}; font-weight:600">${p.margin}%</td>
+        <td><span class="kpi-trend ${p.growth >= 0 ? 'up' : 'down'}">${p.growth >= 0 ? '▲' : '▼'} ${Math.abs(p.growth)}%</span></td>
+        <td style="color:${abandRate > 30 ? 'var(--red)' : abandRate > 20 ? 'var(--gold)' : 'var(--green)'}; font-weight:600">${abandRate}%</td>
+        <td style="font-weight:600">${p.renewalRate}%</td>
+      </tr>
+    `;
+  }).join('');
+
+  const abandonRows = [...PRODUCT_DETAILS].sort((a, b) => (b.cartAbandoned/b.cartTotal) - (a.cartAbandoned/a.cartTotal)).map(p => {
+    const rate = (p.cartAbandoned / p.cartTotal * 100).toFixed(1);
+    const lostRev = Math.round(p.cartAbandoned * p.revenue / p.units);
+    return `
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border);font-size:12px">
+        <div>
+          <span style="font-weight:600">${p.name}</span>
+          <div style="font-size:10px;color:var(--muted)">${p.cartAbandoned} of ${p.cartTotal} carts</div>
+        </div>
+        <div style="text-align:right">
+          <span style="color:${rate > 30 ? 'var(--red)' : 'var(--gold)'};font-weight:700">${rate}%</span>
+          <div style="font-size:10px;color:var(--dim)">~${fmt(lostRev)} lost</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <div class="kpi-row">
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--accent),var(--gold))"></div><div class="kpi-label">Total Product Revenue</div><div class="kpi-value">${fmt(totalRev)}</div><div class="kpi-sub">8 products</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--red),var(--gold))"></div><div class="kpi-label">Cart Abandonment</div><div class="kpi-value">${abandonRate}%</div><div class="kpi-sub">${fmtN(totalAbandoned)} abandoned</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--green),var(--lime))"></div><div class="kpi-label">Avg Renewal Rate</div><div class="kpi-value">${avgRenewal}%</div><div class="kpi-sub">Across all products</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--blue),var(--cyan))"></div><div class="kpi-label">Avg Satisfaction</div><div class="kpi-value">${avgSat}/5.0</div><div class="kpi-sub">Customer ratings</div></div>
+    </div>
+
+    <div class="card" style="margin-bottom:14px">
+      <div class="card-title">Product Performance <span class="badge" style="background:rgba(255,153,0,.15);color:var(--accent)">HOVER FOR DETAILS</span></div>
+      <div class="table-wrap">
+        <table><thead><tr><th>Product</th><th>Category</th><th>Revenue</th><th>Units</th><th>Margin</th><th>Growth</th><th>Cart Abandon</th><th>Renewal</th></tr></thead>
+        <tbody>${prodRows}</tbody></table>
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-title">Cart Abandonment by Product <span class="badge" style="background:rgba(239,68,68,.15);color:var(--red)">LOST REVENUE</span></div>
+        <div class="chart-box"><canvas id="chart-prod-abandon"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Abandonment Rankings</div>
+        ${abandonRows}
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-title">Revenue by Category</div>
+        <div class="chart-box"><canvas id="chart-prod-cat-rev"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Margin vs Growth <span class="badge" style="background:rgba(139,92,246,.15);color:var(--purple)">SCATTER</span></div>
+        <div class="chart-box"><canvas id="chart-prod-scatter"></canvas></div>
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-title">Cross-Sell Affinity Map</div>
+        <div style="padding:8px 0">
+          ${PRODUCT_DETAILS.map(p => `
+            <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);font-size:11px">
+              <span style="font-weight:600;min-width:140px">${p.name}</span>
+              <span style="color:var(--dim)">→</span>
+              ${p.crossSell.map(cs => `<span class="pill pill-blue">${cs}</span>`).join(' ')}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Support Ticket Load</div>
+        <div class="chart-box"><canvas id="chart-prod-tickets"></canvas></div>
+      </div>
+    </div>
+  `;
+}
+
+function showProductDetailWidget(e, idx) {
+  const p = PRODUCT_DETAILS[idx];
+  const abandRate = (p.cartAbandoned / p.cartTotal * 100).toFixed(1);
+  const lostRev = Math.round(p.cartAbandoned * p.revenue / p.units);
+
+  showHoverWidgetDebounced(e, () => `
+    <h3><span style="font-size:16px">📦</span> ${p.name}</h3>
+    <div class="hw-row"><span class="hw-label">Category</span><span class="hw-value">${p.category}</span></div>
+    <div class="hw-row"><span class="hw-label">Total Revenue</span><span class="hw-value" style="color:var(--accent)">${fmt(p.revenue)}</span></div>
+    <div class="hw-row"><span class="hw-label">Units Sold</span><span class="hw-value">${fmtN(p.units)}</span></div>
+    <div class="hw-row"><span class="hw-label">Avg Deal Size</span><span class="hw-value">${fmt(p.avgDeal)}</span></div>
+    <div class="hw-row"><span class="hw-label">Gross Margin</span><span class="hw-value" style="color:${p.margin >= 60 ? 'var(--green)' : 'var(--gold)'}">${p.margin}%</span></div>
+    <div class="hw-row"><span class="hw-label">YoY Growth</span><span class="hw-value" style="color:${p.growth >= 0 ? 'var(--green)' : 'var(--red)'}">${p.growth >= 0 ? '+' : ''}${p.growth}%</span></div>
+
+    <div class="hw-section">
+      <div class="hw-section-title">Cart & Renewal</div>
+      <div class="hw-row"><span class="hw-label">Cart Abandon Rate</span><span class="hw-value" style="color:${abandRate > 30 ? 'var(--red)' : 'var(--gold)'}">${abandRate}%</span></div>
+      <div class="hw-row"><span class="hw-label">Est. Lost Revenue</span><span class="hw-value" style="color:var(--red)">${fmt(lostRev)}</span></div>
+      <div class="hw-row"><span class="hw-label">Renewal Rate</span><span class="hw-value" style="color:${p.renewalRate >= 90 ? 'var(--green)' : 'var(--gold)'}">${p.renewalRate}%</span></div>
+    </div>
+
+    <div class="hw-section">
+      <div class="hw-section-title">Customer Insights</div>
+      <div class="hw-row"><span class="hw-label">Top Buyer</span><span class="hw-value">${p.topBuyer}</span></div>
+      <div class="hw-row"><span class="hw-label">Satisfaction</span><span class="hw-value">${p.satisfaction}/5.0</span></div>
+      <div class="hw-row"><span class="hw-label">Support Tickets</span><span class="hw-value">${p.supportTickets}</span></div>
+      <div class="hw-row"><span class="hw-label">Cross-Sell</span><span class="hw-value">${p.crossSell.join(', ')}</span></div>
+    </div>
+
+    <div class="hw-section">
+      <div class="hw-section-title">Quarterly Revenue ($K)</div>
+      <div class="hw-row"><span class="hw-label">Q1</span><span class="hw-value">${fmt(p.qoq[0] * 1000)}</span></div>
+      <div class="hw-row"><span class="hw-label">Q2</span><span class="hw-value">${fmt(p.qoq[1] * 1000)}</span></div>
+      <div class="hw-row"><span class="hw-label">Q3</span><span class="hw-value">${fmt(p.qoq[2] * 1000)}</span></div>
+      <div class="hw-row"><span class="hw-label">Q4</span><span class="hw-value">${fmt(p.qoq[3] * 1000)}</span></div>
+    </div>
+  `);
+}
+
+function initProductsCharts() {
+  const sorted = [...PRODUCT_DETAILS].sort((a, b) => (b.cartAbandoned/b.cartTotal) - (a.cartAbandoned/a.cartTotal));
+  createChart('chart-prod-abandon', {
+    type: 'bar',
+    data: {
+      labels: sorted.map(p => p.name),
+      datasets: [
+        { label: 'Abandon Rate %', data: sorted.map(p => (p.cartAbandoned / p.cartTotal * 100).toFixed(1)), backgroundColor: sorted.map(p => (p.cartAbandoned/p.cartTotal) > .3 ? 'rgba(239,68,68,.6)' : 'rgba(245,158,11,.6)'), borderRadius: 4 }
+      ]
+    },
+    options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } }
+  });
+
+  const catRevMap = {};
+  PRODUCT_DETAILS.forEach(p => { catRevMap[p.category] = (catRevMap[p.category] || 0) + p.revenue; });
+  const catColors = { Cloud: '#06b6d4', Security: '#ef4444', Analytics: '#8b5cf6', Support: '#10b981', Hardware: '#f59e0b', Training: '#84cc16', Services: '#3b82f6', License: '#ec4899' };
+  createChart('chart-prod-cat-rev', {
+    type: 'doughnut',
+    data: {
+      labels: Object.keys(catRevMap),
+      datasets: [{ data: Object.values(catRevMap), backgroundColor: Object.keys(catRevMap).map(k => catColors[k] || '#5a6380'), borderWidth: 0 }]
+    },
+    options: { cutout: '50%', plugins: { legend: { position: 'bottom' } } }
+  });
+
+  createChart('chart-prod-scatter', {
+    type: 'scatter',
+    data: {
+      datasets: PRODUCT_DETAILS.map(p => ({
+        label: p.name,
+        data: [{ x: p.growth, y: p.margin }],
+        backgroundColor: catColors[p.category] || '#5a6380',
+        pointRadius: 8
+      }))
+    },
+    options: {
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: Growth ${ctx.parsed.x}%, Margin ${ctx.parsed.y}%` } } },
+      scales: { x: { title: { display: true, text: 'YoY Growth %', color: '#5a6380' } }, y: { title: { display: true, text: 'Gross Margin %', color: '#5a6380' } } }
+    }
+  });
+
+  createChart('chart-prod-tickets', {
+    type: 'bar',
+    data: {
+      labels: PRODUCT_DETAILS.map(p => p.name),
+      datasets: [{ label: 'Tickets', data: PRODUCT_DETAILS.map(p => p.supportTickets), backgroundColor: PRODUCT_DETAILS.map(p => p.supportTickets > 100 ? 'rgba(239,68,68,.6)' : p.supportTickets > 50 ? 'rgba(245,158,11,.6)' : 'rgba(16,185,129,.6)'), borderRadius: 4 }]
+    },
+    options: { plugins: { legend: { display: false } }, indexAxis: 'y' }
+  });
+}
+
+
+// ─── TAB: GROWTH ACCOUNTING ───
+function renderGrowth() {
+  const latest = COHORT_DATA[COHORT_DATA.length - 1];
+  const prev = COHORT_DATA[COHORT_DATA.length - 2];
+  const nrr = ((latest.revenue + latest.expansionRev + latest.contractionRev + latest.churnedRev) / latest.revenue * 100).toFixed(1);
+  const totalNew = COHORT_DATA.reduce((s, c) => s + c.newCustomers, 0);
+  const totalChurned = COHORT_DATA.reduce((s, c) => s + c.churned, 0);
+  const avgExpansion = (COHORT_DATA.reduce((s, c) => s + c.expansionRev, 0) / COHORT_DATA.length);
+  const avgChurnRev = (COHORT_DATA.reduce((s, c) => s + Math.abs(c.churnedRev), 0) / COHORT_DATA.length);
+
+  const waterfallRows = COHORT_DATA.map(c => `
+    <tr>
+      <td style="font-weight:600">${c.month}</td>
+      <td style="font-weight:700">${fmt(c.revenue)}</td>
+      <td style="color:var(--green);font-weight:600">+${fmt(c.newRev)}</td>
+      <td style="color:var(--blue);font-weight:600">+${fmt(c.expansionRev)}</td>
+      <td style="color:var(--gold);font-weight:600">${fmt(c.contractionRev)}</td>
+      <td style="color:var(--red);font-weight:600">${fmt(c.churnedRev)}</td>
+      <td>${c.newCustomers}</td>
+      <td style="color:var(--red)">${c.churned}</td>
+      <td>${c.reactivated}</td>
+    </tr>
+  `).join('');
+
+  const retentionCells = (row) => {
+    const months = [row.m0, row.m1, row.m2, row.m3, row.m4, row.m5, row.m6];
+    return months.map(v => {
+      if (v === null) return '<td style="background:var(--bg2);color:var(--dim)">—</td>';
+      const color = v >= 80 ? 'var(--green)' : v >= 60 ? 'var(--gold)' : 'var(--red)';
+      const bg = v >= 80 ? 'rgba(16,185,129,.12)' : v >= 60 ? 'rgba(245,158,11,.12)' : 'rgba(239,68,68,.12)';
+      return `<td style="color:${color};background:${bg};font-weight:600;text-align:center">${v}%</td>`;
+    }).join('');
+  };
+
+  return `
+    <div class="kpi-row">
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--accent),var(--gold))"></div><div class="kpi-label">Net Revenue Retention</div><div class="kpi-value">${nrr}%</div><div class="kpi-sub">${nrr >= 100 ? 'Net positive' : 'Below 100%'}</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--green),var(--lime))"></div><div class="kpi-label">New Customers (7mo)</div><div class="kpi-value">${totalNew}</div><div class="kpi-sub">${(totalNew/7).toFixed(0)}/mo avg</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--blue),var(--cyan))"></div><div class="kpi-label">Avg Expansion Rev</div><div class="kpi-value">${fmt(avgExpansion)}</div><div class="kpi-sub">Per month</div></div>
+      <div class="kpi"><div class="kpi-bar" style="background:linear-gradient(90deg,var(--red),var(--gold))"></div><div class="kpi-label">Avg Churn Revenue</div><div class="kpi-value">${fmt(avgChurnRev)}</div><div class="kpi-sub">${totalChurned} customers lost</div></div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-title">Revenue Waterfall <span class="badge" style="background:rgba(255,153,0,.15);color:var(--accent)">NEW + EXPANSION - CHURN</span></div>
+        <div class="chart-box"><canvas id="chart-growth-waterfall"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Customer Movement <span class="badge" style="background:rgba(59,130,246,.15);color:var(--blue)">NEW vs CHURNED</span></div>
+        <div class="chart-box"><canvas id="chart-growth-movement"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:14px">
+      <div class="card-title">Monthly Growth Breakdown <span class="badge" style="background:rgba(16,185,129,.15);color:var(--green)">HOVER FOR DETAILS</span></div>
+      <div class="table-wrap">
+        <table><thead><tr><th>Month</th><th>Revenue</th><th>New Rev</th><th>Expansion</th><th>Contraction</th><th>Churned Rev</th><th>New Cust</th><th>Churned</th><th>Reactivated</th></tr></thead>
+        <tbody>${waterfallRows}</tbody></table>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:14px">
+      <div class="card-title">Cohort Retention Table <span class="badge" style="background:rgba(139,92,246,.15);color:var(--purple)">% RETAINED</span></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Cohort</th><th>Size</th><th>M0</th><th>M1</th><th>M2</th><th>M3</th><th>M4</th><th>M5</th><th>M6</th></tr></thead>
+          <tbody>
+            ${COHORT_RETENTION.map((r, i) => `
+              <tr class="hoverable" data-hover="cohort" data-idx="${i}">
+                <td style="font-weight:600">${r.cohort}</td>
+                <td>${r.size}</td>
+                ${retentionCells(r)}
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-title">NRR Trend</div>
+        <div class="chart-box"><canvas id="chart-growth-nrr"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Expansion vs Contraction</div>
+        <div class="chart-box"><canvas id="chart-growth-expand"></canvas></div>
+      </div>
+    </div>
+  `;
+}
+
+function showCohortWidget(e, idx) {
+  const c = COHORT_RETENTION[idx];
+  const months = [c.m0, c.m1, c.m2, c.m3, c.m4, c.m5, c.m6].filter(v => v !== null);
+  const dropoff = months.length > 1 ? (months[0] - months[months.length - 1]) : 0;
+
+  showHoverWidget(e, `
+    <h3><span style="font-size:16px">📅</span> ${c.cohort} Cohort</h3>
+    <div class="hw-row"><span class="hw-label">Cohort Size</span><span class="hw-value">${c.size} customers</span></div>
+    <div class="hw-row"><span class="hw-label">Months Tracked</span><span class="hw-value">${months.length - 1}</span></div>
+    <div class="hw-row"><span class="hw-label">Current Retention</span><span class="hw-value" style="color:${months[months.length-1] >= 70 ? 'var(--green)' : 'var(--gold)'}">${months[months.length-1]}%</span></div>
+    <div class="hw-row"><span class="hw-label">Total Dropoff</span><span class="hw-value" style="color:var(--red)">${dropoff}pp</span></div>
+
+    <div class="hw-section">
+      <div class="hw-section-title">Monthly Retention</div>
+      ${months.map((v, i) => `<div class="hw-row"><span class="hw-label">Month ${i}</span><span class="hw-value" style="color:${v >= 80 ? 'var(--green)' : v >= 60 ? 'var(--gold)' : 'var(--red)'}">${v}%</span></div>`).join('')}
+    </div>
+  `);
+}
+
+function initGrowthCharts() {
+  createChart('chart-growth-waterfall', {
+    type: 'bar',
+    data: {
+      labels: COHORT_DATA.map(c => c.month),
+      datasets: [
+        { label: 'New', data: COHORT_DATA.map(c => c.newRev / 1000), backgroundColor: 'rgba(16,185,129,.7)', borderRadius: 3, stack: 'pos' },
+        { label: 'Expansion', data: COHORT_DATA.map(c => c.expansionRev / 1000), backgroundColor: 'rgba(59,130,246,.7)', borderRadius: 3, stack: 'pos' },
+        { label: 'Contraction', data: COHORT_DATA.map(c => c.contractionRev / 1000), backgroundColor: 'rgba(245,158,11,.7)', borderRadius: 3, stack: 'neg' },
+        { label: 'Churned', data: COHORT_DATA.map(c => c.churnedRev / 1000), backgroundColor: 'rgba(239,68,68,.7)', borderRadius: 3, stack: 'neg' }
+      ]
+    },
+    options: { plugins: { legend: { position: 'bottom' } }, scales: { x: { stacked: true }, y: { stacked: true, title: { display: true, text: '$K', color: '#5a6380' } } } }
+  });
+
+  createChart('chart-growth-movement', {
+    type: 'line',
+    data: {
+      labels: COHORT_DATA.map(c => c.month),
+      datasets: [
+        { label: 'New', data: COHORT_DATA.map(c => c.newCustomers), borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,.1)', fill: true, tension: .3, pointRadius: 4, borderWidth: 2 },
+        { label: 'Churned', data: COHORT_DATA.map(c => c.churned), borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,.1)', fill: true, tension: .3, pointRadius: 4, borderWidth: 2 },
+        { label: 'Reactivated', data: COHORT_DATA.map(c => c.reactivated), borderColor: '#8b5cf6', backgroundColor: 'rgba(139,92,246,.1)', fill: true, tension: .3, pointRadius: 4, borderWidth: 2 }
+      ]
+    },
+    options: { plugins: { legend: { position: 'bottom' } } }
+  });
+
+  const nrrData = COHORT_DATA.map(c => ((c.revenue + c.expansionRev + c.contractionRev + c.churnedRev) / c.revenue * 100).toFixed(1));
+  createChart('chart-growth-nrr', {
+    type: 'line',
+    data: {
+      labels: COHORT_DATA.map(c => c.month),
+      datasets: [
+        { label: 'NRR %', data: nrrData, borderColor: '#ff9900', backgroundColor: 'rgba(255,153,0,.08)', fill: true, tension: .3, pointRadius: 4, borderWidth: 2 },
+        { label: '100% Baseline', data: COHORT_DATA.map(() => 100), borderColor: '#5a6380', borderDash: [5, 5], borderWidth: 1, pointRadius: 0 }
+      ]
+    },
+    options: { plugins: { legend: { position: 'bottom' } }, scales: { y: { min: 95, max: 115 } } }
+  });
+
+  createChart('chart-growth-expand', {
+    type: 'bar',
+    data: {
+      labels: COHORT_DATA.map(c => c.month),
+      datasets: [
+        { label: 'Expansion', data: COHORT_DATA.map(c => c.expansionRev / 1000), backgroundColor: 'rgba(59,130,246,.6)', borderRadius: 4 },
+        { label: 'Contraction', data: COHORT_DATA.map(c => Math.abs(c.contractionRev) / 1000), backgroundColor: 'rgba(245,158,11,.6)', borderRadius: 4 }
+      ]
+    },
+    options: { plugins: { legend: { position: 'bottom' } }, scales: { y: { title: { display: true, text: '$K', color: '#5a6380' } } } }
+  });
+}
+
+
 // ═══════════════════════════════════════════════════════════════
 // MAIN RENDER ENGINE
 // ═══════════════════════════════════════════════════════════════
@@ -1360,9 +1891,12 @@ function renderContent() {
   if (!contentEl) return;
   let content = '';
   switch(activeTab) {
+    case 'executive': content = renderExecutive(); break;
     case 'overview': content = renderOverview(); break;
     case 'customer360': content = renderCustomer360(); break;
+    case 'products': content = renderProducts(); break;
     case 'revenue': content = renderRevenue(); break;
+    case 'growth': content = renderGrowth(); break;
     case 'quality': content = renderQuality(); break;
     case 'catalog': content = renderCatalog(); break;
   }
@@ -1370,9 +1904,12 @@ function renderContent() {
 
   requestAnimationFrame(() => {
     switch(activeTab) {
+      case 'executive': initExecutiveCharts(); break;
       case 'overview': initOverviewCharts(); break;
       case 'customer360': initCustomer360Charts(); break;
+      case 'products': initProductsCharts(); break;
       case 'revenue': initRevenueCharts(); break;
+      case 'growth': initGrowthCharts(); break;
       case 'quality': initQualityCharts(); break;
       case 'catalog': initCatalogCharts(); break;
     }
@@ -1414,6 +1951,8 @@ document.addEventListener('mouseover', function(e) {
     case 'dqlayer': showDQLayerWidget(fakeEvent, idx); break;
     case 'dqrule': showDQRuleWidget(fakeEvent, idx); break;
     case 'catalog': showCatalogWidget(fakeEvent, idx); break;
+    case 'proddetail': showProductDetailWidget(fakeEvent, idx); break;
+    case 'cohort': showCohortWidget(fakeEvent, idx); break;
   }
 });
 
