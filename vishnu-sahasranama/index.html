@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Vishnu Sahasranama — Chanting Guide</title>
+    <meta name="description" content="Sri Vishnu Sahasranama Stotram — 1000 Divine Names of Lord Vishnu in chanting format with word-by-word breakdown and meanings">
+    <meta property="og:title" content="Sri Vishnu Sahasranama — Chanting Guide">
+    <meta property="og:description" content="The Thousand Divine Names of Lord Vishnu — Interactive chanting guide with word-by-word breakdown and meanings from the Mahabharata (Anushasana Parva).">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://paddyspeaks.com/vishnu-sahasranama/">
+    <meta property="og:site_name" content="PaddySpeaks">
+    <link rel="canonical" href="https://paddyspeaks.com/vishnu-sahasranama/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <a href="https://paddyspeaks.com" class="back-link">← PaddySpeaks</a>
+        <span>श्रीविष्णुसहस्रनामस्तोत्रम्</span>
+        <a href="https://linkedin.com/in/paddyiyer" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+
+    <!-- Reading Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="header-ornament">&#x2733;</div>
+            <h1 class="site-title">Sri Vishnu Sahasranama</h1>
+            <p class="site-subtitle">The Thousand Divine Names of Lord Vishnu</p>
+            <p class="site-source">From the Mahabharata (Anushasana Parva) &middot; Dialogue between Bhishma and Yudhishthira</p>
+        </div>
+    </header>
+
+    <!-- Navigation / View Switcher -->
+    <nav class="view-nav">
+        <div class="nav-inner">
+            <button class="nav-btn active" data-view="chanting">Chanting View</button>
+            <button class="nav-btn" data-view="names">1000 Names</button>
+            <button class="nav-btn" data-view="search">Search</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+
+        <!-- Chanting View -->
+        <section id="chanting-view" class="view active">
+
+            <!-- Dhyana Shlokas -->
+            <div class="section-block dhyana-block">
+                <h2 class="section-heading">Dhyana Shlokas <span class="section-heading-sanskrit">ध्यानम्</span></h2>
+                <p class="section-intro">Meditation verses to invoke Lord Vishnu before chanting</p>
+                <div id="dhyana-container"></div>
+            </div>
+
+            <!-- Main Stotram -->
+            <div class="section-block stotram-block">
+                <h2 class="section-heading">
+                    Atha Sri Vishnu Sahasranama Stotram
+                    <span class="section-heading-sanskrit">अथ श्रीविष्णुसहस्रनामस्तोत्रम्</span>
+                </h2>
+                <p class="section-intro">Each shloka is shown with its component divine names broken down below</p>
+                <div id="stotram-container"></div>
+            </div>
+
+            <!-- Closing -->
+            <div class="section-block closing-block">
+                <div class="closing-verse">
+                    <p class="transliteration">iti śrīmahābhārate śatasāhasryāṃ saṃhitāyāṃ vaiyāsikyāṃ anuśāsanaparvaṇi<br>
+                    bhīṣmayudhiṣṭhirasaṃvāde viṣṇusahasranāmastotram sampūrṇam</p>
+                    <p class="translation">Thus ends the Sri Vishnu Sahasranama Stotram from the Anushasana Parva of the Mahabharata, in the dialogue between Bhishma and Yudhishthira.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Names View -->
+        <section id="names-view" class="view">
+            <div class="section-block">
+                <h2 class="section-heading">The 1000 Divine Names <span class="section-heading-sanskrit">सहस्रनामावलिः</span></h2>
+                <p class="section-intro">All one thousand names with their meanings</p>
+                <div class="names-grid" id="names-container"></div>
+            </div>
+        </section>
+
+        <!-- Search View -->
+        <section id="search-view" class="view">
+            <div class="section-block">
+                <h2 class="section-heading">Search the Sahasranama</h2>
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search by name, meaning, or number..." autocomplete="off">
+                    <span class="search-count" id="search-count"></span>
+                </div>
+                <div class="names-grid" id="search-results"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-ornament">&#x2733;</div>
+        <p>Om Namo Bhagavate Vasudevaya</p>
+        <p class="footer-note">Text sourced from Mahabharata (Anushasana Parva) &middot; Shankaracharya Bhashya</p>
+        <p class="footer-note">A <a href="https://paddyspeaks.com">PaddySpeaks</a> creation</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
