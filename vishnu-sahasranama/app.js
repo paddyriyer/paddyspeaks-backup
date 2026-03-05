@@ -1,0 +1,384 @@
+// Sri Vishnu Sahasranama - Chanting Guide Application
+// ====================================================
+
+(function () {
+  'use strict';
+
+  // --- Name-to-Verse Mapping ---
+  // Traditional mapping: which divine names appear in each shloka
+  // Based on the standard Mahabharata text (Anushasana Parva)
+  const VERSE_NAMES = {
+    1: [1,2,3,4,5,6,7,8,9],
+    2: [10,11,12,13,14,15,16,17,18],
+    3: [19,20,21,22,23,24,25,26,27],
+    4: [28,29,30,31,32,33,34,35,36,37,38],
+    5: [39,40,41,42,43,44,45,46,47],
+    6: [48,49,50,51,52,53,54,55,56,57],
+    7: [58,59,60,61,62,63,64,65,66],
+    8: [67,68,69,70,71,72,73,74,75,76],
+    9: [77,78,79,80,81,82,83,84,85,86],
+    10: [87,88,89,90,91,92,93,94,95],
+    11: [96,97,98,99,100,101,102,103,104],
+    12: [105,106,107,108,109,110,111,112,113],
+    13: [114,115,116,117,118,119,120,121,122,123],
+    14: [124,125,126,127,128,129,130,131,132,133],
+    15: [134,135,136,137,138,139,140,141],
+    16: [142,143,144,145,146,147,148,149,150],
+    17: [151,152,153,154,155,156,157,158,159,160,161],
+    18: [162,163,164,165,166,167,168,169,170,171],
+    19: [172,173,174,175,176,177,178,179,180],
+    20: [181,182,183,184,185,186,187,188,189],
+    21: [190,191,192,193,194,195,196,197,198],
+    22: [199,200,201,202,203,204,205,206,207,208],
+    23: [209,210,211,212,213,214,215,216,217,218],
+    24: [219,220,221,222,223,224,225,226,227,228],
+    25: [229,230,231,232,233,234,235,236,237],
+    26: [238,239,240,241,242,243,244,245,246,247,248],
+    27: [249,250,251,252,253,254,255,256,257],
+    28: [258,259,260,261,262,263,264,265,266],
+    29: [267,268,269,270,271,272,273,274,275],
+    30: [276,277,278,279,280,281,282,283,284],
+    31: [285,286,287,288,289,290,291,292,293],
+    32: [294,295,296,297,298,299,300,301,302,303],
+    33: [304,305,306,307,308,309,310,311],
+    34: [312,313,314,315,316,317,318,319,320,321],
+    35: [322,323,324,325,326,327,328,329,330,331,332],
+    36: [333,334,335,336,337,338,339,340,341,342],
+    37: [343,344,345,346,347,348,349,350,351],
+    38: [352,353,354,355,356,357,358,359,360],
+    39: [361,362,363,364,365,366,367,368,369],
+    40: [370,371,372,373,374,375,376,377,378,379],
+    41: [380,381,382,383,384,385,386,387,388],
+    42: [389,390,391,392,393,394,395,396,397,398],
+    43: [399,400,401,402,403,404,405,406,407,408],
+    44: [409,410,411,412,413,414,415,416,417],
+    45: [418,419,420,421,422,423,424,425,426],
+    46: [427,428,429,430,431,432,433,434,435,436],
+    47: [437,438,439,440,441,442,443,444,445],
+    48: [446,447,448,449,450,451,452,453,454,455],
+    49: [456,457,458,459,460,461,462,463,464],
+    50: [465,466,467,468,469,470,471,472,473],
+    51: [474,475,476,477,478,479,480,481,482,483],
+    52: [484,485,486,487,488,489,490,491,492,493],
+    53: [494,495,496,497,498,499,500,501,502],
+    54: [503,504,505,506,507,508,509,510,511],
+    55: [512,513,514,515,516,517,518,519,520,521],
+    56: [522,523,524,525,526,527,528,529,530],
+    57: [531,532,533,534,535,536,537,538,539],
+    58: [540,541,542,543,544,545,546,547,548],
+    59: [549,550,551,552,553,554,555,556,557,558],
+    60: [559,560,561,562,563,564,565,566,567,568],
+    61: [569,570,571,572,573,574,575,576],
+    62: [577,578,579,580,581,582,583,584,585,586],
+    63: [587,588,589,590,591,592,593,594,595],
+    64: [596,597,598,599,600,601,602,603,604],
+    65: [605,606,607,608,609,610,611,612,613],
+    66: [614,615,616,617,618,619,620,621,622,623],
+    67: [624,625,626,627,628,629,630,631,632],
+    68: [633,634,635,636,637,638,639,640,641],
+    69: [642,643,644,645,646,647,648,649,650],
+    70: [651,652,653,654,655,656,657,658,659,660],
+    71: [661,662,663,664,665,666,667,668,669],
+    72: [670,671,672,673,674,675,676,677,678,679],
+    73: [680,681,682,683,684,685,686,687,688],
+    74: [689,690,691,692,693,694,695,696,697],
+    75: [698,699,700,701,702,703,704,705,706,707],
+    76: [708,709,710,711,712,713,714,715],
+    77: [716,717,718,719,720,721,722,723,724],
+    78: [725,726,727,728,729,730,731,732,733],
+    79: [734,735,736,737,738,739,740,741,742],
+    80: [743,744,745,746,747,748,749,750,751,752],
+    81: [753,754,755,756,757,758,759,760,761],
+    82: [762,763,764,765,766,767,768,769,770],
+    83: [771,772,773,774,775,776,777,778,779,780],
+    84: [781,782,783,784,785,786,787,788,789,790],
+    85: [791,792,793,794,795,796,797,798,799],
+    86: [800,801,802,803,804,805,806,807,808],
+    87: [809,810,811,812,813,814,815,816,817,818],
+    88: [819,820,821,822,823,824,825,826,827],
+    89: [828,829,830,831,832,833,834,835,836],
+    90: [837,838,839,840,841,842,843,844,845],
+    91: [846,847,848,849,850,851,852,853,854],
+    92: [855,856,857,858,859,860,861,862,863,864],
+    93: [865,866,867,868,869,870,871,872,873],
+    94: [874,875,876,877,878,879,880,881,882,883],
+    95: [884,885,886,887,888,889,890,891,892],
+    96: [893,894,895,896,897,898,899,900,901],
+    97: [902,903,904,905,906,907,908,909,910,911],
+    98: [912,913,914,915,916,917,918,919,920],
+    99: [921,922,923,924,925,926,927,928,929,930],
+    100: [931,932,933,934,935,936,937,938,939],
+    101: [940,941,942,943,944,945,946,947,948],
+    102: [949,950,951,952,953,954,955,956,957,958],
+    103: [959,960,961,962,963,964,965,966,967],
+    104: [968,969,970,971,972,973,974,975,976],
+    105: [977,978,979,980,981,982,983,984,985,986],
+    106: [987,988,989,990,991,992,993,994,995],
+    107: [996,997,998,999,1000]
+  };
+
+  // Build a reverse map: name number -> verse number
+  const NAME_TO_VERSE = {};
+  for (const [v, ns] of Object.entries(VERSE_NAMES)) {
+    for (const n of ns) {
+      NAME_TO_VERSE[n] = parseInt(v);
+    }
+  }
+
+  // --- Helper: Build names lookup ---
+  const namesMap = {};
+  VISHNU_DATA.names.forEach(function (n) {
+    namesMap[n.num] = n;
+  });
+
+  // --- Render Dhyana Shlokas ---
+  function renderDhyana() {
+    var container = document.getElementById('dhyana-container');
+    var html = '';
+
+    // Render preamble (question and answer) if available
+    if (VISHNU_DATA.preamble) {
+      var p = VISHNU_DATA.preamble;
+      html += '<div class="preamble-block">';
+      html += '<div class="preamble-label">Yudhishthira\'s Question</div>';
+      html += '<div class="preamble-sanskrit">' + escapeHtml(p.question) + '</div>';
+      html += '<div class="preamble-translation">' + escapeHtml(p.question_translation) + '</div>';
+      html += '</div>';
+
+      html += '<div class="preamble-block">';
+      html += '<div class="preamble-label">Bhishma\'s Answer</div>';
+      html += '<div class="preamble-sanskrit">' + escapeHtml(p.answer) + '</div>';
+      html += '<div class="preamble-translation">' + escapeHtml(p.answer_translation) + '</div>';
+      html += '</div>';
+    }
+
+    VISHNU_DATA.dhyana.forEach(function (dv) {
+      html += '<div class="dhyana-verse">';
+      html += '<div class="transliteration">' + escapeHtml(dv.sanskrit) + '</div>';
+      if (dv.translation) {
+        html += '<div class="translation">' + escapeHtml(dv.translation) + '</div>';
+      }
+      html += '</div>';
+    });
+    container.innerHTML = html;
+  }
+
+  // --- Render Stotram (Main Chanting View) ---
+  function renderStotram() {
+    var container = document.getElementById('stotram-container');
+
+    // Add expand/collapse controls
+    var controlsHtml = '<div class="expand-controls">';
+    controlsHtml += '<button class="expand-btn" id="expand-all">Expand All</button>';
+    controlsHtml += '<button class="expand-btn" id="collapse-all">Collapse All</button>';
+    controlsHtml += '</div>';
+
+    var versesHtml = '';
+
+    VISHNU_DATA.verses.forEach(function (verse) {
+      var verseNum = verse.num;
+      var nameNums = VERSE_NAMES[verseNum] || [];
+      var halves = verse.halves || [];
+
+      // Build shloka text display with translations
+      var translations = verse.translations || [];
+      var shlokaHtml = '<div class="shloka-text">';
+      halves.forEach(function (half, idx) {
+        shlokaHtml += '<span class="shloka-line">' + escapeHtml(half) + '</span>';
+        if (idx < halves.length - 1) {
+          shlokaHtml += '<span class="shloka-separator">|</span>';
+        }
+      });
+      shlokaHtml += '<span class="shloka-separator">|| ' + verseNum + ' ||</span>';
+      if (translations.length > 0) {
+        shlokaHtml += '<div class="shloka-translations">';
+        translations.forEach(function (t) {
+          if (t) {
+            shlokaHtml += '<span class="shloka-translation">' + escapeHtml(t) + '</span>';
+          }
+        });
+        shlokaHtml += '</div>';
+      }
+      shlokaHtml += '</div>';
+
+      // Build names breakdown
+      var namesHtml = '<div class="names-breakdown">';
+      nameNums.forEach(function (nNum) {
+        var name = namesMap[nNum];
+        if (name) {
+          namesHtml += '<div class="name-row">';
+          namesHtml += '<span class="name-num">' + nNum + '.</span>';
+          namesHtml += '<div class="name-details">';
+          namesHtml += '<span class="name-iast">' + escapeHtml(name.name_iast || '') + '</span>';
+          if (name.name_devanagari) {
+            namesHtml += '<span class="name-devanagari">' + escapeHtml(name.name_devanagari) + '</span>';
+          }
+          namesHtml += '<span class="name-meaning">' + escapeHtml(name.meaning) + '</span>';
+          namesHtml += '</div>';
+          namesHtml += '</div>';
+        }
+      });
+      namesHtml += '</div>';
+
+      // Preview text
+      var preview = halves.length > 0 ? halves[0] : '';
+      if (preview.length > 60) preview = preview.substring(0, 60) + '...';
+
+      // Verse card
+      versesHtml += '<div class="verse-card" id="verse-' + verseNum + '">';
+      versesHtml += '<div class="verse-header" onclick="toggleVerse(' + verseNum + ')">';
+      versesHtml += '<span class="verse-number">' + verseNum + '</span>';
+      versesHtml += '<span class="verse-text-preview">' + escapeHtml(preview) + '</span>';
+      versesHtml += '<span class="verse-toggle">&#9660;</span>';
+      versesHtml += '</div>';
+      versesHtml += '<div class="verse-body">';
+      versesHtml += shlokaHtml;
+      versesHtml += namesHtml;
+      versesHtml += '</div>';
+      versesHtml += '</div>';
+    });
+
+    container.innerHTML = controlsHtml + versesHtml;
+
+    // Expand first 3 verses by default
+    for (var i = 1; i <= 3; i++) {
+      var el = document.getElementById('verse-' + i);
+      if (el) el.classList.add('expanded');
+    }
+
+    // Expand/Collapse all
+    document.getElementById('expand-all').addEventListener('click', function () {
+      document.querySelectorAll('.verse-card').forEach(function (c) {
+        c.classList.add('expanded');
+      });
+    });
+    document.getElementById('collapse-all').addEventListener('click', function () {
+      document.querySelectorAll('.verse-card').forEach(function (c) {
+        c.classList.remove('expanded');
+      });
+    });
+  }
+
+  // --- Toggle verse expansion ---
+  window.toggleVerse = function (num) {
+    var el = document.getElementById('verse-' + num);
+    if (el) el.classList.toggle('expanded');
+  };
+
+  // --- Render All Names ---
+  function renderNames() {
+    var container = document.getElementById('names-container');
+    var html = '';
+    VISHNU_DATA.names.forEach(function (name) {
+      html += '<div class="name-row">';
+      html += '<span class="name-num">' + name.num + '.</span>';
+      html += '<div class="name-details">';
+      html += '<span class="name-iast">' + escapeHtml(name.name_iast || '') + '</span>';
+      if (name.name_devanagari) {
+        html += '<span class="name-devanagari">' + escapeHtml(name.name_devanagari) + '</span>';
+      }
+      html += '<span class="name-meaning">' + escapeHtml(name.meaning) + '</span>';
+      html += '</div>';
+      html += '</div>';
+    });
+    container.innerHTML = html;
+  }
+
+  // --- Search ---
+  function setupSearch() {
+    var input = document.getElementById('search-input');
+    var results = document.getElementById('search-results');
+    var count = document.getElementById('search-count');
+
+    input.addEventListener('input', function () {
+      var query = input.value.trim().toLowerCase();
+      if (query.length < 2) {
+        results.innerHTML = '<p style="text-align:center;color:#4a5568;padding:2rem;">Type at least 2 characters to search...</p>';
+        count.textContent = '';
+        return;
+      }
+
+      var matches = VISHNU_DATA.names.filter(function (name) {
+        return (
+          (name.name_devanagari || '').toLowerCase().includes(query) ||
+          (name.name_iast || '').toLowerCase().includes(query) ||
+          name.meaning.toLowerCase().includes(query) ||
+          String(name.num) === query
+        );
+      });
+
+      count.textContent = matches.length + ' found';
+
+      if (matches.length === 0) {
+        results.innerHTML = '<p style="text-align:center;color:#4a5568;padding:2rem;">No names found matching "' + escapeHtml(query) + '"</p>';
+        return;
+      }
+
+      var html = '';
+      matches.forEach(function (name) {
+        html += '<div class="name-row">';
+        html += '<span class="name-num">' + name.num + '.</span>';
+        html += '<div class="name-details">';
+        html += '<span class="name-iast">' + escapeHtml(name.name_iast || '') + '</span>';
+        if (name.name_devanagari) {
+          html += '<span class="name-devanagari">' + escapeHtml(name.name_devanagari) + '</span>';
+        }
+        html += '<span class="name-meaning">' + escapeHtml(name.meaning) + '</span>';
+        html += '</div>';
+        html += '</div>';
+      });
+      results.innerHTML = html;
+    });
+  }
+
+  // --- View Navigation ---
+  function setupNavigation() {
+    var buttons = document.querySelectorAll('.nav-btn');
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var viewId = btn.getAttribute('data-view');
+
+        buttons.forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+
+        document.querySelectorAll('.view').forEach(function (v) {
+          v.classList.remove('active');
+        });
+        document.getElementById(viewId + '-view').classList.add('active');
+      });
+    });
+  }
+
+  // --- Reading Progress ---
+  function setupProgressBar() {
+    window.addEventListener('scroll', function () {
+      var scrollTop = window.scrollY;
+      var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      var progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      document.getElementById('progressBar').style.width = progress + '%';
+    });
+  }
+
+  // --- Utility: Escape HTML ---
+  function escapeHtml(str) {
+    var div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  // --- Initialize ---
+  function init() {
+    renderDhyana();
+    renderStotram();
+    renderNames();
+    setupSearch();
+    setupNavigation();
+    setupProgressBar();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
