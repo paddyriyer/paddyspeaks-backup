@@ -167,6 +167,33 @@ body {
     letter-spacing: 0.02em;
 }
 
+/* --- Download PDF Button --- */
+.download-pdf-btn {
+    display: inline-block;
+    margin-top: 1.25rem;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid rgba(218, 165, 32, 0.5);
+    border-radius: 25px;
+    background: rgba(218, 165, 32, 0.15);
+    color: var(--color-gold-light);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    letter-spacing: 0.03em;
+}
+
+.download-pdf-btn:hover {
+    background: rgba(218, 165, 32, 0.3);
+    border-color: var(--color-gold-light);
+}
+
+.download-pdf-btn:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
 /* --- Navigation --- */
 .view-nav {
     position: sticky;
@@ -576,7 +603,8 @@ body {
     .expand-controls,
     .verse-toggle,
     .search-box,
-    .top-bar {
+    .top-bar,
+    .download-pdf-btn {
         display: none !important;
     }
 

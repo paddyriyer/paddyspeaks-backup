@@ -207,6 +207,74 @@
     });
   }
 
+  // --- Generate PDF ---
+  window.generatePDF = function () {
+    var btn = document.getElementById('downloadPdfBtn');
+    btn.textContent = 'Generating PDF...';
+    btn.disabled = true;
+
+    // Build a hidden container with all verses for PDF
+    var pdfContent = document.createElement('div');
+    pdfContent.style.fontFamily = "'Noto Sans Tamil', 'Source Serif 4', Georgia, serif";
+    pdfContent.style.color = '#2c1810';
+    pdfContent.style.padding = '20px';
+    pdfContent.style.width = '700px';
+
+    // Title
+    pdfContent.innerHTML = '<div style="text-align:center;margin-bottom:30px;">' +
+      '<h1 style="font-size:28px;color:#c41e3a;margin-bottom:8px;">Abhirami Andhadhi</h1>' +
+      '<p style="font-size:16px;color:#6b5744;margin-bottom:4px;">அபிராமி அந்தாதி</p>' +
+      '<p style="font-size:13px;color:#6b5744;">By Abhirami Bhattar &middot; Thirukkadaiyur</p>' +
+      '</div>';
+
+    verses.forEach(function (verse) {
+      var num = verse.num;
+      var label = num === 0 ? 'Kaappu (Invocation)' : 'Verse ' + num;
+      if (num === 101) label = 'Noorpayan (Benefit)';
+
+      var block = '<div style="page-break-inside:avoid;margin-bottom:24px;padding:16px;border:1px solid #d4c4b0;border-left:4px solid ' +
+        (num === 0 ? '#b8860b' : '#c41e3a') + ';border-radius:6px;background:#fff;">';
+      block += '<div style="font-weight:700;font-size:14px;color:#c41e3a;margin-bottom:10px;">' + label + '</div>';
+      block += '<div style="font-size:15px;line-height:2;text-align:center;padding:10px;background:#f7efe3;border-radius:4px;margin-bottom:10px;white-space:pre-line;">' +
+        escapeHtml(verse.tamil) + '</div>';
+      block += '<div style="font-size:13px;line-height:1.8;text-align:center;font-style:italic;color:#2c1810;margin-bottom:10px;white-space:pre-line;">' +
+        escapeHtml(verse.transliteration) + '</div>';
+      if (verse.meaning) {
+        block += '<div style="font-size:12px;line-height:1.7;padding:10px;border-left:3px solid #b8860b;background:#fffef8;">' +
+          '<strong style="color:#b8860b;font-size:11px;text-transform:uppercase;">Meaning</strong><br>' +
+          escapeHtml(verse.meaning) + '</div>';
+      }
+      block += '</div>';
+      pdfContent.innerHTML += block;
+    });
+
+    // Footer
+    pdfContent.innerHTML += '<div style="text-align:center;margin-top:30px;font-size:12px;color:#6b5744;">' +
+      '<p>Om Shreem Abhirami Namaha</p>' +
+      '<p style="margin-top:4px;">A PaddySpeaks creation &middot; paddyspeaks.com</p></div>';
+
+    document.body.appendChild(pdfContent);
+
+    var opt = {
+      margin: [10, 10, 10, 10],
+      filename: 'Abhirami-Andhadhi.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, useCORS: true, letterRendering: true },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+      pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+    };
+
+    html2pdf().set(opt).from(pdfContent).save().then(function () {
+      document.body.removeChild(pdfContent);
+      btn.textContent = 'Download PDF';
+      btn.disabled = false;
+    }).catch(function () {
+      document.body.removeChild(pdfContent);
+      btn.textContent = 'Download PDF';
+      btn.disabled = false;
+    });
+  };
+
   // --- Initialize ---
   function init() {
     renderAllVerses();
