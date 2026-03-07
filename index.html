@@ -39,12 +39,12 @@
 
 <nav class="nav-bar">
     <a href="index.html" class="active">Journal</a>
-    <a href="index.html#philosophy">Philosophy</a>
-    <a href="index.html#technology">Technology</a>
-    <a href="index.html#ai">AI &amp; Future</a>
-    <a href="index.html#archive">Archive</a>
-    <a href="index.html#sacred-texts">Sacred Texts</a>
-    <a href="index.html#data-lab">Data Lab</a>
+    <a href="#archive" data-filter="philosophy">Philosophy</a>
+    <a href="#archive" data-filter="technology">Technology</a>
+    <a href="#archive" data-filter="ai">AI &amp; Future</a>
+    <a href="#archive">Archive</a>
+    <a href="#sacred-texts">Sacred Texts</a>
+    <a href="#data-lab">Data Lab</a>
     <a href="about.html">About</a>
 </nav>
 
@@ -1834,8 +1834,19 @@
     var cards = document.querySelectorAll('.deck-card');
     var filterBtns = document.querySelectorAll('.deck-filter-btn');
     var loadMoreBtn = document.querySelector('.deck-load-more-btn');
+    var navFilterLinks = document.querySelectorAll('.nav-bar a[data-filter]');
     var currentFilter = 'all';
     var showCount = INITIAL_SHOW;
+
+    function setFilter(filter) {
+        currentFilter = filter;
+        showCount = INITIAL_SHOW;
+        // Sync deck filter buttons
+        filterBtns.forEach(function(b) {
+            b.classList.toggle('active', b.getAttribute('data-filter') === filter);
+        });
+        update();
+    }
 
     function update() {
         var visible = 0;
@@ -1870,11 +1881,20 @@
 
     filterBtns.forEach(function(btn) {
         btn.addEventListener('click', function() {
-            filterBtns.forEach(function(b) { b.classList.remove('active'); });
-            btn.classList.add('active');
-            currentFilter = btn.getAttribute('data-filter');
-            showCount = INITIAL_SHOW;
-            update();
+            setFilter(btn.getAttribute('data-filter'));
+        });
+    });
+
+    // Nav bar category links trigger deck filtering
+    navFilterLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            var filter = this.getAttribute('data-filter');
+            setFilter(filter);
+            var archiveSection = document.getElementById('archive');
+            if (archiveSection) {
+                archiveSection.scrollIntoView({ behavior: 'smooth' });
+            }
         });
     });
 
@@ -1885,7 +1905,17 @@
         });
     }
 
-    update();
+    // Handle hash on page load (from other pages linking to #philosophy, #technology, #ai)
+    var hash = window.location.hash.replace('#', '');
+    if (['philosophy', 'technology', 'ai'].indexOf(hash) !== -1) {
+        setFilter(hash);
+        setTimeout(function() {
+            var archiveSection = document.getElementById('archive');
+            if (archiveSection) archiveSection.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+    } else {
+        update();
+    }
 })();
 </script>
  
