@@ -662,6 +662,202 @@
   .tldr-steps li strong { color: #fff; }
   .tldr-steps li span { color: #aaa; }
 
+  /* ── WARNING / CAVEAT SECTION ── */
+  .warning-hero {
+    background: #0e0e0e;
+    color: #f7f4ef;
+    border: 2px solid #e8500a;
+    padding: 36px 40px;
+    margin: 64px 0 40px;
+    position: relative;
+    box-shadow: 6px 6px 0 #e8500a;
+  }
+  .warning-hero::before {
+    content: '⚠ WATCH OUT';
+    position: absolute;
+    top: -16px;
+    left: 28px;
+    background: #e8500a;
+    color: white;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 4px 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .warning-hero h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    color: #f7f4ef !important;
+  }
+  .warning-hero p {
+    color: #c8c2b8 !important;
+    font-size: 16px !important;
+    margin-bottom: 0 !important;
+  }
+  .warning-hero em { color: #e8500a; font-style: normal; font-weight: 700; }
+
+  .trap-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin: 40px 0;
+  }
+  .trap-card {
+    border: 2px solid var(--ink);
+    padding: 28px 24px 24px;
+    position: relative;
+    background: white;
+    box-shadow: 4px 4px 0 var(--ink);
+  }
+  .trap-card .trap-number {
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    background: #e8500a;
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 3px 12px;
+    text-transform: uppercase;
+  }
+  .trap-card h4 {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 8px 0 12px;
+    letter-spacing: -0.3px;
+    color: var(--ink) !important;
+  }
+  .trap-card .trap-myth {
+    font-size: 13px;
+    background: #fff3cd;
+    border-left: 3px solid #e8a000;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #5a4400;
+    line-height: 1.5;
+  }
+  .trap-card .trap-myth::before { content: '💭 Myth: '; font-weight: 700; font-style: normal; }
+  .trap-card .trap-reality {
+    font-size: 13px;
+    background: #f0faf0;
+    border-left: 3px solid #2a8a2a;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    color: #1a4a1a;
+    line-height: 1.5;
+  }
+  .trap-card .trap-reality::before { content: '✓ Reality: '; font-weight: 700; }
+  .trap-card p {
+    font-size: 14px !important;
+    margin-bottom: 8px !important;
+    line-height: 1.6 !important;
+    color: #444 !important;
+  }
+
+  .danger-contrast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border: 2px solid var(--ink);
+    margin: 40px 0;
+    box-shadow: 5px 5px 0 var(--ink);
+    overflow: hidden;
+  }
+  .danger-contrast .dc-side {
+    padding: 28px;
+  }
+  .danger-contrast .dc-side:first-child {
+    background: #fff3cd;
+    border-right: 2px solid var(--ink);
+  }
+  .danger-contrast .dc-side:last-child {
+    background: #f0faf0;
+  }
+  .danger-contrast .dc-label {
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .danger-contrast .dc-code {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    background: rgba(0,0,0,0.08);
+    padding: 10px 12px;
+    border-radius: 3px;
+    margin: 10px 0;
+    white-space: pre-wrap;
+    line-height: 1.6;
+  }
+  .danger-contrast .dc-text { font-size: 14px; line-height: 1.6; color: #333; }
+  .danger-contrast .dc-label.bad { color: #b00; }
+  .danger-contrast .dc-label.good { color: #1a6c1a; }
+
+  .red-rule {
+    border: 2px solid #cc0000;
+    background: #fff5f5;
+    padding: 20px 24px;
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    box-shadow: 3px 3px 0 #cc0000;
+  }
+  .red-rule .rr-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; }
+  .red-rule .rr-text { font-size: 15px; line-height: 1.6; color: #3a0000; }
+  .red-rule .rr-text strong { color: #cc0000; }
+
+  .checklist-box {
+    background: white;
+    border: 2px solid var(--ink);
+    padding: 32px;
+    margin: 40px 0;
+    box-shadow: 5px 5px 0 var(--ink);
+  }
+  .checklist-box h4 {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    letter-spacing: -0.3px;
+    color: var(--ink);
+  }
+  .checklist-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .checklist-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .checklist-item .ci-icon { flex-shrink: 0; font-size: 18px; margin-top: 1px; }
+  .checklist-item .ci-label { font-weight: 700; color: var(--ink); display: block; }
+  .checklist-item .ci-desc { color: #555; font-size: 13px; display: block; margin-top: 3px; line-height: 1.5; }
+
+  .stat-row.danger .stat-box {
+    border-color: #cc0000;
+    box-shadow: 3px 3px 0 #cc0000;
+  }
+  .stat-row.danger .stat-num { color: #cc0000; }
+
+  @media (max-width: 640px) {
+    .trap-grid { grid-template-columns: 1fr; }
+    .danger-contrast { grid-template-columns: 1fr; }
+  }
+
   /* Footer */
   .article-footer {
     border-top: 3px solid var(--ink);
@@ -1054,6 +1250,242 @@ Always return ALL THREE of:
   </div>
 
   <!-- ════════════════════════════════ -->
+  <!-- ⚠ NEW SECTION: CAVEATS & WATCH OUTS -->
+
+  <div class="warning-hero">
+    <h2>The Part Nobody Talks About.</h2>
+    <p>Skills are powerful. They are also <em>easy to get wrong</em>. Every mistake below is something real teams have hit — convinced they'd nailed it, only to end up with worse outputs than before they started. Read this before you ship a single Skill to production.</p>
+  </div>
+
+  <h2>7 Ways Teams Get Skills Wrong</h2>
+
+  <p>Most Skills failures aren't Claude's fault. They're authoring failures — the same structural mistakes repeated across orgs, roles, and use cases. Here they are, with exactly what to do instead.</p>
+
+  <!-- TRAP GRID -->
+  <div class="trap-grid">
+
+    <div class="trap-card">
+      <div class="trap-number">Trap 01</div>
+      <h4>The "Describe Everything" Skill</h4>
+      <div class="trap-myth">One Skill can capture my entire data platform's knowledge.</div>
+      <div class="trap-reality">A 3,000-line Skill is a prompt disaster. Claude's attention degrades on bloated context. Key rules get buried.</div>
+      <p>When a Skill tries to cover ingestion, transformation, governance, and quality in one file — it covers none of them well. The trigger description becomes meaningless. Claude activates it for everything and follows none of it precisely.</p>
+      <p><strong>Fix:</strong> One job per Skill. If you're using "and" in your Skill name, split it.</p>
+    </div>
+
+    <div class="trap-card">
+      <div class="trap-number">Trap 02</div>
+      <h4>Writing for Claude, Not for the Task</h4>
+      <div class="trap-myth">A Skill is instructions to Claude about how Claude should behave.</div>
+      <div class="trap-reality">A Skill is a specification of YOUR system — Claude's behavior follows from understanding your system.</div>
+      <p>Teams write Skills full of meta-instructions: "Always be concise." "Respond professionally." "Think step by step." These are filler. Claude doesn't need to be told to think. It needs to know <em>your</em> Bronze table naming convention.</p>
+      <p><strong>Fix:</strong> Remove any sentence that describes Claude's personality. Replace it with a fact about your system.</p>
+    </div>
+
+    <div class="trap-card">
+      <div class="trap-number">Trap 03</div>
+      <h4>The Vague Trigger Problem</h4>
+      <div class="trap-myth">The description field is just a label. Claude figures out when to use the Skill from context.</div>
+      <div class="trap-reality">The description IS the trigger logic. If it's vague, the Skill either never fires or fires for everything.</div>
+      <p>A description like "Use when doing data engineering" will collide with three other Skills. A description like "Use when building PySpark Auto Loader ingestion pipelines for the Bronze Delta Lake layer" fires exactly when it should — and never otherwise.</p>
+      <p><strong>Fix:</strong> Write your trigger description as an if-condition. Keyword-rich, task-specific, zero ambiguity.</p>
+    </div>
+
+    <div class="trap-card">
+      <div class="trap-number">Trap 04</div>
+      <h4>Assuming Skills Persist Across Sessions</h4>
+      <div class="trap-myth">Once I create a Skill, Claude remembers it forever — even in new chats.</div>
+      <div class="trap-reality">Skills must be loaded at session start. They are not stored in Claude's memory. They live in your files.</div>
+      <p>This is the most common misconception. Skills are runtime context — not persistent memory. If you open a new Claude session without loading the Skill, you're back to vanilla Claude. Your conventions are gone.</p>
+      <p><strong>Fix:</strong> Mount your <code>/skills/</code> folder in your Claude Code project config. Or attach the Skill file explicitly at the start of every enterprise session. Never assume it's "already there."</p>
+    </div>
+
+    <div class="trap-card">
+      <div class="trap-number">Trap 05</div>
+      <h4>The Stale Skill Problem</h4>
+      <div class="trap-myth">Once a Skill works, I'm done. It'll keep working.</div>
+      <div class="trap-reality">Skills rot. Your stack changes. Your conventions evolve. A 6-month-old Skill is likely producing subtly wrong outputs you haven't noticed yet.</div>
+      <p>This is especially dangerous because the failures are quiet. Claude doesn't error out — it just confidently generates code that matches your old standard instead of the new one. By the time you catch it, the pattern is embedded in your codebase.</p>
+      <p><strong>Fix:</strong> Treat Skills like documentation. Review quarterly. Add a <code>last-reviewed</code> field to every Skill's front matter. Make Skill review part of your sprint cadence.</p>
+    </div>
+
+    <div class="trap-card">
+      <div class="trap-number">Trap 06</div>
+      <h4>No "Never Do This" Section</h4>
+      <div class="trap-myth">If I tell Claude what to do, it won't do the wrong thing.</div>
+      <div class="trap-reality">Positive instructions and negative guardrails serve completely different functions. You need both.</div>
+      <p>Claude is a capable reasoner. Without explicit negative constraints, it will fill gaps with the most statistically common approach — which is rarely your approach. Telling it to use Unity Catalog doesn't stop it from also generating Hive metastore fallbacks "just in case."</p>
+      <p><strong>Fix:</strong> Every Skill must have a <strong>"Never use:"</strong> section. Be specific. List exact APIs, patterns, and antipatterns — with a one-line reason for each.</p>
+    </div>
+
+    <div class="trap-card">
+      <div class="trap-number">Trap 07</div>
+      <h4>Conflicting Skills in the Same Session</h4>
+      <div class="trap-myth">Loading multiple Skills is fine — Claude sorts out which rules apply.</div>
+      <div class="trap-reality">Conflicting instructions across Skills produce unpredictable outputs. Claude doesn't know which rule wins.</div>
+      <p>Your <code>terraform-databricks</code> Skill says "always use us-east-1." Your <code>data-lake-infra</code> Skill says "region follows the cluster config." Both fire for the same prompt. Now what? Claude picks one — not necessarily yours.</p>
+      <p><strong>Fix:</strong> When Skills overlap in scope, create an explicit hierarchy. Add a <code>conflicts-with</code> field in front matter. Or restructure so scopes never overlap.</p>
+    </div>
+
+  </div>
+
+  <!-- THE DESCRIPTION FIELD — SHOW DON'T TELL -->
+  <h3>The Trigger Description: Your Most Important 3 Sentences</h3>
+
+  <p>This is the field most people write in 30 seconds and never revisit. It is, in practice, the most load-bearing part of your entire Skill file. Get it wrong, and the Skill never activates. Get it too broad, and it stomps all over your other Skills.</p>
+
+  <div class="danger-contrast">
+    <div class="dc-side">
+      <div class="dc-label bad">❌ Weak Trigger — Will Misfire</div>
+      <div class="dc-code">description: >
+  Use this skill for data
+  engineering tasks in
+  Databricks.</div>
+      <div class="dc-text">Too vague. Fires for Terraform, Unity Catalog, DQ checks, Airflow DAGs — everything. You'll load this Skill for tasks it was never designed for.</div>
+    </div>
+    <div class="dc-side">
+      <div class="dc-label good">✅ Sharp Trigger — Fires Precisely</div>
+      <div class="dc-code">description: >
+  Use when building PySpark
+  Auto Loader ingestion pipelines
+  for Bronze Delta Lake tables.
+  Triggers: bronze layer, Auto
+  Loader, cloudFiles, raw
+  ingestion, Delta writes.</div>
+      <div class="dc-text">Task-specific. Keyword-rich. Will not collide with your Terraform or governance Skills. Activates only when it should.</div>
+    </div>
+  </div>
+
+  <!-- THE RULES CLAUDE CAN'T INFER -->
+  <h3>Rules Claude Cannot Infer. You Must State Them.</h3>
+
+  <p>A common mistake is assuming Claude can deduce your conventions from a few examples. It can't — not reliably, not consistently. These categories of knowledge <strong>must be explicitly stated</strong> in every production Skill:</p>
+
+  <div class="checklist-box">
+    <h4>The "Explicit or It Won't Happen" Checklist</h4>
+    <div class="checklist-item">
+      <span class="ci-icon">🏷️</span>
+      <div>
+        <span class="ci-label">Exact naming conventions with examples</span>
+        <span class="ci-desc">Not "use snake_case." Write: "Bronze tables follow: bronze_{source}_{entity} — e.g. bronze_salesforce_accounts". Claude interpolates wrong without a real example.</span>
+      </div>
+    </div>
+    <div class="checklist-item">
+      <span class="ci-icon">🚫</span>
+      <div>
+        <span class="ci-label">Explicit "Never Use" antipatterns</span>
+        <span class="ci-desc">State the exact API, pattern, or tool — not just the principle. "Never use .mode('overwrite')" is actionable. "Avoid data loss patterns" is not.</span>
+      </div>
+    </div>
+    <div class="checklist-item">
+      <span class="ci-icon">📐</span>
+      <div>
+        <span class="ci-label">Output format, every time</span>
+        <span class="ci-desc">If you want a PySpark script + DDL + notebook cells, say so explicitly. Claude defaults to whatever format seems most common — which is not yours.</span>
+      </div>
+    </div>
+    <div class="checklist-item">
+      <span class="ci-icon">🔗</span>
+      <div>
+        <span class="ci-label">Dependencies between components</span>
+        <span class="ci-desc">"Error logging goes to audit.ingestion_errors" needs to be stated. Claude will not guess your audit schema from context. It'll invent one — possibly inconsistent with the rest of your platform.</span>
+      </div>
+    </div>
+    <div class="checklist-item">
+      <span class="ci-icon">🌐</span>
+      <div>
+        <span class="ci-label">Environment and version specifics</span>
+        <span class="ci-desc">Databricks Runtime 14.x, Spark 3.5, Unity Catalog v2 — these matter. Claude trained on a wide corpus. Without version pinning, you'll get plausible-but-wrong API calls.</span>
+      </div>
+    </div>
+    <div class="checklist-item">
+      <span class="ci-icon">⚖️</span>
+      <div>
+        <span class="ci-label">Conflict resolution rules</span>
+        <span class="ci-desc">When two valid approaches exist in your org, state which one wins and why. Don't leave it to Claude to decide. It will — and you won't like the reasoning.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- THE SILENT FAILURE WARNING -->
+  <h3>The Silent Failure You Won't See Coming</h3>
+
+  <p>There's a class of Skill failure more dangerous than a crash or an error: <strong>confident wrongness</strong>. Claude produces output that looks production-ready, passes a quick review, and gets merged — but violates your standards in a subtle way you only catch three sprints later.</p>
+
+  <div class="red-rule">
+    <div class="rr-icon">🔇</div>
+    <div class="rr-text"><strong>Silent failures happen when your Skill covers the happy path but not the edge cases.</strong> If your Skill says "always use MERGE INTO" but doesn't say what to do on schema mismatch — Claude will invent a pattern. Confidently. It will look right. It will be wrong for your system.</div>
+  </div>
+
+  <div class="red-rule">
+    <div class="rr-icon">📅</div>
+    <div class="rr-text"><strong>Stale Skills are silent failures on a timer.</strong> Your org upgraded from Databricks Runtime 12 to 14. Your team standardized on a new PII masking library. The Skill still says the old thing. Claude obeys the Skill. Nobody notices for weeks.</div>
+  </div>
+
+  <div class="red-rule">
+    <div class="rr-icon">🔀</div>
+    <div class="rr-text"><strong>Scope creep in Skills causes ghost activations.</strong> You added "also handles Silver layer transformations" to a Bronze Skill six months ago. Now it fires for Silver prompts and applies Bronze-specific guardrails to transformation logic. The errors are inconsistent, hard to trace, and deeply confusing.</div>
+  </div>
+
+  <!-- DANGER STATS -->
+  <div class="stat-row danger">
+    <div class="stat-box">
+      <span class="stat-num">~70%</span>
+      <span class="stat-label">of Skill failures are trigger description problems</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-num">6 mo</span>
+      <span class="stat-label">Average time before a Skill starts producing stale outputs</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-num">#1</span>
+      <span class="stat-label">Root cause: missing "Never use" section</span>
+    </div>
+  </div>
+
+  <!-- CONTRAST: Bad CLAUDE.md vs Good CLAUDE.md -->
+  <h3>CLAUDE.md Done Wrong vs. Done Right</h3>
+  <p>The session-level config file is where teams cause the most systemic damage. Here's what separates a Skills architecture that scales from one that quietly degrades:</p>
+
+  <div class="danger-contrast">
+    <div class="dc-side">
+      <div class="dc-label bad">❌ CLAUDE.md That Causes Problems</div>
+      <div class="dc-code">## Instructions
+- Be helpful and concise
+- Think step by step
+- Always explain your reasoning
+- Use best practices
+- Be professional
+- When writing code, make it clean
+- Don't make assumptions</div>
+      <div class="dc-text" style="margin-top:14px;">This is personality prompting. It tells Claude how to <em>feel</em>, not what to <em>know</em>. Every one of these instructions is either already Claude's default behavior, or so vague it changes nothing. Your stack is invisible to this config.</div>
+    </div>
+    <div class="dc-side">
+      <div class="dc-label good">✅ CLAUDE.md That Actually Works</div>
+      <div class="dc-code">## Context Loading
+- Read tasks/lessons.md first
+- Check git log -20 before coding
+- Stack: Databricks + Delta Lake
+- Namespace: catalog.schema.table
+
+## Session Rules
+- Load skills/ on task start
+- Never commit to main directly
+- Flag PII columns before writing
+
+## When Stuck
+- Write blocker to tasks/todo.md
+- Don't brute-force after 3 fails</div>
+      <div class="dc-text" style="margin-top:14px;">Concrete. Verifiable. System-specific. Every line changes Claude's actual behavior — because every line describes your actual system.</div>
+    </div>
+  </div>
+
+  <!-- FINAL WATCHOUT PULL QUOTE -->
+  <div class="pull-quote">
+    <span>"</span>A bad Skill is worse than no Skill. No Skill means Claude guesses. A bad Skill means Claude <span>confidently executes the wrong standard</span> — at scale, forever.<span>"</span>
+  </div>
+
+  <!-- ════════════════════════════════ -->
   <h2>The Bigger Picture</h2>
 
   <p>Skills aren't just convenience. They're about <strong>encoding your organization's knowledge</strong> in a way that's queryable, evolvable, and AI-native.</p>
@@ -1068,14 +1500,23 @@ Always return ALL THREE of:
 
   <!-- TL;DR CARD -->
   <div class="tldr-card">
-    <h3>TL;DR — Your 5-Step Playbook</h3>
+    <h3>TL;DR — Your 5-Step Playbook + 4 Rules to Not Break</h3>
     <ol class="tldr-steps">
       <li><div><strong>Identify the task boundary</strong> <br><span>One job. Sharp edges. No sprawling "do everything" Skills.</span></div></li>
-      <li><div><strong>Create a .md file with YAML front matter</strong> <br><span>The description field is your trigger condition. Write it precisely.</span></div></li>
-      <li><div><strong>Write the body</strong> <br><span>Stack context, naming rules, code patterns, guardrails, output format. Be explicit, not abstract.</span></div></li>
-      <li><div><strong>Feed it to Claude</strong> <br><span>Attach in session or mount your skills folder in enterprise deployments.</span></div></li>
-      <li><div><strong>Iterate 3–5 times</strong> <br><span>30–60 min of investment. Then every session runs to your standards. Permanently.</span></div></li>
+      <li><div><strong>Create a .md file with YAML front matter</strong> <br><span>The description field is your trigger condition. Keyword-rich, task-specific, zero ambiguity.</span></div></li>
+      <li><div><strong>Write the body — be explicit, not abstract</strong> <br><span>Stack context, naming rules with real examples, code patterns, "Never use" guardrails, output format. Every gap you leave, Claude fills with a guess.</span></div></li>
+      <li><div><strong>Feed it to Claude — every session</strong> <br><span>Skills are not persistent memory. Mount your skills/ folder or attach explicitly. Never assume Claude "already has it."</span></div></li>
+      <li><div><strong>Iterate 3–5 times until first output is production-ready</strong> <br><span>30–60 min of investment. Then every session runs to your standards. Permanently.</span></div></li>
     </ol>
+    <div style="border-top: 2px solid var(--border); margin-top: 24px; padding-top: 20px;">
+      <div style="font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase; color:var(--accent); margin-bottom:14px;">⚠ 4 Rules to Not Break</div>
+      <ol class="tldr-steps" style="counter-reset: none;">
+        <li><div><strong>Review Skills quarterly — they rot</strong> <br><span>Stale Skills produce confident wrong outputs. Add last-reviewed to every Skill's front matter.</span></div></li>
+        <li><div><strong>Every Skill needs a "Never use" section</strong> <br><span>Positive instructions alone leave gaps. Gaps get filled with the most common pattern — which is not yours.</span></div></li>
+        <li><div><strong>Skills cannot overlap in scope</strong> <br><span>Conflicting rules across Skills = unpredictable outputs. Resolve conflicts explicitly or restructure scopes.</span></div></li>
+        <li><div><strong>CLAUDE.md is for system facts, not personality</strong> <br><span>"Be concise" changes nothing. "Stack: Databricks + Unity Catalog, namespace: catalog.schema.table" changes everything.</span></div></li>
+      </ol>
+    </div>
   </div>
 
 </div>
