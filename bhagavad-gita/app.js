@@ -131,9 +131,14 @@
 
   // --- Build expand/collapse controls ---
   function buildControls() {
-    return '<div class="expand-controls">' +
+    return '<div class="chapter-controls">' +
+      '<div class="chapter-controls-row">' +
+      '<button class="expand-btn back-btn" data-action="back-to-index">&larr; All Chapters</button>' +
+      '</div>' +
+      '<div class="chapter-controls-row">' +
       '<button class="expand-btn" data-action="expand">Expand All</button>' +
       '<button class="expand-btn" data-action="collapse">Collapse All</button>' +
+      '</div>' +
       '</div>';
   }
 
@@ -212,17 +217,53 @@
     });
   }
 
+  // --- Show chapter index (landing state) ---
+  function showChapterIndex() {
+    var indexEl = document.getElementById('chapter-index');
+    var navEl = document.getElementById('chapter-nav');
+    var containerEl = document.getElementById('chapter-container');
+
+    if (indexEl) indexEl.style.display = '';
+    if (navEl) navEl.style.display = 'none';
+    if (containerEl) containerEl.innerHTML = '';
+
+    var heading = document.getElementById('chapter-heading');
+    if (heading) {
+      heading.innerHTML = 'Chapters <span class="section-heading-sanskrit">अध्यायाः</span>';
+    }
+    var intro = document.getElementById('chapter-intro');
+    if (intro) {
+      intro.textContent = 'Select a chapter to begin reading';
+    }
+
+    // Clear other views too
+    var wordsContainer = document.getElementById('words-container');
+    if (wordsContainer) wordsContainer.innerHTML = '';
+    var modernContainer = document.getElementById('modern-container');
+    if (modernContainer) modernContainer.innerHTML = '';
+  }
+
   // --- Load a chapter ---
   function loadChapter(chNum) {
     if (!chapterHasData(chNum)) return;
     currentChapter = chNum;
     currentSlokaIndex = 0;
 
+    // Hide the chapter index, show nav + slokas
+    var indexEl = document.getElementById('chapter-index');
+    var navEl = document.getElementById('chapter-nav');
+    if (indexEl) indexEl.style.display = 'none';
+    if (navEl) navEl.style.display = '';
+
     renderChapterNav();
     updateChapterHeading();
     renderChapterView();
     renderWordsView();
     renderModernView();
+
+    // Scroll to top of content
+    var heading = document.getElementById('chapter-heading');
+    if (heading) heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   // --- Render Chapter View (expandable cards) ---
@@ -463,6 +504,12 @@
       if (!btn) return;
 
       var action = btn.getAttribute('data-action');
+
+      if (action === 'back-to-index') {
+        showChapterIndex();
+        return;
+      }
+
       var container = btn.closest('.section-block');
       if (!container) return;
 
@@ -579,17 +626,19 @@
   // --- Initialize ---
   function init() {
     renderChapterIndex();
-    renderChapterNav();
-    updateChapterHeading();
-    renderChapterView();
-    renderWordsView();
-    renderModernView();
     setupSearch();
     setupNavigation();
     setupExpandCollapse();
     setupProgressBar();
     setupKeyboardNav();
-    handleHashNavigation();
+
+    // If URL has a hash, load that chapter directly; otherwise show index
+    var hash = window.location.hash;
+    if (hash && hash.match(/^#chapter-(\d+)/)) {
+      handleHashNavigation();
+    } else {
+      showChapterIndex();
+    }
 
     // Listen for hash changes
     window.addEventListener('hashchange', handleHashNavigation);

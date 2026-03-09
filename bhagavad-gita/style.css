@@ -299,6 +299,22 @@ body {
     left: calc(50% + 100px);
 }
 
+/* --- Chapter Controls (Back + Expand/Collapse) --- */
+.chapter-controls {
+    margin-bottom: 1rem;
+}
+
+.chapter-controls-row {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.back-btn {
+    font-weight: 600;
+    color: var(--color-saffron) !important;
+    border-color: var(--color-saffron) !important;
+}
+
 /* --- Expand/Collapse Controls --- */
 .expand-controls {
     text-align: center;
