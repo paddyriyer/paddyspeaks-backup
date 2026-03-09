@@ -172,16 +172,44 @@
     var ch = getChapter(currentChapter);
     if (!ch) return;
 
-    var heading = document.querySelector('#chapter-view .section-heading');
+    var heading = document.getElementById('chapter-heading');
     if (heading) {
       heading.innerHTML = 'Chapter ' + ch.chapter + ': ' + escapeHtml(ch.titleEnglish) +
         ' <span class="section-heading-sanskrit">अध्याय ' + ch.chapter + ': ' + escapeHtml(ch.titleSanskrit) + '</span>';
     }
 
-    var intro = document.querySelector('#chapter-view .section-intro');
+    var intro = document.getElementById('chapter-intro');
     if (intro) {
-      intro.textContent = escapeHtml(ch.titleMeaning) + ' — ' + ch.slokas.length + ' Slokas';
+      intro.textContent = ch.titleMeaning + ' — ' + ch.slokas.length + ' Slokas';
     }
+  }
+
+  // --- Build chapter index cards (overview of all available chapters) ---
+  function renderChapterIndex() {
+    var container = document.getElementById('chapter-index');
+    if (!container) return;
+
+    var html = '';
+    data.chapters.forEach(function (ch) {
+      html += '<div class="chapter-index-card" data-chapter="' + ch.chapter + '">';
+      html += '<div class="chapter-index-number">Chapter ' + ch.chapter + '</div>';
+      html += '<div class="chapter-index-title">' + escapeHtml(ch.titleEnglish) + '</div>';
+      html += '<div class="chapter-index-sanskrit">' + escapeHtml(ch.titleSanskrit) + '</div>';
+      html += '<div class="chapter-index-meaning">' + escapeHtml(ch.titleMeaning) + ' — ' + ch.slokas.length + ' Slokas</div>';
+      html += '<div class="chapter-index-summary">' + escapeHtml(ch.summary.substring(0, 180)) + '...</div>';
+      html += '<div class="chapter-index-read">Read Chapter ' + ch.chapter + ' &rarr;</div>';
+      html += '</div>';
+    });
+
+    container.innerHTML = html;
+
+    // Bind click events
+    container.querySelectorAll('.chapter-index-card').forEach(function (card) {
+      card.addEventListener('click', function () {
+        var chNum = parseInt(card.getAttribute('data-chapter'), 10);
+        loadChapter(chNum);
+      });
+    });
   }
 
   // --- Load a chapter ---
@@ -550,6 +578,7 @@
 
   // --- Initialize ---
   function init() {
+    renderChapterIndex();
     renderChapterNav();
     updateChapterHeading();
     renderChapterView();
