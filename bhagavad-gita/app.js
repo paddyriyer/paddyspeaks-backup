@@ -224,8 +224,10 @@
     var containerEl = document.getElementById('chapter-container');
 
     if (indexEl) indexEl.style.display = '';
-    if (navEl) navEl.style.display = 'none';
+    if (navEl) navEl.style.display = '';
     if (containerEl) containerEl.innerHTML = '';
+
+    renderChapterNav();
 
     var heading = document.getElementById('chapter-heading');
     if (heading) {
@@ -631,6 +633,8 @@
     setupExpandCollapse();
     setupProgressBar();
     setupKeyboardNav();
+
+    renderChapterNav();
 
     // If URL has a hash, load that chapter directly; otherwise show index
     var hash = window.location.hash;
