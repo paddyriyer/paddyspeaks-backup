@@ -600,6 +600,108 @@ footer a { color: var(--gold-soft); text-decoration: none; }
   margin-top: 8px;
   color: var(--gold);
 }
+
+/* ══════════════════════════════
+   DR. RAMANI STORY SECTION
+══════════════════════════════ */
+.story-section {
+  background: var(--ink);
+  padding: 90px 40px 80px;
+  position: relative;
+  overflow: hidden;
+}
+.story-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 70% 50% at 10% 50%, rgba(212,132,154,0.09) 0%, transparent 65%),
+    radial-gradient(ellipse 50% 60% at 90% 50%, rgba(184,134,42,0.07) 0%, transparent 60%);
+}
+.story-inner {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative; z-index: 2;
+}
+.story-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--lotus-pink);
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.story-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, rgba(212,132,154,0.4), transparent);
+}
+.story-body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.95;
+  color: rgba(253,250,244,0.82);
+  margin-bottom: 26px;
+}
+.story-body em {
+  color: var(--gold-soft);
+  font-style: italic;
+}
+.story-spotlight {
+  background: rgba(255,255,255,0.03);
+  border-left: 2px solid var(--lotus-pink);
+  padding: 28px 36px;
+  margin: 44px 0;
+  border-radius: 0 2px 2px 0;
+}
+.story-spotlight-text {
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(26px, 4vw, 36px);
+  font-style: italic;
+  color: var(--ivory);
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+.story-spotlight-sub {
+  display: block;
+  font-family: 'Crimson Pro', serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(253,250,244,0.55);
+  font-style: italic;
+}
+.story-credit {
+  margin-top: 56px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(184,134,42,0.2);
+}
+.story-credit-line {
+  width: 40px;
+  height: 2px;
+  background: var(--gold-soft);
+  margin-bottom: 20px;
+}
+.story-credit-text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
+  color: rgba(253,250,244,0.45);
+  letter-spacing: 0.3px;
+}
+.story-credit-text em {
+  color: rgba(253,250,244,0.7);
+  font-style: italic;
+}
+.story-credit-text strong {
+  color: var(--gold-soft);
+  font-weight: 500;
+}
 </style>
 </head>
 <body>
@@ -644,7 +746,7 @@ footer a { color: var(--gold-soft); text-decoration: none; }
     </svg>
 
     <div class="hero-sanskrit">॥ कर्मण्येवाधिकारस्ते ॥</div>
-    <h1>The Lotus<br><em>in the Mud</em></h1>
+    <h1>The Mud Doesn't<br><em>Own the Lotus.</em></h1>
     <p class="hero-sub">How ancient Gita wisdom, modern neuroscience,<br>and radical self-mastery free you from narcissistic relationships</p>
     <div class="hero-meta">By Paddy Iyer &nbsp;·&nbsp; PaddySpeaks.com &nbsp;·&nbsp; A Long Read</div>
   </div>
@@ -655,27 +757,63 @@ footer a { color: var(--gold-soft); text-decoration: none; }
   </div>
 </section>
 
-<!-- ══ INTRO ══ -->
-<section class="intro-section reveal">
-  <div class="big-quote">
-    You didn't imagine it. The chaos was real. The exhaustion was real. And now — the healing has to be real too.
+<!-- ══ RAMANI STORY ══ -->
+<section class="story-section">
+  <div class="story-inner reveal">
+    <div class="story-label">Where This Story Begins</div>
+
+    <p class="story-body">
+      Once upon a time, an eight-year-old girl sat on the floor of a stuffy cafeteria in an elementary school in New England and watched as a troupe of circus performers from New York City gave a show at her school. It was the 1970s — an era before any kind of multicultural awareness — and the little girl with her foreign name, brown skin, and two tight braids had taught herself to be <em>invisible.</em>
+    </p>
+
+    <p class="story-body">
+      The circus chose their volunteers from the gaggle of children. One boy to be an elephant. A girl to be a juggler's assistant. The luckiest boy was the ringmaster. Then the circus folks held up a costume — satin, a deep shade of purple, festooned with fringe and sequins. All of the girls swooned. Every hand shot up except hers.
+    </p>
+
+    <div class="story-spotlight reveal">
+      <span class="story-spotlight-text">"Pick me, please, please pick me,"</span>
+      <span class="story-spotlight-sub">they shrieked. How did they have the courage? Why weren't they afraid?</span>
+    </div>
+
+    <p class="story-body">
+      The head of the troupe ignored the children with their hands up and chose the little girl with the braids. She trembled, put her head down, tears welling, and quietly said: <em>"No thank you, sir."</em> He looked at her gently and asked, <em>"Are you sure?"</em> She nodded. The girl sitting next to her grabbed at the opportunity and wore the costume with pride.
+    </p>
+
+    <p class="story-body">
+      The girl with the braids asked to be part of the horse's costume — where she could be <em>hidden.</em>
+    </p>
+
+    <p class="story-body">
+      She would spend years thinking about what it would have felt like to wear that purple-sequined wonder of a dress. But that day she was so frightened of the taunts of her classmates — and simply of being <em>seen.</em> From the very beginning of her life, she had internalized the message that her wants, dreams, and needs weren't worthy of being seen. That she wasn't enough. Her kind and compassionate mother's dreams had been thwarted and silenced, and the little girl felt she didn't have the right to them either.
+    </p>
+
+    <p class="story-body" style="font-style: italic; color: var(--lotus-deep); font-size: 22px; text-align: center; margin-top: 32px;">
+      Until she did.
+    </p>
+
+    <div class="story-credit">
+      <div class="story-credit-line"></div>
+      <div class="story-credit-text">
+        From <em>It's Not You: Identifying and Healing from Narcissistic People</em><br>
+        <strong>Dr. Ramani Durvasula, PhD</strong> — Clinical Psychologist &amp; leading expert on narcissism
+      </div>
+    </div>
   </div>
-  <div class="quote-attr">The premise of this article</div>
 </section>
 
 <!-- ══ ARTICLE BODY ══ -->
 <main class="article-body">
 
   <p class="drop-cap reveal">
-    There is a particular kind of tiredness that comes from living around a narcissist. It isn't the tiredness of hard work. It is the tiredness of constantly second-guessing your own perception — of walking on eggshells so long that you've forgotten what solid ground feels like. It could be a parent who never saw you, only a mirror. A sibling who turned every family gathering into a competition. A boss who took credit and distributed blame. A partner who rewrote history on a weekly basis.
+    That little girl with the braids grew up to become one of the world's foremost authorities on narcissistic relationships. Dr. Ramani Durvasula spent decades studying the patterns — in families, offices, marriages, friendships — before she could fully name what had happened to her own sense of self. That story from the cafeteria is not a footnote in her book. It is the thesis. Narcissism doesn't always arrive with cruelty or volume. Sometimes it arrives as a slow, quiet message delivered over years: <em>you don't get to take up space.</em>
   </p>
 
   <p class="reveal">
-    This article is for all of them. For the family table that felt like a tribunal. For the office that felt like a trap. For every well-meaning relationship that quietly drained you. And it draws on the most surprising combination of teachers: a 2,000-year-old battlefield conversation between a warrior and a god, a neuroscientist from Harvard, a Canadian psychologist who talks to lobsters, a Marathi-American stress doctor, a habit-formation scientist, a self-sabotage coach — and a Finnish entrepreneur who swears by cold showers.
+    This article is for everyone who received that message — and believed it. For the family table that felt like a tribunal. For the office that felt like a trap. For every well-meaning relationship that quietly asked you to disappear. And it draws on the most unlikely combination of teachers: a 2,000-year-old battlefield conversation between a warrior and a god, a Harvard neuroscientist, a Canadian psychologist, a Marathi-American stress doctor, a habit-formation scientist, and a self-mastery coach. Because healing this particular wound needs both ancient wisdom and modern science.
   </p>
 
   <p class="reveal">
-    Unlikely? Yes. Powerful? Absolutely.
+    Unlikely? Yes. Necessary? Absolutely.
   </p>
 
   <!-- ── CHAPTER 1 ── -->
