@@ -78,25 +78,22 @@ body {
     font-weight: 500;
 }
 
-.top-bar-links {
-    display: flex;
-    gap: 14px;
-    align-items: center;
-}
-
-.top-bar .yt-btn {
+.yt-btn {
+    display: inline-block;
     background: #c00;
-    color: #fff;
-    padding: 3px 10px;
-    border-radius: 3px;
+    color: #fff !important;
+    padding: 0.25rem 0.85rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
     font-weight: 600;
     letter-spacing: 0.04em;
+    text-decoration: none;
     transition: background 0.3s;
 }
 
-.top-bar .yt-btn:hover {
+.yt-btn:hover {
     background: #900;
-    color: #fff;
+    color: #fff !important;
 }
 
 /* --- Reading Progress Bar --- */
