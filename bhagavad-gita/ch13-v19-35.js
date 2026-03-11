@@ -40,27 +40,14 @@
             { word: "गुणान्", transliteration: "guṇān", meaning: "qualities" },
             { word: "प्रकृतिसम्भवान्", transliteration: "prakṛti-sambhavān", meaning: "born of material nature" }
           ],
-          words: [
-            { word: "प्रकृतिम्", transliteration: "prakṛtim", meaning: "material nature" },
-            { word: "पुरुषम्", transliteration: "puruṣam", meaning: "the conscious self/soul" },
-            { word: "च", transliteration: "ca", meaning: "and" },
-            { word: "एव", transliteration: "eva", meaning: "indeed" },
-            { word: "विद्धि", transliteration: "viddhi", meaning: "know" },
-            { word: "अनादी", transliteration: "anādī", meaning: "beginningless" },
-            { word: "उभौ", transliteration: "ubhau", meaning: "both" },
-            { word: "अपि", transliteration: "api", meaning: "also" },
-            { word: "विकारान्", transliteration: "vikārān", meaning: "modifications/transformations" },
-            { word: "गुणान्", transliteration: "guṇān", meaning: "qualities" },
-            { word: "प्रकृतिसम्भवान्", transliteration: "prakṛti-sambhavān", meaning: "born of material nature" }
-          ],
           translation: "Know that both Prakriti (material nature) and Purusha (the conscious self) are beginningless. And know that all modifications and qualities are born of Prakriti.",
           modernInterpretation: "This is Krishna dropping a MASSIVE philosophical bomb. He says both Prakriti (nature) and Purusha (consciousness) are BEGINNINGLESS. Neither was created — they have always existed. This is not some Big Bang theory where everything started from nothing. Krishna says the raw material AND the observer have ALWAYS been there. No start date. No 'founded in 2015.' No incorporation certificate.\n\nNow here is the key insight — all the CHANGES, all the drama, all the transformations you see in the world? Those come from PRAKRITI, not from Purusha. Your mood swings? Prakriti. Your body aging? Prakriti. The stock market crashing? Prakriti doing Prakriti things. The SOUL does not change — it just WATCHES. Think of it like Netflix. The screen does not become sad when a sad movie plays. The screen does not age when the character ages. The screen is just THERE — unchanged, unaffected. YOU are the screen. The movie is Prakriti.\n\nSo next time life throws chaos at you — job loss, breakup, that uncle asking 'beta, shaadi kab?' — remember: that is just Prakriti's MODIFICATIONS playing out. The real YOU has not moved an inch."
         },
         {
           chapter: 13,
-          sloka: 20,
-          devanagari: "कार्यकारणकर्तृत्वे हेतुः प्रकृतिरुच्यते ।\nपुरुषः सुखदुःखानां भोक्तृत्वे हेतुरुच्यते ॥२०॥",
-          transliteration: "kārya-kāraṇa-kartṛtve hetuḥ prakṛtir ucyate |\npuruṣaḥ sukha-duḥkhānāṁ bhoktṛtve hetur ucyate ||20||",
+          sloka: 21,
+          devanagari: "कार्यकारणकर्तृत्वे हेतुः प्रकृतिरुच्यते ।\nपुरुषः सुखदुःखानां भोक्तृत्वे हेतुरुच्यते ॥२१॥",
+          transliteration: "kārya-kāraṇa-kartṛtve hetuḥ prakṛtir ucyate |\npuruṣaḥ sukha-duḥkhānāṁ bhoktṛtve hetur ucyate ||21||",
           words: [
             { word: "कार्य", transliteration: "kārya", meaning: "effect/body" },
             { word: "कारण", transliteration: "kāraṇa", meaning: "cause/instruments" },
@@ -78,9 +65,9 @@
         },
         {
           chapter: 13,
-          sloka: 21,
-          devanagari: "पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान्गुणान् ।\nकारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु ॥२१॥",
-          transliteration: "puruṣaḥ prakṛti-stho hi bhuṅkte prakṛti-jān guṇān |\nkāraṇaṁ guṇa-saṅgo'sya sad-asad-yoni-janmasu ||21||",
+          sloka: 22,
+          devanagari: "पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान्गुणान् ।\nकारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु ॥२२॥",
+          transliteration: "puruṣaḥ prakṛti-stho hi bhuṅkte prakṛti-jān guṇān |\nkāraṇaṁ guṇa-saṅgo'sya sad-asad-yoni-janmasu ||22||",
           words: [
             { word: "पुरुषः", transliteration: "puruṣaḥ", meaning: "the conscious self" },
             { word: "प्रकृतिस्थः", transliteration: "prakṛti-sthaḥ", meaning: "situated in material nature" },
@@ -98,9 +85,9 @@
         },
         {
           chapter: 13,
-          sloka: 22,
-          devanagari: "उपद्रष्टानुमन्ता च भर्ता भोक्ता महेश्वरः ।\nपरमात्मेति चाप्युक्तो देहेऽस्मिन्पुरुषः परः ॥२२॥",
-          transliteration: "upadraṣṭānumantā ca bhartā bhoktā maheśvaraḥ |\nparamātmeti cāpy ukto dehe'smin puruṣaḥ paraḥ ||22||",
+          sloka: 23,
+          devanagari: "उपद्रष्टानुमन्ता च भर्ता भोक्ता महेश्वरः ।\nपरमात्मेति चाप्युक्तो देहेऽस्मिन्पुरुषः परः ॥२३॥",
+          transliteration: "upadraṣṭānumantā ca bhartā bhoktā maheśvaraḥ |\nparamātmeti cāpy ukto dehe'smin puruṣaḥ paraḥ ||23||",
           words: [
             { word: "उपद्रष्टा", transliteration: "upadraṣṭā", meaning: "the witness/overseer" },
             { word: "अनुमन्ता", transliteration: "anumantā", meaning: "the permitter" },
@@ -122,9 +109,9 @@
         },
         {
           chapter: 13,
-          sloka: 23,
-          devanagari: "य एवं वेत्ति पुरुषं प्रकृतिं च गुणैः सह ।\nसर्वथा वर्तमानोऽपि न स भूयोऽभिजायते ॥२३॥",
-          transliteration: "ya evaṁ vetti puruṣaṁ prakṛtiṁ ca guṇaiḥ saha |\nsarvathā vartamāno'pi na sa bhūyo'bhijāyate ||23||",
+          sloka: 24,
+          devanagari: "य एवं वेत्ति पुरुषं प्रकृतिं च गुणैः सह ।\nसर्वथा वर्तमानोऽपि न स भूयोऽभिजायते ॥२४॥",
+          transliteration: "ya evaṁ vetti puruṣaṁ prakṛtiṁ ca guṇaiḥ saha |\nsarvathā vartamāno'pi na sa bhūyo'bhijāyate ||24||",
           words: [
             { word: "यः", transliteration: "yaḥ", meaning: "he who" },
             { word: "एवम्", transliteration: "evam", meaning: "thus" },
@@ -146,9 +133,9 @@
         },
         {
           chapter: 13,
-          sloka: 24,
-          devanagari: "ध्यानेनात्मनि पश्यन्ति केचिदात्मानमात्मना ।\nअन्ये साङ्ख्येन योगेन कर्मयोगेन चापरे ॥२४॥",
-          transliteration: "dhyānenātmani paśyanti kecid ātmānam ātmanā |\nanye sāṅkhyena yogena karma-yogena cāpare ||24||",
+          sloka: 25,
+          devanagari: "ध्यानेनात्मनि पश्यन्ति केचिदात्मानमात्मना ।\nअन्ये साङ्ख्येन योगेन कर्मयोगेन चापरे ॥२५॥",
+          transliteration: "dhyānenātmani paśyanti kecid ātmānam ātmanā |\nanye sāṅkhyena yogena karma-yogena cāpare ||25||",
           words: [
             { word: "ध्यानेन", transliteration: "dhyānena", meaning: "by meditation" },
             { word: "आत्मनि", transliteration: "ātmani", meaning: "in the self" },
@@ -167,9 +154,9 @@
         },
         {
           chapter: 13,
-          sloka: 25,
-          devanagari: "अन्ये त्वेवमजानन्तः श्रुत्वान्येभ्य उपासते ।\nतेऽपि चातितरन्त्येव मृत्युं श्रुतिपरायणाः ॥२५॥",
-          transliteration: "anye tv evam ajānantaḥ śrutvānyebhya upāsate |\nte'pi cātitaranty eva mṛtyuṁ śruti-parāyaṇāḥ ||25||",
+          sloka: 26,
+          devanagari: "अन्ये त्वेवमजानन्तः श्रुत्वान्येभ्य उपासते ।\nतेऽपि चातितरन्त्येव मृत्युं श्रुतिपरायणाः ॥२६॥",
+          transliteration: "anye tv evam ajānantaḥ śrutvānyebhya upāsate |\nte'pi cātitaranty eva mṛtyuṁ śruti-parāyaṇāḥ ||26||",
           words: [
             { word: "अन्ये", transliteration: "anye", meaning: "others" },
             { word: "तु", transliteration: "tu", meaning: "but" },
@@ -190,9 +177,9 @@
         },
         {
           chapter: 13,
-          sloka: 26,
-          devanagari: "यावत्सञ्जायते किञ्चित्सत्त्वं स्थावरजङ्गमम् ।\nक्षेत्रक्षेत्रज्ञसंयोगात्तद्विद्धि भरतर्षभ ॥२६॥",
-          transliteration: "yāvat sañjāyate kiñcit sattvaṁ sthāvara-jaṅgamam |\nkṣetra-kṣetrajña-saṁyogāt tad viddhi bharatarṣabha ||26||",
+          sloka: 27,
+          devanagari: "यावत्सञ्जायते किञ्चित्सत्त्वं स्थावरजङ्गमम् ।\nक्षेत्रक्षेत्रज्ञसंयोगात्तद्विद्धि भरतर्षभ ॥२७॥",
+          transliteration: "yāvat sañjāyate kiñcit sattvaṁ sthāvara-jaṅgamam |\nkṣetra-kṣetrajña-saṁyogāt tad viddhi bharatarṣabha ||27||",
           words: [
             { word: "यावत्", transliteration: "yāvat", meaning: "whatever" },
             { word: "सञ्जायते", transliteration: "sañjāyate", meaning: "is born/comes into being" },
@@ -212,9 +199,9 @@
         },
         {
           chapter: 13,
-          sloka: 27,
-          devanagari: "समं सर्वेषु भूतेषु तिष्ठन्तं परमेश्वरम् ।\nविनश्यत्स्वविनश्यन्तं यः पश्यति स पश्यति ॥२७॥",
-          transliteration: "samaṁ sarveṣu bhūteṣu tiṣṭhantaṁ parameśvaram |\nvinaśyatsv avinaśyantaṁ yaḥ paśyati sa paśyati ||27||",
+          sloka: 28,
+          devanagari: "समं सर्वेषु भूतेषु तिष्ठन्तं परमेश्वरम् ।\nविनश्यत्स्वविनश्यन्तं यः पश्यति स पश्यति ॥२८॥",
+          transliteration: "samaṁ sarveṣu bhūteṣu tiṣṭhantaṁ parameśvaram |\nvinaśyatsv avinaśyantaṁ yaḥ paśyati sa paśyati ||28||",
           words: [
             { word: "समम्", transliteration: "samam", meaning: "equally" },
             { word: "सर्वेषु", transliteration: "sarveṣu", meaning: "in all" },
@@ -233,9 +220,9 @@
         },
         {
           chapter: 13,
-          sloka: 28,
-          devanagari: "समं पश्यन्हि सर्वत्र समवस्थितमीश्वरम् ।\nन हिनस्त्यात्मनात्मानं ततो याति परां गतिम् ॥२८॥",
-          transliteration: "samaṁ paśyan hi sarvatra samavasthitam īśvaram |\nna hinasty ātmanātmānaṁ tato yāti parāṁ gatim ||28||",
+          sloka: 29,
+          devanagari: "समं पश्यन्हि सर्वत्र समवस्थितमीश्वरम् ।\nन हिनस्त्यात्मनात्मानं ततो याति परां गतिम् ॥२९॥",
+          transliteration: "samaṁ paśyan hi sarvatra samavasthitam īśvaram |\nna hinasty ātmanātmānaṁ tato yāti parāṁ gatim ||29||",
           words: [
             { word: "समम्", transliteration: "samam", meaning: "equally" },
             { word: "पश्यन्", transliteration: "paśyan", meaning: "seeing" },
@@ -257,9 +244,9 @@
         },
         {
           chapter: 13,
-          sloka: 29,
-          devanagari: "प्रकृत्यैव च कर्माणि क्रियमाणानि सर्वशः ।\nयः पश्यति तथात्मानमकर्तारं स पश्यति ॥२९॥",
-          transliteration: "prakṛtyaiva ca karmāṇi kriyamāṇāni sarvaśaḥ |\nyaḥ paśyati tathātmānam akartāraṁ sa paśyati ||29||",
+          sloka: 30,
+          devanagari: "प्रकृत्यैव च कर्माणि क्रियमाणानि सर्वशः ।\nयः पश्यति तथात्मानमकर्तारं स पश्यति ॥३०॥",
+          transliteration: "prakṛtyaiva ca karmāṇi kriyamāṇāni sarvaśaḥ |\nyaḥ paśyati tathātmānam akartāraṁ sa paśyati ||30||",
           words: [
             { word: "प्रकृत्या", transliteration: "prakṛtyā", meaning: "by material nature" },
             { word: "एव", transliteration: "eva", meaning: "alone/only" },
@@ -280,9 +267,9 @@
         },
         {
           chapter: 13,
-          sloka: 30,
-          devanagari: "यदा भूतपृथग्भावमेकस्थमनुपश्यति ।\nतत एव च विस्तारं ब्रह्म सम्पद्यते तदा ॥३०॥",
-          transliteration: "yadā bhūta-pṛthag-bhāvam eka-stham anupaśyati |\ntata eva ca vistāraṁ brahma sampadyate tadā ||30||",
+          sloka: 31,
+          devanagari: "यदा भूतपृथग्भावमेकस्थमनुपश्यति ।\nतत एव च विस्तारं ब्रह्म सम्पद्यते तदा ॥३१॥",
+          transliteration: "yadā bhūta-pṛthag-bhāvam eka-stham anupaśyati |\ntata eva ca vistāraṁ brahma sampadyate tadā ||31||",
           words: [
             { word: "यदा", transliteration: "yadā", meaning: "when" },
             { word: "भूत", transliteration: "bhūta", meaning: "beings" },
@@ -301,9 +288,9 @@
         },
         {
           chapter: 13,
-          sloka: 31,
-          devanagari: "अनादित्वान्निर्गुणत्वात्परमात्मायमव्ययः ।\nशरीरस्थोऽपि कौन्तेय न करोति न लिप्यते ॥३१॥",
-          transliteration: "anāditvān nirguṇatvāt paramātmāyam avyayaḥ |\nśarīra-stho'pi kaunteya na karoti na lipyate ||31||",
+          sloka: 32,
+          devanagari: "अनादित्वान्निर्गुणत्वात्परमात्मायमव्ययः ।\nशरीरस्थोऽपि कौन्तेय न करोति न लिप्यते ॥३२॥",
+          transliteration: "anāditvān nirguṇatvāt paramātmāyam avyayaḥ |\nśarīra-stho'pi kaunteya na karoti na lipyate ||32||",
           words: [
             { word: "अनादित्वात्", transliteration: "anāditvāt", meaning: "due to being beginningless" },
             { word: "निर्गुणत्वात्", transliteration: "nirguṇatvāt", meaning: "due to being beyond the gunas" },
@@ -323,9 +310,9 @@
         },
         {
           chapter: 13,
-          sloka: 32,
-          devanagari: "यथा सर्वगतं सौक्ष्म्यादाकाशं नोपलिप्यते ।\nसर्वत्रावस्थितो देहे तथात्मा नोपलिप्यते ॥३२॥",
-          transliteration: "yathā sarva-gataṁ saukṣmyād ākāśaṁ nopalipyate |\nsarvatrāvasthito dehe tathātmā nopalipyate ||32||",
+          sloka: 33,
+          devanagari: "यथा सर्वगतं सौक्ष्म्यादाकाशं नोपलिप्यते ।\nसर्वत्रावस्थितो देहे तथात्मा नोपलिप्यते ॥३३॥",
+          transliteration: "yathā sarva-gataṁ saukṣmyād ākāśaṁ nopalipyate |\nsarvatrāvasthito dehe tathātmā nopalipyate ||33||",
           words: [
             { word: "यथा", transliteration: "yathā", meaning: "just as" },
             { word: "सर्वगतम्", transliteration: "sarva-gatam", meaning: "all-pervading" },
@@ -346,9 +333,9 @@
         },
         {
           chapter: 13,
-          sloka: 33,
-          devanagari: "यथा प्रकाशयत्येकः कृत्स्नं लोकमिमं रविः ।\nक्षेत्रं क्षेत्री तथा कृत्स्नं प्रकाशयति भारत ॥३३॥",
-          transliteration: "yathā prakāśayaty ekaḥ kṛtsnaṁ lokam imaṁ raviḥ |\nkṣetraṁ kṣetrī tathā kṛtsnaṁ prakāśayati bhārata ||33||",
+          sloka: 34,
+          devanagari: "यथा प्रकाशयत्येकः कृत्स्नं लोकमिमं रविः ।\nक्षेत्रं क्षेत्री तथा कृत्स्नं प्रकाशयति भारत ॥३४॥",
+          transliteration: "yathā prakāśayaty ekaḥ kṛtsnaṁ lokam imaṁ raviḥ |\nkṣetraṁ kṣetrī tathā kṛtsnaṁ prakāśayati bhārata ||34||",
           words: [
             { word: "यथा", transliteration: "yathā", meaning: "just as" },
             { word: "प्रकाशयति", transliteration: "prakāśayati", meaning: "illuminates" },
@@ -369,9 +356,9 @@
         },
         {
           chapter: 13,
-          sloka: 34,
-          devanagari: "क्षेत्रक्षेत्रज्ञयोरेवमन्तरं ज्ञानचक्षुषा ।\nभूतप्रकृतिमोक्षं च ये विदुर्यान्ति ते परम् ॥३४॥",
-          transliteration: "kṣetra-kṣetrajñayor evam antaraṁ jñāna-cakṣuṣā |\nbhūta-prakṛti-mokṣaṁ ca ye vidur yānti te param ||34||",
+          sloka: 35,
+          devanagari: "क्षेत्रक्षेत्रज्ञयोरेवमन्तरं ज्ञानचक्षुषा ।\nभूतप्रकृतिमोक्षं च ये विदुर्यान्ति ते परम् ॥३५॥",
+          transliteration: "kṣetra-kṣetrajñayor evam antaraṁ jñāna-cakṣuṣā |\nbhūta-prakṛti-mokṣaṁ ca ye vidur yānti te param ||35||",
           words: [
             { word: "क्षेत्र", transliteration: "kṣetra", meaning: "the field (body)" },
             { word: "क्षेत्रज्ञयोः", transliteration: "kṣetrajñayoḥ", meaning: "and the knower of the field" },
