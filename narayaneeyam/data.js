@@ -823,7 +823,212 @@ var NARAYANEEYAM_DATA = {
       theme: "creation",
       verseCount: 10,
       summary: "Describes the cosmic manifestation from the Supreme Being, including the emergence of Mahat-tattva, Ahankara, and the five elements. The Lord as the source of all creation is glorified.",
-      slokas: []
+      slokas: [
+        {
+          dashaka: 4,
+          sloka: 1,
+          devanagari: "कल्यतां मम कुरुष्व तावतीं कल्यते भवदुपासनं यया ।\nस्पष्टमष्टविधयोगचर्यया पुष्टयाशु तव तुष्टिमाप्नुयाम् ॥",
+          transliteration: "kalyatāṁ mama kuruṣva tāvatīṁ kalyate bhavadupāsanaṁ yayā |\nspaṣṭam aṣṭavidhayogacaryayā puṣṭayāśu tava tuṣṭim āpnuyām ||",
+          translation: "O Lord, bestow upon me that much health by which worship of You becomes possible. Through the clearly defined practice of the eightfold yoga, nourished well, may I quickly attain Your grace.",
+          commentary: "The opening verse of this dashaka is a prayer for health and fitness to practice Ashtanga Yoga. Bhattathiri, suffering from illness, implores the Lord of Guruvayur to grant him enough physical well-being to engage in the eightfold path of yoga and thereby earn divine grace.",
+          words: [
+            { word: "कल्यताम्", transliteration: "kalyatām", meaning: "health, fitness" },
+            { word: "मम", transliteration: "mama", meaning: "my, of me" },
+            { word: "कुरुष्व", transliteration: "kuruṣva", meaning: "please bestow, grant" },
+            { word: "तावतीम्", transliteration: "tāvatīm", meaning: "that much, to that extent" },
+            { word: "भवदुपासनम्", transliteration: "bhavadupāsanam", meaning: "worship of You" },
+            { word: "यया", transliteration: "yayā", meaning: "by which" },
+            { word: "अष्टविधयोगचर्यया", transliteration: "aṣṭavidhayogacaryayā", meaning: "by the practice of eightfold yoga" },
+            { word: "स्पष्टम्", transliteration: "spaṣṭam", meaning: "clearly, distinctly" },
+            { word: "पुष्टया", transliteration: "puṣṭayā", meaning: "nourished, strengthened" },
+            { word: "आशु", transliteration: "āśu", meaning: "quickly, soon" },
+            { word: "तुष्टिम्", transliteration: "tuṣṭim", meaning: "satisfaction, grace, pleasure" },
+            { word: "आप्नुयाम्", transliteration: "āpnuyām", meaning: "may I attain" }
+          ]
+        },
+        {
+          dashaka: 4,
+          sloka: 2,
+          devanagari: "ब्रह्मचर्यदृढतादिभिर्यमैरापलवादिनियमैश्च पाविताः ।\nकुर्महे दृढममी सुखासनं पङ्कजाद्यमपि वा भवत्पराः ॥",
+          transliteration: "brahmacaryya-dṛḍhatādibhir yamair āplavādi-niyamaiś ca pāvitāḥ |\nkurmahe dṛḍham amī sukhāsanaṁ paṅkajādyam api vā bhavatparāḥ ||",
+          translation: "Purified by the yamas such as firm celibacy, and by the niyamas such as ablutions, we who are devoted to You shall firmly assume a comfortable seat — the lotus posture or another suitable one.",
+          commentary: "This verse describes the first three limbs of Ashtanga Yoga: Yama (restraints like celibacy and non-violence), Niyama (observances like cleanliness and austerity), and Asana (seated posture like Padmasana or Sukhasana). The devotee undertakes these as preparation for deeper practices.",
+          words: [
+            { word: "ब्रह्मचर्य", transliteration: "brahmacaryya", meaning: "celibacy, continence" },
+            { word: "दृढता", transliteration: "dṛḍhatā", meaning: "firmness, steadfastness" },
+            { word: "यमैः", transliteration: "yamaiḥ", meaning: "by the restraints (yamas)" },
+            { word: "आपलव", transliteration: "āplava", meaning: "ablution, bathing" },
+            { word: "नियमैः", transliteration: "niyamaiḥ", meaning: "by the observances (niyamas)" },
+            { word: "पाविताः", transliteration: "pāvitāḥ", meaning: "purified" },
+            { word: "कुर्महे", transliteration: "kurmahe", meaning: "we shall do, we practice" },
+            { word: "दृढम्", transliteration: "dṛḍham", meaning: "firmly" },
+            { word: "सुखासनम्", transliteration: "sukhāsanam", meaning: "comfortable seat, Sukhasana" },
+            { word: "पङ्कजाद्यम्", transliteration: "paṅkajādyam", meaning: "lotus posture (Padmasana) etc." },
+            { word: "भवत्पराः", transliteration: "bhavatparāḥ", meaning: "devoted to You, dependent on You" }
+          ]
+        },
+        {
+          dashaka: 4,
+          sloka: 3,
+          devanagari: "तारमन्तरनुचिन्त्य सन्ततं प्राणवायुमभियम्य निर्मलाः ।\nइन्द्रियाणि विषयादथापहृत्यास्महे भवदुपासनोन्मुखाः ॥",
+          transliteration: "tāram antaranucintya santataṁ prāṇavāyum abhiyamya nirmalāḥ |\nindriyāṇi viṣayād athāpahṛtyāsmahe bhavadupāsanonmukhāḥ ||",
+          translation: "Continuously meditating on the sacred syllable Om within, controlling the vital breath, and becoming pure, we withdraw the senses from their objects and become ready for Your worship.",
+          commentary: "This verse covers Pranayama (breath control) and Pratyahara (withdrawal of senses). The practitioner meditates on Pranava (Om), regulates the breath to purify the mind, and systematically withdraws the senses from external objects, turning inward toward the Lord.",
+          words: [
+            { word: "तारम्", transliteration: "tāram", meaning: "the sacred syllable Om (Pranava)" },
+            { word: "अन्तः", transliteration: "antaḥ", meaning: "within, internally" },
+            { word: "अनुचिन्त्य", transliteration: "anucintya", meaning: "meditating upon, contemplating" },
+            { word: "सन्ततम्", transliteration: "santatam", meaning: "continuously, without break" },
+            { word: "प्राणवायुम्", transliteration: "prāṇavāyum", meaning: "the vital breath, life-force" },
+            { word: "अभियम्य", transliteration: "abhiyamya", meaning: "controlling, restraining" },
+            { word: "निर्मलाः", transliteration: "nirmalāḥ", meaning: "pure, cleansed" },
+            { word: "इन्द्रियाणि", transliteration: "indriyāṇi", meaning: "the senses" },
+            { word: "विषयात्", transliteration: "viṣayāt", meaning: "from sense objects" },
+            { word: "अपहृत्य", transliteration: "apahṛtya", meaning: "withdrawing, pulling away" },
+            { word: "उपासनोन्मुखाः", transliteration: "upāsanonmukhāḥ", meaning: "ready for worship, inclined toward devotion" }
+          ]
+        },
+        {
+          dashaka: 4,
+          sloka: 4,
+          devanagari: "अस्फुटे वपुषि ते प्रयत्नतो धारयेम धिषणां मुहुर्मुहुः ।\nतेन भक्तिरसमन्तरार्द्रतामुद्वहेम भवदङ्घ्रिचिन्तकाः ॥",
+          transliteration: "asphuṭe vapuṣi te prayatnato dhārayema dhiṣaṇāṁ muhurmuhuḥ |\ntena bhaktirasam antarārdratām udvahema bhavadaṅghricintakāḥ ||",
+          translation: "On Your form, though not yet clearly manifest, we shall fix our intellect with effort again and again. Thereby, soaked in the essence of devotion, we shall meditate on Your lotus feet with inner tenderness.",
+          commentary: "This verse describes Dharana (concentration), the sixth limb of Ashtanga Yoga. Even when the Lord's form is not yet vivid in meditation, the practitioner persists in fixing the mind on it repeatedly. This repeated effort cultivates bhakti-rasa (the nectar of devotion), softening the heart.",
+          words: [
+            { word: "अस्फुटे", transliteration: "asphuṭe", meaning: "indistinct, not clearly manifest" },
+            { word: "वपुषि", transliteration: "vapuṣi", meaning: "on the form, on the body" },
+            { word: "प्रयत्नतः", transliteration: "prayatnataḥ", meaning: "with effort, diligently" },
+            { word: "धारयेम", transliteration: "dhārayema", meaning: "we shall hold, fix, concentrate" },
+            { word: "धिषणाम्", transliteration: "dhiṣaṇām", meaning: "the intellect, mind" },
+            { word: "मुहुर्मुहुः", transliteration: "muhurmuhuḥ", meaning: "again and again, repeatedly" },
+            { word: "भक्तिरसम्", transliteration: "bhaktirasam", meaning: "the essence/nectar of devotion" },
+            { word: "अन्तरार्द्रताम्", transliteration: "antarārdratām", meaning: "inner tenderness, moisture of the heart" },
+            { word: "उद्वहेम", transliteration: "udvahema", meaning: "we shall bear, carry, cultivate" },
+            { word: "भवदङ्घ्रिचिन्तकाः", transliteration: "bhavadaṅghricintakāḥ", meaning: "those who meditate on Your feet" }
+          ]
+        },
+        {
+          dashaka: 4,
+          sloka: 5,
+          devanagari: "विस्फुटावयवभेदसुन्दरं त्वद्वपुः सुचिरशीलनावशात् ।\nअश्रमं मनसि चिन्तयामहे ध्यानयोगनिरतास्त्वदाश्रयाः ॥",
+          transliteration: "visphuṭāvayavabhedasundaraṁ tvadvapuḥ suciraśīlanāvaśāt |\naśramaṁ manasi cintayāmahe dhyānayoganiratās tvadāśrayāḥ ||",
+          translation: "Your form, with clearly manifest and beautifully distinct limbs, through long and dedicated practice, we shall effortlessly meditate upon in our minds, absorbed in dhyana-yoga, taking refuge in You.",
+          commentary: "This verse describes Dhyana (meditation), the seventh limb. Through sustained practice, what was once an indistinct form (in Dharana) now becomes a vivid, beautiful vision of the Lord with all His divine attributes. The meditation becomes effortless and natural.",
+          words: [
+            { word: "विस्फुट", transliteration: "visphuṭa", meaning: "clearly manifest, vivid" },
+            { word: "अवयवभेद", transliteration: "avayavabheda", meaning: "distinct limbs, differentiated parts" },
+            { word: "सुन्दरम्", transliteration: "sundaram", meaning: "beautiful" },
+            { word: "त्वद्वपुः", transliteration: "tvadvapuḥ", meaning: "Your form, Your body" },
+            { word: "सुचिरशीलना", transliteration: "suciraśīlanā", meaning: "long and dedicated practice" },
+            { word: "अवशात्", transliteration: "avaśāt", meaning: "by the force of, as a result of" },
+            { word: "अश्रमम्", transliteration: "aśramam", meaning: "effortlessly, without fatigue" },
+            { word: "मनसि", transliteration: "manasi", meaning: "in the mind" },
+            { word: "चिन्तयामहे", transliteration: "cintayāmahe", meaning: "we meditate, we contemplate" },
+            { word: "ध्यानयोगनिरताः", transliteration: "dhyānayoganiratāḥ", meaning: "absorbed in the yoga of meditation" },
+            { word: "त्वदाश्रयाः", transliteration: "tvadāśrayāḥ", meaning: "taking refuge in You" }
+          ]
+        },
+        {
+          dashaka: 4,
+          sloka: 6,
+          devanagari: "ध्यायतां सकलमूर्तिमीदृशीमुन्मिषन्मधुरताहृतात्मनाम् ।\nसान्द्रमोदरसरूपमान्तरं ब्रह्मरूपमयि तेऽवभासते ॥",
+          transliteration: "dhyāyatāṁ sakalamūrtim īdṛśīm unmiṣanmadhuratā-hṛtātmanām |\nsāndramodarasarūpam āntaraṁ brahmarūpam ayi te'vabhāsate ||",
+          translation: "For those who meditate on Your complete form thus, whose hearts are captivated by its unfolding sweetness, the inner Brahman-nature of Yours, which is of the form of intense bliss, shines forth.",
+          commentary: "This verse marks the transition from meditation on the Lord's form to the experience of formless Brahman. As the devotee's meditation deepens, the sweetness of the Lord's form dissolves into the direct experience of Brahman as concentrated bliss — the essence beyond all forms.",
+          words: [
+            { word: "ध्यायताम्", transliteration: "dhyāyatām", meaning: "of those who meditate" },
+            { word: "सकलमूर्तिम्", transliteration: "sakalamūrtim", meaning: "the complete form, the full embodiment" },
+            { word: "ईदृशीम्", transliteration: "īdṛśīm", meaning: "such as this, of this kind" },
+            { word: "उन्मिषत्", transliteration: "unmiṣat", meaning: "unfolding, blossoming, opening" },
+            { word: "मधुरता", transliteration: "madhuratā", meaning: "sweetness" },
+            { word: "हृतात्मनाम्", transliteration: "hṛtātmanām", meaning: "whose hearts are captivated" },
+            { word: "सान्द्रमोदरसरूपम्", transliteration: "sāndramodarasarūpam", meaning: "of the form of intense bliss" },
+            { word: "आन्तरम्", transliteration: "āntaram", meaning: "inner, internal" },
+            { word: "ब्रह्मरूपम्", transliteration: "brahmarūpam", meaning: "the nature/form of Brahman" },
+            { word: "अवभासते", transliteration: "avabhāsate", meaning: "shines forth, becomes manifest" }
+          ]
+        },
+        {
+          dashaka: 4,
+          sloka: 7,
+          devanagari: "तत्समास्वदनरूपिणीं स्थितिं त्वत्समाधिमयि विश्वनायक ।\nआश्रिताः पुनरतः परिच्युतावारभेमहि च धारणादिकम् ॥",
+          transliteration: "tatsamāsvadanarūpiṇīṁ sthitiṁ tvatsamādhim ayi viśvanāyaka |\nāśritāḥ punarataḥ paricyutāv ārabhemahi ca dhāraṇādikam ||",
+          translation: "O Lord of the Universe! Having attained that state of savoring You — the state of samadhi in You — if we slip from it, we shall again commence from dharana and the other stages.",
+          commentary: "This verse describes Samadhi, the eighth and final limb of Ashtanga Yoga. The experience of samadhi is described as a state of tasting or savoring the divine. Bhattathiri acknowledges that one may fall from this exalted state, and prescribes restarting the practice from Dharana.",
+          words: [
+            { word: "तत्समास्वदन", transliteration: "tatsamāsvadana", meaning: "savoring/relishing That (Brahman)" },
+            { word: "रूपिणीम्", transliteration: "rūpiṇīm", meaning: "having the form of, characterized by" },
+            { word: "स्थितिम्", transliteration: "sthitim", meaning: "state, condition" },
+            { word: "त्वत्समाधिम्", transliteration: "tvatsamādhim", meaning: "samadhi in You, absorption in You" },
+            { word: "विश्वनायक", transliteration: "viśvanāyaka", meaning: "O Lord of the Universe" },
+            { word: "आश्रिताः", transliteration: "āśritāḥ", meaning: "having attained, having resorted to" },
+            { word: "परिच्युतौ", transliteration: "paricyutau", meaning: "upon falling, upon slipping" },
+            { word: "आरभेमहि", transliteration: "ārabhemahi", meaning: "we shall commence, begin again" },
+            { word: "धारणादिकम्", transliteration: "dhāraṇādikam", meaning: "dharana and the rest, from concentration onwards" }
+          ]
+        },
+        {
+          dashaka: 4,
+          sloka: 8,
+          devanagari: "इत्थमभ्यसननिर्भरोल्लसत्त्वत्परात्मसुखकल्पितोत्सवाः ।\nमुक्तभक्तकुलमौलितां गताः सञ्चरेम शुकनारदादिवत् ॥",
+          transliteration: "ittham abhyasana-nirbharollasattvatparātmasukha-kalpitōtsavāḥ |\nmuktabhaktakulamaulitāṁ gatāḥ sañcarema śukanāradādivat ||",
+          translation: "Thus, with the festival of joy arising from the supreme bliss of the Self attained through intense practice, having reached the crown of liberated devotees, may we wander freely like Shuka, Narada, and other great sages.",
+          commentary: "Having described the complete yogic path, Bhattathiri envisions the fruit of practice: supreme bliss and liberation. The liberated yogin moves freely through the worlds like the great sage-devotees Shuka (son of Vyasa) and Narada, singing the Lord's glories.",
+          words: [
+            { word: "इत्थम्", transliteration: "ittham", meaning: "thus, in this manner" },
+            { word: "अभ्यसन", transliteration: "abhyasana", meaning: "practice, repeated exercise" },
+            { word: "निर्भर", transliteration: "nirbhara", meaning: "intense, filled with" },
+            { word: "उल्लसत्", transliteration: "ullasat", meaning: "shining forth, radiant" },
+            { word: "परात्मसुख", transliteration: "parātmasukha", meaning: "bliss of the Supreme Self" },
+            { word: "कल्पितोत्सवाः", transliteration: "kalpitōtsavāḥ", meaning: "having a festival of, celebrating" },
+            { word: "मुक्तभक्तकुलमौलिताम्", transliteration: "muktabhaktakulamaulitām", meaning: "the crown/summit of the lineage of liberated devotees" },
+            { word: "गताः", transliteration: "gatāḥ", meaning: "having reached, attained" },
+            { word: "सञ्चरेम", transliteration: "sañcarema", meaning: "may we wander, move about" },
+            { word: "शुकनारदादिवत्", transliteration: "śukanāradādivat", meaning: "like Shuka, Narada, and others" }
+          ]
+        },
+        {
+          dashaka: 4,
+          sloka: 9,
+          devanagari: "त्वत्समाधिविजये तु यः पुनर्मङ्क्षु मोक्षरसिकः क्रमेण वा ।\nयोगवश्यमनिलं षडाश्रयैरुन्नयत्यज सुषुम्नया शनैः ॥",
+          transliteration: "tvatsamādhivijaye tu yaḥ punar maṅkṣu mokṣarasikaḥ krameṇa vā |\nyogavaśyam anilaṁ ṣaḍāśrayair unnayatyaja suṣumnayā śanaiḥ ||",
+          translation: "He who, having conquered samadhi in You, desires liberation — either immediately or gradually — raises the yoga-controlled vital breath slowly through the six chakras along the Sushumna channel.",
+          commentary: "This verse describes the process of the yogi's conscious departure from the body. Having attained samadhi, the yogi who seeks moksha draws the prana upward through the six chakras (Muladhara to Ajna) along the Sushumna nadi, the central subtle channel of the spine.",
+          words: [
+            { word: "त्वत्समाधिविजये", transliteration: "tvatsamādhivijaye", meaning: "upon conquering samadhi in You" },
+            { word: "मङ्क्षु", transliteration: "maṅkṣu", meaning: "immediately, quickly" },
+            { word: "मोक्षरसिकः", transliteration: "mokṣarasikaḥ", meaning: "one who relishes liberation, desirous of moksha" },
+            { word: "क्रमेण", transliteration: "krameṇa", meaning: "gradually, step by step" },
+            { word: "योगवश्यम्", transliteration: "yogavaśyam", meaning: "controlled by yoga" },
+            { word: "अनिलम्", transliteration: "anilam", meaning: "the vital breath, prana" },
+            { word: "षडाश्रयैः", transliteration: "ṣaḍāśrayaiḥ", meaning: "through the six seats/chakras" },
+            { word: "उन्नयति", transliteration: "unnayati", meaning: "raises up, elevates" },
+            { word: "सुषुम्नया", transliteration: "suṣumnayā", meaning: "through the Sushumna nadi" },
+            { word: "शनैः", transliteration: "śanaiḥ", meaning: "slowly, gradually" }
+          ]
+        },
+        {
+          dashaka: 4,
+          sloka: 10,
+          devanagari: "लिङ्गदेहमपि सन्त्यजन्नथ लीयते त्वयि परे निराग्रहः ।\nऊर्ध्वलोककुतुकी तु मूर्धतः सार्धमेव करणैर्निरीयते ॥",
+          transliteration: "liṅgadeham api santyajann atha līyate tvayi pare nirāgrahaḥ |\nūrdhvalokakutukī tu mūrdhataḥ sārdham eva karaṇair nirīyate ||",
+          translation: "The desireless one, giving up even the subtle body, merges in You, the Supreme. But the one curious about the higher worlds departs through the crown of the head along with the subtle organs.",
+          commentary: "The concluding verse describes two paths of liberation: Sadyo-mukti (immediate liberation) for the desireless yogi who dissolves completely into Brahman, and Krama-mukti (gradual liberation) for one who ascends through higher worlds before final merger. This echoes the Upanishadic teaching of Deva-yana and the departure through the Brahma-randhra.",
+          words: [
+            { word: "लिङ्गदेहम्", transliteration: "liṅgadeham", meaning: "the subtle body (linga sharira)" },
+            { word: "सन्त्यजन्", transliteration: "santyajan", meaning: "giving up, abandoning" },
+            { word: "लीयते", transliteration: "līyate", meaning: "merges, dissolves" },
+            { word: "त्वयि परे", transliteration: "tvayi pare", meaning: "in You, the Supreme" },
+            { word: "निराग्रहः", transliteration: "nirāgrahaḥ", meaning: "the desireless one, without attachment" },
+            { word: "ऊर्ध्वलोककुतुकी", transliteration: "ūrdhvalokakutukī", meaning: "one curious about higher worlds" },
+            { word: "मूर्धतः", transliteration: "mūrdhataḥ", meaning: "through the crown of the head" },
+            { word: "सार्धम्", transliteration: "sārdham", meaning: "together with, along with" },
+            { word: "करणैः", transliteration: "karaṇaiḥ", meaning: "with the organs, the subtle instruments" },
+            { word: "निरीयते", transliteration: "nirīyate", meaning: "departs, goes out" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 5,
