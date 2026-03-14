@@ -3723,7 +3723,216 @@ var NARAYANEEYAM_DATA = {
       theme: "devotion",
       verseCount: 10,
       summary: "Tells the story of the fallen brahmana Ajamila who, at the moment of death, called out his son's name 'Narayana' and was saved by the Lord's messengers, illustrating the supreme power of the divine name.",
-      slokas: []
+      slokas: [
+        {
+          dashaka: 20,
+          sloka: 1,
+          devanagari: "परीक्षिति क्षितिपतौ भवदङ्घ्रिभक्ति-\nभावं विशोध्य सुकृतं बहु मन्वति त्वम् ।\nपापक्षयं प्रति तपःकृतचित्तशुद्धि-\nसाध्यं प्रतीतमिति शौनक सत्यमूचे ॥",
+          transliteration: "parīkṣiti kṣitipatau bhavadaṅghribhakti-\nbhāvaṁ viśōdhya sukṛtaṁ bahu manvati tvam |\npāpakṣayaṁ prati tapaḥkṛtacittaśuddhi-\nsādhyaṁ pratītamiti śaunaka satyamūcē ||",
+          translation: "When King Parikshit inquired about the means of expiating sin, You — through Shuka — declared that mere austerities for mental purification are well-known remedies, but devotion to Your feet is the supreme good. Thus Shuka spoke the truth to Shaunaka's assembly.",
+          commentary: "This opening verse sets the context from Bhagavatam Canto 6. King Parikshit raises the question about prayaschitta (expiation). The conventional answer — austerities and rituals for mental purification (tapah-krita-chitta-shuddhi) — is acknowledged but shown to be insufficient. Bhattathiri signals that the dashaka will reveal something far superior: bhakti to the Lord's feet (bhavad-angri-bhakti). The mention of Shaunaka's assembly frames this as the outer narrative of Bhagavatam.",
+          words: [
+            { word: "परीक्षिति", transliteration: "parīkṣiti", meaning: "when Parikshit" },
+            { word: "क्षितिपतौ", transliteration: "kṣitipatau", meaning: "the king" },
+            { word: "भवदङ्घ्रिभक्ति", transliteration: "bhavadaṅghribhakti", meaning: "devotion to Your feet" },
+            { word: "विशोध्य", transliteration: "viśōdhya", meaning: "having purified, examined" },
+            { word: "सुकृतम्", transliteration: "sukṛtam", meaning: "merit, good deed" },
+            { word: "पापक्षयम्", transliteration: "pāpakṣayam", meaning: "destruction of sin" },
+            { word: "तपःकृतचित्तशुद्धि", transliteration: "tapaḥkṛtacittaśuddhi", meaning: "mental purification achieved through austerity" },
+            { word: "साध्यम्", transliteration: "sādhyam", meaning: "achievable, the means" },
+            { word: "प्रतीतम्", transliteration: "pratītam", meaning: "well-known, established" },
+            { word: "शौनक", transliteration: "śaunaka", meaning: "O Shaunaka (the sage)" },
+            { word: "सत्यम्", transliteration: "satyam", meaning: "truth" },
+            { word: "ऊचे", transliteration: "ūcē", meaning: "spoke, declared" }
+          ]
+        },
+        {
+          dashaka: 20,
+          sloka: 2,
+          devanagari: "प्रायश्चित्तं चरन्तोऽपि पुनः पापं समाचरन् ।\nन विशुद्ध्यन्ति राजेन्द्र कुञ्जरस्नानवत् खलाः ।\nइत्युक्त्वा कथयामासीत् त्वच्छुको नामवैभवम् ॥",
+          transliteration: "prāyaścittaṁ carantō'pi punaḥ pāpaṁ samācaran |\nna viśuddhyanti rājēndra kuñjarasnānavat khalāḥ |\nityuktvā kathayāmāsīt tvaccchukō nāmavaibhavam ||",
+          translation: "Even those who perform expiation commit sin again — they are not truly purified, O King, just as an elephant bathes only to throw dust on itself again. Having said this, Your Shuka proceeded to narrate the glory of the Divine Name.",
+          commentary: "The famous elephant-bath analogy (kunjara-snana-vat) from Bhagavatam 6.1.10 is one of the most memorable metaphors in all of Vedantic literature. An elephant bathes in a river only to immediately cover itself with mud — similarly, ritualistic expiation without transformation of heart leads to repetition of sin. This devastating critique of mere external penance prepares the ground for the Ajamila narrative, where the power of God's Name achieves what no penance can.",
+          words: [
+            { word: "प्रायश्चित्तम्", transliteration: "prāyaścittam", meaning: "expiation, atonement" },
+            { word: "चरन्तः", transliteration: "carantaḥ", meaning: "performing" },
+            { word: "पुनः", transliteration: "punaḥ", meaning: "again" },
+            { word: "पापम्", transliteration: "pāpam", meaning: "sin" },
+            { word: "समाचरन्", transliteration: "samācaran", meaning: "commit, practice" },
+            { word: "विशुद्ध्यन्ति", transliteration: "viśuddhyanti", meaning: "are purified" },
+            { word: "राजेन्द्र", transliteration: "rājēndra", meaning: "O best of kings" },
+            { word: "कुञ्जरस्नानवत्", transliteration: "kuñjarasnānavat", meaning: "like the bathing of an elephant" },
+            { word: "खलाः", transliteration: "khalāḥ", meaning: "the wicked" },
+            { word: "शुकः", transliteration: "śukaḥ", meaning: "Shuka (the sage-narrator)" },
+            { word: "नामवैभवम्", transliteration: "nāmavaibhavam", meaning: "the glory of the Divine Name" }
+          ]
+        },
+        {
+          dashaka: 20,
+          sloka: 3,
+          devanagari: "कान्यकुब्जे द्विजवरः स ह्यजामिल इत्यभूत्\nवेदवित्सुव्रतयुतः सदाचारपरोऽमलः ।\nपित्रोः शुश्रूषणरतो गुरुवृत्तिपरायणः\nश्रद्दधानो जितेन्द्रियः संयतो नियतेन्द्रियः ॥",
+          transliteration: "kānyakubjē dvijavarḥ sa hyajāmila ityabhūt\nvēdavitsuvratayutaḥ sadācāraparō'malaḥ |\npitrōḥ śuśrūṣaṇaratō guruvṛttiparāyaṇaḥ\nśraddadhānō jitēndriyaḥ saṁyatō niyatēndriyaḥ ||",
+          translation: "In the city of Kanyakubja, there lived a brahmana named Ajamila — learned in the Vedas, observing sacred vows, pure in conduct, devoted to serving his parents, faithful to his teacher's way, full of faith, with senses subdued and self-controlled.",
+          commentary: "Bhattathiri carefully enumerates Ajamila's original virtues to heighten the drama of his fall. He was Veda-learned (veda-vit), of excellent vows (su-vrata), pure in conduct (sad-achara, amala), devoted to parents (pitroh shushrusana-rata) and teacher (guru-vritti-parayana), faithful (shraddadhana), and self-controlled (jita-indriya, niyata-indriya). This exhaustive list of spiritual qualifications makes his subsequent degradation all the more shocking and instructive — even the most accomplished can fall through a single moment of weakness.",
+          words: [
+            { word: "कान्यकुब्जे", transliteration: "kānyakubjē", meaning: "in Kanyakubja (a city)" },
+            { word: "द्विजवरः", transliteration: "dvijavarḥ", meaning: "excellent brahmana" },
+            { word: "अजामिलः", transliteration: "ajāmilaḥ", meaning: "Ajamila (by name)" },
+            { word: "वेदवित्", transliteration: "vēdavit", meaning: "knower of the Vedas" },
+            { word: "सुव्रतयुतः", transliteration: "suvratayutaḥ", meaning: "endowed with sacred vows" },
+            { word: "सदाचारपरः", transliteration: "sadācāraparaḥ", meaning: "devoted to righteous conduct" },
+            { word: "अमलः", transliteration: "amalaḥ", meaning: "pure, spotless" },
+            { word: "शुश्रूषणरतः", transliteration: "śuśrūṣaṇarataḥ", meaning: "devoted to service" },
+            { word: "गुरुवृत्तिपरायणः", transliteration: "guruvṛttiparāyaṇaḥ", meaning: "devoted to the teacher's way" },
+            { word: "जितेन्द्रियः", transliteration: "jitēndriyaḥ", meaning: "one who has conquered the senses" }
+          ]
+        },
+        {
+          dashaka: 20,
+          sloka: 4,
+          devanagari: "पित्राज्ञया वनगतः फलमूलसञ्चयं\nकुर्वन्नसौ ददृशे कामिनं शूद्रकन्यया ।\nसंसक्तमत्तमधुपानरतं मदाकुलं\nलोलेक्षणावनतिभिः कृतमन्मथोत्सवम् ॥",
+          transliteration: "pitrājñayā vanagatḥ phalamūlasañcayaṁ\nkurvannasau dadṛśē kāminaṁ śūdrakanyayā |\nsaṁsaktamattamadhupānarataṁ madākulaṁ\nlōlēkṣaṇāvanatibhiḥ kṛtamanmathōtsavam ||",
+          translation: "Once, sent to the forest by his father to gather fruits and roots, he beheld a lustful man with a shudra woman — intoxicated with wine, maddened with passion, celebrating the festival of desire with her coquettish glances and gestures.",
+          commentary: "The fateful encounter that triggers Ajamila's downfall is described with vivid sensory detail. The contrast is stark: a pure brahmana on an errand of filial duty (pitra-ajnaya) encounters the intoxicating spectacle of unrestrained passion. The compound 'lolekshana-avanati-bhih' (with rolling glances and bowing gestures) captures the seductive power of the scene. Bhattathiri follows the Bhagavatam in showing that even a single unguarded moment of sensory exposure can undo years of spiritual discipline.",
+          words: [
+            { word: "पित्राज्ञया", transliteration: "pitrājñayā", meaning: "by the father's command" },
+            { word: "वनगतः", transliteration: "vanagataḥ", meaning: "gone to the forest" },
+            { word: "फलमूलसञ्चयम्", transliteration: "phalamūlasañcayam", meaning: "gathering of fruits and roots" },
+            { word: "ददृशे", transliteration: "dadṛśē", meaning: "he saw, beheld" },
+            { word: "कामिनम्", transliteration: "kāminam", meaning: "a lustful person" },
+            { word: "शूद्रकन्यया", transliteration: "śūdrakanyayā", meaning: "with a shudra woman" },
+            { word: "मत्तमधुपानरतम्", transliteration: "mattamadhupānaratam", meaning: "intoxicated with wine-drinking" },
+            { word: "मदाकुलम्", transliteration: "madākulam", meaning: "maddened with passion" },
+            { word: "लोलेक्षणा", transliteration: "lōlēkṣaṇā", meaning: "with rolling/coquettish glances" },
+            { word: "मन्मथोत्सवम्", transliteration: "manmathōtsavam", meaning: "festival of Cupid (desire)" }
+          ]
+        },
+        {
+          dashaka: 20,
+          sloka: 5,
+          devanagari: "तदीक्षणात्कामकलातिविह्वलो\nधृतिं विहाय प्रससार तामयम् ।\nजगाम पापैरतिमोहितो बहु\nव्यधत्त कर्माण्यखिलानि दूषितः ॥",
+          transliteration: "tadīkṣaṇātkāmakalātivihvalō\ndhṛtiṁ vihāya prasasāra tāmayam |\njagāma pāpairatimōhitō bahu\nvyadhatta karmāṇyakhilāni dūṣitaḥ ||",
+          translation: "Overwhelmed by the arts of desire upon seeing that sight, he abandoned his self-restraint and pursued that woman. Deeply deluded by sin, the now-corrupted Ajamila engaged in every kind of wicked deed.",
+          commentary: "The speed of Ajamila's degradation is captured in the rapid verbal sequence: seeing (tadikshana), becoming agitated (kama-kala-ativihvala), abandoning restraint (dhritim vihaya), and pursuing (prasasara). The Bhagavatam emphasizes that he abandoned his wife, parents, and all dharmic duties. The word 'akhilani' (all kinds) indicates total moral collapse — gambling, theft, deceit, and cruelty. This illustrates the Bhagavatam's teaching that kama (lust) is the gateway through which all other vices enter.",
+          words: [
+            { word: "तदीक्षणात्", transliteration: "tadīkṣaṇāt", meaning: "from seeing that" },
+            { word: "कामकला", transliteration: "kāmakalā", meaning: "arts of desire" },
+            { word: "अतिविह्वलः", transliteration: "ativihvalaḥ", meaning: "extremely agitated, overwhelmed" },
+            { word: "धृतिम्", transliteration: "dhṛtim", meaning: "self-restraint, fortitude" },
+            { word: "विहाय", transliteration: "vihāya", meaning: "having abandoned" },
+            { word: "प्रससार", transliteration: "prasasāra", meaning: "pursued, went towards" },
+            { word: "मोहितः", transliteration: "mōhitaḥ", meaning: "deluded" },
+            { word: "कर्माणि", transliteration: "karmāṇi", meaning: "deeds, actions" },
+            { word: "अखिलानि", transliteration: "akhilāni", meaning: "all kinds" },
+            { word: "दूषितः", transliteration: "dūṣitaḥ", meaning: "corrupted, defiled" }
+          ]
+        },
+        {
+          dashaka: 20,
+          sloka: 6,
+          devanagari: "स वै दशापत्यजनिप्रसक्तधीः\nतयाऽधमस्त्र्या दशमं सुतं तदा ।\nनारायणाह्वयमजीजनत् प्रभो\nतमेव बालं परिलाल्य निर्वृतः ॥",
+          transliteration: "sa vai daśāpatyajāniprasaktadhīḥ\ntayā'dhamastriyā daśamaṁ sutaṁ tadā |\nnārāyaṇāhvayamajījanat prabhō\ntamēva bālaṁ parilālya nirvṛtaḥ ||",
+          translation: "That brahmana, his mind engrossed in begetting children, fathered ten sons with that low-born woman. O Lord! The youngest he named 'Narayana' — and he found his greatest delight in fondling that very child.",
+          commentary: "The seemingly trivial act of naming his youngest son 'Narayana' becomes the pivot of the entire narrative. Ajamila's motive was purely worldly — doting parental affection (parilalya nirvritha), not devotion. Yet the Bhagavatam's profound teaching is that even the Name uttered without spiritual intent carries transcendent power. The number ten (dasha apatya) emphasizes his deep entanglement in samsara. The word 'adhama-strya' (low-born woman) underscores how far he has fallen from his brahmanic origins.",
+          words: [
+            { word: "दशापत्य", transliteration: "daśāpatya", meaning: "ten offspring" },
+            { word: "प्रसक्तधीः", transliteration: "prasaktadhīḥ", meaning: "with mind engrossed" },
+            { word: "अधमस्त्र्या", transliteration: "adhamastriyā", meaning: "with a low-born woman" },
+            { word: "दशमम्", transliteration: "daśamam", meaning: "the tenth" },
+            { word: "सुतम्", transliteration: "sutam", meaning: "son" },
+            { word: "नारायणाह्वयम्", transliteration: "nārāyaṇāhvayam", meaning: "named Narayana" },
+            { word: "अजीजनत्", transliteration: "ajījanat", meaning: "begot, fathered" },
+            { word: "प्रभो", transliteration: "prabhō", meaning: "O Lord" },
+            { word: "बालम्", transliteration: "bālam", meaning: "child" },
+            { word: "परिलाल्य", transliteration: "parilālya", meaning: "fondling, caressing" },
+            { word: "निर्वृतः", transliteration: "nirvṛtaḥ", meaning: "delighted, contented" }
+          ]
+        },
+        {
+          dashaka: 20,
+          sloka: 7,
+          devanagari: "अशीतिवर्षे समुपेत्य मृत्युना\nत्रिभिः स दूतैर्यमराजकिङ्करैः ।\nभयातुरो नाम किलैतदर्भकं\nप्रभो ननामोच्चरणेन नारायणम् ॥",
+          transliteration: "aśītivarṣē samupētya mṛtyunā\ntribhiḥ sa dūtairyamarājakiṅkaraiḥ |\nbhayāturō nāma kilaitadarbhakaṁ\nprabhō nanāmōccaraṇēna nārāyaṇam ||",
+          translation: "At eighty years of age, as death approached with three terrifying messengers of Yama, the frightened Ajamila cried out calling his little son — and thereby, O Lord, he uttered the name 'Narayana'!",
+          commentary: "The climactic moment of the narrative arrives. The Yamadutas — three messengers of the god of death — come with their nooses to drag Ajamila's soul. In his terror (bhayatura), he instinctively calls out for his beloved youngest child. The word 'kila' (indeed, as it happened) marks the extraordinary irony: what was merely a father's cry for his son became, by the inscrutable grace of the Name, an invocation of the Supreme Lord. This is 'sanketyam' — accidental utterance of the divine Name, which the Bhagavatam declares is sufficient for liberation.",
+          words: [
+            { word: "अशीतिवर्षे", transliteration: "aśītivarṣē", meaning: "at eighty years of age" },
+            { word: "समुपेत्य", transliteration: "samupētya", meaning: "having approached" },
+            { word: "मृत्युना", transliteration: "mṛtyunā", meaning: "by death" },
+            { word: "दूतैः", transliteration: "dūtaiḥ", meaning: "by messengers" },
+            { word: "यमराजकिङ्करैः", transliteration: "yamarājakiṅkaraiḥ", meaning: "servants of King Yama" },
+            { word: "भयातुरः", transliteration: "bhayāturaḥ", meaning: "stricken with fear" },
+            { word: "नाम", transliteration: "nāma", meaning: "the name" },
+            { word: "अर्भकम्", transliteration: "arbhakam", meaning: "the little child" },
+            { word: "उच्चरणेन", transliteration: "uccaraṇēna", meaning: "by the utterance" },
+            { word: "नारायणम्", transliteration: "nārāyaṇam", meaning: "Narayana (the divine name)" }
+          ]
+        },
+        {
+          dashaka: 20,
+          sloka: 8,
+          devanagari: "श्रुत्वा तु नारायणशब्दमात्रतः\nचतुर्भुजाः दिव्यवपुर्धराः क्षणात् ।\nभवत्प्रभावादुपगम्य तत्र ते\nन्यषेधयन् यामकिरान् भवत्पराः ॥",
+          transliteration: "śrutvā tu nārāyaṇaśabdamātrataḥ\ncaturbhujāḥ divyavapurdharāḥ kṣaṇāt |\nbhavatprabhāvādupagamya tatra tē\nnyaṣēdhayan yāmakirān bhavatparāḥ ||",
+          translation: "Hearing merely the sound 'Narayana', the four-armed Vishnudutas — bearers of divine forms — arrived instantly by Your power, and those devotees of Yours forcefully stopped Yama's servants.",
+          commentary: "The arrival of the Vishnudutas is electrifying. The word 'shabda-matratah' (merely from the sound) is theologically crucial — it was not Ajamila's intent, devotion, or understanding that summoned them, but the mere vibration of the Name. The Vishnudutas are described as 'chaturbhuja' (four-armed) and 'divya-vapur-dhara' (bearing divine forms), contrasting sharply with the terrifying Yamadutas. Their intervention 'bhavat-prabhavat' (by Your power) clarifies that the Name's potency derives from the Lord Himself.",
+          words: [
+            { word: "श्रुत्वा", transliteration: "śrutvā", meaning: "having heard" },
+            { word: "नारायणशब्दमात्रतः", transliteration: "nārāyaṇaśabdamātrataḥ", meaning: "merely from the sound 'Narayana'" },
+            { word: "चतुर्भुजाः", transliteration: "caturbhujāḥ", meaning: "four-armed ones" },
+            { word: "दिव्यवपुर्धराः", transliteration: "divyavapurdharāḥ", meaning: "bearers of divine forms" },
+            { word: "क्षणात्", transliteration: "kṣaṇāt", meaning: "instantly" },
+            { word: "भवत्प्रभावात्", transliteration: "bhavatprabhāvāt", meaning: "by Your power/glory" },
+            { word: "उपगम्य", transliteration: "upagamya", meaning: "having approached" },
+            { word: "न्यषेधयन्", transliteration: "nyaṣēdhayan", meaning: "they stopped, prevented" },
+            { word: "यामकिरान्", transliteration: "yāmakirān", meaning: "servants of Yama" },
+            { word: "भवत्पराः", transliteration: "bhavatparāḥ", meaning: "devoted to You, Your followers" }
+          ]
+        },
+        {
+          dashaka: 20,
+          sloka: 9,
+          devanagari: "विवादमानेषु तदा तदीयके-\nष्वमीषु तत्त्वं निगदन्तु विष्णुभिः ।\nत्वन्नामसंकीर्तनमात्रतोऽखिलं\nप्रयाति पापं प्रलयं ममाज्ञया ॥",
+          transliteration: "vivādamānēṣu tadā tadīyakē-\nṣvamīṣu tattvaṁ nigadantu viṣṇubhiḥ |\ntvannāmasaṁkīrtanamātratō'khilaṁ\nprayāti pāpaṁ pralayaṁ mamājñayā ||",
+          translation: "When a great debate arose between the two groups of messengers, the Vishnudutas proclaimed the truth: 'By the mere chanting of the Lord's Name, all sin is annihilated — this is by His own decree.'",
+          commentary: "The theological debate between Yamadutas and Vishnudutas constitutes one of the most important doctrinal passages in the Bhagavatam. The Yamadutas argue that Ajamila must suffer for his sins; the Vishnudutas counter with the supremacy of Nama-sankirtan. The phrase 'nama-sankirtana-matratah' (merely by chanting the Name) and 'akhilam papam pralayam prayati' (all sin goes to destruction) establishes the Bhagavata doctrine that the Name transcends all karmic accounting. The word 'mama-ajnaya' (by My decree) grounds this power in divine sovereignty, not mechanical causation.",
+          words: [
+            { word: "विवादमानेषु", transliteration: "vivādamānēṣu", meaning: "while debating" },
+            { word: "तदीयकेषु", transliteration: "tadīyakēṣu", meaning: "among those groups (of messengers)" },
+            { word: "तत्त्वम्", transliteration: "tattvam", meaning: "the truth, the reality" },
+            { word: "निगदन्तु", transliteration: "nigadantu", meaning: "they declared" },
+            { word: "विष्णुभिः", transliteration: "viṣṇubhiḥ", meaning: "by the Vishnudutas" },
+            { word: "त्वन्नामसंकीर्तन", transliteration: "tvannāmasaṁkīrtana", meaning: "chanting of Your Name" },
+            { word: "मात्रतः", transliteration: "mātrataḥ", meaning: "merely by" },
+            { word: "अखिलम्", transliteration: "akhilam", meaning: "all, entire" },
+            { word: "पापम्", transliteration: "pāpam", meaning: "sin" },
+            { word: "प्रलयम्", transliteration: "pralayam", meaning: "destruction, annihilation" },
+            { word: "ममाज्ञया", transliteration: "mamājñayā", meaning: "by My (the Lord's) decree" }
+          ]
+        },
+        {
+          dashaka: 20,
+          sloka: 10,
+          devanagari: "इत्थं द्विजोऽसौ भवदीयकिङ्करै-\nर्विमुक्तपाशो भवदङ्घ्रिभक्तिमान् ।\nसंप्राप्य गङ्गामयमात्मशोधनं\nविधाय लेभे तव धाम शाश्वतम् ।\nत्वन्नामसंकीर्तनशक्तिरीदृशी\nमरुत्पुरीनाथ हराशु मे गदान् ॥",
+          transliteration: "itthaṁ dvijō'sau bhavadīyakiṅkarai-\nrvimuktapāśō bhavadaṅghribhaktimān |\nsaṁprāpya gaṅgāmayamātmaśōdhanaṁ\nvidhāya lēbhē tava dhāma śāśvatam |\ntvannāmasaṁkīrtanaśaktirīdṛśī\nmarutpurīnātha harāśu mē gadān ||",
+          translation: "Thus freed from the noose by Your servants, that brahmana developed true devotion to Your feet. Reaching the Ganga, he purified himself through self-discipline and attained Your eternal abode. Such is the power of chanting Your Name! O Lord of Guruvayur, swiftly remove my diseases!",
+          commentary: "The concluding verse weaves together Ajamila's liberation with Bhattathiri's personal prayer, as is his characteristic signature. After being rescued, Ajamila does not return to his old ways — he develops genuine devotion (bhavad-angri-bhaktiman), goes to the Ganga for purification (atma-shodhanam), and ultimately attains the Lord's eternal abode (tava dhama shashvatam). The exclamation 'tvat-nama-sankirtana-shaktir-idrishi' (such is the power of Your Name!) is the dashaka's thesis statement. The closing 'marutpurinatha harashume gadan' (O Lord of Guruvayur, remove my diseases) is the characteristic prayer linking Bhattathiri's personal affliction to the liberating power of the narrative he has just recounted.",
+          words: [
+            { word: "द्विजः", transliteration: "dvijaḥ", meaning: "the brahmana (Ajamila)" },
+            { word: "भवदीयकिङ्करैः", transliteration: "bhavadīyakiṅkaraiḥ", meaning: "by Your servants (Vishnudutas)" },
+            { word: "विमुक्तपाशः", transliteration: "vimuktapāśaḥ", meaning: "freed from the noose" },
+            { word: "भवदङ्घ्रिभक्तिमान्", transliteration: "bhavadaṅghribhaktimān", meaning: "endowed with devotion to Your feet" },
+            { word: "गङ्गाम्", transliteration: "gaṅgām", meaning: "the Ganga river" },
+            { word: "आत्मशोधनम्", transliteration: "ātmaśōdhanam", meaning: "self-purification" },
+            { word: "धाम शाश्वतम्", transliteration: "dhāma śāśvatam", meaning: "eternal abode" },
+            { word: "त्वन्नामसंकीर्तनशक्तिः", transliteration: "tvannāmasaṁkīrtanaśaktiḥ", meaning: "the power of chanting Your Name" },
+            { word: "ईदृशी", transliteration: "īdṛśī", meaning: "such (is its nature)" },
+            { word: "मरुत्पुरीनाथ", transliteration: "marutpurīnātha", meaning: "O Lord of Guruvayur" },
+            { word: "हर", transliteration: "hara", meaning: "remove, destroy" },
+            { word: "आशु", transliteration: "āśu", meaning: "swiftly, quickly" },
+            { word: "गदान्", transliteration: "gadān", meaning: "diseases" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 21,
