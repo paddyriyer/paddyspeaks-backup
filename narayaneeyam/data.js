@@ -3696,7 +3696,229 @@ var NARAYANEEYAM_DATA = {
       theme: "creation",
       verseCount: 10,
       summary: "Describes the structure of the cosmic universe including the seven dvipas, the planetary systems, the movement of celestial bodies, and the Lord as the cosmic axis sustaining all.",
-      slokas: []
+      slokas: [
+        {
+          dashaka: 17,
+          sloka: 1,
+          devanagari: "जम्बूप्लक्षाह्वयशाल्मलिं च कुशकौञ्चौ शाककं पुष्करं\nसप्तैतान् समुदाहरन्ति मुनयो द्वीपान् क्रमाद्द्विगुणान् ।\nक्षारेक्षुसुरासर्पिर्दधिदुग्धशुद्धजलैः\nसप्तसागरवेष्टितान् भगवन् त्वं बिभर्षि विश्वधर ॥",
+          transliteration: "jambūplakṣāhvayaśālmaliṁ ca kuśakauñcau śākakaṁ puṣkaraṁ\nsaptaitān samudāharanti munayō dvīpān kramāddviguṇān |\nkṣārēkṣusurāsarpiḥdadhidugdhaśuddhajalaiḥ\nsaptasāgaravēṣṭitān bhagavan tvaṁ bibharṣi viśvadhara ||",
+          translation: "The sages enumerate seven dvipas — Jambu, Plaksha, Shalmali, Kusha, Krauncha, Shaka, and Pushkara — each successively double the size of the previous one, surrounded by seven oceans of salt water, sugarcane juice, wine, ghee, curd, milk, and pure water. O Lord, You the upholder of the universe sustain them all!",
+          commentary: "This opening verse establishes the grand Puranic cosmography drawn from Bhagavatam Canto 5. The seven dvipas (continents) are listed in their traditional order, each twice the size of the preceding one, forming concentric rings. The seven oceans — each of a different substance — represent the diverse material manifestations of the Lord's creative power. Bhattathiri addresses the Lord as 'vishvadhara' (upholder of the universe), immediately connecting geography to theology: the cosmos is not self-sustaining but rests on divine will.",
+          words: [
+            { word: "जम्बू", transliteration: "jambū", meaning: "Jambudvipa (the central continent)" },
+            { word: "प्लक्ष", transliteration: "plakṣa", meaning: "Plakshadwipa (the fig-tree continent)" },
+            { word: "शाल्मलि", transliteration: "śālmali", meaning: "Shalmalidvipa (the silk-cotton continent)" },
+            { word: "कुश", transliteration: "kuśa", meaning: "Kushadvipa (the kusha-grass continent)" },
+            { word: "कौञ्चौ", transliteration: "kauñcau", meaning: "Kraunchadwipa (the heron continent)" },
+            { word: "शाककम्", transliteration: "śākakam", meaning: "Shakadvipa (the teak continent)" },
+            { word: "पुष्करम्", transliteration: "puṣkaram", meaning: "Pushkaradvipa (the lotus continent)" },
+            { word: "सप्त", transliteration: "sapta", meaning: "seven" },
+            { word: "द्वीपान्", transliteration: "dvīpān", meaning: "continents, islands" },
+            { word: "द्विगुणान्", transliteration: "dviguṇān", meaning: "each double (the previous)" },
+            { word: "सप्तसागरवेष्टितान्", transliteration: "saptasāgaravēṣṭitān", meaning: "surrounded by seven oceans" },
+            { word: "विश्वधर", transliteration: "viśvadhara", meaning: "O upholder of the universe" },
+            { word: "बिभर्षि", transliteration: "bibharṣi", meaning: "You sustain, uphold" }
+          ]
+        },
+        {
+          dashaka: 17,
+          sloka: 2,
+          devanagari: "प्लक्षे शाल्मलिके कुशे च कृतकेषु क्रौञ्चशाकाह्वये\nपुष्कारे च जनाः समस्तसुकृतान् भुञ्जन्ति दीर्घायुषः ।\nतत्तद्द्वीपनिवासिनो भगवतो नानास्वरूपं सदा\nसम्यक् पूजयतीह नामभिरिति त्वां नारदः प्राह नः ॥",
+          transliteration: "plakṣē śālmalikē kuśē ca kṛtakēṣu krauñcaśākāhvayē\npuṣkārē ca janāḥ samastasukṛtān bhuñjanti dīrghāyuṣaḥ |\ntattaddvīpanivāsinō bhagavatō nānāsvarūpaṁ sadā\nsamyak pūjayatīha nāmabhiriti tvāṁ nāradaḥ prāha naḥ ||",
+          translation: "In Plaksha, Shalmali, Kusha, Krauncha, Shaka, and Pushkara, the long-lived inhabitants enjoy the fruits of their accumulated merit. The residents of each dvipa worship different forms of the Lord with appropriate names — thus Narada has told us about You.",
+          commentary: "This verse summarizes the spiritual life across the six outer dvipas. Unlike Jambudvipa where mixed karmas operate, these dvipas are inhabited by beings of accumulated merit (samasta-sukrtan) who enjoy long lives (dirghayushah). The key theological point is that in every dvipa, the Lord is worshipped in different forms and names (nana-svarupam namabhih), establishing the universality of Vishnu-worship across the cosmos. The attribution to Narada (naradah praha nah) grounds this cosmography in received tradition.",
+          words: [
+            { word: "जनाः", transliteration: "janāḥ", meaning: "the people, inhabitants" },
+            { word: "समस्तसुकृतान्", transliteration: "samastasukṛtān", meaning: "all accumulated merits" },
+            { word: "भुञ्जन्ति", transliteration: "bhuñjanti", meaning: "enjoy, experience" },
+            { word: "दीर्घायुषः", transliteration: "dīrghāyuṣaḥ", meaning: "long-lived" },
+            { word: "तत्तद्द्वीपनिवासिनः", transliteration: "tattaddvīpanivāsinaḥ", meaning: "the inhabitants of each respective dvipa" },
+            { word: "नानास्वरूपम्", transliteration: "nānāsvarūpam", meaning: "various forms" },
+            { word: "सम्यक्", transliteration: "samyak", meaning: "properly, completely" },
+            { word: "पूजयति", transliteration: "pūjayati", meaning: "worships" },
+            { word: "नामभिः", transliteration: "nāmabhiḥ", meaning: "with (various) names" },
+            { word: "नारदः", transliteration: "nāradaḥ", meaning: "the sage Narada" },
+            { word: "प्राह", transliteration: "prāha", meaning: "has told, narrated" }
+          ]
+        },
+        {
+          dashaka: 17,
+          sloka: 3,
+          devanagari: "लोकालोकमितिस्थितं तदखिलद्वीपावलेर्बाह्यतः\nपर्वन्तं तमसावृतं सुविपुलं शैलं प्रचक्षत्यसौ ।\nयावत्सूर्यशशिप्रभा प्रसरति प्राचीनतो भूतले\nलोकालोकविभागकृत्सुरगिरिस्त्वन्मूर्तिरेवोच्यते ॥",
+          transliteration: "lōkālōkamitisthitaṁ tadakhiladvīpāvalērbāhyataḥ\nparvantaṁ tamasāvṛtaṁ suvipulaṁ śailaṁ pracakṣatyasau |\nyāvatsūryaśaśiprabhā prasarati prācīnatō bhūtalē\nlōkālōkavibhāgakṛtsuragiristvanmūrtirevōcyatē ||",
+          translation: "Beyond all the dvipas stands the vast mountain called Lokaloka, enveloped in darkness on its outer side. Up to where the light of sun and moon extends on the earth's surface, this mountain forms the boundary between the illumined and unillumined worlds — and this divine mountain is said to be none other than Your own form!",
+          commentary: "Lokaloka Parvata is the cosmic boundary separating the illuminated worlds (loka) from the region of perpetual darkness (aloka). Its identification as the Lord's own form (tvan-murti-eva) transforms physical cosmography into theology — the boundary between light and darkness is itself divine. The verse draws from Bhagavatam 5.20.34-38, where this mountain is described as the ultimate limit of solar and lunar illumination. Bhattathiri emphasizes that what appears as a geographical feature is really the Lord's cosmic body defining the limits of manifested creation.",
+          words: [
+            { word: "लोकालोकम्", transliteration: "lōkālōkam", meaning: "Lokaloka (the boundary between light and darkness)" },
+            { word: "अखिलद्वीपावलेः", transliteration: "akhiladvīpāvalēḥ", meaning: "of the entire series of dvipas" },
+            { word: "बाह्यतः", transliteration: "bāhyataḥ", meaning: "beyond, outside" },
+            { word: "तमसावृतम्", transliteration: "tamasāvṛtam", meaning: "enveloped in darkness" },
+            { word: "सुविपुलम्", transliteration: "suvipulam", meaning: "very vast, immense" },
+            { word: "शैलम्", transliteration: "śailam", meaning: "mountain" },
+            { word: "सूर्यशशिप्रभा", transliteration: "sūryaśaśiprabhā", meaning: "the light of the sun and moon" },
+            { word: "प्रसरति", transliteration: "prasarati", meaning: "extends, spreads" },
+            { word: "लोकालोकविभागकृत्", transliteration: "lōkālōkavibhāgakṛt", meaning: "maker of the division between loka and aloka" },
+            { word: "सुरगिरिः", transliteration: "suragiriḥ", meaning: "the divine mountain" },
+            { word: "त्वन्मूर्तिः", transliteration: "tvanmūrtiḥ", meaning: "Your own form" }
+          ]
+        },
+        {
+          dashaka: 17,
+          sloka: 4,
+          devanagari: "भूगोलस्य तदुर्ध्वतो विलसति ग्रक्षेपमात्रे रवि-\nर्यस्याधः शिशिरातपौ तदुपरि स्वाहाह इत्याह्वयम् ।\nभूमेर्योजनलक्षमुच्चमुपरि ज्योतिश्चक्रं मतं\nतत्र ग्रहगणश्चरत्यविरतं त्वत्प्रेरणापालितः ॥",
+          transliteration: "bhūgōlasya tadūrdhvatō vilasati grakṣēpamātrē ravi-\nryasyādhaḥ śiśirātapau tadupari svāhāha ityāhvayam |\nbhūmēryōjanalakṣamuccamupari jyōtiścakraṁ mataṁ\ntatra grahagaṇaścaratyavirataṁ tvatprēraṇāpālitaḥ ||",
+          translation: "Above the earth-sphere shines the sun, below which lie the regions of cold and heat, and above which extend the realms known as Svaha and Aha. The luminous wheel of stars is understood to be a hundred thousand yojanas above the earth, and there the planets move ceaselessly, guided by Your divine will.",
+          commentary: "Bhattathiri now turns from horizontal cosmography (dvipas) to vertical cosmography (planetary systems). The sun's position is described relative to the earth-sphere (bhu-gola), with regions of cold and heat below it and higher celestial realms above. The jyotis-chakra (luminous wheel/zodiac) at a hundred thousand yojanas represents the stellar sphere. The crucial theological assertion is 'tvat-prerana-palitah' — the planets move by Your impulsion. This transforms astronomical description into a hymn: celestial mechanics is divine governance.",
+          words: [
+            { word: "भूगोलस्य", transliteration: "bhūgōlasya", meaning: "of the earth-sphere" },
+            { word: "ऊर्ध्वतः", transliteration: "ūrdhvataḥ", meaning: "above" },
+            { word: "रविः", transliteration: "raviḥ", meaning: "the sun" },
+            { word: "शिशिरातपौ", transliteration: "śiśirātapau", meaning: "cold and heat" },
+            { word: "स्वाहा", transliteration: "svāhā", meaning: "Svaha (a celestial region)" },
+            { word: "अह", transliteration: "aha", meaning: "Aha (a celestial region)" },
+            { word: "योजनलक्षम्", transliteration: "yōjanalakṣam", meaning: "a hundred thousand yojanas" },
+            { word: "ज्योतिश्चक्रम्", transliteration: "jyōtiścakram", meaning: "the luminous wheel, the zodiacal circle" },
+            { word: "ग्रहगणः", transliteration: "grahagaṇaḥ", meaning: "the host of planets" },
+            { word: "चरति", transliteration: "carati", meaning: "moves, revolves" },
+            { word: "अविरतम्", transliteration: "aviratam", meaning: "ceaselessly, without pause" },
+            { word: "त्वत्प्रेरणापालितः", transliteration: "tvatprēraṇāpālitaḥ", meaning: "guided and sustained by Your impulsion" }
+          ]
+        },
+        {
+          dashaka: 17,
+          sloka: 5,
+          devanagari: "भूर्भुवःस्वरितिवा महस्तप इति ब्रह्मेति चोच्चावचान्\nलोकान् सप्त वदन्ति तत्र भवतो व्याप्तिः समस्ता स्थिता ।\nभूम्यादित्यविराट्सुधातपजनःसत्यान्तमेतद्भुवा-\nमूर्ध्वं व्यापकमेव ते वपुरिति स्तुन्वन्ति वेदा मुदा ॥",
+          transliteration: "bhūrbhuvaḥsvaritivā mahaḥtapa iti brahmēti cōccāvacān\nlōkān sapta vadanti tatra bhavatō vyāptiḥ samastā sthitā |\nbhūmyādityavirāṭsudhātapajanaḥsatyāntamētadbhuvā-\nmūrdhvaṁ vyāpakamēva tē vapuriti stunvanti vēdā mudā ||",
+          translation: "The sages speak of seven worlds — Bhuh, Bhuvah, Svah, Mahah, Tapah, Janah, and Satyam — ascending from the low to the high. Your pervasion extends through all of them! From Earth through the solar realm, the Virat, the celestial, Tapas, Janas, to Satya — the Vedas joyfully declare that all this is but Your all-pervading body!",
+          commentary: "The seven lokas of Vedic cosmology are enumerated in ascending order, forming the vertical axis of the universe. Bhattathiri's theological point is that the Lord's 'vyapti' (pervasion) extends through every level — there is no realm beyond divine reach. The identification of this entire loka-system with the Lord's body (te vapuh) echoes the Purusha Sukta and Vishvarupa descriptions. The phrase 'veda muda stunvanti' (the Vedas joyfully praise) grounds this cosmic vision in scriptural authority, suggesting that Vedic cosmography is ultimately a hymn to divine omnipresence.",
+          words: [
+            { word: "भूर्भुवःस्वः", transliteration: "bhūrbhuvaḥsvaḥ", meaning: "Bhuh, Bhuvah, Svah (the three primary worlds)" },
+            { word: "महः", transliteration: "mahaḥ", meaning: "Maharloka" },
+            { word: "तपः", transliteration: "tapaḥ", meaning: "Tapoloka" },
+            { word: "ब्रह्म", transliteration: "brahma", meaning: "Brahmaloka / Satyaloka" },
+            { word: "उच्चावचान्", transliteration: "uccāvacān", meaning: "high and low, ascending" },
+            { word: "लोकान्", transliteration: "lōkān", meaning: "worlds" },
+            { word: "सप्त", transliteration: "sapta", meaning: "seven" },
+            { word: "व्याप्तिः", transliteration: "vyāptiḥ", meaning: "pervasion, all-pervadingness" },
+            { word: "समस्ता", transliteration: "samastā", meaning: "entire, complete" },
+            { word: "व्यापकम्", transliteration: "vyāpakam", meaning: "all-pervading" },
+            { word: "वपुः", transliteration: "vapuḥ", meaning: "body, form" },
+            { word: "वेदाः", transliteration: "vēdāḥ", meaning: "the Vedas" },
+            { word: "स्तुन्वन्ति", transliteration: "stunvanti", meaning: "praise, hymn" }
+          ]
+        },
+        {
+          dashaka: 17,
+          sloka: 6,
+          devanagari: "सूर्यस्तावदशेषलोकनिवहान् सञ्जीवयन्नूर्जितं\nभूमेः कोटिषु पञ्चदक्षमुपरि ज्योतिर्मयो भ्राम्यति ।\nमन्दारानिलदग्धतापसशिरो लेलिह्यमानोऽर्चिषा\nभ्रामं भ्रामम् अनेकलोकमखिलं त्वन्मण्डलं राजते ॥",
+          transliteration: "sūryastāvadaśēṣalōkanivahān sañjīvayannūrjitaṁ\nbhūmēḥ kōṭiṣu pañcadakṣamupari jyōtirmayō bhrāmyati |\nmandārāniladagdhatāpaśaśirō lēlihyamānō'rciṣā\nbhrāmaṁ bhrāmam anēkalōkamakhilaṁ tvanmaṇḍalaṁ rājatē ||",
+          translation: "The sun, that mighty luminary, giving life to all the worlds, revolves above the earth at a distance of five crore yojanas, resplendent with fire. With his rays licking the firmament like flames fanned by the Mandara wind, he circles and circles through manifold worlds — truly, Your radiant orb alone shines forth!",
+          commentary: "This verse focuses on the sun as the most visible cosmic agent of the Lord. The sun is described as 'asheshaloka-nivahan sanjivayan' — giving life to all worlds — establishing its role as the supreme sustainer in the material realm. The poetic image of solar rays 'licking' the sky like flames (lelihyamano archisha) is vivid. The climactic identification 'tvan-mandalam rajate' (Your orb alone shines) makes the sun a direct manifestation of divine light. This follows Bhagavatam's teaching that the sun is the visible eye of the Lord (Surya-narayana).",
+          words: [
+            { word: "सूर्यः", transliteration: "sūryaḥ", meaning: "the sun" },
+            { word: "अशेषलोकनिवहान्", transliteration: "aśēṣalōkanivahān", meaning: "all the multitudes of worlds" },
+            { word: "सञ्जीवयन्", transliteration: "sañjīvayan", meaning: "giving life to, vivifying" },
+            { word: "ऊर्जितम्", transliteration: "ūrjitam", meaning: "mighty, powerful" },
+            { word: "कोटिषु", transliteration: "kōṭiṣu", meaning: "crores (tens of millions)" },
+            { word: "ज्योतिर्मयः", transliteration: "jyōtirmayaḥ", meaning: "full of light, luminous" },
+            { word: "भ्राम्यति", transliteration: "bhrāmyati", meaning: "revolves, circles" },
+            { word: "लेलिह्यमानः", transliteration: "lēlihyamānaḥ", meaning: "licking, flickering" },
+            { word: "अर्चिषा", transliteration: "arciṣā", meaning: "with flames, rays" },
+            { word: "अनेकलोकम्", transliteration: "anēkalōkam", meaning: "manifold worlds" },
+            { word: "त्वन्मण्डलम्", transliteration: "tvanmaṇḍalam", meaning: "Your orb/disc" },
+            { word: "राजते", transliteration: "rājatē", meaning: "shines, is resplendent" }
+          ]
+        },
+        {
+          dashaka: 17,
+          sloka: 7,
+          devanagari: "सूर्याचन्द्रमसोर्ग्रहैश्च सहितैर्नक्षत्रराशिस्थितै-\nर्विश्वं व्याप्तमिदं विलोक्य विबुधा बद्ध्वा ध्रुवे तत्परम् ।\nशिंशुमारवपुः प्रकल्प्य भगवन् पुच्छाग्रदेशे ध्रुवं\nन्यस्तं तं च विधारयन्तमनिशं त्वामेव जानन्ति ते ॥",
+          transliteration: "sūryācandrmasōrgrahaiśca sahitairnakṣatrarāśisthitai-\nrviśvaṁ vyāptamidaṁ vilōkya vibudhā baddhvā dhruvē tatparam |\nśiṁśumāravapuḥ prakalpya bhagavan pucchāgradēśē dhruvaṁ\nnyastaṁ taṁ ca vidhārayantamaniśaṁ tvāmēva jānanti tē ||",
+          translation: "Seeing this universe pervaded by the sun, moon, planets, and constellations arrayed in the zodiac, the wise ones perceive them all bound to Dhruva (the Pole Star). O Lord, they envision the Shishumara (celestial dolphin) form, with Dhruva fixed at the tip of its tail — and they recognize the one who upholds it all ceaselessly as none other than You!",
+          commentary: "The Shishumara (celestial dolphin or porpoise) is the Puranic constellation-figure encompassing the entire stellar sphere, described in Bhagavatam 5.23. All celestial bodies — sun, moon, planets, nakshatras — are arranged upon this cosmic form. Dhruva (the Pole Star) sits at the tail-tip (puccha-agra-desha), serving as the pivot around which the heavens rotate. The verse's climax is the identification: the one who upholds (vidharayantam) this entire celestial mechanism ceaselessly (anisham) is the Lord Himself. The Shishumara is thus a form of Vishnu, and astronomical observation becomes a form of worship.",
+          words: [
+            { word: "सूर्याचन्द्रमसोः", transliteration: "sūryācandrmasōḥ", meaning: "of the sun and moon" },
+            { word: "ग्रहैः", transliteration: "grahaiḥ", meaning: "with the planets" },
+            { word: "नक्षत्रराशिस्थितैः", transliteration: "nakṣatrarāśisthitaiḥ", meaning: "situated in the constellations/zodiac" },
+            { word: "विबुधाः", transliteration: "vibudhāḥ", meaning: "the wise ones, the learned" },
+            { word: "ध्रुवे", transliteration: "dhruvē", meaning: "in/to Dhruva (the Pole Star)" },
+            { word: "शिंशुमारवपुः", transliteration: "śiṁśumāravapuḥ", meaning: "the form of the celestial dolphin (Shishumara)" },
+            { word: "प्रकल्प्य", transliteration: "prakalpya", meaning: "having conceived, envisioned" },
+            { word: "पुच्छाग्रदेशे", transliteration: "pucchāgradēśē", meaning: "at the tip of the tail" },
+            { word: "ध्रुवम्", transliteration: "dhruvam", meaning: "Dhruva (the Pole Star)" },
+            { word: "न्यस्तम्", transliteration: "nyastam", meaning: "placed, fixed" },
+            { word: "विधारयन्तम्", transliteration: "vidhārayantam", meaning: "the one who upholds" },
+            { word: "अनिशम्", transliteration: "aniśam", meaning: "ceaselessly, always" }
+          ]
+        },
+        {
+          dashaka: 17,
+          sloka: 8,
+          devanagari: "ध्रुवस्तावत्तेजोनिधिरचलभक्तिप्रणिहितो\nभवत्पादाम्भोजे नियतमनसा संस्थितियुतः ।\nस एवाधारोऽस्य प्रकृतिरचितस्याण्डकटाहे\nत्वदंशो नारायण सकलमेतद्वहति हि ॥",
+          transliteration: "dhruvastavāttējōnidhiracalabhaktipraṇihitō\nbhavatpādāmbhōjē niyatamanasā saṁsthitiyutaḥ |\nsa ēvādhārō'sya prakṛtiracitasyāṇḍakaṭāhē\ntvadaṁśō nārāyaṇa sakalamētadvahati hi ||",
+          translation: "Dhruva, that treasury of radiance, established with unwavering devotion at Your lotus feet, with mind firmly fixed — he alone serves as the pivot of this cosmos fashioned by Prakriti within the cosmic egg-shell. O Narayana, it is Your own aspect that bears all this!",
+          commentary: "Dhruva's story was narrated earlier in the Narayaneeyam, and here Bhattathiri connects that devotional narrative to cosmic structure. Dhruva's unwavering devotion (achala-bhakti) is mirrored in his astronomical fixity as the Pole Star — the axis around which the heavens revolve. He is the 'adhara' (support) of the cosmos within the 'anda-kataha' (egg-shell of the Brahmanda). Yet even Dhruva's function is derivative: 'tvad-amsho vahati' — it is the Lord's own portion that actually bears the universe. Devotion and cosmic function are thus unified.",
+          words: [
+            { word: "ध्रुवः", transliteration: "dhruvaḥ", meaning: "Dhruva (the Pole Star)" },
+            { word: "तेजोनिधिः", transliteration: "tējōnidhiḥ", meaning: "treasury of radiance" },
+            { word: "अचलभक्तिप्रणिहितः", transliteration: "acalabhaktipraṇihitaḥ", meaning: "established with unwavering devotion" },
+            { word: "पादाम्भोजे", transliteration: "pādāmbhōjē", meaning: "at the lotus feet" },
+            { word: "नियतमनसा", transliteration: "niyatamanasā", meaning: "with a controlled/fixed mind" },
+            { word: "संस्थितियुतः", transliteration: "saṁsthitiyutaḥ", meaning: "endowed with firm establishment" },
+            { word: "आधारः", transliteration: "ādhāraḥ", meaning: "the support, pivot" },
+            { word: "अण्डकटाहे", transliteration: "aṇḍakaṭāhē", meaning: "within the cosmic egg-shell" },
+            { word: "त्वदंशः", transliteration: "tvadaṁśaḥ", meaning: "Your aspect, Your portion" },
+            { word: "नारायण", transliteration: "nārāyaṇa", meaning: "O Narayana" },
+            { word: "वहति", transliteration: "vahati", meaning: "bears, carries" }
+          ]
+        },
+        {
+          dashaka: 17,
+          sloka: 9,
+          devanagari: "राहुस्तावदनारतं शशिरविग्रासोद्यतः सैंहिके-\nयोऽसौ पर्वणि पर्वणि क्षितिभृतां छायां तमस्कुर्वते ।\nसर्वं चैतदशेषचेष्टितमिदं विश्वं चराचरात्मकं\nत्वन्माया रचितं विभो तव वशे तिष्ठत्यहो चित्रताम् ॥",
+          transliteration: "rāhustāvadanārataṁ śaśiravigrāsōdyataḥ saiṁhikē-\nyō'sau parvaṇi parvaṇi kṣitibhṛtāṁ chāyāṁ tamaskurvatē |\nsarvaṁ caitadaśēṣacēṣṭitamidaṁ viśvaṁ carācarātmakaṁ\ntvanmāyā racitaṁ vibhō tava vaśē tiṣṭhatyahō citratām ||",
+          translation: "Rahu, the son of Simhika, ceaselessly attempts to swallow the sun and moon, casting his shadow upon the luminaries at every eclipse. Yet all this — every activity in this universe of moving and non-moving beings — is fashioned by Your Maya and stands under Your control. How wondrous indeed!",
+          commentary: "Rahu (the ascending lunar node) is described per Bhagavatam 5.24.1-3 as the demonic entity causing eclipses by attempting to devour the sun and moon. But Bhattathiri elevates this from mere astronomy to a meditation on Maya: even Rahu's seemingly malefic eclipses are part of the Lord's cosmic play. The exclamation 'aho citratam' (how wondrous!) expresses amazement that the entire cosmos — moving and non-moving (chara-achara) — with all its complex activities (ashesha-cheshtitam) is Maya's creation, fully under divine control (tava vashe). Nothing operates independently of the Lord.",
+          words: [
+            { word: "राहुः", transliteration: "rāhuḥ", meaning: "Rahu (the ascending lunar node/eclipse demon)" },
+            { word: "अनारतम्", transliteration: "anāratam", meaning: "ceaselessly" },
+            { word: "शशिरविग्रासोद्यतः", transliteration: "śaśiravigrāsōdyataḥ", meaning: "intent on swallowing the moon and sun" },
+            { word: "सैंहिकेयः", transliteration: "saiṁhikēyaḥ", meaning: "son of Simhika" },
+            { word: "पर्वणि पर्वणि", transliteration: "parvaṇi parvaṇi", meaning: "at every junction/eclipse" },
+            { word: "छायाम्", transliteration: "chāyām", meaning: "shadow" },
+            { word: "तमस्कुर्वते", transliteration: "tamaskurvatē", meaning: "causes darkness" },
+            { word: "चराचरात्मकम्", transliteration: "carācarātmakam", meaning: "consisting of moving and non-moving beings" },
+            { word: "त्वन्माया", transliteration: "tvanmāyā", meaning: "Your Maya/divine illusion" },
+            { word: "रचितम्", transliteration: "racitam", meaning: "fashioned, created" },
+            { word: "तव वशे", transliteration: "tava vaśē", meaning: "under Your control" },
+            { word: "चित्रताम्", transliteration: "citratām", meaning: "wondrousness, marvel" }
+          ]
+        },
+        {
+          dashaka: 17,
+          sloka: 10,
+          devanagari: "एतादृक्सकलं जगद्भगवतो मायेरितं ब्रूमहे\nनो सत्यं खलु केवलस्त्वमजितो व्याप्यैतदालोकसे ।\nसप्तद्वीपवतीं धरित्रिमखिलां भूयो भवत्तेजसा\nपूर्णां तां भगवन्ननन्त भिषजां श्रेष्ठ प्रभो पाहि माम् ॥",
+          transliteration: "ētādṛksakalaṁ jagadbhagavatō māyēritaṁ brūmahē\nnō satyaṁ khalu kēvalastvamajitō vyāpyaitadālōkasē |\nsaptadvīpavatīṁ dharitrumakhilāṁ bhūyō bhavattējasā\npūrṇāṁ tāṁ bhagavannananta bhiṣajāṁ śrēṣṭha prabhō pāhi mām ||",
+          translation: "All this universe, we declare, is set in motion by the Maya of the Lord — it is not ultimately real. You alone, the Unconquered One, pervade and witness it all. The entire earth with its seven dvipas is filled with Your radiance. O Ananta, O best of physicians, O Lord of Guruvayur, protect me!",
+          commentary: "The concluding verse delivers the Vedantic summary: the cosmos just described across nine verses is 'maya-iritam' (set in motion by Maya) and 'no satyam' (not ultimately real). Only the Lord is real (kevalah tvam), pervading and witnessing all (vyapya etat aalokase). The beautiful phrase 'sapta-dvipa-vatim dhritrim bhavat-tejasa purnam' envisions the seven-dvipa earth as suffused with divine radiance. The closing prayer 'Ananta bhishajam shreshtha prabho pahi mam' combines cosmic theology with personal supplication — the Lord who sustains the universe in its entirety is also the supreme physician who can heal one devotee's ailment. This signature Narayaneeyam move from cosmic to personal encapsulates Bhattathiri's genius.",
+          words: [
+            { word: "एतादृक्", transliteration: "ētādṛk", meaning: "such, of this kind" },
+            { word: "सकलम्", transliteration: "sakalam", meaning: "entire, all" },
+            { word: "जगत्", transliteration: "jagat", meaning: "the universe" },
+            { word: "मायेरितम्", transliteration: "māyēritam", meaning: "set in motion by Maya" },
+            { word: "नो सत्यम्", transliteration: "nō satyam", meaning: "not ultimately real" },
+            { word: "केवलः", transliteration: "kēvalaḥ", meaning: "alone, solely" },
+            { word: "अजितः", transliteration: "ajitaḥ", meaning: "the Unconquered One" },
+            { word: "व्याप्य", transliteration: "vyāpya", meaning: "pervading" },
+            { word: "आलोकसे", transliteration: "ālōkasē", meaning: "You witness, behold" },
+            { word: "सप्तद्वीपवतीम्", transliteration: "saptadvīpavatīm", meaning: "possessing seven dvipas" },
+            { word: "धरित्रिम्", transliteration: "dharitrim", meaning: "the earth" },
+            { word: "अनन्त", transliteration: "ananta", meaning: "O Infinite One" },
+            { word: "भिषजाम् श्रेष्ठ", transliteration: "bhiṣajāṁ śrēṣṭha", meaning: "O best of physicians" },
+            { word: "पाहि माम्", transliteration: "pāhi mām", meaning: "protect me" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 18,
