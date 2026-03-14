@@ -3933,7 +3933,223 @@ var NARAYANEEYAM_DATA = {
       theme: "philosophy",
       verseCount: 10,
       summary: "Narrates the incarnation of Lord Kapila, son of Devahuti, who expounded the Sankhya philosophy to his mother, explaining the nature of Prakriti, Purusha, and the path to liberation.",
-      slokas: []
+      slokas: [
+        {
+          dashaka: 19,
+          sloka: 1,
+          devanagari: "प्रकृतिरचिद्विभो त्वं चिद्विभोऽसि प्रधाना-\nद्गुणमयमखिलं तत्कार्यजातं बभूव ।\nमहदपि च ततोऽहं तत्त्वमुत्तीर्य कालाद्\nगुणनियमवशात्ते सृष्टिरित्यन्वशैषीः ॥",
+          transliteration: "prakṛtiracidvibhō tvaṁ cidvibhō'si pradhānā-\ndguṇamayamakhilaṁ tatkāryajātaṁ babhūva |\nmahadapi ca tatō'haṁ tattvamuttīrya kālād\nguṇaniyamavaśāttē sṛṣṭirityanyvaśaiṣīḥ ||",
+          translation: "O Lord! Prakriti is insentient, while You are the sentient Supreme Being. From Pradhana (Prakriti), all products consisting of the three gunas arose. From it came Mahat (cosmic intelligence), and then the Ahankara (ego) principle — impelled by Time and governed by the gunas, thus proceeds Your creation. So You taught.",
+          commentary: "This opening verse establishes the fundamental Sankhya dualism between Prakriti (insentient, achit) and Purusha/God (sentient, chit). Bhattathiri addresses the Lord as 'chid-vibho' (the conscious Supreme) contrasted with Prakriti as 'achid' (unconscious). The evolutionary sequence begins: from Pradhana (unmanifest Prakriti) arises Mahat-tattva (cosmic intelligence), then Ahankara (ego-principle). The catalyst is Kala (Time), which is identified as the Lord's own power. This verse sets the stage for the detailed Sankhya cosmogony that follows.",
+          words: [
+            { word: "प्रकृतिः", transliteration: "prakṛtiḥ", meaning: "Prakriti, primordial nature" },
+            { word: "अचित्", transliteration: "acit", meaning: "insentient, unconscious" },
+            { word: "विभो", transliteration: "vibhō", meaning: "O All-pervading Lord" },
+            { word: "चिद्विभो", transliteration: "cidvibhō", meaning: "O Conscious Supreme Being" },
+            { word: "प्रधानात्", transliteration: "pradhānāt", meaning: "from Pradhana (unmanifest Prakriti)" },
+            { word: "गुणमयम्", transliteration: "guṇamayam", meaning: "consisting of the three gunas" },
+            { word: "कार्यजातम्", transliteration: "kāryajātam", meaning: "the entire group of effects/products" },
+            { word: "महत्", transliteration: "mahat", meaning: "Mahat-tattva (cosmic intelligence)" },
+            { word: "अहम् तत्त्वम्", transliteration: "ahaṁ tattvam", meaning: "the ego-principle (Ahankara)" },
+            { word: "कालात्", transliteration: "kālāt", meaning: "impelled by Time" },
+            { word: "गुणनियमवशात्", transliteration: "guṇaniyamavaśāt", meaning: "governed by the regulation of gunas" },
+            { word: "सृष्टिः", transliteration: "sṛṣṭiḥ", meaning: "creation" }
+          ]
+        },
+        {
+          dashaka: 19,
+          sloka: 2,
+          devanagari: "सत्त्वं रजस्तम इति प्रकृतेर्गुणास्ते\nसाम्यस्थितौ प्रलयकाल उपाहुरार्याः ।\nवैषम्यतो जगदिदं प्रभवत्यशेषं\nगुल्मं लतां तरुमिवैकमिदं बहूनि ॥",
+          transliteration: "sattvaṁ rajastama iti prakṛtērguṇāstē\nsāmyasthitau pralayakāla upāhurāryāḥ |\nvaiṣamyatō jagadidaṁ prabhavatyaśēṣaṁ\ngulmaṁ latāṁ tarumivaikamidaṁ bahūni ||",
+          translation: "Sattva, Rajas, and Tamas — these are the gunas of Prakriti. When they are in equilibrium, it is called the state of dissolution, say the wise. From their disequilibrium, this entire universe arises — just as from one seed come forth shrubs, creepers, and trees in their multitudes.",
+          commentary: "This verse explains the mechanism of creation through the three gunas. In pralaya (dissolution), sattva, rajas, and tamas exist in perfect equilibrium (samya-sthiti) — this is the unmanifest state of Prakriti. Creation begins when this balance is disturbed (vaishamya). The botanical simile is apt: just as a single seed produces diverse vegetation — shrubs (gulma), creepers (lata), and trees (taru) — so from one Prakriti emerges the infinite variety of creation. The 'ekam idam bahuni' (this one becomes many) echoes the Upanishadic teaching.",
+          words: [
+            { word: "सत्त्वम्", transliteration: "sattvam", meaning: "Sattva (purity, goodness)" },
+            { word: "रजः", transliteration: "rajaḥ", meaning: "Rajas (passion, activity)" },
+            { word: "तमः", transliteration: "tamaḥ", meaning: "Tamas (inertia, darkness)" },
+            { word: "गुणाः", transliteration: "guṇāḥ", meaning: "the qualities/modes" },
+            { word: "साम्यस्थितौ", transliteration: "sāmyasthitau", meaning: "in the state of equilibrium" },
+            { word: "प्रलयकाले", transliteration: "pralayakālē", meaning: "at the time of dissolution" },
+            { word: "आर्याः", transliteration: "āryāḥ", meaning: "the wise, the learned" },
+            { word: "वैषम्यतः", transliteration: "vaiṣamyataḥ", meaning: "from the disequilibrium" },
+            { word: "प्रभवति", transliteration: "prabhavati", meaning: "arises, comes forth" },
+            { word: "गुल्मम्", transliteration: "gulmam", meaning: "shrub" },
+            { word: "लताम्", transliteration: "latām", meaning: "creeper" },
+            { word: "तरुम्", transliteration: "tarum", meaning: "tree" },
+            { word: "एकम् इदं बहूनि", transliteration: "ēkam idaṁ bahūni", meaning: "this one becomes many" }
+          ]
+        },
+        {
+          dashaka: 19,
+          sloka: 3,
+          devanagari: "सात्त्विक्यहन्तिरभवत्तव दैविकी या\nवैकारिकी श्रुतिरिति प्रथिता महद्भिः ।\nतद्राजसी भवति तैजसनामधेया\nतामस्यहन्तिरपि भूतमयी प्रदिष्टा ॥",
+          transliteration: "sāttvikyyahantirabhavattava daivikī yā\nvaikārikī śrutiriti prathitā mahadbhiḥ |\ntadrājasī bhavati taijasanāmadhēyā\ntāmasyahantirapi bhūtamayī pradiṣṭā ||",
+          translation: "The Sattvic Ahankara, known as Vaikarika, is divine in nature — from it arise the presiding deities and the mind, say the great sages. The Rajasic Ahankara is called Taijasa — from it arise the sense organs. And the Tamasic Ahankara, called Bhutadi, produces the subtle and gross elements.",
+          commentary: "This verse details the threefold division of Ahankara, a distinctive feature of Sankhya cosmology. Sattvic Ahankara (Vaikarika) produces the mind and the presiding deities of the senses — hence it is 'daiviki' (divine). Rajasic Ahankara (Taijasa) produces the ten sense organs (five of knowledge, five of action). Tamasic Ahankara (Bhutadi) produces the five tanmatras (subtle elements) which in turn produce the five gross elements. This threefold classification shows how consciousness, activity, and matter all emerge from one principle differentiated by the gunas.",
+          words: [
+            { word: "सात्त्विकी", transliteration: "sāttvikī", meaning: "Sattvic (of the nature of Sattva)" },
+            { word: "अहन्तिः", transliteration: "ahantiḥ", meaning: "Ahankara (ego-principle)" },
+            { word: "दैविकी", transliteration: "daivikī", meaning: "divine (producing deities)" },
+            { word: "वैकारिकी", transliteration: "vaikārikī", meaning: "Vaikarika (the modified/transformative)" },
+            { word: "श्रुतिः", transliteration: "śrutiḥ", meaning: "the scriptures (Vedas)" },
+            { word: "महद्भिः", transliteration: "mahadbhiḥ", meaning: "by the great sages" },
+            { word: "राजसी", transliteration: "rājasī", meaning: "Rajasic (of the nature of Rajas)" },
+            { word: "तैजस", transliteration: "taijasa", meaning: "Taijasa (the luminous/active)" },
+            { word: "तामसी", transliteration: "tāmasī", meaning: "Tamasic (of the nature of Tamas)" },
+            { word: "भूतमयी", transliteration: "bhūtamayī", meaning: "consisting of elements (Bhutadi)" },
+            { word: "प्रदिष्टा", transliteration: "pradiṣṭā", meaning: "declared, taught" }
+          ]
+        },
+        {
+          dashaka: 19,
+          sloka: 4,
+          devanagari: "शब्दस्ततः खमभवत्स्पर्शश्च वायुः\nरूपं ततो ज्वलनमापशिवा रसाच्च ।\nगन्धश्च भूमिरभवत्तदनेन तत्त्व-\nजातेन सङ्घटनमण्डमजायतेदम् ॥",
+          transliteration: "śabdastataḥ khamabhavatparśaśca vāyuḥ\nrūpaṁ tatō jvalanamāpaśivā rasācca |\ngandhaśca bhūmirabhavattadanēna tattva-\njātēna saṅghaṭaṇamaṇḍamajāyatēdam ||",
+          translation: "From sound arose space (Akasha); from touch arose air (Vayu); from form arose fire (Agni); from taste arose water (Apah); and from smell arose earth (Prithvi). By the combination of all these tattvas, the cosmic egg (Brahmanda) was born.",
+          commentary: "This verse traces the sequential evolution of the five gross elements from their corresponding tanmatras (subtle qualities). Each tanmatra produces its corresponding element: shabda (sound) produces akasha (space), sparsha (touch) produces vayu (air), rupa (form/color) produces agni (fire), rasa (taste) produces apah (water), and gandha (smell) produces bhumi (earth). Each successive element contains the qualities of all preceding elements — earth has all five qualities. The culmination is the Brahmanda (cosmic egg), formed by the combination (sanghatanam) of all these tattvas working together under divine will.",
+          words: [
+            { word: "शब्दः", transliteration: "śabdaḥ", meaning: "sound (the tanmatra)" },
+            { word: "खम्", transliteration: "kham", meaning: "space, ether (Akasha)" },
+            { word: "स्पर्शः", transliteration: "sparśaḥ", meaning: "touch (the tanmatra)" },
+            { word: "वायुः", transliteration: "vāyuḥ", meaning: "air, wind" },
+            { word: "रूपम्", transliteration: "rūpam", meaning: "form, color (the tanmatra)" },
+            { word: "ज्वलनम्", transliteration: "jvalanam", meaning: "fire (Agni)" },
+            { word: "आपः", transliteration: "āpaḥ", meaning: "water" },
+            { word: "रसात्", transliteration: "rasāt", meaning: "from taste (the tanmatra)" },
+            { word: "गन्धः", transliteration: "gandhaḥ", meaning: "smell (the tanmatra)" },
+            { word: "भूमिः", transliteration: "bhūmiḥ", meaning: "earth" },
+            { word: "तत्त्वजातेन", transliteration: "tattvajātēna", meaning: "by the group of tattvas" },
+            { word: "सङ्घटनम्", transliteration: "saṅghaṭanam", meaning: "combination, aggregation" },
+            { word: "अण्डम्", transliteration: "aṇḍam", meaning: "the cosmic egg (Brahmanda)" }
+          ]
+        },
+        {
+          dashaka: 19,
+          sloka: 5,
+          devanagari: "एतेषु तत्त्वनिचयेषु विभो जडेषु\nचैतन्यमेव भवदंशकलानुसारात् ।\nजीवोपरागवशतो भवसन्निवेशः\nबिम्बानुबिम्बनमिवाम्बुनि चन्द्रबिम्बम् ॥",
+          transliteration: "ētēṣu tattvanicayēṣu vibhō jaḍēṣu\ncaitanyamēva bhavadaṁśakalānusārāt |\njīvōparāgavaśatō bhavasannivēśaḥ\nbimbānubimbanamivāmbuni candrabimbam ||",
+          translation: "O Lord! In this assemblage of insentient tattvas, consciousness appears only due to the fraction of Your own essence (as the Jiva). Through the Jiva's coloring by Prakriti, involvement in worldly existence occurs — like the moon's reflection appearing in water.",
+          commentary: "This verse addresses the central puzzle: how does consciousness appear in inert matter? The answer is that the Jiva (individual soul) is an amsha (fraction) of the Lord's consciousness (bhavad-amsha-kala). The tattvas themselves are jada (inert); it is the Jiva's presence that lends them the appearance of sentience. But the Jiva becomes colored (uparaga) by contact with Prakriti, leading to samsara. The reflection analogy (bimba-anubimbana) is profound: just as the moon appears to be in the water but is not actually affected by it, so the Atman appears to be in samsara but remains untouched. This is the quintessential Sankhya-Vedanta synthesis that Kapila teaches.",
+          words: [
+            { word: "तत्त्वनिचयेषु", transliteration: "tattvanicayēṣu", meaning: "in the assemblage of tattvas" },
+            { word: "जडेषु", transliteration: "jaḍēṣu", meaning: "insentient, inert" },
+            { word: "चैतन्यम्", transliteration: "caitanyam", meaning: "consciousness" },
+            { word: "भवदंशकला", transliteration: "bhavadaṁśakalā", meaning: "a fraction of Your essence" },
+            { word: "अनुसारात्", transliteration: "anusārāt", meaning: "due to, following from" },
+            { word: "जीवोपरागवशतः", transliteration: "jīvōparāgavaśataḥ", meaning: "due to the Jiva's coloring/association" },
+            { word: "भवसन्निवेशः", transliteration: "bhavasannivēśaḥ", meaning: "involvement in worldly existence" },
+            { word: "बिम्बानुबिम्बनम्", transliteration: "bimbānubimbanam", meaning: "reflection of an original" },
+            { word: "अम्बुनि", transliteration: "ambuni", meaning: "in water" },
+            { word: "चन्द्रबिम्बम्", transliteration: "candrabimbam", meaning: "the moon's reflection" }
+          ]
+        },
+        {
+          dashaka: 19,
+          sloka: 6,
+          devanagari: "सत्त्वोन्मुखस्य हि मनःसु जनस्य पुंसः\nसम्यग्विवेकनिचयो भवदर्पणात्स्यात् ।\nरागान्धकारजनिताश्रुजडीकृताक्षो\nव्यर्थं रजोऽनुभजते तमसा च मूढः ॥",
+          transliteration: "sattvōnmukhasya hi manaḥsu janasya puṁsaḥ\nsamyagvivēkanicayō bhavadarpanātsyāt |\nrāgāndhakārajanitāśrujaḍīkṛtākṣō\nvyarthaṁ rajō'nubhajatē tamasā ca mūḍhaḥ ||",
+          translation: "For the person whose mind is oriented toward Sattva, perfect discriminative knowledge arises through Your grace, as in a mirror. But one whose eyes are blinded by the tears born of the darkness of passion — deluded by Tamas, he futilely pursues Rajas.",
+          commentary: "This verse contrasts two human conditions based on guna-predominance. The sattvic person, whose mind is turned toward purity (sattva-unmukha), receives clear discriminative knowledge (samyag-viveka) — the Lord's grace acting as a mirror (bhavat-arpanat) that reveals truth. In contrast, the person dominated by rajas and tamas is described with a striking image: raga (passion) creates andhakara (darkness), which produces tears (ashru) that render the eyes jada (inert/blind). Such a person, deluded (mudha) by tamas, chases rajas futilely (vyartham). The verse teaches that guna-orientation determines spiritual destiny.",
+          words: [
+            { word: "सत्त्वोन्मुखस्य", transliteration: "sattvōnmukhasya", meaning: "of one oriented toward Sattva" },
+            { word: "मनःसु", transliteration: "manaḥsu", meaning: "in the minds" },
+            { word: "विवेकनिचयः", transliteration: "vivēkanicayaḥ", meaning: "accumulation of discriminative knowledge" },
+            { word: "भवदर्पणात्", transliteration: "bhavadarpanāt", meaning: "through Your grace (lit. Your mirror)" },
+            { word: "रागान्धकार", transliteration: "rāgāndhakāra", meaning: "darkness of passion" },
+            { word: "अश्रुजडीकृताक्षः", transliteration: "aśrujaḍīkṛtākṣaḥ", meaning: "whose eyes are rendered inert by tears" },
+            { word: "व्यर्थम्", transliteration: "vyartham", meaning: "futilely, in vain" },
+            { word: "रजः", transliteration: "rajaḥ", meaning: "Rajas (passion)" },
+            { word: "अनुभजते", transliteration: "anubhajatē", meaning: "pursues, follows" },
+            { word: "तमसा", transliteration: "tamasā", meaning: "by Tamas (darkness/inertia)" },
+            { word: "मूढः", transliteration: "mūḍhaḥ", meaning: "deluded" }
+          ]
+        },
+        {
+          dashaka: 19,
+          sloka: 7,
+          devanagari: "त्रैगुण्यवृत्तिरखिला भवदीयमाया\nजीवस्तु तद्वशगतो भ्रमति प्रतीतम् ।\nत्वत्पादभक्तिरखिलं शमयेत्तदेना-\nमित्युक्तवानसि कृपार्द्रदृशा च मातुः ॥",
+          transliteration: "traiguṇyavṛttirakhilā bhavadīyamāyā\njīvastu tadvaśagatō bhramati pratītam |\ntvatpādabhaktirakhilaṁ śamayēttadēnā-\nmityuktavānasi kṛpārdradṛśā ca mātuḥ ||",
+          translation: "All activity of the three gunas is Your Maya; the Jiva, falling under its sway, wanders in samsara — this is evident. Devotion to Your feet alone can quell all of this Maya — thus You spoke to Your mother with compassion-filled eyes.",
+          commentary: "This verse is the philosophical climax where Sankhya merges into Bhakti. The entire operation of the three gunas is identified as the Lord's own Maya (bhavadiya-maya). The Jiva, though intrinsically free, comes under its power (tad-vashagata) and wanders (bhramati) through cycles of birth and death. The remedy is singular: tvat-pada-bhakti (devotion to the Lord's feet) can quell (shamayet) all of Maya's power. The tender detail 'kripa-ardra-drisha' (with compassion-moist eyes) transforms the philosophical discourse into a mother-son scene of divine love. Kapila teaches not as a detached philosopher but as a loving son seeing his mother's bondage.",
+          words: [
+            { word: "त्रैगुण्यवृत्तिः", transliteration: "traiguṇyavṛttiḥ", meaning: "the functioning of the three gunas" },
+            { word: "अखिला", transliteration: "akhilā", meaning: "entire, all" },
+            { word: "भवदीयमाया", transliteration: "bhavadīyamāyā", meaning: "Your Maya (divine illusion)" },
+            { word: "जीवः", transliteration: "jīvaḥ", meaning: "the individual soul" },
+            { word: "तद्वशगतः", transliteration: "tadvaśagataḥ", meaning: "fallen under its sway" },
+            { word: "भ्रमति", transliteration: "bhramati", meaning: "wanders (in samsara)" },
+            { word: "त्वत्पादभक्तिः", transliteration: "tvatpādabhaktiḥ", meaning: "devotion to Your feet" },
+            { word: "शमयेत्", transliteration: "śamayēt", meaning: "can quell, pacify" },
+            { word: "उक्तवान् असि", transliteration: "uktavān asi", meaning: "You spoke, You declared" },
+            { word: "कृपार्द्रदृशा", transliteration: "kṛpārdradṛśā", meaning: "with compassion-filled eyes" },
+            { word: "मातुः", transliteration: "mātuḥ", meaning: "to the mother (Devahuti)" }
+          ]
+        },
+        {
+          dashaka: 19,
+          sloka: 8,
+          devanagari: "श्रुत्वैतदम्ब विदिताखिलतत्त्वसारा\nविद्वत्तमा खलु सती स्वसुतोपदेशात् ।\nध्यात्वा भवन्तमनिशं तव भक्तियोगा-\nदाशु प्रसन्नमनसा प्रकृतिं जजित्ये ॥",
+          transliteration: "śrutvaitadamba viditākhilatattvasārā\nvidvattamā khalu satī svasutōpadēśāt |\ndhyātvā bhavantamaniśaṁ tava bhaktiyōgā-\ndāśu prasannamanasā prakṛtiṁ jajityē ||",
+          translation: "Having heard all this, the mother — now knowing the essence of all tattvas and become the wisest through her own son's teachings — meditated upon You ceaselessly. Through Your Bhakti Yoga, with a serene mind, she swiftly conquered Prakriti.",
+          commentary: "This verse marks Devahuti's transformation from student to realized soul. The word 'vidvattama' (wisest of the wise) applied to a woman is remarkable in the context of ancient Indian literature. Her knowledge came through her son's teaching (sva-suta-upadesha) — a reversal of the usual parent-child dynamic that highlights the divine nature of Kapila. Her practice was threefold: she heard the teachings (shrutva), she meditated ceaselessly (dhyatva anishan), and she practiced bhakti yoga. The result: with a serene mind (prasanna-manasa), she conquered Prakriti (prakritim jajitye) — the very Prakriti whose 24 tattvas had been systematically explained in the preceding verses.",
+          words: [
+            { word: "श्रुत्वा", transliteration: "śrutvā", meaning: "having heard" },
+            { word: "अम्ब", transliteration: "amba", meaning: "the mother (Devahuti)" },
+            { word: "विदिताखिलतत्त्वसारा", transliteration: "viditākhilatattvasārā", meaning: "knowing the essence of all tattvas" },
+            { word: "विद्वत्तमा", transliteration: "vidvattamā", meaning: "the wisest of the wise" },
+            { word: "स्वसुतोपदेशात्", transliteration: "svasutōpadēśāt", meaning: "through her own son's teachings" },
+            { word: "ध्यात्वा", transliteration: "dhyātvā", meaning: "having meditated upon" },
+            { word: "अनिशम्", transliteration: "aniśam", meaning: "ceaselessly, constantly" },
+            { word: "भक्तियोगात्", transliteration: "bhaktiyōgāt", meaning: "through Bhakti Yoga" },
+            { word: "प्रसन्नमनसा", transliteration: "prasannamanasā", meaning: "with a serene mind" },
+            { word: "प्रकृतिम्", transliteration: "prakṛtim", meaning: "Prakriti (Nature)" },
+            { word: "जजित्ये", transliteration: "jajityē", meaning: "she conquered, overcame" }
+          ]
+        },
+        {
+          dashaka: 19,
+          sloka: 9,
+          devanagari: "विदेहमुक्तिमधिगम्य परात्मभावं\nदेवाङ्गना सरिदभूत्तदियं प्रसिद्धा ।\nसिद्धैः सदा परिवृतः कपिलावतारो\nयोगेश्वरेश्वर विभासि च प्रागुदीच्याम् ॥",
+          transliteration: "vidēhamuktimahdigamya parātmabhāvaṁ\ndēvāṅganā saridabhūttadiyaṁ prasiddhā |\nsiddhaiḥ sadā parivṛtaḥ kapilāvatārō\nyōgēśvarēśvara vibhāsi ca prāgudīcyām ||",
+          translation: "Attaining videha-mukti (liberation upon leaving the body) and the state of the Supreme Self, that divine lady became a sacred river — she is the well-known (one). And You, in Your incarnation as Kapila, surrounded always by Siddhas, shine forth in the northeast, O Lord of the lords of Yoga!",
+          commentary: "Devahuti's liberation is described as 'videha-mukti' — liberation upon shedding the body, attaining identity with the Supreme Self (Paramatma-bhava). Her body became a sacred river — traditionally identified with the river at Siddhapura (Bindu Sarovar). The phrase 'devangana' (divine lady) elevates Devahuti to a celestial status even before her liberation. Kapila, meanwhile, remains at his ashram in the northeast (prag-udichyam), surrounded by Siddhas (perfected beings). The title 'Yogeshvareshvara' (Lord of the lords of Yoga) establishes Kapila as the supreme authority on all yoga traditions.",
+          words: [
+            { word: "विदेहमुक्तिम्", transliteration: "vidēhamuktim", meaning: "liberation upon leaving the body" },
+            { word: "परात्मभावम्", transliteration: "parātmabhāvam", meaning: "the state of the Supreme Self" },
+            { word: "देवाङ्गना", transliteration: "dēvāṅganā", meaning: "divine lady (Devahuti)" },
+            { word: "सरित्", transliteration: "sarit", meaning: "a river" },
+            { word: "अभूत्", transliteration: "abhūt", meaning: "became" },
+            { word: "प्रसिद्धा", transliteration: "prasiddhā", meaning: "well-known, famous" },
+            { word: "सिद्धैः", transliteration: "siddhaiḥ", meaning: "by Siddhas (perfected beings)" },
+            { word: "परिवृतः", transliteration: "parivṛtaḥ", meaning: "surrounded" },
+            { word: "कपिलावतारः", transliteration: "kapilāvatāraḥ", meaning: "the incarnation as Kapila" },
+            { word: "योगेश्वरेश्वर", transliteration: "yōgēśvarēśvara", meaning: "O Lord of the lords of Yoga" },
+            { word: "विभासि", transliteration: "vibhāsi", meaning: "You shine forth" },
+            { word: "प्रागुदीच्याम्", transliteration: "prāgudīcyām", meaning: "in the northeast" }
+          ]
+        },
+        {
+          dashaka: 19,
+          sloka: 10,
+          devanagari: "एवं विबोध्य जननीं परमार्थतत्त्वं\nसांख्यप्रणालिविशदीकृतयोगमार्गम् ।\nदत्त्वा च भक्तिमचलां गुरुपुङ्गवः स\nत्वं मे गदान्वयहरो भव वातनाथ ॥",
+          transliteration: "ēvaṁ vibōdhya jananīṁ paramārthatattvaṁ\nsāṅkhyapranāliviśadīkṛtayōgamārgam |\ndattvā ca bhaktimacalāṁ gurupuṅgavaḥ sa\ntvaṁ mē gadānvayaharō bhava vātanātha ||",
+          translation: "Thus having enlightened Your mother with the supreme truth — the path of Yoga made luminous through the Sankhya system — and having bestowed upon her unwavering devotion, O foremost of Gurus, O Lord of Guruvayur, be the destroyer of all my ailments!",
+          commentary: "The concluding verse follows the characteristic Narayaneeyam pattern where Bhattathiri synthesizes the dashaka's content and makes his personal plea. The summary is elegant: Kapila taught 'paramartha-tattva' (the ultimate truth) through the 'sankhya-pranali' (Sankhya methodology), which illuminated (vishadikrita) the 'yoga-marga' (path of Yoga). He gave Devahuti 'achala bhakti' (unshakeable devotion) — the practical fruit of all philosophy. The address 'guru-pungava' (foremost among gurus) links Kapila the teacher with Krishna at Guruvayur. The closing prayer 'gad-anvaya-hara' (destroyer of the succession of diseases) carries Bhattathiri's personal anguish — his rheumatic ailment that drove him to compose this masterwork.",
+          words: [
+            { word: "विबोध्य", transliteration: "vibōdhya", meaning: "having enlightened, taught" },
+            { word: "जननीम्", transliteration: "jananīm", meaning: "the mother (Devahuti)" },
+            { word: "परमार्थतत्त्वम्", transliteration: "paramārthattatvam", meaning: "the supreme truth" },
+            { word: "सांख्यप्रणालि", transliteration: "sāṅkhyapranāli", meaning: "the Sankhya system/methodology" },
+            { word: "विशदीकृत", transliteration: "viśadīkṛta", meaning: "made luminous/clear" },
+            { word: "योगमार्गम्", transliteration: "yōgamārgam", meaning: "the path of Yoga" },
+            { word: "भक्तिम् अचलाम्", transliteration: "bhaktim acalām", meaning: "unwavering devotion" },
+            { word: "गुरुपुङ्गवः", transliteration: "gurupuṅgavaḥ", meaning: "foremost of Gurus" },
+            { word: "गदान्वयहरः", transliteration: "gadānvayaharaḥ", meaning: "destroyer of the succession of diseases" },
+            { word: "भव", transliteration: "bhava", meaning: "be, become" },
+            { word: "वातनाथ", transliteration: "vātanātha", meaning: "O Lord of Guruvayur (Lord of Vata/wind)" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 20,
