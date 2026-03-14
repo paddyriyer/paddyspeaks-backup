@@ -1184,7 +1184,7 @@ const VISHNU_DATA = {
       ],
       "english_halves": [
         "Bhaga-van bhagaha-nandee vana-malee hala-yudhah",
-        "Adityo jyoti-radityah shishnur-gati-sattamah"
+        "Adityo jyoti-radityah sahishnur-gati-sattamah"
       ]
     },
     {
@@ -1312,7 +1312,7 @@ const VISHNU_DATA = {
       ],
       "english_halves": [
         "Archishma narchitah kumbho vishu-ddhatma visho-dhanah",
-        "Aniriddho pratirathah pradyumno mita-vikramah"
+        "Aniriddho apratirathah pradyumno mita-vikramah"
       ]
     },
     {
@@ -1327,7 +1327,7 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Kala-neminiha shourih shoora shoora-jane-shvarah",
+        "Kala-neminiha veerah shourih shoora-jane-shvarah",
         "Tilo-katma trilo-keshah keshavah keshiha harih"
       ]
     },
@@ -1359,8 +1359,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Bramhanyo bramha-krut bramha barmha bramha vivar-dhanah",
-        "Bramha-vitbramahno bramhee bramhagno bramhana-ptiyah"
+        "Brahmanyo brahma-krut brahma brahma brahma vivar-dhanah",
+        "Brahma-vitbrahmano brahmee brahmagnoh brahmana-priyah"
       ]
     },
     {
@@ -1392,7 +1392,7 @@ const VISHNU_DATA = {
       ],
       "english_halves": [
         "Stavya-stava-priya stotram stuta stotaa rana priyah",
-        "Poornah poorayita punyah punya-keerti rana-mayah"
+        "Poornah poorayita punyah punya-keerti ana-mayah"
       ]
     },
     {
