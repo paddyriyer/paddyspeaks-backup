@@ -78,6 +78,28 @@ body {
     font-weight: 500;
 }
 
+.header-sections a.yt-btn,
+.header-sections a.yt-btn:visited,
+.header-sections a.yt-btn:link {
+    display: inline-block;
+    background: #cc0000 !important;
+    color: #ffffff !important;
+    padding: 0.25rem 0.85rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: background 0.3s;
+    border: none;
+}
+
+.header-sections a.yt-btn:hover {
+    background: #990000 !important;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
 /* --- Reading Progress Bar --- */
 .progress-bar {
     position: fixed;
@@ -739,6 +761,22 @@ body {
 
 .chapter-index-card:hover .chapter-index-read {
     color: var(--color-gold-light);
+}
+
+/* --- Dhyana Sloka Index Card --- */
+.dhyana-index-card {
+    border-left-color: var(--color-gold-light);
+    background: linear-gradient(135deg, #fef9f0 0%, var(--color-white) 100%);
+    border-top: 1px solid rgba(218, 165, 32, 0.2);
+}
+
+.dhyana-index-card:hover {
+    border-left-color: var(--color-saffron);
+}
+
+.dhyana-index-card .chapter-index-number {
+    color: var(--color-gold-light);
+    font-size: 0.75rem;
 }
 
 #chapter-index {

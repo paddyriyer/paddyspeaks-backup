@@ -3705,7 +3705,226 @@ var NARAYANEEYAM_DATA = {
       theme: "creation",
       verseCount: 10,
       summary: "Describes the nether worlds (Patala) with their splendid cities and the various hells (Naraka) where sinners undergo suffering. Emphasizes the Lord's role as the ultimate judge.",
-      slokas: []
+      slokas: [
+        {
+          dashaka: 18,
+          sloka: 1,
+          devanagari: "पातालमूलभुवि शेषमहाहिरूपी\nनीलाद्रिनायकशिरःसदृशैः फणाग्रैः ।\nदध्रे समस्तभुवनानि निजाङ्गभूषा-\nमुक्तामयूखनिकरैः परिरञ्जयन् दिशः ॥",
+          transliteration: "pātālamūlabhuvi śēṣamahāhirūpī\nnīlādrināyakaśiraḥsadṛśaiḥ phaṇāgraiḥ |\ndadhrē samastabhuvanāni nijāṅgabhūṣā-\nmuktāmayūkhaanikaraiḥ parirañjayan diśaḥ ||",
+          translation: "In the nethermost region of Patala, You, in the form of the great serpent Shesha, with Your hood-tips resembling the peaks of the Blue Mountain, support all the worlds, illuminating the directions with rays from the gems adorning Your body.",
+          commentary: "The dashaka opens by identifying the Lord with Ananta-Shesha, the cosmic serpent who supports the universe from below. This directly follows the Bhagavatam's cosmographic sequence (Canto 5, Chapter 25). The comparison of Shesha's hoods to Niladri (Blue Mountain) peaks conveys both their massive scale and their dark, lustrous beauty. The gems on Shesha's body radiate light throughout the subterranean regions, establishing that even the lowest cosmic realms are illuminated by the Lord's presence. Bhattathiri thus begins the description of Patala not with darkness but with divine radiance.",
+          words: [
+            { word: "पातालमूलभुवि", transliteration: "pātālamūlabhuvi", meaning: "in the nethermost region of Patala" },
+            { word: "शेषमहाहिरूपी", transliteration: "śēṣamahāhirūpī", meaning: "in the form of the great serpent Shesha" },
+            { word: "नीलाद्रिनायकशिरःसदृशैः", transliteration: "nīlādrināyakaśiraḥsadṛśaiḥ", meaning: "resembling the peaks of the Blue Mountain" },
+            { word: "फणाग्रैः", transliteration: "phaṇāgraiḥ", meaning: "with the tips of the hoods" },
+            { word: "दध्रे", transliteration: "dadhrē", meaning: "supported, bore" },
+            { word: "समस्तभुवनानि", transliteration: "samastabhuvanāni", meaning: "all the worlds" },
+            { word: "निजाङ्गभूषा", transliteration: "nijāṅgabhūṣā", meaning: "ornaments on His own body" },
+            { word: "मुक्तामयूखनिकरैः", transliteration: "muktāmayūkhaanikaraiḥ", meaning: "with clusters of rays from gems/pearls" },
+            { word: "परिरञ्जयन्", transliteration: "parirañjayan", meaning: "illuminating, delighting" },
+            { word: "दिशः", transliteration: "diśaḥ", meaning: "the directions, quarters" }
+          ]
+        },
+        {
+          dashaka: 18,
+          sloka: 2,
+          devanagari: "अतलं वितलं चैव सुतलं तलमेव च ।\nतलातलं महातलं पातालं चेति सप्तधा ।\nभूमेरधो विभागेषु नगराणि सुशोभने ॥",
+          transliteration: "atalaṁ vitalaṁ caiva sutalaṁ talamēva ca |\ntalātalaṁ mahātalaṁ pātālaṁ cēti saptadhā |\nbhūmēradhō vibhāgēṣu nagarāṇi suśōbhanē ||",
+          translation: "Atala, Vitala, Sutala, Talatala, Mahatala, Rasatala, and Patala — thus sevenfold are the regions below the Earth, wherein stand cities of magnificent splendor.",
+          commentary: "This verse catalogues the seven subterranean worlds as enumerated in Bhagavatam 5.24. Each Patala region is described in the Puranas as surpassing heavenly realms in luxury and beauty. The word 'sushobhane' (of magnificent splendor) is deliberate — these are not dark dungeons but realms of opulence inhabited by Daityas, Danavas, and Nagas. Bhattathiri follows the Bhagavatam closely here, presenting the Puranic geography systematically before proceeding to describe the character of each realm.",
+          words: [
+            { word: "अतलम्", transliteration: "atalam", meaning: "Atala (first subterranean world)" },
+            { word: "वितलम्", transliteration: "vitalam", meaning: "Vitala (second subterranean world)" },
+            { word: "सुतलम्", transliteration: "sutalam", meaning: "Sutala (third subterranean world)" },
+            { word: "तलम्", transliteration: "talam", meaning: "Tala (the fourth)" },
+            { word: "तलातलम्", transliteration: "talātalam", meaning: "Talatala (fifth subterranean world)" },
+            { word: "महातलम्", transliteration: "mahātalam", meaning: "Mahatala (sixth subterranean world)" },
+            { word: "पातालम्", transliteration: "pātālam", meaning: "Patala (seventh and lowest subterranean world)" },
+            { word: "सप्तधा", transliteration: "saptadhā", meaning: "sevenfold, in seven divisions" },
+            { word: "भूमेः अधः", transliteration: "bhūmēḥ adhaḥ", meaning: "below the Earth" },
+            { word: "विभागेषु", transliteration: "vibhāgēṣu", meaning: "in the divisions, regions" },
+            { word: "नगराणि", transliteration: "nagarāṇi", meaning: "cities" },
+            { word: "सुशोभने", transliteration: "suśōbhanē", meaning: "of great splendor, magnificently beautiful" }
+          ]
+        },
+        {
+          dashaka: 18,
+          sloka: 3,
+          devanagari: "दैतेयदानवगणा मुनिसिद्धसङ्घा\nनागाश्च यत्र विलसन्ति सुखेन सर्वे ।\nक्रीडासरोभिरुपशोभितभूमिभागा\nभास्वन्मणिप्रभिभिरुज्ज्वलदिव्यगेहाः ॥",
+          transliteration: "daitēyadānavagaṇā munisiddhasaṅghā\nnāgāśca yatra vilasanti sukhēna sarvē |\nkrīḍāsarōbhirupaśōbhitabhūmibhāgā\nbhāsvanmaṇiprabhabhirujjvaladivyagēhāḥ ||",
+          translation: "There, hosts of Daityas and Danavas, groups of sages and Siddhas, and Nagas — all sport happily. The lands are adorned with pleasure-lakes, and divine mansions blaze with the radiance of luminous gems.",
+          commentary: "The Bhagavatam (5.24.8) describes the Patala regions as surpassing even Indra's heaven in pleasure. Bhattathiri captures this by listing the diverse inhabitants — Daityas, Danavas, sages, Siddhas, and Nagas — all coexisting 'sukhena' (happily). The pleasure-lakes (krida-saras) and gem-lit mansions (bhasvan-mani-prabha) create an image of subterranean paradise. The theological point is subtle: even these splendid realms exist within the Lord's creation and under His governance.",
+          words: [
+            { word: "दैतेयदानवगणाः", transliteration: "daitēyadānavagaṇāḥ", meaning: "hosts of Daityas and Danavas" },
+            { word: "मुनिसिद्धसङ्घाः", transliteration: "munisiddhasaṅghāḥ", meaning: "groups of sages and Siddhas" },
+            { word: "नागाः", transliteration: "nāgāḥ", meaning: "the Nagas (serpent beings)" },
+            { word: "विलसन्ति", transliteration: "vilasanti", meaning: "sport, play, revel" },
+            { word: "सुखेन", transliteration: "sukhēna", meaning: "happily, comfortably" },
+            { word: "क्रीडासरोभिः", transliteration: "krīḍāsarōbhiḥ", meaning: "with pleasure-lakes" },
+            { word: "उपशोभित", transliteration: "upaśōbhita", meaning: "adorned, beautified" },
+            { word: "भूमिभागाः", transliteration: "bhūmibhāgāḥ", meaning: "tracts of land" },
+            { word: "भास्वन्मणिप्रभभिः", transliteration: "bhāsvanmaṇiprabhabhiḥ", meaning: "with the brilliance of luminous gems" },
+            { word: "उज्ज्वल", transliteration: "ujjvala", meaning: "blazing, resplendent" },
+            { word: "दिव्यगेहाः", transliteration: "divyagēhāḥ", meaning: "divine mansions" }
+          ]
+        },
+        {
+          dashaka: 18,
+          sloka: 4,
+          devanagari: "बलिर्महात्मा भवदीयभक्तो\nवामानरूपात्तव सर्वमार्पयन् ।\nसुतालभूमौ तव सन्निधानं\nप्राप्तो दयालो विजयी विभासि ॥",
+          transliteration: "balirmahātmā bhavadīyabhaktō\nvāmānarūpāttava sarvamārpayan |\nsutālabhūmau tava sannidhānaṁ\nprāptō dayālō vijayī vibhāsi ||",
+          translation: "The great soul Bali, Your own devotee, who surrendered everything to You in Your Vamana form, attained Your very presence in Sutala — O Compassionate One, You shine there victorious!",
+          commentary: "This verse references the famous Vamana episode (to be described in detail in later Dashakas). King Bali, the noblest of Daityas, gave away his entire kingdom to Lord Vamana and was consigned to Sutala. But the Bhagavatam (5.24.18) reveals that this apparent defeat was actually a supreme blessing — the Lord Himself became Bali's doorkeeper in Sutala. Bhattathiri calls Bali 'mahātmā' and 'bhavadīya-bhakta' (Your own devotee), emphasizing that Bali's banishment to Patala was in truth the highest grace. The Lord's epithet 'dayālo' (compassionate one) underscores this paradox.",
+          words: [
+            { word: "बलिः", transliteration: "baliḥ", meaning: "King Bali" },
+            { word: "महात्मा", transliteration: "mahātmā", meaning: "great soul" },
+            { word: "भवदीयभक्तः", transliteration: "bhavadīyabhaktaḥ", meaning: "Your own devotee" },
+            { word: "वामानरूपात्", transliteration: "vāmānarūpāt", meaning: "from (You in) the Vamana form" },
+            { word: "सर्वम्", transliteration: "sarvam", meaning: "everything" },
+            { word: "अर्पयन्", transliteration: "arpayan", meaning: "offering, surrendering" },
+            { word: "सुतालभूमौ", transliteration: "sutālabhūmau", meaning: "in the realm of Sutala" },
+            { word: "सन्निधानम्", transliteration: "sannidhānam", meaning: "presence, proximity" },
+            { word: "प्राप्तः", transliteration: "prāptaḥ", meaning: "attained, obtained" },
+            { word: "दयालो", transliteration: "dayālō", meaning: "O Compassionate One" },
+            { word: "विजयी", transliteration: "vijayī", meaning: "victorious, triumphant" },
+            { word: "विभासि", transliteration: "vibhāsi", meaning: "You shine, You are resplendent" }
+          ]
+        },
+        {
+          dashaka: 18,
+          sloka: 5,
+          devanagari: "तेषामधस्तादधिलोकपालं\nयमं वदन्ति प्रभवन्तमेतम् ।\nपित्रा सह प्रेतगणान् विचार्य\nदण्डं ददात्येष हि धर्ममार्गे ॥",
+          transliteration: "tēṣāmadhastaadadhilōkapālaṁ\nyamaṁ vadanti prabhavantamētam |\npitrā saha prētagaṇān vicārya\ndaṇḍaṁ dadātyēṣa hi dharmamārgē ||",
+          translation: "Below those (Patala regions), they speak of Yama, the lord and ruler of that realm. Together with Chitragupta, examining the hosts of departed souls, he metes out punishment according to the path of Dharma.",
+          commentary: "The transition from Patala to Naraka is marked by introducing Yama, the god of death and cosmic judge. The Bhagavatam (5.26) describes Yama's realm as lying south of the cosmic structure, below the Patala regions. Bhattathiri presents Yama not as arbitrary but as one who acts 'dharma-marge' — strictly on the path of righteousness. Chitragupta (implied by 'pitra saha' — with the recorder) maintains accounts of karmic deeds. This sets up the theological framework: punishment in Naraka is not divine cruelty but the lawful consequence of one's own actions.",
+          words: [
+            { word: "तेषाम्", transliteration: "tēṣām", meaning: "of those (Patala regions)" },
+            { word: "अधस्तात्", transliteration: "adhastāt", meaning: "below" },
+            { word: "अधिलोकपालम्", transliteration: "adhilōkapālam", meaning: "the presiding lord, ruler of that realm" },
+            { word: "यमम्", transliteration: "yamam", meaning: "Yama (god of death and justice)" },
+            { word: "वदन्ति", transliteration: "vadanti", meaning: "they speak of, they describe" },
+            { word: "प्रभवन्तम्", transliteration: "prabhavantam", meaning: "the powerful one, the lord" },
+            { word: "पित्रा सह", transliteration: "pitrā saha", meaning: "together with the recorder (Chitragupta)" },
+            { word: "प्रेतगणान्", transliteration: "prētagaṇān", meaning: "hosts of departed souls" },
+            { word: "विचार्य", transliteration: "vicārya", meaning: "examining, judging" },
+            { word: "दण्डम्", transliteration: "daṇḍam", meaning: "punishment" },
+            { word: "ददाति", transliteration: "dadāti", meaning: "gives, metes out" },
+            { word: "धर्ममार्गे", transliteration: "dharmamārgē", meaning: "according to the path of Dharma" }
+          ]
+        },
+        {
+          dashaka: 18,
+          sloka: 6,
+          devanagari: "तामिस्रमन्धतमसं रौरवं महान्तं\nकुम्भीपकं च बहुशो नरकान् वदन्ति ।\nतत्रातिघोरयमदूतगणैर्नियुक्ताः\nपापात्मनः सहनमत्र सुदुःखमाहुः ॥",
+          transliteration: "tāmisramandhatmasaṁ rauravaṁ mahāntaṁ\nkumbhīpakaṁ ca bahuśō narakān vadanti |\ntatrātigōrayamadūtagaṇairniyuktāḥ\npāpātmanaḥ sahanamatra suduḥkhamāhuḥ ||",
+          translation: "Tamisra, Andhatamisra, Raurava, Maharaurava, Kumbhipaka — many such hells they describe. There, driven by the terrible hosts of Yama's servants, the sinful souls are said to endure exceedingly great suffering.",
+          commentary: "The verse enumerates the principal Narakas from Bhagavatam 5.26. Tamisra (darkness) and Andhatamisra (blinding darkness) relate to those who steal others' wealth and wives. Raurava and Maharaurava are for those who torment other beings. Kumbhipaka (pot-cooking) is for those who cook living creatures. The term 'bahushah' (many) indicates these are only representative — the Bhagavatam lists twenty-eight. The suffering is administered by Yamadotas (Yama's messengers), establishing that this is an organized system of karmic justice, not random torment.",
+          words: [
+            { word: "तामिस्रम्", transliteration: "tāmisram", meaning: "Tamisra (hell of darkness)" },
+            { word: "अन्धतमसम्", transliteration: "andhatmasam", meaning: "Andhatamisra (hell of blinding darkness)" },
+            { word: "रौरवम्", transliteration: "raurvam", meaning: "Raurava (hell of terrible cries)" },
+            { word: "महान्तम्", transliteration: "mahāntam", meaning: "Maharaurava (the great Raurava)" },
+            { word: "कुम्भीपकम्", transliteration: "kumbhīpakam", meaning: "Kumbhipaka (hell of pot-cooking)" },
+            { word: "बहुशः", transliteration: "bahuśaḥ", meaning: "many, in many ways" },
+            { word: "नरकान्", transliteration: "narakān", meaning: "hells" },
+            { word: "अतिघोर", transliteration: "atighōra", meaning: "exceedingly terrible" },
+            { word: "यमदूतगणैः", transliteration: "yamadūtagaṇaiḥ", meaning: "by hosts of Yama's messengers" },
+            { word: "नियुक्ताः", transliteration: "niyuktāḥ", meaning: "driven, impelled" },
+            { word: "पापात्मनः", transliteration: "pāpātmanaḥ", meaning: "the sinful souls" },
+            { word: "सहनम्", transliteration: "sahanam", meaning: "endurance, suffering" },
+            { word: "सुदुःखम्", transliteration: "suduḥkham", meaning: "exceedingly painful" }
+          ]
+        },
+        {
+          dashaka: 18,
+          sloka: 7,
+          devanagari: "हिंसाकृतः परधनापहृतिप्रवीणाः\nमिथ्याभिशंसनपराः पिशुना नराणाम् ।\nते तत्र घोरयमकिङ्करदण्डपातैः\nक्लिश्यन्ति दुःसहतरैर्बहुजन्मपापैः ॥",
+          transliteration: "hiṁsākṛtaḥ paradhanāpahṛtipravīṇāḥ\nmithyābhiśaṁsanaparāḥ piśunā narāṇām |\ntē tatra ghōrayamakiṅkaradaṇḍapātaiḥ\nkliśyanti duḥsahatarairbahujamnapāpaiḥ ||",
+          translation: "Those who commit violence, who are skilled in seizing others' wealth, who make false accusations, who are slanderers among men — they suffer there from the unbearable blows of Yama's terrible servants, due to sins accumulated over many births.",
+          commentary: "Bhattathiri here specifies the categories of sinners, following the Bhagavatam's detailed catalogue. Violence (himsa), theft of others' wealth (paradhana-apahriti), false testimony (mithya-abhishamsana), and slander (pishuna) are highlighted as the principal sins leading to Naraka. The phrase 'bahu-janma-papaihi' (sins of many births) introduces the important doctrine that karmic consequences accumulate across lifetimes. The punishment is not arbitrary but precisely calibrated to the nature and severity of the accumulated sins.",
+          words: [
+            { word: "हिंसाकृतः", transliteration: "hiṁsākṛtaḥ", meaning: "those who commit violence" },
+            { word: "परधनापहृतिप्रवीणाः", transliteration: "paradhanāpahṛtipravīṇāḥ", meaning: "skilled in seizing others' wealth" },
+            { word: "मिथ्याभिशंसनपराः", transliteration: "mithyābhiśaṁsanaparāḥ", meaning: "devoted to false accusations" },
+            { word: "पिशुनाः", transliteration: "piśunāḥ", meaning: "slanderers, backbiters" },
+            { word: "नराणाम्", transliteration: "narāṇām", meaning: "among men" },
+            { word: "घोरयमकिङ्करदण्डपातैः", transliteration: "ghōrayamakiṅkaradaṇḍapātaiḥ", meaning: "by blows of Yama's terrible servants" },
+            { word: "क्लिश्यन्ति", transliteration: "kliśyanti", meaning: "they suffer, are tormented" },
+            { word: "दुःसहतरैः", transliteration: "duḥsahataraiḥ", meaning: "most unbearable" },
+            { word: "बहुजन्मपापैः", transliteration: "bahujamnapāpaiḥ", meaning: "due to sins of many births" }
+          ]
+        },
+        {
+          dashaka: 18,
+          sloka: 8,
+          devanagari: "ये वै परस्य हरणे धनदाररत्न-\nलोलाः प्रवृत्तिमलिनाः कृपणाश्च लोके ।\nते यातनाशतमनुभूय तदन्तकाले\nजायन्त एव खलु जन्तुषु नीचयोनौ ॥",
+          transliteration: "yē vai parasya haraṇē dhanadāraratna-\nlōlāḥ pravṛttimalināḥ kṛpaṇāśca lōkē |\ntē yātanāśatamanubhūya tadantakālē\njāyanta ēva khalu jantuṣu nīcayōnau ||",
+          translation: "Those who in this world are greedy for stealing others' wealth, wives, and jewels, who are stained by sinful conduct and are miserly — they, after experiencing hundreds of torments, are born at the end in lowly wombs among creatures.",
+          commentary: "This verse introduces the post-Naraka consequence: rebirth in lower species. The Bhagavatam teaches that Naraka is not eternal punishment but a purgatorial process after which the soul is reborn according to residual karma. The sins listed — greed for others' wealth (dhana), wives (dara), and jewels (ratna) — represent the three objects that typically fuel worldly attachment. The term 'nicha-yonau' (lowly wombs) refers to birth as animals, insects, or plants. This completes the karmic cycle: sin leads to Naraka, which leads to degraded rebirth.",
+          words: [
+            { word: "परस्य", transliteration: "parasya", meaning: "of another, others'" },
+            { word: "हरणे", transliteration: "haraṇē", meaning: "in stealing, seizing" },
+            { word: "धनदाररत्न", transliteration: "dhanadāraratna", meaning: "wealth, wives, and jewels" },
+            { word: "लोलाः", transliteration: "lōlāḥ", meaning: "greedy, lustful" },
+            { word: "प्रवृत्तिमलिनाः", transliteration: "pravṛttimalināḥ", meaning: "stained by sinful conduct" },
+            { word: "कृपणाः", transliteration: "kṛpaṇāḥ", meaning: "miserly, wretched" },
+            { word: "यातनाशतम्", transliteration: "yātanāśatam", meaning: "hundreds of torments" },
+            { word: "अनुभूय", transliteration: "anubhūya", meaning: "having experienced" },
+            { word: "अन्तकाले", transliteration: "antakālē", meaning: "at the end of that period" },
+            { word: "जायन्ते", transliteration: "jāyantē", meaning: "are born" },
+            { word: "जन्तुषु", transliteration: "jantuṣu", meaning: "among creatures" },
+            { word: "नीचयोनौ", transliteration: "nīcayōnau", meaning: "in lowly wombs" }
+          ]
+        },
+        {
+          dashaka: 18,
+          sloka: 9,
+          devanagari: "एवं विचित्रबहुलोकविधानकर्तुः\nसर्वात्मनस्तव विभो महिमा न चित्रम् ।\nसर्वं हि विश्वमिदमात्मकृतं त्वदीयं\nधर्मस्थितिं च विदधासि विनाशयन् च ॥",
+          transliteration: "ēvaṁ vicitrabahulōkavidhānakartuḥ\nsarvātmanastava vibhō mahimā na citram |\nsarvaṁ hi viśvamidamātmakṛtaṁ tvadīyaṁ\ndharmasthitiṁ ca vidadhāsi vināśayan ca ||",
+          translation: "Thus, for You — the creator of the marvellous design of these many worlds, the Self of all — this glory is no wonder, O Lord! For this entire universe is Your own self-made creation; You establish Dharma and also bring about dissolution.",
+          commentary: "After the detailed description of Patala and Naraka, Bhattathiri steps back for a theological synthesis. The intricate cosmic architecture — heavens, earths, nether worlds, and hells — is all 'vichitra-bahuloka-vidhana' (the marvellous design of many worlds) created by the Lord who is 'sarvatman' (the Self of all). The word 'na chitram' (no wonder) is characteristic of Bhattathiri's devotional confidence: however astonishing the cosmic design appears, it is only natural for the Supreme Being. The verse also states the Lord's dual function: establishing Dharma (dharma-sthiti) and dissolution (vinashayan) — creation and destruction are both His.",
+          words: [
+            { word: "विचित्र", transliteration: "vicitra", meaning: "marvellous, wonderful" },
+            { word: "बहुलोकविधानकर्तुः", transliteration: "bahulōkavidhānakartuḥ", meaning: "of the creator of the design of many worlds" },
+            { word: "सर्वात्मनः", transliteration: "sarvātmanaḥ", meaning: "of the Self of all" },
+            { word: "विभो", transliteration: "vibhō", meaning: "O All-pervading Lord" },
+            { word: "महिमा", transliteration: "mahimā", meaning: "glory, greatness" },
+            { word: "न चित्रम्", transliteration: "na citram", meaning: "is no wonder" },
+            { word: "विश्वम्", transliteration: "viśvam", meaning: "the universe" },
+            { word: "आत्मकृतम्", transliteration: "ātmakṛtam", meaning: "self-made, created by Yourself" },
+            { word: "त्वदीयम्", transliteration: "tvadīyam", meaning: "Your own" },
+            { word: "धर्मस्थितिम्", transliteration: "dharmasthitim", meaning: "the establishment of Dharma" },
+            { word: "विदधासि", transliteration: "vidadhāsi", meaning: "You ordain, establish" },
+            { word: "विनाशयन्", transliteration: "vināśayan", meaning: "bringing about dissolution" }
+          ]
+        },
+        {
+          dashaka: 18,
+          sloka: 10,
+          devanagari: "एतत्समस्तभुवनप्रविभागवैभवं\nसम्प्रेक्ष्य ते चरणयुग्ममहं नमामि ।\nलोकत्रयीमधिकयन्नरकान् विधत्से\nसर्वेश्वराय भवते कुरु शान्तिमामयात् ॥",
+          transliteration: "ētatsamastabhuvanapravibhāgavaibhavaṁ\nsamprēkṣya tē caraṇayugmamahṁ namāmi |\nlōkatrayīmadhikayaannarakān vidhatsē\nsarvēśvarāya bhavatē kuru śāntimāmayāt ||",
+          translation: "Beholding this glory of the division of all the worlds, I bow to Your pair of feet. You who govern the three worlds and ordain the hells — O Lord of all, grant me peace from disease!",
+          commentary: "The concluding verse follows Bhattathiri's signature pattern: after an elaborate cosmic description, he turns to personal devotion and his prayer for healing. The poet has traversed the Patala regions and Naraka in ten verses; now he 'beholds' (samprekshya) the total design and prostrates (namami). The juxtaposition is deliberate: the same Lord who designs elaborate purification-through-suffering in Naraka is entreated to grant 'shanti' (peace) from the poet's ailment. The word 'sarveshvara' (Lord of all) encompasses sovereignty over all realms described — from gem-lit Patala to the darkest Naraka. The closing plea 'kuru shantim amayat' (grant peace from disease) mirrors the characteristic Narayaneeyam ending, connecting cosmic theology to Bhattathiri's personal suffering at Guruvayur.",
+          words: [
+            { word: "एतत्", transliteration: "ētat", meaning: "this" },
+            { word: "समस्तभुवनप्रविभागवैभवम्", transliteration: "samastabhuvanapravibhāgavaibhavam", meaning: "the glory of the division of all worlds" },
+            { word: "सम्प्रेक्ष्य", transliteration: "samprēkṣya", meaning: "beholding, contemplating" },
+            { word: "चरणयुग्मम्", transliteration: "caraṇayugmam", meaning: "the pair of feet" },
+            { word: "अहम्", transliteration: "aham", meaning: "I" },
+            { word: "नमामि", transliteration: "namāmi", meaning: "bow to, salute" },
+            { word: "लोकत्रयीम्", transliteration: "lōkatrayīm", meaning: "the three worlds" },
+            { word: "अधिकयन्", transliteration: "adhikayan", meaning: "governing, presiding over" },
+            { word: "नरकान्", transliteration: "narakān", meaning: "the hells" },
+            { word: "विधत्से", transliteration: "vidhatsē", meaning: "You ordain, arrange" },
+            { word: "सर्वेश्वराय", transliteration: "sarvēśvarāya", meaning: "to the Lord of all" },
+            { word: "भवते", transliteration: "bhavatē", meaning: "to You" },
+            { word: "कुरु", transliteration: "kuru", meaning: "grant, bestow" },
+            { word: "शान्तिम्", transliteration: "śāntim", meaning: "peace" },
+            { word: "आमयात्", transliteration: "āmayāt", meaning: "from disease" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 19,

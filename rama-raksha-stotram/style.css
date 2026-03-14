@@ -1,31 +1,38 @@
 /* ============================================
-   Sri Lalitha Sahasranama - Chanting Guide
+   Sri Rama Raksha Stotram
+   The Protective Armour of Lord Rama
    ============================================ */
 
 /* --- CSS Custom Properties --- */
 :root {
-    --color-bg: #fdf8f0;
-    --color-bg-alt: #f7efe3;
-    --color-text: #2c1810;
-    --color-text-muted: #6b5744;
-    --color-vermilion: #c41e3a;
-    --color-vermilion-light: #e8a0ad;
-    --color-vermilion-pale: #fdf0f2;
+    --color-bg: #f5f0eb;
+    --color-bg-alt: #ede5db;
+    --color-text: #1a2332;
+    --color-text-muted: #5a4a3a;
+    --color-rama-blue: #1565c0;
+    --color-rama-blue-light: #42a5f5;
+    --color-rama-blue-pale: #e3f2fd;
     --color-gold: #b8860b;
     --color-gold-light: #daa520;
-    --color-saffron: #ff6f00;
-    --color-border: #d4c4b0;
-    --color-border-light: #e8ddd0;
+    --color-saffron: #e65100;
+    --color-border: #c8b8a4;
+    --color-border-light: #ddd0c0;
     --color-white: #ffffff;
+    --color-dhyanam-bg: #fff8e1;
+    --color-dhyanam-border: #e8c880;
+    --color-phala-bg: #e8f5e9;
+    --color-phala-border: #66bb6a;
+    --color-additional-bg: #f3e5f5;
+    --color-additional-border: #ab47bc;
 
     --font-display: 'Playfair Display', Georgia, serif;
     --font-body: 'Source Serif 4', 'Georgia', serif;
     --font-devanagari: 'Noto Sans Devanagari', sans-serif;
 
     --radius: 8px;
-    --shadow-sm: 0 1px 3px rgba(44, 24, 16, 0.08);
-    --shadow-md: 0 4px 12px rgba(44, 24, 16, 0.1);
-    --shadow-lg: 0 8px 24px rgba(44, 24, 16, 0.12);
+    --shadow-sm: 0 1px 3px rgba(26, 35, 50, 0.08);
+    --shadow-md: 0 4px 12px rgba(26, 35, 50, 0.1);
+    --shadow-lg: 0 8px 24px rgba(26, 35, 50, 0.12);
 }
 
 /* --- Reset & Base --- */
@@ -54,8 +61,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1.5rem;
-    background: #1a1210;
-    color: #a09080;
+    background: #0d1b2a;
+    color: #8899aa;
     font-family: var(--font-body);
     font-size: 0.75rem;
     letter-spacing: 0.03em;
@@ -63,7 +70,7 @@ body {
 }
 
 .top-bar a {
-    color: #c4a882;
+    color: #a0b8d0;
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -82,7 +89,7 @@ body {
     top: 0;
     left: 0;
     height: 3px;
-    background: linear-gradient(90deg, var(--color-vermilion), var(--color-gold));
+    background: linear-gradient(90deg, var(--color-rama-blue), var(--color-gold));
     z-index: 1000;
     transition: width 0.1s ease;
     width: 0%;
@@ -90,7 +97,7 @@ body {
 
 /* --- Header --- */
 .site-header {
-    background: linear-gradient(135deg, #2c1810 0%, #4a2520 50%, #2c1810 100%);
+    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 50%, #0d47a1 100%);
     color: var(--color-white);
     text-align: center;
     padding: 3rem 1.5rem 2.5rem;
@@ -105,7 +112,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(ellipse at center, rgba(196, 30, 58, 0.15) 0%, transparent 70%);
+    background: radial-gradient(ellipse at center, rgba(255, 215, 0, 0.12) 0%, transparent 70%);
     pointer-events: none;
 }
 
@@ -119,16 +126,16 @@ body {
     font-size: 1.5rem;
     color: var(--color-gold-light);
     margin-bottom: 1rem;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .site-title {
     font-family: var(--font-display);
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
     letter-spacing: 0.02em;
     margin-bottom: 0.5rem;
-    background: linear-gradient(135deg, #fff 0%, #daa520 100%);
+    background: linear-gradient(135deg, #fff 0%, #ffd54f 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -160,8 +167,8 @@ body {
 .header-tag {
     font-size: 0.7rem;
     padding: 0.25rem 0.75rem;
-    background: rgba(218, 165, 32, 0.15);
-    border: 1px solid rgba(218, 165, 32, 0.3);
+    background: rgba(255, 213, 79, 0.15);
+    border: 1px solid rgba(255, 213, 79, 0.3);
     border-radius: 20px;
     color: rgba(255, 255, 255, 0.85);
     letter-spacing: 0.02em;
@@ -187,11 +194,11 @@ body {
 
 .nav-btn {
     flex: 1;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 0.5rem;
     border: none;
     background: transparent;
     font-family: var(--font-body);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: var(--color-text-muted);
     cursor: pointer;
     border-bottom: 3px solid transparent;
@@ -199,13 +206,13 @@ body {
 }
 
 .nav-btn:hover {
-    color: var(--color-vermilion);
-    background: var(--color-vermilion-pale);
+    color: var(--color-rama-blue);
+    background: var(--color-rama-blue-pale);
 }
 
 .nav-btn.active {
-    color: var(--color-vermilion);
-    border-bottom-color: var(--color-vermilion);
+    color: var(--color-rama-blue);
+    border-bottom-color: var(--color-rama-blue);
     font-weight: 600;
 }
 
@@ -232,7 +239,7 @@ body {
 .section-heading {
     font-family: var(--font-display);
     font-size: 1.5rem;
-    color: var(--color-vermilion);
+    color: var(--color-rama-blue);
     text-align: center;
     margin-bottom: 0.5rem;
     padding-bottom: 0.75rem;
@@ -248,7 +255,7 @@ body {
     transform: translateX(-50%);
     width: 60px;
     height: 2px;
-    background: var(--color-vermilion);
+    background: var(--color-rama-blue);
 }
 
 .section-heading-sanskrit {
@@ -266,63 +273,105 @@ body {
     font-size: 0.9rem;
     font-style: italic;
     margin-bottom: 1.5rem;
-}
-
-/* --- Nyasa Block --- */
-.nyasa-content {
-    background: var(--color-bg-alt);
-    border: 1px solid var(--color-border-light);
-    border-radius: var(--radius);
-    padding: 1.5rem;
-    font-size: 0.95rem;
-    line-height: 1.9;
-    white-space: pre-line;
-}
-
-/* --- Dhyana Verse --- */
-.dhyana-verse {
-    background: var(--color-white);
-    border: 1px solid var(--color-border-light);
-    border-left: 4px solid var(--color-gold);
-    border-radius: var(--radius);
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    box-shadow: var(--shadow-sm);
-}
-
-.dhyana-verse .transliteration {
-    font-size: 1rem;
     line-height: 1.8;
-    color: var(--color-text);
+}
+
+.section-intro a {
+    color: var(--color-rama-blue);
+    text-decoration: none;
+}
+
+.section-intro a:hover {
+    text-decoration: underline;
+}
+
+.section-intro em {
+    color: var(--color-rama-blue);
+    font-weight: 500;
+}
+
+/* --- Section Divider --- */
+.section-divider {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--color-rama-blue);
+    font-weight: 600;
+    position: relative;
+}
+
+.section-divider::before,
+.section-divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 1px;
+    background: var(--color-border);
+}
+
+.section-divider::before {
+    right: calc(50% + 100px);
+}
+
+.section-divider::after {
+    left: calc(50% + 100px);
+}
+
+/* --- Expand/Collapse Controls --- */
+.expand-controls {
+    text-align: center;
     margin-bottom: 1rem;
-    white-space: pre-line;
-    font-style: italic;
 }
 
-.dhyana-verse .translation {
-    font-size: 0.88rem;
+.expand-btn {
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: var(--color-white);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
     color: var(--color-text-muted);
-    padding-top: 0.75rem;
-    border-top: 1px solid var(--color-border-light);
-    line-height: 1.6;
+    cursor: pointer;
+    margin: 0 0.25rem;
+    transition: all 0.15s ease;
 }
 
-/* --- Stotram Verse Card --- */
+.expand-btn:hover {
+    border-color: var(--color-rama-blue);
+    color: var(--color-rama-blue);
+}
+
+/* --- Verse Card --- */
 .verse-card {
     background: var(--color-white);
     border: 1px solid var(--color-border-light);
-    border-left: 4px solid var(--color-vermilion);
     border-radius: var(--radius);
     margin-bottom: 1.5rem;
     box-shadow: var(--shadow-sm);
     overflow: hidden;
-    transition: all 0.2s ease;
+    transition: box-shadow 0.2s ease;
 }
 
 .verse-card:hover {
     box-shadow: var(--shadow-md);
-    border-left-color: var(--color-gold);
-    transform: translateY(-1px);
+}
+
+.verse-card.verse-type {
+    border-left: 4px solid var(--color-rama-blue);
+}
+
+.verse-card.dhyanam-type {
+    border-left: 4px solid var(--color-gold);
+}
+
+.verse-card.phala-type {
+    border-left: 4px solid var(--color-phala-border);
+}
+
+.verse-card.additional-type {
+    border-left: 4px solid var(--color-additional-border);
 }
 
 .verse-header {
@@ -330,24 +379,48 @@ body {
     align-items: center;
     gap: 0.75rem;
     padding: 0.75rem 1.25rem;
-    background: linear-gradient(135deg, var(--color-vermilion-pale) 0%, var(--color-bg-alt) 100%);
+    background: linear-gradient(135deg, var(--color-rama-blue-pale) 0%, var(--color-bg-alt) 100%);
     border-bottom: 1px solid var(--color-border-light);
     cursor: pointer;
+}
+
+.dhyanam-type .verse-header {
+    background: linear-gradient(135deg, var(--color-dhyanam-bg) 0%, var(--color-bg-alt) 100%);
+}
+
+.phala-type .verse-header {
+    background: linear-gradient(135deg, var(--color-phala-bg) 0%, var(--color-bg-alt) 100%);
+}
+
+.additional-type .verse-header {
+    background: linear-gradient(135deg, var(--color-additional-bg) 0%, var(--color-bg-alt) 100%);
 }
 
 .verse-number {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 2.2rem;
-    height: 2.2rem;
+    width: 2.4rem;
+    height: 2.4rem;
     border-radius: 50%;
-    background: var(--color-vermilion);
+    background: var(--color-rama-blue);
     color: var(--color-white);
     font-family: var(--font-display);
     font-size: 0.8rem;
     font-weight: 700;
     flex-shrink: 0;
+}
+
+.dhyanam-type .verse-number {
+    background: var(--color-gold);
+}
+
+.phala-type .verse-number {
+    background: var(--color-phala-border);
+}
+
+.additional-type .verse-number {
+    background: var(--color-additional-border);
 }
 
 .verse-text-preview {
@@ -357,6 +430,41 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-family: var(--font-devanagari);
+}
+
+.verse-type-tag {
+    font-size: 0.6rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+.verse-type .verse-type-tag {
+    background: rgba(21, 101, 192, 0.1);
+    color: var(--color-rama-blue);
+    border: 1px solid rgba(21, 101, 192, 0.3);
+}
+
+.dhyanam-type .verse-type-tag {
+    background: rgba(184, 134, 11, 0.1);
+    color: var(--color-gold);
+    border: 1px solid rgba(184, 134, 11, 0.3);
+}
+
+.phala-type .verse-type-tag {
+    background: rgba(102, 187, 106, 0.1);
+    color: #2e7d32;
+    border: 1px solid rgba(102, 187, 106, 0.3);
+}
+
+.additional-type .verse-type-tag {
+    background: rgba(171, 71, 188, 0.1);
+    color: var(--color-additional-border);
+    border: 1px solid rgba(171, 71, 188, 0.3);
 }
 
 .verse-toggle {
@@ -378,123 +486,103 @@ body {
     display: none;
 }
 
-/* Shloka text within the verse card */
-.shloka-text {
-    font-size: 1rem;
+/* --- Devanagari Text Block --- */
+.devanagari-block {
+    font-family: var(--font-devanagari);
+    font-size: 1.15rem;
     line-height: 2;
-    padding: 1rem;
+    padding: 1.25rem;
     background: var(--color-bg-alt);
     border-radius: var(--radius);
     margin-bottom: 1rem;
     text-align: center;
-    font-style: italic;
     border: 1px solid var(--color-border-light);
+    color: var(--color-text);
+    white-space: pre-line;
 }
 
-.shloka-line {
-    display: block;
-    margin-bottom: 0.25rem;
-}
-
-.shloka-translations {
-    border-top: 1px solid var(--color-border-light);
-    margin-top: 0.75rem;
-    padding-top: 0.75rem;
-}
-
-.shloka-translation {
-    display: block;
-    font-size: 0.82rem;
-    font-style: normal;
-    color: var(--color-text-muted);
-    margin-bottom: 0.35rem;
-    line-height: 1.5;
-}
-
-.shloka-separator {
-    display: block;
-    color: var(--color-gold);
-    font-style: normal;
-    font-size: 0.8rem;
-    margin: 0.15rem 0;
-}
-
-/* Names breakdown within verse */
-.names-breakdown {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.name-row {
-    display: flex;
-    gap: 0.75rem;
-    padding: 0.6rem 0.75rem;
+/* --- Transliteration Block --- */
+.transliteration-block {
+    font-size: 0.95rem;
+    line-height: 1.9;
+    padding: 1rem 1.25rem;
+    background: var(--color-white);
     border-radius: var(--radius);
-    background: var(--color-bg);
-    border: 1px solid transparent;
-    transition: all 0.15s ease;
-    align-items: flex-start;
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: var(--color-text);
+    border: 1px solid var(--color-border-light);
+    text-align: center;
+    white-space: pre-line;
 }
 
-.name-row:hover {
-    border-color: var(--color-vermilion-light);
-    background: var(--color-vermilion-pale);
+/* --- English Translation Block --- */
+.english-block {
+    padding: 1rem 1.25rem;
+    margin-bottom: 0;
+    border-left: 3px solid var(--color-rama-blue);
+    background: var(--color-rama-blue-pale);
+    border-radius: 0 var(--radius) var(--radius) 0;
 }
 
-.name-num {
+.english-label {
     font-family: var(--font-display);
     font-size: 0.75rem;
-    color: var(--color-gold);
     font-weight: 600;
-    min-width: 2.5rem;
-    text-align: right;
-    padding-top: 0.15rem;
-    flex-shrink: 0;
+    color: var(--color-rama-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.4rem;
 }
 
-.name-details {
-    flex: 1;
+.english-text {
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: var(--color-text);
 }
 
-.name-iast {
-    font-family: var(--font-body);
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: var(--color-vermilion);
-    display: block;
-    line-height: 1.4;
-    font-style: italic;
+/* --- Overview --- */
+.overview-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
-.name-devanagari {
-    font-family: var(--font-devanagari);
-    font-size: 0.85rem;
-    font-weight: 500;
-    color: var(--color-text-muted);
-    display: block;
-    line-height: 1.4;
-    margin-top: 0.1rem;
-}
-
-.name-meaning {
-    font-size: 0.82rem;
-    color: var(--color-text-muted);
-    line-height: 1.5;
-    margin-top: 0.15rem;
-}
-
-/* --- Names Grid (All Names View) --- */
-.names-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-}
-
-.names-grid .name-row {
+.overview-card {
     background: var(--color-white);
     border: 1px solid var(--color-border-light);
+    border-radius: var(--radius);
+    padding: 1.5rem;
     box-shadow: var(--shadow-sm);
+}
+
+.overview-card h3 {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--color-rama-blue);
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.overview-card p {
+    margin-bottom: 0.75rem;
+    font-size: 0.92rem;
+    line-height: 1.7;
+}
+
+.overview-card p:last-child {
+    margin-bottom: 0;
+}
+
+.overview-card ul {
+    margin-left: 1.25rem;
+    font-size: 0.92rem;
+    line-height: 1.8;
+}
+
+.overview-card li {
+    margin-bottom: 0.35rem;
 }
 
 /* --- Search --- */
@@ -518,7 +606,7 @@ body {
 }
 
 .search-box input:focus {
-    border-color: var(--color-vermilion);
+    border-color: var(--color-rama-blue);
 }
 
 .search-box input::placeholder {
@@ -534,45 +622,14 @@ body {
     color: var(--color-text-muted);
 }
 
-/* --- Closing Block --- */
-.closing-block {
-    text-align: center;
-    padding: 2rem 0;
-}
-
-.closing-verse {
-    margin-bottom: 1.5rem;
-}
-
-.closing-verse .transliteration {
-    font-style: italic;
-    font-size: 0.95rem;
-    margin-bottom: 0.5rem;
-}
-
-.closing-verse .translation {
-    font-size: 0.85rem;
-    color: var(--color-text-muted);
-}
-
 /* --- Search Highlight --- */
 .highlight,
 mark {
-    background: rgba(196, 30, 58, 0.2);
+    background: rgba(21, 101, 192, 0.2);
     color: var(--color-text);
     padding: 0.1em 0.2em;
     border-radius: 3px;
     font-weight: 600;
-}
-
-/* --- Search Results Animation --- */
-#search-results .name-row {
-    animation: fadeInUp 0.3s ease forwards;
-}
-
-@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
 }
 
 /* --- Floating Scroll Buttons --- */
@@ -600,7 +657,7 @@ mark {
     border-radius: 50%;
     border: 1px solid var(--color-border);
     background: var(--color-white);
-    color: var(--color-vermilion);
+    color: var(--color-rama-blue);
     font-size: 1rem;
     cursor: pointer;
     box-shadow: var(--shadow-md);
@@ -611,9 +668,9 @@ mark {
 }
 
 .scroll-btn:hover {
-    background: var(--color-vermilion);
+    background: var(--color-rama-blue);
     color: var(--color-white);
-    border-color: var(--color-vermilion);
+    border-color: var(--color-rama-blue);
     box-shadow: var(--shadow-lg);
     transform: scale(1.1);
 }
@@ -622,8 +679,8 @@ mark {
 .site-footer {
     text-align: center;
     padding: 2rem 1.5rem;
-    background: linear-gradient(135deg, #2c1810 0%, #4a2520 50%, #2c1810 100%);
-    color: rgba(255, 255, 255, 0.8);
+    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 50%, #0d47a1 100%);
+    color: rgba(255, 255, 255, 0.85);
     font-size: 0.85rem;
     margin-top: 3rem;
 }
@@ -632,7 +689,7 @@ mark {
     font-size: 1.2rem;
     color: var(--color-gold-light);
     margin-bottom: 0.75rem;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .footer-note {
@@ -650,30 +707,6 @@ mark {
     text-decoration: underline;
 }
 
-/* --- Expand/Collapse All --- */
-.expand-controls {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.expand-btn {
-    padding: 0.4rem 1rem;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius);
-    background: var(--color-white);
-    font-family: var(--font-body);
-    font-size: 0.8rem;
-    color: var(--color-text-muted);
-    cursor: pointer;
-    margin: 0 0.25rem;
-    transition: all 0.15s ease;
-}
-
-.expand-btn:hover {
-    border-color: var(--color-vermilion);
-    color: var(--color-vermilion);
-}
-
 /* --- Responsive --- */
 @media (max-width: 600px) {
     html {
@@ -681,115 +714,72 @@ mark {
     }
 
     .site-title {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .site-subtitle {
         font-size: 0.95rem;
     }
 
+    .nav-btn {
+        font-size: 0.72rem;
+        padding: 0.7rem 0.3rem;
+    }
+
     .verse-body {
         padding: 0.75rem;
     }
 
-    .shloka-text {
+    .devanagari-block {
         padding: 0.75rem;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
-    .name-row {
-        padding: 0.5rem;
+    .transliteration-block {
+        padding: 0.75rem;
+        font-size: 0.85rem;
     }
 
-    .name-num {
-        min-width: 2rem;
+    .header-sections {
+        flex-direction: column;
+        gap: 0.4rem;
     }
 
-    .scroll-buttons { bottom: 1.25rem; right: 1rem; }
-    .scroll-btn { width: 38px; height: 38px; font-size: 0.9rem; }
-    .header-sections { flex-direction: column; gap: 0.4rem; }
-}
-
-@media (min-width: 768px) {
-    .names-grid {
-        grid-template-columns: 1fr 1fr;
+    .verse-type-tag {
+        display: none;
     }
-}
 
-/* --- PDF Download Button --- */
-.pdf-btn {
-    background: var(--color-vermilion) !important;
-    color: var(--color-white) !important;
-    border-color: var(--color-vermilion) !important;
-    font-weight: 600;
-}
+    .section-divider::before,
+    .section-divider::after {
+        width: 40px;
+    }
 
-.pdf-btn:hover {
-    background: #a01830 !important;
-    border-color: #a01830 !important;
-    color: var(--color-white) !important;
-}
+    .section-divider::before {
+        right: calc(50% + 60px);
+    }
 
-/* --- Floating Scroll Buttons --- */
-.scroll-buttons {
-    position: fixed;
-    bottom: 2rem;
-    right: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    z-index: 200;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
-}
+    .section-divider::after {
+        left: calc(50% + 60px);
+    }
 
-.scroll-buttons.visible {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.scroll-btn {
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    border: 1px solid var(--color-border);
-    background: var(--color-white);
-    color: var(--color-vermilion);
-    font-size: 1rem;
-    cursor: pointer;
-    box-shadow: var(--shadow-md);
-    transition: all 0.2s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.scroll-btn:hover {
-    background: var(--color-vermilion);
-    color: var(--color-white);
-    border-color: var(--color-vermilion);
-    box-shadow: var(--shadow-lg);
-    transform: scale(1.1);
+    .overview-card {
+        padding: 1rem;
+    }
 }
 
 /* --- Print Styles --- */
 @media print {
     .progress-bar,
     .view-nav,
-    .top-bar,
     .expand-controls,
     .verse-toggle,
     .search-box,
-    .site-footer,
-    .pdf-btn,
-    .scroll-buttons {
+    .top-bar {
         display: none !important;
     }
 
-    .verse-card .verse-body {
+    .verse-card:not(.expanded) .verse-body {
         display: block !important;
-        max-height: none !important;
     }
 
     .verse-card {
@@ -798,22 +788,7 @@ mark {
         border: 1px solid #ccc;
     }
 
-    .dhyana-verse {
-        break-inside: avoid;
-    }
-
     body {
-        font-size: 11pt;
-        background: white;
-    }
-
-    .site-header {
-        background: white;
-        color: #2c1810;
-        box-shadow: none;
-    }
-
-    .section-block {
-        box-shadow: none;
+        font-size: 12pt;
     }
 }
