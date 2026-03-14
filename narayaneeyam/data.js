@@ -1480,12 +1480,246 @@ var NARAYANEEYAM_DATA = {
     },
     {
       dashaka: 8,
-      titleSanskrit: "गजेन्द्रमोक्षवर्णनम्",
-      titleEnglish: "Gajendra Moksha",
-      theme: "leela",
-      verseCount: 12,
-      summary: "The moving story of Gajendra, the elephant king, who was seized by a crocodile in a lake and cried out to the Lord in total surrender. The Lord rushed on Garuda to liberate him.",
-      slokas: []
+      titleSanskrit: "प्रलयवर्णनम्",
+      titleEnglish: "The Cosmic Dissolution and Birth of Brahma",
+      theme: "philosophy",
+      verseCount: 13,
+      summary: "Describes the Naimittika Pralaya (periodic cosmic dissolution), the Lord's Yoganidra on Adishesha upon the cosmic ocean, the awakening by Kala-shakti, and the emergence of the divine lotus from His navel giving birth to Brahma for a new cycle of creation.",
+      slokas: [
+        {
+          dashaka: 8,
+          sloka: 1,
+          devanagari: "एवं तावत् प्राकृतप्रक्षयान्ते ब्राह्मे कल्पे ह्यादिमे लब्धजन्मा ।\nब्रह्मा भूयस्त्वत्त एवाप्य वेदान् सृष्टिं चक्रे पूर्वकल्पोपमानाम् ॥",
+          transliteration: "evaṃ tāvat prākṛtaprakṣayānte brāhme kalpe hyādime labdhajanmā |\nbrahmā bhūyastvatta evāpya vedān sṛṣṭiṃ cakre pūrvakalpopamānām ||",
+          translation: "At the end of the Prakrita Pralaya (primary cosmic dissolution), in the first Kalpa known as the Brahma Kalpa, Brahma came into existence. He received the knowledge of the Vedas from Thee alone and began creation in the same manner as in the previous Kalpas.",
+          commentary: "This opening verse sets the cosmic timeframe. After the great primordial dissolution, the cycle begins anew. Brahma is born and empowered by Lord Vishnu with Vedic knowledge to carry out creation just as before, establishing the cyclical nature of cosmic time.",
+          words: [
+            { word: "प्राकृतप्रक्षयान्ते", transliteration: "prākṛtaprakṣayānte", meaning: "at the end of the Prakrita (primary) dissolution" },
+            { word: "ब्राह्मे कल्पे", transliteration: "brāhme kalpe", meaning: "in the Brahma Kalpa (first cosmic age)" },
+            { word: "आदिमे", transliteration: "ādime", meaning: "the first, primordial" },
+            { word: "लब्धजन्मा", transliteration: "labdhajanmā", meaning: "having obtained birth" },
+            { word: "ब्रह्मा", transliteration: "brahmā", meaning: "Brahma, the Creator" },
+            { word: "त्वत्तः एव", transliteration: "tvattaḥ eva", meaning: "from Thee alone" },
+            { word: "आप्य", transliteration: "āpya", meaning: "having received" },
+            { word: "वेदान्", transliteration: "vedān", meaning: "the Vedas" },
+            { word: "सृष्टिम्", transliteration: "sṛṣṭim", meaning: "creation" },
+            { word: "पूर्वकल्पोपमानाम्", transliteration: "pūrvakalpopamānām", meaning: "similar to the previous Kalpas" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 2,
+          devanagari: "सोऽयं चतुर्युगसहस्रमितान्यहानि तावन्मिताश्च रजनीर्बहुशो निनाय ।\nनिद्रात्यसौ त्वयि निलीय समं स्वसृष्टैर्नैमित्तिकप्रलयमाहुरतोऽस्य रात्रिम् ॥",
+          transliteration: "so'yaṃ caturyugasahasramitānyahāni tāvanmitāśca rajanīrbahuśo nināya |\nnidrātyasau tvayi nilīya samaṃ svasṛṣṭairnaimittikapralayamāhurato'sya rātrim ||",
+          translation: "He (Brahma) spent many days, each extending over a thousand Chaturyugas, and an equal number of nights. During the night he sleeps, merging in Thee along with all his creations. Therefore, his night is called the Naimittika Pralaya (periodic dissolution).",
+          commentary: "Each day of Brahma (a Kalpa) lasts 4.32 billion human years. During the night of equal duration, Brahma and all created beings dissolve into Lord Vishnu. This periodic dissolution is distinguished from the Prakrita Pralaya (total dissolution) that occurs at the end of Brahma's entire lifespan.",
+          words: [
+            { word: "चतुर्युगसहस्रमितानि", transliteration: "caturyugasahasramitāni", meaning: "measured by a thousand Chaturyugas" },
+            { word: "अहानि", transliteration: "ahāni", meaning: "days" },
+            { word: "रजनीः", transliteration: "rajanīḥ", meaning: "nights" },
+            { word: "निद्राति", transliteration: "nidrāti", meaning: "sleeps" },
+            { word: "निलीय", transliteration: "nilīya", meaning: "having merged, dissolved" },
+            { word: "स्वसृष्टैः", transliteration: "svasṛṣṭaiḥ", meaning: "along with his own creations" },
+            { word: "नैमित्तिकप्रलयम्", transliteration: "naimittikaPralayam", meaning: "the periodic/occasional dissolution" },
+            { word: "रात्रिम्", transliteration: "rātrim", meaning: "the night" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 3,
+          devanagari: "अस्मादृशां पुनरहर्मुखकृत्यतुल्यां सृष्टिं करोत्यनुदिनं स भवत्प्रसादात् ।\nप्राग्ब्राह्मकल्पजनुषां च परायुषां तु सुप्तप्रबोधनसमास्ति तदा विसृष्टिः ॥",
+          transliteration: "asmādṛśāṃ punaraharmukha-kṛtyatulyāṃ sṛṣṭiṃ karotyanudi naṃ sa bhavatprasādāt |\nprāgbrāhmakalpa-januṣāṃ ca parāyuṣāṃ tu suptaprabodhansamāsti tadā visṛṣṭiḥ ||",
+          translation: "By Thy grace, Brahma performs the act of creation every day, like the morning routine of ordinary beings. For the immortal beings born in the previous Brahma Kalpa, creation is merely like waking up from sleep.",
+          commentary: "A beautiful analogy — just as we wake each morning and resume daily activities, Brahma performs creation anew at each cosmic dawn. For long-lived cosmic beings who survive dissolution, it is simply an awakening from their sleep during the Naimittika Pralaya.",
+          words: [
+            { word: "अस्मादृशाम्", transliteration: "asmādṛśām", meaning: "of beings like us" },
+            { word: "अहर्मुखकृत्यतुल्याम्", transliteration: "aharmukha-kṛtyatulyām", meaning: "like a morning routine" },
+            { word: "अनुदिनम्", transliteration: "anudinam", meaning: "every day" },
+            { word: "भवत्प्रसादात्", transliteration: "bhavatprasādāt", meaning: "by Thy grace" },
+            { word: "परायुषाम्", transliteration: "parāyuṣām", meaning: "of the long-lived ones" },
+            { word: "सुप्तप्रबोधनसमा", transliteration: "suptaprabodhanasamā", meaning: "like waking from sleep" },
+            { word: "विसृष्टिः", transliteration: "visṛṣṭiḥ", meaning: "creation, emanation" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 4,
+          devanagari: "पञ्चाशदब्दमधुना स्ववयोऽर्धरूपमेकं परार्धमतिवृत्य हि वर्ततेऽसौ ।\nतत्रान्त्यरात्रिजनितान् कथयामि भूमन् पश्चाद्दिनावतरणे च भवद्विलासान् ॥",
+          transliteration: "pañcāśadabdamadhunā svavayo'rdharūpamekaṃ parārdhamatīvṛtya hi vartate'sau |\ntatrāntyarātrijanitān kathayāmi bhūman paścāddināvataraṇe ca bhavadvilāsān ||",
+          translation: "Brahma has now completed one Parardha (half his lifespan of 50 Brahma-years). O Infinite One, I shall now narrate Thy divine sports that took place during the last night and the dawn of the following day.",
+          commentary: "Brahma's total lifespan is 100 Brahma-years; one Parardha is 50. The poet signals a transition: he will describe the pralaya of the first Parardha and the subsequent creation — the dawn of the current Padma Kalpa.",
+          words: [
+            { word: "पञ्चाशदब्दम्", transliteration: "pañcāśadabdam", meaning: "fifty years" },
+            { word: "स्ववयोऽर्धरूपम्", transliteration: "svavayo'rdharūpam", meaning: "in the form of half his own lifespan" },
+            { word: "परार्धम्", transliteration: "parārdham", meaning: "one Parardha (half of Brahma's life)" },
+            { word: "अतिवृत्य", transliteration: "ativṛtya", meaning: "having crossed, completed" },
+            { word: "अन्त्यरात्रिजनितान्", transliteration: "antyarātrijanitān", meaning: "born of the last night" },
+            { word: "कथयामि", transliteration: "kathayāmi", meaning: "I shall narrate" },
+            { word: "भूमन्", transliteration: "bhūman", meaning: "O Infinite One" },
+            { word: "दिनावतरणे", transliteration: "dināvataraṇe", meaning: "at the dawn of the day" },
+            { word: "भवद्विलासान्", transliteration: "bhavadvilāsān", meaning: "Thy divine sports/lilas" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 5,
+          devanagari: "दिनावसानेऽथ सरोजयोनिः सुषुप्तिकामस्त्वयि सन्निलिल्ये ।\nजगन्ति च त्वज्जठरं समीयुस्तदेदमेकार्णवमास विश्वम् ॥",
+          transliteration: "dināvasāne'tha sarojayoniḥ suṣuptikāmastvayi sannililye |\njaganti ca tvajjaṭharaṁ samīyustedamekārṇavamāsa viśvam ||",
+          translation: "At the end of the day, the lotus-born Brahma, desiring deep sleep, merged into Thee. All the worlds entered Thy abdomen, and the entire universe became one single ocean.",
+          commentary: "This describes the onset of Naimittika Pralaya. Brahma dissolves back into Vishnu, all creation enters the Lord's cosmic body, and nothing remains but an endless expanse of water (Ekarnava).",
+          words: [
+            { word: "दिनावसाने", transliteration: "dināvasāne", meaning: "at the end of the day" },
+            { word: "सरोजयोनिः", transliteration: "sarojayoniḥ", meaning: "the lotus-born one (Brahma)" },
+            { word: "सुषुप्तिकामः", transliteration: "suṣuptikāmaḥ", meaning: "desiring deep sleep" },
+            { word: "सन्निलिल्ये", transliteration: "sannililye", meaning: "merged completely" },
+            { word: "जगन्ति", transliteration: "jaganti", meaning: "the worlds" },
+            { word: "जठरम्", transliteration: "jaṭharam", meaning: "abdomen, belly" },
+            { word: "समीयुः", transliteration: "samīyuḥ", meaning: "entered, went into" },
+            { word: "एकार्णवम्", transliteration: "ekārṇavam", meaning: "one single ocean" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 6,
+          devanagari: "तवैव वेषे फणिराजिशेषे जलैकशेषे भुवने स्म शेषे ।\nआनन्दसान्द्रानुभवस्वरूपः स्वयोगनिद्रापरिमुद्रितात्मा ॥",
+          transliteration: "tavaiva veṣe phaṇirājiśeṣe jalaikaśeṣe bhuvane sma śeṣe |\nānandasāndrānubhavasvarūpaḥ svayoganidrāparimudritātmā ||",
+          translation: "Thou didst recline upon Shesha, the king of serpents, who is Thy own manifestation, in a world where only water remained. Thou art of the nature of concentrated bliss-experience, with Thy consciousness sealed in Yoganidra.",
+          commentary: "A celebrated verse with elegant wordplay on 'shesha' (the serpent / remainder / repose). The Lord reclines on Adishesha in the cosmic ocean — the iconic Anantashayana image. Even in Yoganidra, the Lord exists in a state of pure Sat-Chit-Ananda, beyond ordinary slumber.",
+          words: [
+            { word: "वेषे", transliteration: "veṣe", meaning: "in the form, manifestation" },
+            { word: "फणिराजिशेषे", transliteration: "phaṇirājiśeṣe", meaning: "upon Shesha, the king of serpents" },
+            { word: "जलैकशेषे", transliteration: "jalaikaśeṣe", meaning: "where only water remains" },
+            { word: "शेषे", transliteration: "śeṣe", meaning: "Thou didst recline / rest" },
+            { word: "आनन्दसान्द्रानुभवस्वरूपः", transliteration: "ānandasāndrānubhavasvarūpaḥ", meaning: "of the nature of dense bliss-experience" },
+            { word: "स्वयोगनिद्रा", transliteration: "svayoganidrā", meaning: "one's own Yoganidra (cosmic sleep)" },
+            { word: "परिमुद्रितात्मा", transliteration: "parimudritātmā", meaning: "with consciousness sealed/enclosed" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 7,
+          devanagari: "कालाख्यशक्तिं प्रलयावसाने प्रबोधयेत्यादिशता किलादौ ।\nत्वया प्रसुप्तं परिसुप्तशक्तिव्रजेन तत्राखिलजीवधाम्ना ॥",
+          transliteration: "kālākhyaśaktiṁ pralayāvasāne prabodhayetyādiśatā kilādau |\ntvayā prasuptaṁ parisuptaśaktivrajena tatrākhilajīvadhāmnā ||",
+          translation: "Thou hadst, at the beginning, commanded the power called Kala (Time): 'Awaken Me at the end of the dissolution.' Then Thou went to sleep, with all the various energies and the abode of all jivas dormant within Thee.",
+          commentary: "Before entering Yoganidra, Lord Vishnu instructs His Kala-shakti (Time) to serve as an alarm, waking Him when dissolution ends. All shaktis and all jivas sleep within Him in their subtle, unmanifest form.",
+          words: [
+            { word: "कालाख्यशक्तिम्", transliteration: "kālākhyaśaktim", meaning: "the power called Kala (Time)" },
+            { word: "प्रलयावसाने", transliteration: "pralayāvasāne", meaning: "at the end of dissolution" },
+            { word: "प्रबोधय", transliteration: "prabodhaya", meaning: "awaken (imperative)" },
+            { word: "आदिशता", transliteration: "ādiśatā", meaning: "having commanded" },
+            { word: "प्रसुप्तम्", transliteration: "prasuptam", meaning: "went to deep sleep" },
+            { word: "परिसुप्तशक्तिव्रजेन", transliteration: "parisuptaśaktivrajena", meaning: "with the host of dormant energies" },
+            { word: "अखिलजीवधाम्ना", transliteration: "akhilajīvadhāmnā", meaning: "being the abode of all living souls" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 8,
+          devanagari: "चतुर्युगाणां च सहस्रमेवं त्वयि प्रसुप्ते पुनरद्वितीये ।\nकालाख्यशक्तिः प्रथमप्रबुद्धा प्राबोधयत्त्वां किल विश्वनाथ ॥",
+          transliteration: "caturyugāṇāṁ ca sahasramevaṁ tvayi prasupte punaradvitīye |\nkālākhyaśaktiḥ prathamaprabuddhā prābodhayattvāṁ kila viśvanātha ||",
+          translation: "O Lord of the Universe! After Thou, the One without a second, had slept for a thousand Chaturyugas, the power called Kala (Time), being the first to awaken, roused Thee from Thy cosmic sleep.",
+          commentary: "The duration of Brahma's night equals one Kalpa. Throughout this immense span, the Lord sleeps as the sole reality (advitiya). Kala-shakti, faithful to its original command, is the first force to stir and awakens the Lord.",
+          words: [
+            { word: "चतुर्युगाणाम्", transliteration: "caturyugāṇām", meaning: "of the four-yuga cycles" },
+            { word: "सहस्रम्", transliteration: "sahasram", meaning: "a thousand" },
+            { word: "प्रसुप्ते", transliteration: "prasupte", meaning: "while sleeping" },
+            { word: "अद्वितीये", transliteration: "advitīye", meaning: "the One without a second" },
+            { word: "प्रथमप्रबुद्धा", transliteration: "prathamaprabuddhā", meaning: "the first to awaken" },
+            { word: "प्राबोधयत्", transliteration: "prābodhayat", meaning: "roused, awakened" },
+            { word: "विश्वनाथ", transliteration: "viśvanātha", meaning: "O Lord of the Universe" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 9,
+          devanagari: "विबुध्य च त्वं जलगर्भशायिन् विलोक्य लोकानखिलान् प्रलीनान् ।\nतेष्वेव सूक्ष्मात्मतया निजान्तःस्थितेषु विश्वेषु ददाथ दृष्टिम् ॥",
+          transliteration: "vibudhya ca tvaṁ jalagarbhaśāyin vilokya lokānakhilān pralīnān |\nteṣveva sūkṣmātmatayā nijāntaḥsthiteṣu viśveṣu dadātha dṛṣṭim ||",
+          translation: "Having awakened, O Thou who reclines in the cosmic waters, Thou observed that all the worlds had dissolved. Then Thou cast Thy creative glance upon all those universes that existed within Thee in their subtle form.",
+          commentary: "The Lord awakens upon the cosmic ocean and sees nothing external. But all worlds exist within Him in seed form (sukshma). His divine glance upon these subtle universes is the catalyst for re-creation — leading to the sprouting of the divine lotus from His navel.",
+          words: [
+            { word: "विबुध्य", transliteration: "vibudhya", meaning: "having awakened" },
+            { word: "जलगर्भशायिन्", transliteration: "jalagarbhaśāyin", meaning: "O one who reclines in the cosmic waters" },
+            { word: "विलोक्य", transliteration: "vilokya", meaning: "having observed" },
+            { word: "लोकान्", transliteration: "lokān", meaning: "the worlds" },
+            { word: "प्रलीनान्", transliteration: "pralīnān", meaning: "dissolved, merged" },
+            { word: "सूक्ष्मात्मतया", transliteration: "sūkṣmātmatayā", meaning: "in their subtle form" },
+            { word: "निजान्तःस्थितेषु", transliteration: "nijāntaḥsthiteṣu", meaning: "existing within Himself" },
+            { word: "दृष्टिम्", transliteration: "dṛṣṭim", meaning: "glance, vision" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 10,
+          devanagari: "ततस्त्वदीयादयि नाभिरन्ध्रादुदञ्चितं किञ्चन दिव्यपद्मम् ।\nनिलीननिःशेषपदार्थमालासङ्क्षेपरूपं मुकुलायमानम् ॥",
+          transliteration: "tatastvadīyādayi nābhirandhrādudañcitaṁ kiñcana divyapadmam |\nnilīnaniḥśeṣapadārthamālāsaṅkṣeparūpaṁ mukulāyamānam ||",
+          translation: "Then, O Lord, from Thy navel-opening there arose an extraordinary divine lotus, still in bud form, containing within it the condensed essence of all objects of creation that had been merged in Thee.",
+          commentary: "The famous cosmogonic image — from Vishnu's navel, a lotus bud emerges containing the entire compressed universe. Every element, every being, every world that had dissolved during pralaya is contained in seed-form within this miraculous bud.",
+          words: [
+            { word: "नाभिरन्ध्रात्", transliteration: "nābhirandhrāt", meaning: "from the navel-opening" },
+            { word: "उदञ्चितम्", transliteration: "udañcitam", meaning: "that which arose upward" },
+            { word: "दिव्यपद्मम्", transliteration: "divyapadmam", meaning: "divine lotus" },
+            { word: "निलीननिःशेषपदार्थमाला", transliteration: "nilīnaniḥśeṣapadārthamālā", meaning: "the entire series of merged objects" },
+            { word: "सङ्क्षेपरूपम्", transliteration: "saṅkṣeparūpam", meaning: "in condensed form" },
+            { word: "मुकुलायमानम्", transliteration: "mukulāyamānam", meaning: "in bud form, budding" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 11,
+          devanagari: "तदेतदम्भोरुहकुड्मलं ते कलेवरात्तोयपथे प्ररूढम् ।\nबहिर्निरीतं परितः स्फुरद्भिः स्वधामभिर्ध्वान्तमलं न्यकृन्तत् ॥",
+          transliteration: "tadetadambhoruha-kuḍmalaṁ te kalevarāttoyapathe prarūḍham |\nbahirnirītaṁ paritaḥ sphuradbhiḥ svadhāmabhirdhvāntamalaṁ nyakṛntat ||",
+          translation: "That lotus bud, which sprouted from Thy body upon the watery expanse, emerged outward and, with its radiant effulgence shining in all directions, dispelled the impurity of darkness.",
+          commentary: "The lotus grows through the cosmic waters and rises above them. Its divine luminosity radiates in every direction, pushing back the primordial darkness — a symbolic dawn of new creation, light piercing through the darkness of non-existence.",
+          words: [
+            { word: "अम्भोरुहकुड्मलम्", transliteration: "ambhoruha-kuḍmalam", meaning: "the lotus bud" },
+            { word: "कलेवरात्", transliteration: "kalevarāt", meaning: "from the body" },
+            { word: "तोयपथे", transliteration: "toyapathe", meaning: "upon the path of water (the cosmic ocean)" },
+            { word: "प्ररूढम्", transliteration: "prarūḍham", meaning: "that which sprouted, grew" },
+            { word: "बहिर्निरीतम्", transliteration: "bahirnirītam", meaning: "emerged outward" },
+            { word: "स्फुरद्भिः", transliteration: "sphuradbhiḥ", meaning: "shining, radiant" },
+            { word: "स्वधामभिः", transliteration: "svadhāmabhiḥ", meaning: "with its own effulgence" },
+            { word: "ध्वान्तमलम्", transliteration: "dhvāntamalam", meaning: "the impurity of darkness" },
+            { word: "न्यकृन्तत्", transliteration: "nyakṛntat", meaning: "dispelled, cut away" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 12,
+          devanagari: "सम्फुल्लपत्रे नितरां विचित्रे तस्मिन् भवद्वीर्यधृते सरोजे ।\nस पद्मजन्मा विधिराविरासीत् स्वयम्प्रबुद्धाखिलवेदराशिः ॥",
+          transliteration: "samphullapatre nitarāṁ vicitre tasmin bhavadvīryadhṛte saroje |\nsa padmajanmā vidhirāvirāsīt svayamprabuddhākhilavedarāśiḥ ||",
+          translation: "In that marvellous, fully blossomed lotus, sustained by Thy divine potency, there appeared Brahma — known as Padmajanma (lotus-born) — with the entire treasury of the Vedas spontaneously awakened in his consciousness.",
+          commentary: "The bud opens into a magnificent lotus upheld by Vishnu's yogic power. Brahma manifests within it, fully endowed with Vedic knowledge. He is called 'Padmajanma' (born from the lotus) and 'Vidhi' (the ordainer). The Vedas arise in him automatically, equipping him for creation.",
+          words: [
+            { word: "सम्फुल्लपत्रे", transliteration: "samphullapatre", meaning: "with fully blossomed petals" },
+            { word: "विचित्रे", transliteration: "vicitre", meaning: "marvellous, wondrous" },
+            { word: "भवद्वीर्यधृते", transliteration: "bhavadvīryadhṛte", meaning: "sustained by Thy divine potency" },
+            { word: "सरोजे", transliteration: "saroje", meaning: "in the lotus" },
+            { word: "पद्मजन्मा", transliteration: "padmajanmā", meaning: "the lotus-born one (Brahma)" },
+            { word: "विधिः", transliteration: "vidhiḥ", meaning: "Brahma, the ordainer" },
+            { word: "आविरासीत्", transliteration: "āvirāsīt", meaning: "appeared, manifested" },
+            { word: "स्वयम्प्रबुद्ध", transliteration: "svayamprabuddha", meaning: "spontaneously awakened" },
+            { word: "अखिलवेदराशिः", transliteration: "akhilavedarāśiḥ", meaning: "the entire treasury of the Vedas" }
+          ]
+        },
+        {
+          dashaka: 8,
+          sloka: 13,
+          devanagari: "अस्मिन् परात्मन् ननु पाद्मकल्पे त्वमित्थमुत्थापितपद्मयोनिः ।\nअनन्तभूमा मम रोगराशिं निरुन्धि वातालयवास विष्णो ॥",
+          transliteration: "asmin parātman nanu pādmakalpe tvamitthamutthāpitapadmayoniḥ |\nanantabhūmā mama rogarāśiṁ nirundhi vātālayavāsa viṣṇo ||",
+          translation: "O Supreme Self! In this Padma Kalpa, Thou didst thus raise up Brahma, the lotus-born one. O Thou of infinite glory, O Vishnu who dwells in Guruvayur! Destroy the multitude of my diseases.",
+          commentary: "The concluding prayer — one of the most revered verses of the entire Narayaneeyam. Bhattathiri appeals to the Lord of Guruvayur for relief from his ailments. 'Padmakalpa' names the current cosmic age after the lotus; 'Anantabhuma' addresses the Lord as one of infinite magnitude; 'Vatalayavasa' identifies Him as the presiding deity of Guruvayur.",
+          words: [
+            { word: "परात्मन्", transliteration: "parātman", meaning: "O Supreme Self" },
+            { word: "पाद्मकल्पे", transliteration: "pādmakalpe", meaning: "in the Padma Kalpa (lotus-age)" },
+            { word: "उत्थापितपद्मयोनिः", transliteration: "utthāpitapadmayoniḥ", meaning: "having raised up the lotus-born one (Brahma)" },
+            { word: "अनन्तभूमा", transliteration: "anantabhūmā", meaning: "O one of infinite glory" },
+            { word: "रोगराशिम्", transliteration: "rogarāśim", meaning: "the multitude of diseases" },
+            { word: "निरुन्धि", transliteration: "nirundhi", meaning: "destroy, ward off" },
+            { word: "वातालयवास", transliteration: "vātālayavāsa", meaning: "O dweller in Guruvayur" },
+            { word: "विष्णो", transliteration: "viṣṇo", meaning: "O Vishnu" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 9,
