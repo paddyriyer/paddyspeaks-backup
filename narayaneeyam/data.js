@@ -1723,12 +1723,221 @@ var NARAYANEEYAM_DATA = {
     },
     {
       dashaka: 9,
-      titleSanskrit: "समुद्रमथनवर्णनम्",
-      titleEnglish: "The Churning of the Ocean",
-      theme: "leela",
-      verseCount: 11,
-      summary: "Recounts the churning of the milky ocean by the Devas and Asuras using Mount Mandara and Vasuki. The Lord appears as Mohini to distribute the nectar of immortality to the Devas.",
-      slokas: []
+      titleSanskrit: "ब्रह्मणस्तपः तथा लोकसृष्टिः",
+      titleEnglish: "Brahma's Penance and Vision of the Lord",
+      theme: "philosophy",
+      verseCount: 10,
+      summary: "Describes how Brahma, born from the cosmic lotus, searches for his origin, descends through the lotus stem in vain, receives the divine command 'tapa' (penance), performs intense meditation, beholds the Lord in Vaikuntha, and is empowered to create the three worlds.",
+      slokas: [
+        {
+          dashaka: 9,
+          sloka: 1,
+          devanagari: "स्थितस्स कमलोद्भवस्तव हि नाभिपङ्केरुहे\nकुतः स्विदिदमम्बुधावुदितमित्यनालोकयन् ।\nतदीक्षणकुतूहलात् प्रतिदिशं विवृत्तानन-\nश्चतुर्वदनतामगाद्विकसदष्टदृष्ट्यम्बुजाम् ॥",
+          transliteration: "sthitassa kamalodbhavastava hi nābhipaṅkeruhe\nkutaḥ svididamambudhāvuditamityanālokayan |\ntadīkṣaṇakutūhalāt pratidiśaṁ vivṛttānana-\nścaturvadanatāmagādvikasadaṣṭadṛṣṭyambujām ||",
+          translation: "He, the lotus-born Brahma, seated on the lotus sprouting from Your navel, unable to find from where the lotus had risen in the waters, and desirous of ascertaining that source, turned his face in every direction and became endowed with four faces, with eight eyes like fully-bloomed lotuses.",
+          commentary: "Brahma's curiosity about his own origin is a profound philosophical theme — the created being searching for the Creator. His developing four faces symbolizes his all-directional search, and the eight lotus-eyes indicate divine perception.",
+          words: [
+            { word: "स्थितः", transliteration: "sthitaḥ", meaning: "seated, situated" },
+            { word: "कमलोद्भवः", transliteration: "kamalodbhavaḥ", meaning: "the lotus-born one (Brahma)" },
+            { word: "नाभिपङ्केरुहे", transliteration: "nābhipaṅkeruhe", meaning: "on the lotus from the navel" },
+            { word: "कुतः स्वित्", transliteration: "kutaḥ svit", meaning: "from where indeed" },
+            { word: "अम्बुधौ", transliteration: "ambudhau", meaning: "in the ocean" },
+            { word: "उदितम्", transliteration: "uditam", meaning: "arisen" },
+            { word: "अनालोकयन्", transliteration: "anālokayan", meaning: "unable to see" },
+            { word: "ईक्षणकुतूहलात्", transliteration: "īkṣaṇakutūhalāt", meaning: "from curiosity to see" },
+            { word: "प्रतिदिशम्", transliteration: "pratidiśam", meaning: "in every direction" },
+            { word: "विवृत्तानन:", transliteration: "vivṛttānanaḥ", meaning: "with face turned around" },
+            { word: "चतुर्वदनताम्", transliteration: "caturvadanatām", meaning: "the state of having four faces" },
+            { word: "अष्टदृष्ट्यम्बुजाम्", transliteration: "aṣṭadṛṣṭyambujām", meaning: "with eight lotus-eyes" }
+          ]
+        },
+        {
+          dashaka: 9,
+          sloka: 2,
+          devanagari: "महार्णवविघूर्णितं कमलमेव तत्केवलं\nविलोक्य तदुपाश्रयं तव तनुं तु नालोकयन् ।\nक एष कमलोदरे महति निस्सहायो ह्यहं\nकुतः स्विदिदमम्बुजं समजनीति चिन्तामगात् ॥",
+          transliteration: "mahārṇavavighūrṇitaṁ kamalameva tatkevalaṁ\nvilokya tadupāśrayaṁ tava tanuṁ tu nālokayan |\nka eṣa kamalodare mahati nissahāyo hyahaṁ\nkutaḥ svididamambujaṁ samajanīti cintāmagāt ||",
+          translation: "He could see only that lotus tossing about in the great ocean, but could not see Your divine form which was its support. 'Who am I, sitting all alone in the cup of this great lotus? Where did this lotus originate?' — thus he fell into deep contemplation.",
+          commentary: "Brahma perceives only the effect (the lotus) but not the cause (Vishnu). This highlights the fundamental limitation of empirical knowledge — seeing the manifest creation but not the unmanifest Creator who supports it.",
+          words: [
+            { word: "महार्णव", transliteration: "mahārṇava", meaning: "the great ocean" },
+            { word: "विघूर्णितम्", transliteration: "vighūrṇitam", meaning: "tossing about, swirling" },
+            { word: "केवलम्", transliteration: "kevalam", meaning: "only, merely" },
+            { word: "उपाश्रयम्", transliteration: "upāśrayam", meaning: "the support, base" },
+            { word: "तनुम्", transliteration: "tanum", meaning: "form, body" },
+            { word: "नालोकयन्", transliteration: "nālokayan", meaning: "not seeing" },
+            { word: "कमलोदरे", transliteration: "kamalodare", meaning: "in the cup/interior of the lotus" },
+            { word: "निस्सहायः", transliteration: "nissahāyaḥ", meaning: "without companion, all alone" },
+            { word: "चिन्ताम् अगात्", transliteration: "cintām agāt", meaning: "fell into contemplation" }
+          ]
+        },
+        {
+          dashaka: 9,
+          sloka: 3,
+          devanagari: "अथ प्रविततार नालविवरेण कालात्मना\nत्वयेरितधियाऽनलं परिचिनोति नाभ्यन्तरम् ।\nशतं समधिकं विभो तव हि दिव्यवर्षाणि स-\nन्नयन्नपि हरे गतिं तव न विन्ददे नालतः ॥",
+          transliteration: "atha pravitatāra nālavivareṇa kālātmanā\ntvayeritadhiyā'nalaṁ paricinoti nābhyantaram |\nśataṁ samadhikaṁ vibho tava hi divyavarṣāṇi sa-\nnnayannapi hare gatiṁ tava na vindade nālataḥ ||",
+          translation: "Then Brahma entered the hollow of the lotus stalk, guided by You (as Time). He searched within the stem for over a hundred divine years, O all-pervading Lord, yet could not discover Your whereabouts through that stalk, O Hari!",
+          commentary: "Brahma's physical descent through the lotus stalk represents an external, empirical search for truth. Despite spending over a century in yogic exploration, he cannot find God through mere physical investigation — foreshadowing the teaching that only devotion and penance will reveal the Lord.",
+          words: [
+            { word: "प्रविततार", transliteration: "pravitatāra", meaning: "entered, descended into" },
+            { word: "नालविवरेण", transliteration: "nālavivareṇa", meaning: "through the hollow of the stalk" },
+            { word: "कालात्मना", transliteration: "kālātmanā", meaning: "by the form of Time" },
+            { word: "ईरितधिया", transliteration: "īritadhiyā", meaning: "with mind inspired (by You)" },
+            { word: "अनलम्", transliteration: "analam", meaning: "fire, energy" },
+            { word: "परिचिनोति", transliteration: "paricinoti", meaning: "searches, investigates" },
+            { word: "दिव्यवर्षाणि", transliteration: "divyavarṣāṇi", meaning: "divine years" },
+            { word: "गतिम्", transliteration: "gatim", meaning: "destination, whereabouts" },
+            { word: "न विन्ददे", transliteration: "na vindade", meaning: "did not find" }
+          ]
+        },
+        {
+          dashaka: 9,
+          sloka: 4,
+          devanagari: "ततः सकलनालिकाविवरमार्गगो मार्गयन्\nप्रयस्य शतवत्सरं किमपि नैव संदृष्टवान् ।\nनिवृत्य कमलोदरे सुखनिषण्ण एकाग्रधीः\nसमाधिबलमादधे भवदनुग्रहैकाग्रही ॥",
+          transliteration: "tataḥ sakalanālikāvivaramārgago mārgayan\nprayasya śatavatsaraṁ kimapi naiva saṁdṛṣṭavān |\nnivṛtya kamalodare sukhaniṣaṇṇa ekāgradhīḥ\nsamādhibalamādadhe bhavadanugrahaikāgrahī ||",
+          translation: "Travelling through every opening in the lotus stalk, searching anxiously for a hundred divine years, he found absolutely nothing. Returning to the lotus cup and sitting comfortably there, with one-pointed mind, he gathered the power of deep meditation, focused solely on obtaining Your grace.",
+          commentary: "This is the turning point — from external search to internal meditation. After a hundred years of fruitless physical exploration, Brahma turns inward. The verse teaches that God is found not through material investigation but through concentrated meditation and surrender to divine grace.",
+          words: [
+            { word: "नालिकाविवरमार्गगः", transliteration: "nālikāvivaramārgagaḥ", meaning: "one who went through the paths in the stalk openings" },
+            { word: "मार्गयन्", transliteration: "mārgayan", meaning: "searching" },
+            { word: "प्रयस्य", transliteration: "prayasya", meaning: "striving earnestly" },
+            { word: "शतवत्सरम्", transliteration: "śatavatsaram", meaning: "for a hundred years" },
+            { word: "नैव संदृष्टवान्", transliteration: "naiva saṁdṛṣṭavān", meaning: "found absolutely nothing" },
+            { word: "निवृत्य", transliteration: "nivṛtya", meaning: "returning" },
+            { word: "सुखनिषण्णः", transliteration: "sukhaniṣaṇṇaḥ", meaning: "sitting comfortably" },
+            { word: "एकाग्रधीः", transliteration: "ekāgradhīḥ", meaning: "with one-pointed mind" },
+            { word: "समाधिबलम्", transliteration: "samādhibalam", meaning: "the power of deep meditation" },
+            { word: "अनुग्रहैकाग्रही", transliteration: "anugrahaikāgrahī", meaning: "focused solely on obtaining grace" }
+          ]
+        },
+        {
+          dashaka: 9,
+          sloka: 5,
+          devanagari: "निमग्नमथ सन्निशम्य सलिले तदम्भोरुहं\nभवत्प्रणिहिताऽनिलप्रभवविक्षुभिताम्भसा ।\nयदन्तरुदभूद्वचस्तप तपेति शब्दद्वयं\nभवन्मुखमरन्दसम्भृतमहास्पदं योगिनाम् ॥",
+          transliteration: "nimagnamatha sanniśamya salile tadambhoruhaṁ\nbhavatpraṇihitā'nilaprabhavavikṣubhitāmbhasā |\nyadantarudabhūdvacastapa tapeti śabdadvayaṁ\nbhavanmukhamarandasambhṛtamahāspadaṁ yoginām ||",
+          translation: "When the lotus was submerging in the waters, agitated by a wind set in motion by You, from within arose the two-syllable divine utterance 'tapa, tapa' (perform penance!) — a word born from the nectar of Your lips, the great refuge of all yogis.",
+          commentary: "The two-syllable command 'tapa' is deeply significant in Bhagavatam theology. It represents the first divine instruction to the first created being. The Lord, though unseen, guides Brahma through subtle inner inspiration — a model for how divine guidance operates in all beings.",
+          words: [
+            { word: "निमग्नम्", transliteration: "nimagnam", meaning: "submerging, sinking" },
+            { word: "सन्निशम्य", transliteration: "sanniśamya", meaning: "perceiving, hearing" },
+            { word: "सलिले", transliteration: "salile", meaning: "in the water" },
+            { word: "अम्भोरुहम्", transliteration: "ambhoruham", meaning: "the lotus" },
+            { word: "प्रणिहित", transliteration: "praṇihita", meaning: "set in motion, directed" },
+            { word: "अनिलप्रभव", transliteration: "anilaprabha", meaning: "caused by wind" },
+            { word: "विक्षुभित", transliteration: "vikṣubhita", meaning: "agitated, disturbed" },
+            { word: "तप तप", transliteration: "tapa tapa", meaning: "'perform penance, perform penance'" },
+            { word: "शब्दद्वयम्", transliteration: "śabdadvayam", meaning: "two-syllable word" },
+            { word: "मुखमरन्द", transliteration: "mukhamaranda", meaning: "nectar from the lips" },
+            { word: "महास्पदम्", transliteration: "mahāspadam", meaning: "great refuge, exalted abode" },
+            { word: "योगिनाम्", transliteration: "yoginām", meaning: "of the yogis" }
+          ]
+        },
+        {
+          dashaka: 9,
+          sloka: 6,
+          devanagari: "तपोबलहतेतरोऽथ समवाप्य तत्तेजसा\nप्रबोधविमलां दृशं कमलभूः प्रसन्नात्मना ।\nअपश्यदथ तद्विभो तव हि धाम शान्तं परं\nपरं रजसः सत्त्वतो हि परमाद्भुतं शाश्वतम् ॥",
+          transliteration: "tapōbalahataetarō'tha samavāpya tattejasā\nprabōdhavimalāṁ dṛśaṁ kamalabhūḥ prasannātmanā |\napaśyadatha tadvibhō tava hi dhāma śāntaṁ paraṁ\nparaṁ rajasaḥ sattvato hi paramādbhutaṁ śāśvatam ||",
+          translation: "Through the power of penance, having destroyed all impurities and obtained transcendental vision illumined by that radiance, Brahma, with a serene mind, beheld Your supreme abode — peaceful, transcendent, beyond rajas and sattva, most wondrous and eternal.",
+          commentary: "This is the grand revelation — the Vaikuntha Darshana. The description of Vaikuntha as being beyond even sattva (not just rajas and tamas) reflects the Bhagavatam's teaching about the purely transcendental nature of the Lord's abode. It is 'shantam' (peaceful), 'param' (supreme), and 'shashvatam' (eternal).",
+          words: [
+            { word: "तपोबल", transliteration: "tapōbala", meaning: "the power of penance" },
+            { word: "हतेतरः", transliteration: "hataetaraḥ", meaning: "with all impurities destroyed" },
+            { word: "तेजसा", transliteration: "tejasā", meaning: "by that radiance" },
+            { word: "प्रबोधविमलाम्", transliteration: "prabōdhavimalām", meaning: "clear with awakened knowledge" },
+            { word: "दृशम्", transliteration: "dṛśam", meaning: "vision, sight" },
+            { word: "प्रसन्नात्मना", transliteration: "prasannātmanā", meaning: "with serene mind" },
+            { word: "धाम", transliteration: "dhāma", meaning: "abode, divine realm" },
+            { word: "शान्तम् परम्", transliteration: "śāntam param", meaning: "peaceful and supreme" },
+            { word: "परम् रजसः", transliteration: "param rajasaḥ", meaning: "beyond rajas" },
+            { word: "शाश्वतम्", transliteration: "śāśvatam", meaning: "eternal" }
+          ]
+        },
+        {
+          dashaka: 9,
+          sloka: 7,
+          devanagari: "अनेकशतसूर्यभासुरमुदारवैकुण्ठक-\nप्रदेशमधिवासिनं भुजचतुष्टयोल्लासिनम् ।\nमहामणिकिरीटकौस्तुभमुखैर्मणीन्द्रोच्चयै-\nर्विराजितवपुर्विभो विदधते स्म ते मङ्गलम् ॥",
+          transliteration: "anekaśatasūryabhāsuramudāravaikuṇṭhaka-\npradeśamadhivāsinaṁ bhujacatuṣṭayollāsinam |\nmahāmaṇikirīṭakaustubhamukhairmaṇīndroccayai-\nrvirājitavapurvibho vidadhate sma te maṅgalam ||",
+          translation: "Brahma beheld Thee — resplendent with the brilliance of hundreds of suns, dwelling in the magnificent realm of Vaikuntha, radiant with four arms, adorned with the great gem-studded crown, the Kaustubha jewel, and clusters of supreme gems. O all-pervading Lord, they (all those ornaments) lend auspiciousness to Thy divine form!",
+          commentary: "This verse describes Brahma's vision of the Lord's divine form in Vaikuntha. The detailed description of ornaments follows traditional iconographic conventions — the Kaustubha gem on the chest, the jeweled crown, and the four-armed form holding conch, discus, mace, and lotus.",
+          words: [
+            { word: "अनेकशतसूर्यभासुरम्", transliteration: "anekaśatasūryabhāsuram", meaning: "resplendent as hundreds of suns" },
+            { word: "उदारवैकुण्ठक", transliteration: "udāravaikuṇṭhaka", meaning: "the magnificent Vaikuntha" },
+            { word: "अधिवासिनम्", transliteration: "adhivāsinam", meaning: "the dweller, the one residing in" },
+            { word: "भुजचतुष्टय", transliteration: "bhujacatuṣṭaya", meaning: "the four arms" },
+            { word: "उल्लासिनम्", transliteration: "ullāsinam", meaning: "radiant, resplendent" },
+            { word: "महामणिकिरीट", transliteration: "mahāmaṇikirīṭa", meaning: "great gem-studded crown" },
+            { word: "कौस्तुभ", transliteration: "kaustubha", meaning: "the Kaustubha gem" },
+            { word: "मणीन्द्रोच्चयैः", transliteration: "maṇīndroccayaiḥ", meaning: "with clusters of supreme gems" },
+            { word: "विराजितवपुः", transliteration: "virājitavapuḥ", meaning: "with resplendent form" },
+            { word: "मङ्गलम्", transliteration: "maṅgalam", meaning: "auspiciousness" }
+          ]
+        },
+        {
+          dashaka: 9,
+          sloka: 8,
+          devanagari: "लभस्व भुवनत्रयीरचनदक्षतामक्षतां\nगृहाण मदनुग्रहं कुरु तपश्च भूयो विधे ।\nभवत्वखिलसाधनी मयि च भक्तिरत्युत्कटे-\nत्युदीर्य गिरमादधा मुदितचेतसं वेधसम् ॥",
+          transliteration: "labhasva bhuvanatrayīracanadakṣatāmakṣatāṁ\ngṛhāṇa madanugrahaṁ kuru tapaśca bhūyo vidhe |\nbhavatvakhilasādhanī mayi ca bhaktiratyutkaṭē-\ntyudīrya girāmādadhā muditacetasaṁ vedhasam ||",
+          translation: "The Lord spoke: 'O Brahma, receive the undiminished ability to create the three worlds. Accept My grace. Continue to perform penance. May you have intense devotion to Me, which shall be the means to accomplish everything.' Uttering these words, the Lord filled Brahma with great joy.",
+          commentary: "The Lord grants Brahma three gifts: (1) creative power, (2) divine grace, and (3) the instruction to cultivate devotion. The emphasis that bhakti is 'akhila-sadhani' (capable of accomplishing everything) is a core teaching of the Bhagavatam and the theological heart of the Narayaneeyam.",
+          words: [
+            { word: "लभस्व", transliteration: "labhasva", meaning: "receive, obtain" },
+            { word: "भुवनत्रयीरचनदक्षताम्", transliteration: "bhuvanatrayīracanadakṣatām", meaning: "the ability to create the three worlds" },
+            { word: "अक्षताम्", transliteration: "akṣatām", meaning: "undiminished, intact" },
+            { word: "गृहाण", transliteration: "gṛhāṇa", meaning: "accept, take" },
+            { word: "मदनुग्रहम्", transliteration: "madanugraham", meaning: "My grace" },
+            { word: "तपः", transliteration: "tapaḥ", meaning: "penance" },
+            { word: "भूयः", transliteration: "bhūyaḥ", meaning: "further, again" },
+            { word: "विधे", transliteration: "vidhe", meaning: "O Brahma (vocative)" },
+            { word: "अखिलसाधनी", transliteration: "akhilasādhanī", meaning: "the means to accomplish everything" },
+            { word: "भक्तिः", transliteration: "bhaktiḥ", meaning: "devotion" },
+            { word: "अत्युत्कटा", transliteration: "atyutkaṭā", meaning: "extremely intense" },
+            { word: "मुदितचेतसम्", transliteration: "muditacetasam", meaning: "with joyful heart" },
+            { word: "वेधसम्", transliteration: "vedhasam", meaning: "Brahma (the creator)" }
+          ]
+        },
+        {
+          dashaka: 9,
+          sloka: 9,
+          devanagari: "शतं कृततपास्ततः स खलु दिव्यसंवत्सरा-\nनवाप्य च तपोबलं मतिबलं च पूर्वाधिकम् ।\nउदीक्ष्य किल कम्पितं पयसि पङ्कजं वायुना\nभवद्बलविजृम्भितः पवनपाथसी पीतवान् ॥",
+          transliteration: "śataṁ kṛtatapāstataḥ sa khalu divyasaṁvatsarā-\nnavāpya ca tapobalaṁ matibalaṁ ca pūrvādhikam |\nudīkṣya kila kampitaṁ payasi paṅkajaṁ vāyunā\nbhavadbalavijṛmbhitaḥ pavanapāthasī pītavān ||",
+          translation: "Then Brahma performed penance for a hundred divine years and acquired the strength of penance and intellect far exceeding what he had before. Seeing the lotus trembling in the water due to wind, empowered by Your divine strength, he inhaled both the wind and the waters.",
+          commentary: "Brahma's second round of penance gives him even greater power. His absorption of the wind and waters is the preparatory act for creation — clearing the cosmic stage. That he does this 'bhavadbalavijrmbhitah' (empowered by the Lord's strength) emphasizes that even Brahma acts only through Vishnu's power.",
+          words: [
+            { word: "शतम्", transliteration: "śatam", meaning: "a hundred" },
+            { word: "कृततपाः", transliteration: "kṛtatapāḥ", meaning: "having performed penance" },
+            { word: "दिव्यसंवत्सरान्", transliteration: "divyasaṁvatsarān", meaning: "divine years" },
+            { word: "तपोबलम्", transliteration: "tapobalam", meaning: "the strength of penance" },
+            { word: "मतिबलम्", transliteration: "matibalam", meaning: "the power of intellect" },
+            { word: "पूर्वाधिकम्", transliteration: "pūrvādhikam", meaning: "exceeding the previous" },
+            { word: "कम्पितम्", transliteration: "kampitam", meaning: "trembling, shaking" },
+            { word: "पङ्कजम्", transliteration: "paṅkajam", meaning: "the lotus" },
+            { word: "वायुना", transliteration: "vāyunā", meaning: "by the wind" },
+            { word: "भवद्बलविजृम्भितः", transliteration: "bhavadbalavijṛmbhitaḥ", meaning: "empowered by Your strength" },
+            { word: "पवनपाथसी", transliteration: "pavanapāthasī", meaning: "the wind and the waters" },
+            { word: "पीतवान्", transliteration: "pītavān", meaning: "inhaled, absorbed" }
+          ]
+        },
+        {
+          dashaka: 9,
+          sloka: 10,
+          devanagari: "तवैव कृपया पुनः सरसिजेन तेनैव सः\nप्रकल्प्य भुवनत्रयीं प्रववृते प्रजानिर्मितौ ।\nतथाविधकृपाभरो गुरुमरुत्पुराधीश्वर\nत्वमाशु परिपाहि मां गुरुदयोक्षितैरीक्षितैः ॥",
+          transliteration: "tavaiva kṛpayā punaḥ sarasijena tenaiva saḥ\nprakalpya bhuvanatrayīṁ pravavṛte prajānirmitau |\ntathāvidhakṛpābharo gurumarutpurādhīśvara\ntvamāśu paripāhi māṁ gurudayokṣitairīkṣitaiḥ ||",
+          translation: "Once more, by Your grace alone, using that very lotus as the base, Brahma designed the three worlds and commenced the creation of living beings. O Lord of Guruvayur, who is full of such immeasurable compassion, please protect me quickly with Your glances drenched in great mercy.",
+          commentary: "The concluding verse follows Bhattathiri's signature pattern — ending each dashaka with a personal prayer to Guruvayurappan. The phrase 'gurudayokshitairikshitaih' (glances moistened with great compassion) is a beautiful image of divine grace as the Lord's merciful gaze falling upon the suffering poet.",
+          words: [
+            { word: "कृपया", transliteration: "kṛpayā", meaning: "by grace, by compassion" },
+            { word: "सरसिजेन", transliteration: "sarasijena", meaning: "with the lotus" },
+            { word: "प्रकल्प्य", transliteration: "prakalpya", meaning: "having designed, fashioned" },
+            { word: "भुवनत्रयीम्", transliteration: "bhuvanatrayīm", meaning: "the three worlds" },
+            { word: "प्रववृते", transliteration: "pravavṛte", meaning: "commenced, began" },
+            { word: "प्रजानिर्मितौ", transliteration: "prajānirmitau", meaning: "in the creation of beings" },
+            { word: "कृपाभरः", transliteration: "kṛpābharaḥ", meaning: "full of compassion" },
+            { word: "गुरुमरुत्पुराधीश्वर", transliteration: "gurumarutpurādhīśvara", meaning: "O Lord of Guruvayur" },
+            { word: "आशु", transliteration: "āśu", meaning: "quickly" },
+            { word: "परिपाहि", transliteration: "paripāhi", meaning: "protect completely" },
+            { word: "गुरुदयोक्षितैः ईक्षितैः", transliteration: "gurudayokṣitaiḥ īkṣitaiḥ", meaning: "with glances drenched in great mercy" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 10,
