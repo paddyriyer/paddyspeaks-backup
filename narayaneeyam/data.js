@@ -4845,7 +4845,228 @@ var NARAYANEEYAM_DATA = {
       theme: "philosophy",
       verseCount: 10,
       summary: "Describes the various types of cosmic dissolution - naimittika, prakritika, and atyantika pralaya. The Lord alone remains as the substratum when all creation merges back into the unmanifest.",
-      slokas: []
+      slokas: [
+        {
+          dashaka: 24,
+          sloka: 1,
+          devanagari: "यस्त्वं सृजस्यखिलमेतदशेषमाद्यः\nपालय्य चान्तसमये प्रलयं नयेथाः ।\nतस्मिन् प्रलीनसकलेऽपि तमोऽभिभूते\nत्वं केवलः परमसत्त्ववपुः प्रभासि ॥",
+          transliteration: "yastvaṁ sṛjasyakhilamētadaśēṣamādyaḥ\npālayya cāntasamayē pralayaṁ nayēthāḥ |\ntasmin pralīnasakalē'pi tamō'bhibhūtē\ntvaṁ kēvalaḥ paramasattvavapuḥ prabhāsi ||",
+          translation: "You, the Primordial One, who create this entire universe without remainder, and having sustained it, lead it to dissolution at the appointed end — even when all has merged back and darkness prevails, You alone shine forth in Your form of supreme pure existence.",
+          commentary: "The opening verse establishes the central theme of Dashaka 24: the Lord is both the creator and dissolver of the cosmos. Bhattathiri uses the triad of creation (srijasi), sustenance (palalya), and dissolution (pralayam nayethah) to frame the Lord's cosmic function. The key philosophical point is in the latter half — when everything has dissolved (pralina-sakale) and tamas dominates, the Lord alone remains as kevala (absolute, solitary) in His form of supreme sattva (parama-sattva-vapu). This echoes the Bhagavatam's teaching that Brahman is the substratum that persists through all cosmic cycles.",
+          words: [
+            { word: "सृजसि", transliteration: "sṛjasi", meaning: "You create" },
+            { word: "अखिलम्", transliteration: "akhilam", meaning: "all, entire" },
+            { word: "अशेषम्", transliteration: "aśēṣam", meaning: "without remainder" },
+            { word: "आद्यः", transliteration: "ādyaḥ", meaning: "the Primordial One" },
+            { word: "पालय्य", transliteration: "pālayya", meaning: "having sustained" },
+            { word: "अन्तसमये", transliteration: "antasamayē", meaning: "at the time of the end" },
+            { word: "प्रलयम्", transliteration: "pralayam", meaning: "dissolution" },
+            { word: "नयेथाः", transliteration: "nayēthāḥ", meaning: "You lead, bring about" },
+            { word: "प्रलीनसकले", transliteration: "pralīnasakalē", meaning: "when all has dissolved" },
+            { word: "तमोऽभिभूते", transliteration: "tamō'bhibhūtē", meaning: "when darkness prevails" },
+            { word: "केवलः", transliteration: "kēvalaḥ", meaning: "alone, absolute" },
+            { word: "परमसत्त्ववपुः", transliteration: "paramasattvavapuḥ", meaning: "form of supreme pure existence" },
+            { word: "प्रभासि", transliteration: "prabhāsi", meaning: "You shine forth" }
+          ]
+        },
+        {
+          dashaka: 24,
+          sloka: 2,
+          devanagari: "नैमित्तिकं प्रलयमाहुरिमं पुराणा\nब्रह्मक्षपावसरजं भुवनत्रयस्य ।\nसम्पूर्णकल्पदिवसान्तसमागमे त्वं\nब्रह्माणमात्मनि विलीनमवेक्ष्य शेषे ॥",
+          transliteration: "naimittikaṁ pralayamāhurimaṁ purāṇā\nbrahmakṣapāvasarajaṁ bhuvanatrayasya |\nsampūrṇakalpādivasāntasamāgamē tvaṁ\nbrahmāṇamātmani vilīnamavēkṣya śēṣē ||",
+          translation: "The ancients speak of this naimittika pralaya — the dissolution of the three worlds that occurs at the onset of Brahma's night. When the full kalpa-day draws to its close, You observe Brahma merging into Yourself and remain in repose.",
+          commentary: "This verse introduces the first of three types of pralaya discussed in this dashaka. Naimittika pralaya (occasional dissolution) occurs at the end of each of Brahma's days — a kalpa of 4.32 billion years. The three worlds (bhuvana-traya: bhur, bhuvar, svar) are dissolved while the higher realms remain. Bhattathiri follows the Bhagavatam (Canto 12) in describing how Brahma himself merges into the Lord at the onset of his night (brahma-kshapa-avasara). The Lord 'remains' (sheshe) — a word that evokes both Adi Shesha (the cosmic serpent) and the idea of remainder (shesha) after dissolution.",
+          words: [
+            { word: "नैमित्तिकम्", transliteration: "naimittikaṁ", meaning: "occasional, incidental" },
+            { word: "प्रलयम्", transliteration: "pralayam", meaning: "dissolution" },
+            { word: "पुराणाः", transliteration: "purāṇāḥ", meaning: "the ancient sages" },
+            { word: "ब्रह्मक्षपा", transliteration: "brahmakṣapā", meaning: "Brahma's night" },
+            { word: "अवसरजम्", transliteration: "avasarajam", meaning: "born of the occasion" },
+            { word: "भुवनत्रयस्य", transliteration: "bhuvanatrayasya", meaning: "of the three worlds" },
+            { word: "कल्पदिवसान्त", transliteration: "kalpadivasānta", meaning: "end of the kalpa-day" },
+            { word: "समागमे", transliteration: "samāgamē", meaning: "at the arrival of" },
+            { word: "ब्रह्माणम्", transliteration: "brahmāṇam", meaning: "Brahma" },
+            { word: "आत्मनि", transliteration: "ātmani", meaning: "in Yourself" },
+            { word: "विलीनम्", transliteration: "vilīnam", meaning: "dissolved, merged" },
+            { word: "अवेक्ष्य", transliteration: "avēkṣya", meaning: "having observed" },
+            { word: "शेषे", transliteration: "śēṣē", meaning: "You remain, repose" }
+          ]
+        },
+        {
+          dashaka: 24,
+          sloka: 3,
+          devanagari: "सप्तार्चिषः सप्त दिशो दहन्ति\nतापैस्त्रिभिर्दह्यत एव लोकः ।\nवह्निर्मुखाद्वैश्वनरो विभूतिं\nसंवर्तकः सर्वमिदं दुनोति ॥",
+          transliteration: "saptārciṣaḥ sapta diśō dahanti\ntāpāistribhirdahyata ēva lōkaḥ |\nvahnimukhādvaiśvanarō vibhūtiṁ\nsaṁvartakaḥ sarvamidaṁ dunōti ||",
+          translation: "Seven blazing suns scorch the seven directions; the world is burnt by the threefold heat. Fire issuing forth from the cosmic Vaishvanara displays its all-consuming power — the samvartaka fire torments all of creation.",
+          commentary: "The vivid imagery of cosmic conflagration follows the Bhagavatam's description of the dissolution process. The seven suns (saptarchis) is a well-known Puranic motif — at pralaya, six additional suns appear alongside the regular sun, scorching everything. The threefold heat (tapa-traya) refers to adhyatmika, adhidaivika, and adhibhautika sufferings intensified to cosmic proportions. Samvartaka is the specific name of the dissolution-fire (pralayagni). Vaishvanara, the cosmic fire principle, emerges from the Lord's mouth — connecting dissolution to the Vishvarupa vision described in the Bhagavad Gita.",
+          words: [
+            { word: "सप्तार्चिषः", transliteration: "saptārciṣaḥ", meaning: "seven suns (seven-rayed ones)" },
+            { word: "सप्त", transliteration: "sapta", meaning: "seven" },
+            { word: "दिशः", transliteration: "diśaḥ", meaning: "directions" },
+            { word: "दहन्ति", transliteration: "dahanti", meaning: "they burn, scorch" },
+            { word: "तापैस्त्रिभिः", transliteration: "tāpaistribhiḥ", meaning: "by the threefold heat" },
+            { word: "दह्यते", transliteration: "dahyatē", meaning: "is burned" },
+            { word: "लोकः", transliteration: "lōkaḥ", meaning: "the world" },
+            { word: "वह्निः", transliteration: "vahniḥ", meaning: "fire" },
+            { word: "वैश्वनरः", transliteration: "vaiśvanarō", meaning: "the cosmic fire (Vaishvanara)" },
+            { word: "विभूतिम्", transliteration: "vibhūtim", meaning: "power, manifestation" },
+            { word: "संवर्तकः", transliteration: "saṁvartakaḥ", meaning: "the dissolution-fire" },
+            { word: "दुनोति", transliteration: "dunōti", meaning: "torments, afflicts" }
+          ]
+        },
+        {
+          dashaka: 24,
+          sloka: 4,
+          devanagari: "ततः प्रवर्षन्ति घना भयङ्कराः\nशतं समा वारिधराः समन्ततः ।\nधारासहस्रैर्भुवनानि प्लावयन्\nप्रलीयते सर्वमपां महार्णवे ॥",
+          transliteration: "tataḥ pravarṣanti ghanā bhayaṅkarāḥ\nśataṁ samā vāridharāḥ samantataḥ |\ndhārāsahasrairbhuvanāni plāvayan\npralīyatē sarvamapāṁ mahārṇavē ||",
+          translation: "Then terrifying clouds rain down from all sides for a hundred years. Flooding all the worlds with thousands of torrential streams, everything dissolves into the vast cosmic ocean of waters.",
+          commentary: "After the samvartaka fire has scorched creation, the samvartaka clouds (pralaya-megha) appear and pour incessantly for a hundred celestial years. The sequence is significant: fire first reduces everything to ash, then waters dissolve even that residue. The word 'maharnnave' (great ocean) echoes the primordial waters (apah) that exist before creation in Vedic cosmogony — the same waters that appear in Narayaneeyam's earlier dashakas describing creation. Thus the dissolution mirrors creation in reverse. Bhattathiri's 'dharasahasraih' (thousands of streams) conveys the overwhelming scale of cosmic deluge.",
+          words: [
+            { word: "प्रवर्षन्ति", transliteration: "pravarṣanti", meaning: "they rain down" },
+            { word: "घनाः", transliteration: "ghanāḥ", meaning: "clouds" },
+            { word: "भयङ्कराः", transliteration: "bhayaṅkarāḥ", meaning: "terrifying" },
+            { word: "शतम्", transliteration: "śatam", meaning: "hundred" },
+            { word: "समाः", transliteration: "samāḥ", meaning: "years" },
+            { word: "वारिधराः", transliteration: "vāridharāḥ", meaning: "rain-bearing clouds" },
+            { word: "समन्ततः", transliteration: "samantataḥ", meaning: "from all sides" },
+            { word: "धारासहस्रैः", transliteration: "dhārāsahasraiḥ", meaning: "with thousands of streams" },
+            { word: "भुवनानि", transliteration: "bhuvanāni", meaning: "the worlds" },
+            { word: "प्लावयन्", transliteration: "plāvayan", meaning: "flooding" },
+            { word: "प्रलीयते", transliteration: "pralīyatē", meaning: "dissolves" },
+            { word: "महार्णवे", transliteration: "mahārṇavē", meaning: "in the great ocean" }
+          ]
+        },
+        {
+          dashaka: 24,
+          sloka: 5,
+          devanagari: "ब्राह्मी निशा विश्वमिदं निगीर्य\nमायातिसान्द्रध्वान्तमण्डले त्वम् ।\nयोगाब्धिमध्ये परिशेषशायी\nनिद्रासि तावत् पुनरुत्थितोऽसि ॥",
+          transliteration: "brāhmī niśā viśvamidaṁ nigīrya\nmāyātisāndradhvāntamaṇḍalē tvam |\nyōgābdhimadhyē pariśēṣaśāyī\nnidrāsi tāvat punarutthitō'si ||",
+          translation: "Brahma's night swallows up this universe. In the sphere of exceedingly dense darkness of maya, You recline upon the cosmic ocean of yoga-nidra as the sole remainder — You sleep thus, and then rise again.",
+          commentary: "This verse describes the state during Brahma's night (braahmi nisha) when the three worlds remain dissolved. The Lord reclines on the cosmic waters in yoga-nidra — not ordinary sleep but the supreme meditative absorption. The compound 'maya-ati-sandra-dhvanta-mandale' (in the sphere of exceedingly dense darkness of maya) is philosophically rich: maya in its unmanifest state is pure darkness (tamas). 'Parishesha-shayi' (sleeping as the sole remainder) echoes the Vishnu Purana's description of the Lord on Shesha. The cycle restates: He sleeps and rises again (punar-utthita), initiating a new day of Brahma.",
+          words: [
+            { word: "ब्राह्मी", transliteration: "brāhmī", meaning: "of Brahma" },
+            { word: "निशा", transliteration: "niśā", meaning: "night" },
+            { word: "विश्वम्", transliteration: "viśvam", meaning: "the universe" },
+            { word: "निगीर्य", transliteration: "nigīrya", meaning: "having swallowed" },
+            { word: "मायातिसान्द्र", transliteration: "māyātisāndra", meaning: "exceedingly dense maya" },
+            { word: "ध्वान्तमण्डले", transliteration: "dhvāntamaṇḍalē", meaning: "in the sphere of darkness" },
+            { word: "योगाब्धिमध्ये", transliteration: "yōgābdhimadhyē", meaning: "in the midst of the yoga-ocean" },
+            { word: "परिशेषशायी", transliteration: "pariśēṣaśāyī", meaning: "reclining as the sole remainder" },
+            { word: "निद्रासि", transliteration: "nidrāsi", meaning: "You sleep" },
+            { word: "तावत्", transliteration: "tāvat", meaning: "for that duration" },
+            { word: "पुनरुत्थितः", transliteration: "punarutthitaḥ", meaning: "risen again" }
+          ]
+        },
+        {
+          dashaka: 24,
+          sloka: 6,
+          devanagari: "प्राकृतं तु प्रलयं वदन्ति\nब्रह्मायुषोऽन्ते भवतो विधातुः ।\nसमस्तलोका निखिलाश्च जीवाः\nसूक्ष्मीभवन्तस्त्वयि लीयमानाः ॥",
+          transliteration: "prākṛtaṁ tu pralayaṁ vadanti\nbrahmāyuṣō'ntē bhavatō vidhātuḥ |\nsamastalōkā nikhilāśca jīvāḥ\nsūkṣmībhavantastvayi līyamānāḥ ||",
+          translation: "They speak of the prakritika pralaya — the dissolution at the end of Brahma's total lifespan, ordained by You. All the worlds and all the jivas, becoming subtle, merge into You.",
+          commentary: "The second type of pralaya — prakritika (relating to prakriti) — is far more comprehensive than the naimittika. It occurs at the end of Brahma's total lifespan (two parardhas, approximately 311 trillion years). Here not just the three worlds but all fourteen lokas (samasta-loka) dissolve, and all individual souls (jivas) merge into the Lord in their subtle form (sukshmi-bhavantah). The word 'vidhatu' (ordainer) emphasizes that even this total dissolution is willed by the Lord. The jivas do not cease to exist but become latent within Him, awaiting the next creation cycle.",
+          words: [
+            { word: "प्राकृतम्", transliteration: "prākṛtam", meaning: "relating to prakriti, material" },
+            { word: "प्रलयम्", transliteration: "pralayam", meaning: "dissolution" },
+            { word: "वदन्ति", transliteration: "vadanti", meaning: "they speak of, they describe" },
+            { word: "ब्रह्मायुषः", transliteration: "brahmāyuṣaḥ", meaning: "of Brahma's lifespan" },
+            { word: "अन्ते", transliteration: "antē", meaning: "at the end" },
+            { word: "विधातुः", transliteration: "vidhātuḥ", meaning: "of the Ordainer (the Lord)" },
+            { word: "समस्तलोकाः", transliteration: "samastalōkāḥ", meaning: "all the worlds" },
+            { word: "निखिलाः", transliteration: "nikhilāḥ", meaning: "all, entire" },
+            { word: "जीवाः", transliteration: "jīvāḥ", meaning: "individual souls" },
+            { word: "सूक्ष्मीभवन्तः", transliteration: "sūkṣmībhavantaḥ", meaning: "becoming subtle" },
+            { word: "त्वयि", transliteration: "tvayi", meaning: "in You" },
+            { word: "लीयमानाः", transliteration: "līyamānāḥ", meaning: "merging, dissolving" }
+          ]
+        },
+        {
+          dashaka: 24,
+          sloka: 7,
+          devanagari: "पृथ्वी जलेऽग्नौ सलिलं हुताशो\nवायौ च वायुः गगने विलीनः ।\nखं मानसे तच्च महत्यहङ्कृतिः\nमहान् प्रकृतौ प्रकृतिस्त्वयि प्रभो ॥",
+          transliteration: "pṛthvī jalē'gnau salilaṁ hutāśō\nvāyau ca vāyuḥ gaganē vilīnaḥ |\nkhaṁ mānasē tacca mahatyahaṅkṛtiḥ\nmahān prakṛtau prakṛtistvayi prabhō ||",
+          translation: "Earth dissolves into water, water into fire, fire into air, and air merges into space. Space dissolves into the cosmic mind, that into mahat, ego into mahat, mahat into prakriti — and prakriti merges into You, O Lord!",
+          commentary: "This verse presents the classic Sankhya-Vedantic scheme of involution (prati-srishti) where the elements merge in reverse order of creation. The tattvas dissolve upward: prithvi (earth) into jala (water), water into agni (fire), fire into vayu (air), air into akasha (space), space into ahamkara (ego/mind), ego into mahat (cosmic intelligence), and mahat into prakriti (primordial nature). The climax is that prakriti itself merges into the Lord (tvayi). This establishes the Lord as para-prakriti — beyond and transcendent to material nature. The sequence mirrors Bhagavatam 12.4 and echoes the Aitareya Upanishad's description of progressive dissolution.",
+          words: [
+            { word: "पृथ्वी", transliteration: "pṛthvī", meaning: "earth" },
+            { word: "जले", transliteration: "jalē", meaning: "into water" },
+            { word: "सलिलम्", transliteration: "salilaṁ", meaning: "water" },
+            { word: "हुताशः", transliteration: "hutāśaḥ", meaning: "fire (the oblation-eater)" },
+            { word: "वायौ", transliteration: "vāyau", meaning: "into air" },
+            { word: "गगने", transliteration: "gaganē", meaning: "into space" },
+            { word: "विलीनः", transliteration: "vilīnaḥ", meaning: "dissolved" },
+            { word: "मानसे", transliteration: "mānasē", meaning: "into the cosmic mind" },
+            { word: "अहङ्कृतिः", transliteration: "ahaṅkṛtiḥ", meaning: "ego" },
+            { word: "महान्", transliteration: "mahān", meaning: "mahat (cosmic intelligence)" },
+            { word: "प्रकृतौ", transliteration: "prakṛtau", meaning: "into prakriti" },
+            { word: "प्रकृतिः", transliteration: "prakṛtiḥ", meaning: "primordial nature" },
+            { word: "प्रभो", transliteration: "prabhō", meaning: "O Lord" }
+          ]
+        },
+        {
+          dashaka: 24,
+          sloka: 8,
+          devanagari: "आत्यन्तिकं तु प्रलयं वदन्ति\nयत्राज्ञता विद्यया नश्यतीह ।\nज्ञानाग्निदग्धाखिलकर्मबन्धः\nजीवः परं ब्रह्म भवत्स्वरूपम् ॥",
+          transliteration: "ātyantkaṁ tu pralayaṁ vadanti\nyatrājñatā vidyayā naśyatīha |\njñānāgnidagdhākhilakarmabandhaḥ\njīvaḥ paraṁ brahma bhavatsvarūpam ||",
+          translation: "They call atyantika the dissolution where ignorance is destroyed here by knowledge. The jiva, all bonds of karma burnt in the fire of wisdom, realizes the Supreme Brahman — Your own true nature.",
+          commentary: "The third and highest type of pralaya is atyantika (absolute, ultimate) — which is not a cosmic event but an individual spiritual achievement: moksha. Here 'dissolution' means the destruction of ajnata (ignorance) through vidya (knowledge). The 'jnanagni' (fire of wisdom) that burns all karma-bonds echoes Bhagavad Gita 4.37: 'jnanagnih sarva-karmani bhasmasat kurute.' Unlike the cyclical cosmic dissolutions, this liberation is permanent. The jiva realizes its identity with Para Brahman, which is none other than the Lord's true nature (bhavat-svarupam). This is Bhattathiri's Advaitic flourish within his Bhakti framework.",
+          words: [
+            { word: "आत्यन्तिकम्", transliteration: "ātyantikam", meaning: "absolute, ultimate" },
+            { word: "प्रलयम्", transliteration: "pralayam", meaning: "dissolution" },
+            { word: "अज्ञता", transliteration: "ajñatā", meaning: "ignorance" },
+            { word: "विद्यया", transliteration: "vidyayā", meaning: "by knowledge" },
+            { word: "नश्यति", transliteration: "naśyati", meaning: "is destroyed" },
+            { word: "ज्ञानाग्नि", transliteration: "jñānāgni", meaning: "fire of wisdom" },
+            { word: "दग्ध", transliteration: "dagdha", meaning: "burnt" },
+            { word: "अखिलकर्मबन्धः", transliteration: "akhilakarmabandhaḥ", meaning: "all bonds of karma" },
+            { word: "जीवः", transliteration: "jīvaḥ", meaning: "the individual soul" },
+            { word: "परम्", transliteration: "param", meaning: "supreme" },
+            { word: "ब्रह्म", transliteration: "brahma", meaning: "Brahman (the Absolute)" },
+            { word: "स्वरूपम्", transliteration: "svarūpam", meaning: "true nature, own form" }
+          ]
+        },
+        {
+          dashaka: 24,
+          sloka: 9,
+          devanagari: "नैमित्तिके प्राकृतिके विलीने\nसर्वे समस्ते प्रलये प्रयाते ।\nत्वमेव शेषः परमार्थतत्त्वं\nनिर्गुणब्रह्म निरञ्जनोऽसि ॥",
+          transliteration: "naimittiikē prākṛtikē vilīnē\nsarvē samastē pralayē prayātē |\ntvamēva śēṣaḥ paramārthatatvaṁ\nnirguṇabrahma nirañjanō'si ||",
+          translation: "When the naimittika and prakritika dissolutions have run their course, when all has departed into pralaya — You alone remain, the Supreme Reality, the attributeless Brahman, the stainless One.",
+          commentary: "This penultimate verse synthesizes the entire dashaka's teaching. After describing three types of pralaya, Bhattathiri arrives at the ultimate philosophical conclusion: the Lord alone remains (tvam eva shesha). The identification is bold — the personal God of bhakti is equated with nirguna Brahman (attributeless Absolute) of Advaita Vedanta. 'Paramartha-tattvam' (supreme reality) and 'niranjana' (stainless, untouched by maya) are classic Upanishadic epithets. This verse resolves the apparent tension between saguna and nirguna conceptions: the Lord who creates and dissolves worlds is ultimately beyond all attributes. The three dissolutions — cosmic periodic, cosmic total, and spiritual — all point to the same truth: Brahman alone is real.",
+          words: [
+            { word: "नैमित्तिके", transliteration: "naimittiikē", meaning: "in the occasional dissolution" },
+            { word: "प्राकृतिके", transliteration: "prākṛtikē", meaning: "in the material dissolution" },
+            { word: "विलीने", transliteration: "vilīnē", meaning: "having dissolved" },
+            { word: "सर्वे", transliteration: "sarvē", meaning: "all" },
+            { word: "समस्ते", transliteration: "samastē", meaning: "everything" },
+            { word: "प्रलये", transliteration: "pralayē", meaning: "in dissolution" },
+            { word: "प्रयाते", transliteration: "prayātē", meaning: "having departed" },
+            { word: "त्वमेव", transliteration: "tvamēva", meaning: "You alone" },
+            { word: "शेषः", transliteration: "śēṣaḥ", meaning: "the remainder, what remains" },
+            { word: "परमार्थतत्त्वम्", transliteration: "paramārthatattvam", meaning: "the Supreme Reality" },
+            { word: "निर्गुणब्रह्म", transliteration: "nirguṇabrahma", meaning: "attributeless Brahman" },
+            { word: "निरञ्जनः", transliteration: "nirañjanaḥ", meaning: "stainless, untouched" }
+          ]
+        },
+        {
+          dashaka: 24,
+          sloka: 10,
+          devanagari: "प्रलयत्रयमत्ययं ते\nरूपं यत्तन्निगमा वदन्ति ।\nतं त्वां गुरुवायुपुरेश विश्वा-\nतीतं परं नौमि मरुत्पुरेश ॥",
+          transliteration: "pralayatrayamatyayaṁ tē\nrūpaṁ yattannigamā vadanti |\ntaṁ tvāṁ guruvāyupurēśa viśvā-\ntītaṁ paraṁ naumi marutpurēśa ||",
+          translation: "That form of Yours which transcends the three dissolutions — which the Vedas themselves proclaim — to that transcendent, supreme You, O Lord of Guruvayur, I bow down. O Lord of Marutpura, protect me!",
+          commentary: "The closing verse follows the signature Narayaneeyam pattern of offering obeisance to the Lord of Guruvayur. Bhattathiri addresses the Lord as 'Guruvayupuresha' and 'Marutpuresha' (Lord of the Wind-city, i.e., Guruvayur, founded by Vayu). The three dissolutions (pralaya-traya) — naimittika, prakritika, and atyantika — are all transcended by the Lord's true form. The Vedas (nigama) are invoked as authority for this supreme truth. The word 'vishvatita' (transcending the universe) captures the essence of the dashaka: the Lord who enacts cosmic dissolution is Himself forever beyond it. The prayer for protection (naumi) is Bhattathiri's personal supplication, as he composed Narayaneeyam while suffering from illness at Guruvayur temple.",
+          words: [
+            { word: "प्रलयत्रयम्", transliteration: "pralayatrayam", meaning: "the three dissolutions" },
+            { word: "अत्ययम्", transliteration: "atyayam", meaning: "transcending, beyond" },
+            { word: "रूपम्", transliteration: "rūpam", meaning: "form" },
+            { word: "निगमाः", transliteration: "nigamāḥ", meaning: "the Vedas" },
+            { word: "वदन्ति", transliteration: "vadanti", meaning: "they proclaim" },
+            { word: "गुरुवायुपुरेश", transliteration: "guruvāyupurēśa", meaning: "Lord of Guruvayur" },
+            { word: "विश्वातीतम्", transliteration: "viśvātītam", meaning: "transcending the universe" },
+            { word: "परम्", transliteration: "param", meaning: "supreme" },
+            { word: "नौमि", transliteration: "naumi", meaning: "I bow, I praise" },
+            { word: "मरुत्पुरेश", transliteration: "marutpurēśa", meaning: "Lord of Marutpura (Guruvayur)" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 25,
