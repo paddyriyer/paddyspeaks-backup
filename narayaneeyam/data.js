@@ -3270,12 +3270,213 @@ var NARAYANEEYAM_DATA = {
     },
     {
       dashaka: 15,
-      titleSanskrit: "परशुरामावतारवर्णनम्",
-      titleEnglish: "Parasurama Avatar",
-      theme: "avatar",
+      titleSanskrit: "कपिलोपदेशवर्णनम्",
+      titleEnglish: "The Teachings of Lord Kapila",
+      theme: "philosophy",
       verseCount: 10,
-      summary: "Describes the incarnation of Lord Vishnu as Parasurama, who wielded the divine axe to rid the earth of tyrannical Kshatriyas twenty-one times to restore dharmic order.",
-      slokas: []
+      summary: "Summarizes Lord Kapila's teachings to His mother Devahuti — the essence of Sankhya philosophy and Bhakti Yoga. Covers the 25 tattvas, the three gunas, meditation on the divine form, supreme devotion that conquers death, the perils of worldly attachment, the cycle of birth and delusion, and the supremacy of selfless devotion. Each verse ends with the refrain 'Thus You taught Devahuti as Kapila.'",
+      slokas: [
+        {
+          dashaka: 15,
+          sloka: 1,
+          devanagari: "मतिरिह गुणसक्ता बन्धकृत्तेष्वसक्ता\nत्वमृतकृदुपरुन्धे भक्तियोगस्तु सक्तिम् ।\nमहदनुगमलभ्या भक्तिरेवात्र साध्या\nकपिलतनुरिति त्वं देवहूत्यै न्यगादीः ॥",
+          transliteration: "matiriha guṇasaktā bandhakṛttēṣvasaktā\ntvamṛtakṛduparundhē bhaktiyōgastu saktim |\nmahadanugamalabhyā bhaktirēvātra sādhyā\nkapilatanuriti tvaṁ dēvahūtyai nyagādīḥ ||",
+          translation: "The mind, when attached to the gunas (qualities of nature), creates bondage; when unattached, it leads to liberation. Bhakti Yoga destroys attachment. Devotion, attainable through the company of great souls, is the supreme goal to be pursued. Thus You taught Devahuti in Your form as Kapila.",
+          commentary: "The opening verse establishes bhakti as the central teaching. The mind (mati) has two possibilities: attachment to gunas (bondage) or detachment (liberation). But detachment is difficult to achieve through mere effort — it is Bhakti Yoga that destroys attachment (saktim uparundhē). The crucial insight is 'mahadanugama-labhya' — bhakti is attained through association with great souls (mahats/saints), not through solitary practice. Each verse in this dashaka ends with the refrain 'kapilatanuriti tvam devahūtyai nyagādīḥ.'",
+          words: [
+            { word: "मतिः", transliteration: "matiḥ", meaning: "the mind, intellect" },
+            { word: "गुणसक्ता", transliteration: "guṇasaktā", meaning: "attached to the gunas (qualities)" },
+            { word: "बन्धकृत्", transliteration: "bandhakṛt", meaning: "creating bondage" },
+            { word: "असक्ता", transliteration: "asaktā", meaning: "unattached" },
+            { word: "अमृतकृत्", transliteration: "amṛtakṛt", meaning: "creating immortality/liberation" },
+            { word: "भक्तियोगः", transliteration: "bhaktiyōgaḥ", meaning: "the yoga of devotion" },
+            { word: "सक्तिम्", transliteration: "saktim", meaning: "attachment" },
+            { word: "उपरुन्धे", transliteration: "uparundhē", meaning: "destroys, overcomes" },
+            { word: "महदनुगम", transliteration: "mahadanugama", meaning: "association with great souls" },
+            { word: "लभ्या", transliteration: "labhyā", meaning: "attainable" },
+            { word: "साध्या", transliteration: "sādhyā", meaning: "to be pursued/achieved" },
+            { word: "कपिलतनुः", transliteration: "kapilatanuḥ", meaning: "in the form of Kapila" },
+            { word: "न्यगादीः", transliteration: "nyagādīḥ", meaning: "You taught/told" }
+          ]
+        },
+        {
+          dashaka: 15,
+          sloka: 2,
+          devanagari: "प्रकृतिमहदहङ्काराश्च मात्राश्च भूता-\nन्यपि हृदपि दशाक्षी पूरुषः पञ्चविंशः ।\nइति विदितविभागो मुच्यतेऽसौ प्रकृत्या\nकपिलतनुरिति त्वं देवहूत्यै न्यगादीः ॥",
+          transliteration: "prakṛtimahadahaṅkārāśca mātrāśca bhūtā-\nnyapi hṛdapi daśākṣī pūruṣaḥ pañcaviṁśaḥ |\niti viditavibhāgō mucyatē'sau prakṛtyā\nkapilatanuriti tvaṁ dēvahūtyai nyagādīḥ ||",
+          translation: "Prakriti, Mahat, Ahankara, the tanmatras, the five elements, the mind, the ten senses, and the Purusha — these are the twenty-five principles. One who knows the distinction among them is freed from the bondage of Prakriti. Thus You taught Devahuti as Kapila.",
+          commentary: "This verse summarizes the entire Sankhya ontology in a single stanza: Prakriti (primordial nature), Mahat (cosmic intelligence), Ahankara (ego), five tanmatras (subtle elements), five gross elements (bhutas), the mind (hrid), ten senses (dasha-akshi — five of knowledge, five of action), and the Purusha (soul) as the 25th principle (panchavimsha). Knowledge of the distinction (vidita-vibhaga) between these — especially between Purusha and Prakriti — leads to liberation.",
+          words: [
+            { word: "प्रकृति", transliteration: "prakṛti", meaning: "primordial nature" },
+            { word: "महत्", transliteration: "mahat", meaning: "cosmic intelligence (Mahat-tattva)" },
+            { word: "अहङ्कारः", transliteration: "ahaṅkāraḥ", meaning: "ego" },
+            { word: "मात्राः", transliteration: "mātrāḥ", meaning: "tanmatras (subtle elements)" },
+            { word: "भूतानि", transliteration: "bhūtāni", meaning: "the five gross elements" },
+            { word: "हृत्", transliteration: "hṛt", meaning: "the mind/heart" },
+            { word: "दशाक्षी", transliteration: "daśākṣī", meaning: "the ten senses" },
+            { word: "पूरुषः", transliteration: "pūruṣaḥ", meaning: "the soul (Purusha)" },
+            { word: "पञ्चविंशः", transliteration: "pañcaviṁśaḥ", meaning: "the twenty-fifth (principle)" },
+            { word: "विदितविभागः", transliteration: "viditavibhāgaḥ", meaning: "one who knows the distinction" },
+            { word: "मुच्यते", transliteration: "mucyatē", meaning: "is freed" },
+            { word: "प्रकृत्या", transliteration: "prakṛtyā", meaning: "from Prakriti (nature's bondage)" }
+          ]
+        },
+        {
+          dashaka: 15,
+          sloka: 3,
+          devanagari: "प्रकृतिगतगुणौघैर्नाज्यते पूरुषोऽयं\nयदि तु सजति तस्यां तद्गुणास्तं भजेरन् ।\nमदनुभजनतत्त्वालोचनैः साप्यपेया-\nत्कपिलतनुरिति त्वं देवहूत्यै न्यगादीः ॥",
+          transliteration: "prakṛtigataguṇaughairnājyatē pūruṣō'yaṁ\nyadi tu sajati tasyāṁ tadguṇāstaṁ bhajēran |\nmadanubhajanatattvālōcanaiḥ sāpyapēyā-\ntkapilatanuriti tvaṁ dēvahūtyai nyagādīḥ ||",
+          translation: "The Purusha is inherently untainted by the gunas residing in Prakriti. But if he associates with Prakriti, her qualities affect him. Through devotion to Me and contemplation of truth, even Prakriti can be transcended. Thus You taught Devahuti as Kapila.",
+          commentary: "A key Sankhya-Bhakti synthesis: the soul (Purusha) is intrinsically pure (na ajyate — not stained). Bondage arises only through false identification with Prakriti. The solution is twofold: 'mad-anubhajana' (devotion to Me/the Lord) and 'tattva-alochana' (contemplation of truth). Bhattathiri shows that Kapila's Sankhya is not dry philosophy — it is saturated with bhakti as the practical means of liberation.",
+          words: [
+            { word: "प्रकृतिगतगुणौघैः", transliteration: "prakṛtigataguṇaughaiḥ", meaning: "by the floods of gunas residing in Prakriti" },
+            { word: "न आज्यते", transliteration: "na ājyatē", meaning: "is not tainted/affected" },
+            { word: "पूरुषः", transliteration: "pūruṣaḥ", meaning: "the soul" },
+            { word: "सजति", transliteration: "sajati", meaning: "associates with" },
+            { word: "तद्गुणाः", transliteration: "tadguṇāḥ", meaning: "those qualities (gunas)" },
+            { word: "भजेरन्", transliteration: "bhajēran", meaning: "would affect/attach to" },
+            { word: "मदनुभजन", transliteration: "madanubhajana", meaning: "devotion to Me" },
+            { word: "तत्त्वालोचनैः", transliteration: "tattvālōcanaiḥ", meaning: "by contemplation of truth" },
+            { word: "अपेयात्", transliteration: "apēyāt", meaning: "can be transcended/removed" }
+          ]
+        },
+        {
+          dashaka: 15,
+          sloka: 4,
+          devanagari: "विमलमतिरुपात्तैरासनाद्यैर्मदङ्गं\nगरुडसमधिरूढं दिव्यभूषायुधाङ्कम् ।\nरुचितुलिततमालं शीलयेतानुवेलं\nकपिलतनुरिति त्वं देवहूत्यै न्यगादीः ॥",
+          transliteration: "vimalamatirupāttairāsanādyairmadaṅgaṁ\ngaruḍasamadhirūḍhaṁ divyabhūṣāyudhāṅkam |\nrucitulitatamālaṁ śīlayētānuvēlaṁ\nkapilatanuriti tvaṁ dēvahūtyai nyagādīḥ ||",
+          translation: "With a purified mind, having practiced postures and other disciplines, one should constantly meditate upon My form — mounted on Garuda, adorned with divine ornaments and weapons, with a complexion surpassing the tamala tree in beauty. Thus You taught Devahuti as Kapila.",
+          commentary: "After the philosophical exposition (slokas 1-3), Kapila prescribes the practice: meditation on the divine form. The prerequisites are 'vimala-mati' (purified mind) and 'asana-adyaih' (yogic practices including postures). The meditation object is the Lord's form in full glory — on Garuda, with divine ornaments and weapons, with a dark-blue complexion compared to the tamala tree. The instruction 'shilayeta anuvelam' (practice constantly) emphasizes that devotional meditation must be unbroken.",
+          words: [
+            { word: "विमलमतिः", transliteration: "vimalamatiḥ", meaning: "one with a purified mind" },
+            { word: "उपात्तैः", transliteration: "upāttaiḥ", meaning: "having practiced/adopted" },
+            { word: "आसनाद्यैः", transliteration: "āsanādyaiḥ", meaning: "with postures and other disciplines" },
+            { word: "मदङ्गम्", transliteration: "madaṅgam", meaning: "My form/body" },
+            { word: "गरुडसमधिरूढम्", transliteration: "garuḍasamadhirūḍham", meaning: "mounted on Garuda" },
+            { word: "दिव्यभूषायुधाङ्कम्", transliteration: "divyabhūṣāyudhāṅkam", meaning: "adorned with divine ornaments and weapons" },
+            { word: "रुचितुलिततमालम्", transliteration: "rucitulitatamālam", meaning: "whose radiance rivals the tamala tree" },
+            { word: "शीलयेत", transliteration: "śīlayēta", meaning: "should meditate upon/practice" },
+            { word: "अनुवेलम्", transliteration: "anuvēlam", meaning: "constantly, repeatedly" }
+          ]
+        },
+        {
+          dashaka: 15,
+          sloka: 5,
+          devanagari: "मम गुणगणलीलाकर्णनैः कीर्तनाद्यै-\nर्मयि सुरसरिदोघप्रख्यचित्तानुवृत्तिः ।\nभवति परमभक्तिः सा हि मृत्योर्विजेत्री\nकपिलतनुरिति त्वं देवहूत्यै न्यगादीः ॥",
+          transliteration: "mama guṇagaṇalīlākarṇanaiḥ kīrtanādyai-\nrmayi surasaridōghaprakhyacittānuvṛttiḥ |\nbhavati paramabhaktiḥ sā hi mṛtyōrvijētrī\nkapilatanuriti tvaṁ dēvahūtyai nyagādīḥ ||",
+          translation: "By hearing of My qualities and divine sports, by singing My praises and other devotional practices, the mind flows towards Me like the current of the heavenly Ganga. This supreme devotion conquers even death itself! Thus You taught Devahuti as Kapila.",
+          commentary: "This is perhaps the most celebrated verse of the dashaka. The practices of bhakti are listed: hearing (karnanaiḥ) about the Lord's qualities (guna-gana) and leelas (sports), and kirtana (singing praises). The result is described through the unforgettable simile: the mind flows toward God like the Ganga flows toward the ocean (surasarit-ogha-prakhya-chitta-anuvritti). This is 'parama-bhakti' — supreme devotion — and its power is absolute: 'mrityoh vijetri' (it conquers death). Nothing in creation is more powerful than this love.",
+          words: [
+            { word: "गुणगणलीलाकर्णनैः", transliteration: "guṇagaṇalīlākarṇanaiḥ", meaning: "by hearing of qualities and divine sports" },
+            { word: "कीर्तनाद्यैः", transliteration: "kīrtanādyaiḥ", meaning: "by singing praises and other practices" },
+            { word: "मयि", transliteration: "mayi", meaning: "towards Me" },
+            { word: "सुरसरिदोघप्रख्य", transliteration: "surasaridōghaprakhya", meaning: "resembling the current of the heavenly river (Ganga)" },
+            { word: "चित्तानुवृत्तिः", transliteration: "cittānuvṛttiḥ", meaning: "the continuous flow of the mind" },
+            { word: "परमभक्तिः", transliteration: "paramabhaktiḥ", meaning: "supreme devotion" },
+            { word: "मृत्योः", transliteration: "mṛtyōḥ", meaning: "of death" },
+            { word: "विजेत्री", transliteration: "vijētrī", meaning: "the conqueror" }
+          ]
+        },
+        {
+          dashaka: 15,
+          sloka: 6,
+          devanagari: "अहह बहुलहिंसासञ्चितार्थैः कुटुम्बं\nप्रतिदिनमनुपुष्णन् स्त्रीजितो बाललाली ।\nविशति हि गृहसक्तो यातनां मय्यभक्तः\nकपिलतनुरिति त्वं देवहूत्यै न्यगादीः ॥",
+          transliteration: "ahaha bahulahiṁsāsañcitārthaiḥ kuṭumbaṁ\npratidinamanupuṣṇan strījitō bālalālī |\nviśati hi gṛhasaktō yātanāṁ mayyabhaktaḥ\nkapilatanuriti tvaṁ dēvahūtyai nyagādīḥ ||",
+          translation: "Alas! One who daily nourishes his family with wealth accumulated through much violence, enslaved by his wife and doting on his children — such a person, attached to home-life and devoid of devotion to Me, enters into terrible suffering. Thus You taught Devahuti as Kapila.",
+          commentary: "After describing the path of liberation (slokas 1-5), Kapila now warns of the consequences of its opposite. The householder described here accumulates wealth through violence (bahula-himsa-sanchita-arthaih), is controlled by his wife (stri-jitah), excessively fond of children (bala-lali), and devoid of devotion (mayi abhaktah). The word 'yatanam' (suffering/hell) is his destination. This is not a condemnation of family life but of family life without devotion — the 'griha-sakta' (attached to home) who forgets God.",
+          words: [
+            { word: "अहह", transliteration: "ahaha", meaning: "alas!" },
+            { word: "बहुलहिंसासञ्चितार्थैः", transliteration: "bahulahiṁsāsañcitārthaiḥ", meaning: "with wealth accumulated through much violence" },
+            { word: "कुटुम्बम्", transliteration: "kuṭumbam", meaning: "family" },
+            { word: "अनुपुष्णन्", transliteration: "anupuṣṇan", meaning: "nourishing, feeding" },
+            { word: "स्त्रीजितः", transliteration: "strījitaḥ", meaning: "enslaved by wife" },
+            { word: "बाललाली", transliteration: "bālalālī", meaning: "doting on children" },
+            { word: "गृहसक्तः", transliteration: "gṛhasaktaḥ", meaning: "attached to home-life" },
+            { word: "यातनाम्", transliteration: "yātanām", meaning: "suffering, torment (in hell)" },
+            { word: "मयि अभक्तः", transliteration: "mayi abhaktaḥ", meaning: "devoid of devotion to Me" }
+          ]
+        },
+        {
+          dashaka: 15,
+          sloka: 7,
+          devanagari: "युवतिजठरखिन्नो जातबोधोऽप्यकाण्डे\nप्रसवगलितबोधः पीडयोल्लङ्घ्य बाल्यम् ।\nपुनरपि बत मुह्यत्येव तारुण्यकाले\nकपिलतनुरिति त्वं देवहूत्यै न्यगादीः ॥",
+          transliteration: "yuvatījaṭharakhinnō jātabōdhō'pyakāṇḍē\nprasavagalitabōdhaḥ pīḍayōllaṅghya bālyam |\npunarapi bata muhyatyēva tāruṇyakālē\nkapilatanuriti tvaṁ dēvahūtyai nyagādīḥ ||",
+          translation: "Suffering in the mother's womb, the soul gains awareness — but that wisdom is lost at the moment of birth! Having endured the pains of childhood, alas, he falls into delusion again in youth. Thus You taught Devahuti as Kapila.",
+          commentary: "This verse describes the tragic cycle of embodied existence. In the womb (yuvati-jathara), the soul suffers and gains spiritual awareness (jata-bodhah). But at birth (prasava), that knowledge is instantly lost (galita-bodhah). After enduring childhood's pains (pidaya ullanghya balyam), the youth (tarunyakale) is again deluded (muhyati) by sensual attractions. The exclamation 'bata' (alas!) conveys Kapila's compassion for beings trapped in this cycle.",
+          words: [
+            { word: "युवतिजठरखिन्नः", transliteration: "yuvatījaṭharakhinnḥ", meaning: "suffering in the mother's womb" },
+            { word: "जातबोधः", transliteration: "jātabōdhaḥ", meaning: "having gained awareness" },
+            { word: "अकाण्डे", transliteration: "akāṇḍē", meaning: "suddenly, unexpectedly" },
+            { word: "प्रसवगलितबोधः", transliteration: "prasavagalitabōdhaḥ", meaning: "wisdom lost at birth" },
+            { word: "पीडया", transliteration: "pīḍayā", meaning: "with suffering, pain" },
+            { word: "उल्लङ्घ्य", transliteration: "ullaṅghya", meaning: "having crossed over" },
+            { word: "बाल्यम्", transliteration: "bālyam", meaning: "childhood" },
+            { word: "बत", transliteration: "bata", meaning: "alas!" },
+            { word: "मुह्यति", transliteration: "muhyati", meaning: "falls into delusion" },
+            { word: "तारुण्यकाले", transliteration: "tāruṇyakālē", meaning: "in the time of youth" }
+          ]
+        },
+        {
+          dashaka: 15,
+          sloka: 8,
+          devanagari: "पितृसुरगणयाजी धार्मिको यो गृहस्थः\nस च निपतति काले दक्षिणाध्वोपगामी ।\nमयि निहितमकामं कर्म तूदक्पथार्थं\nकपिलतनुरिति त्वं देवहूत्यै न्यगादीः ॥",
+          transliteration: "pitṛsuragaṇayājī dhārmikō yō gṛhasthaḥ\nsa ca nipatati kālē dakṣiṇādhvōpagāmī |\nmayi nihitamakāmaṁ karma tūdakpathārthaṁ\nkapilatanuriti tvaṁ dēvahūtyai nyagādīḥ ||",
+          translation: "Even the dharmic householder who performs rituals for ancestors and gods eventually falls — he goes by the southern path (of return). But action performed selflessly, dedicated to Me, leads to the northern path (of no-return). Thus You taught Devahuti as Kapila.",
+          commentary: "This verse distinguishes two types of action: sakama-karma (rituals performed with desire) and nishkama-karma (selfless action dedicated to God). Even a righteous householder (dharmikah grihastah) who performs Vedic rituals (pitri-sura-gana-yaji) goes to the southern path (dakshinadhva) — the path of return to rebirth. Only action offered to the Lord without desire (mayi nihitam akamam karma) leads to the northern path (udak-patha) — the path of no-return to samsara. This teaching directly parallels Bhagavad Gita's distinction between the two paths.",
+          words: [
+            { word: "पितृसुरगणयाजी", transliteration: "pitṛsuragaṇayājī", meaning: "one who performs rituals for ancestors and gods" },
+            { word: "धार्मिकः", transliteration: "dhārmikaḥ", meaning: "righteous, dharmic" },
+            { word: "गृहस्थः", transliteration: "gṛhasthaḥ", meaning: "householder" },
+            { word: "निपतति", transliteration: "nipatati", meaning: "falls" },
+            { word: "दक्षिणाध्वोपगामी", transliteration: "dakṣiṇādhvōpagāmī", meaning: "going by the southern path (of return)" },
+            { word: "मयि निहितम्", transliteration: "mayi nihitam", meaning: "dedicated to Me" },
+            { word: "अकामम्", transliteration: "akāmam", meaning: "without desire, selfless" },
+            { word: "कर्म", transliteration: "karma", meaning: "action" },
+            { word: "उदक्पथार्थम्", transliteration: "udakpathārtham", meaning: "for the sake of the northern path (of no-return)" }
+          ]
+        },
+        {
+          dashaka: 15,
+          sloka: 9,
+          devanagari: "इति सुविदितवेद्यां देव हे देवहूतिं\nकृतनुतिमनुगृह्य त्वं गतो योगिसङ्घैः ।\nविमलमतिरथासौ भक्तियोगेन मुक्ता\nत्वमपि जनहितार्थं वर्तसे प्रागुदीच्याम् ॥",
+          transliteration: "iti suviditavēdyāṁ dēva hē dēvahūtiṁ\nkṛtanutimanugṛhya tvaṁ gatō yōgisaṅghaiḥ |\nvimalamatirathasau bhaktiyōgēna muktā\ntvamapi janahitārthaṁ vartasē prāgudīcyām ||",
+          translation: "O Lord! Having thus illumined Devahuti — who now fully understood the truth — and blessing her as she praised You, You departed with a company of yogis. She, with purified mind, attained liberation through Bhakti Yoga. And You still dwell in the northeast for the welfare of mankind.",
+          commentary: "The narrative concludes: Devahuti becomes 'suvidita-vedyam' (one who fully knows what is to be known). After receiving her praises (kruta-nuti), Kapila departs with yogis. Devahuti achieves liberation through bhakti yoga alone — proving the teaching works. The final statement 'vartase prag-udichyam' (You dwell in the northeast) refers to the tradition that Kapila's ashram is in the northeast, where he continues to guide seekers. This verse drops the recurring refrain, signaling the shift from teaching to narrative closure.",
+          words: [
+            { word: "सुविदितवेद्याम्", transliteration: "suviditavēdyām", meaning: "one who fully understood what is to be known" },
+            { word: "कृतनुतिम्", transliteration: "kṛtanutim", meaning: "who had offered praises" },
+            { word: "अनुगृह्य", transliteration: "anugṛhya", meaning: "having blessed" },
+            { word: "योगिसङ्घैः", transliteration: "yōgisaṅghaiḥ", meaning: "with companies of yogis" },
+            { word: "विमलमतिः", transliteration: "vimalamatiḥ", meaning: "with purified mind" },
+            { word: "भक्तियोगेन", transliteration: "bhaktiyōgēna", meaning: "through Bhakti Yoga" },
+            { word: "मुक्ता", transliteration: "muktā", meaning: "liberated" },
+            { word: "जनहितार्थम्", transliteration: "janahitārtham", meaning: "for the welfare of mankind" },
+            { word: "प्रागुदीच्याम्", transliteration: "prāgudīcyām", meaning: "in the northeast" }
+          ]
+        },
+        {
+          dashaka: 15,
+          sloka: 10,
+          devanagari: "परम किमु बहूक्त्या त्वत्पदाम्भोजभक्तिं\nसकलभयविनेत्रीं सर्वकामोपनेत्रीम् ।\nवदसि खलु दृढं त्वं तद्विधूयामयान् मे\nगुरुपवनपुरेश त्वय्युपाधत्स्व भक्तिम् ॥",
+          transliteration: "parama kimu bahūktyā tvatpadāmbhōjabhaktiṁ\nsakalabhayavinētrīṁ sarvakāmōpanētrīm |\nvadasi khalu dṛḍhaṁ tvaṁ tadvidhūyāmayān mē\ngurupavanapurēśa tvayyupādhatsva bhaktim ||",
+          translation: "O Supreme Lord! What more need be said? You emphatically declare that devotion to Your lotus feet destroys all fears and fulfills all desires. Therefore, O Lord of Guruvayur, please remove my diseases and grant me devotion to You!",
+          commentary: "The concluding verse is Bhattathiri's personal synthesis: 'kimu bahuktya' — why say more? The Lord Himself declares (vadasi khalu dridham) that devotion to His feet (tvat-pada-ambhoja-bhaktim) destroys all fears (sakala-bhaya-vinetrim) and grants all desires (sarva-kama-upanetrim). Armed with this assurance, the poet makes his double plea: remove my diseases (vidhūya amayān) AND grant me devotion (tvayi upadhatsva bhaktim). He recognizes that healing without devotion is incomplete — the real 'disease' is separation from God.",
+          words: [
+            { word: "परम", transliteration: "parama", meaning: "O Supreme Lord" },
+            { word: "किमु बहूक्त्या", transliteration: "kimu bahūktyā", meaning: "what more need be said" },
+            { word: "त्वत्पदाम्भोजभक्तिम्", transliteration: "tvatpadāmbhōjabhaktim", meaning: "devotion to Your lotus feet" },
+            { word: "सकलभयविनेत्रीम्", transliteration: "sakalabhayavinētrīm", meaning: "destroyer of all fears" },
+            { word: "सर्वकामोपनेत्रीम्", transliteration: "sarvakāmōpanētrīm", meaning: "fulfiller of all desires" },
+            { word: "वदसि", transliteration: "vadasi", meaning: "You declare" },
+            { word: "दृढम्", transliteration: "dṛḍham", meaning: "emphatically, firmly" },
+            { word: "विधूय", transliteration: "vidhūya", meaning: "removing, dispelling" },
+            { word: "आमयान्", transliteration: "āmayān", meaning: "diseases" },
+            { word: "गुरुपवनपुरेश", transliteration: "gurupavanapurēśa", meaning: "O Lord of Guruvayur" },
+            { word: "उपाधत्स्व", transliteration: "upādhatsva", meaning: "please bestow/grant" },
+            { word: "भक्तिम्", transliteration: "bhaktim", meaning: "devotion" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 16,
