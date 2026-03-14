@@ -2354,12 +2354,224 @@ var NARAYANEEYAM_DATA = {
     },
     {
       dashaka: 11,
-      titleSanskrit: "मत्स्यावतारवर्णनम्",
-      titleEnglish: "Matsya Avatar",
-      theme: "avatar",
-      verseCount: 8,
-      summary: "Describes the Lord's incarnation as the great Fish to rescue the Vedas and guide King Satyavrata's boat through the deluge at the end of the cosmic age.",
-      slokas: []
+      titleSanskrit: "सनकादीनां वैकुण्ठदर्शनम् — जयविजयशापः",
+      titleEnglish: "Sanaka Sages Visit Vaikuntha — Curse of Jaya and Vijaya",
+      theme: "leela",
+      verseCount: 10,
+      summary: "Describes the visit of the Sanakadi sages to Vaikuntha, their being blocked by the gatekeepers Jaya and Vijaya, the sages' curse upon them to be born as asuras, the Lord's compassionate appearance to pacify the sages, and the subsequent birth of Hiranyaksha and Hiranyakashipu from Diti and Kashyapa.",
+      slokas: [
+        {
+          dashaka: 11,
+          sloka: 1,
+          devanagari: "क्रमेण सर्गे परिवर्धमाने कदापि दिव्याः सनकादयस्ते ।\nभवद्विलोकाय विकुण्ठलोकं प्रपेदिरे मारुतमन्दिरेश ॥",
+          transliteration: "kramēṇa sargē parivardhamānē kadāpi divyāḥ sanakādayastē |\nbhavadvilōkāya vikuṇṭhalōkaṁ prapēdirē mārutamandirēśa ||",
+          translation: "While creation was gradually progressing, one day the divine Sanaka and other sages reached Vaikuntha to have Your darshana, O Lord of Guruvayur!",
+          commentary: "This opening verse sets the narrative. The Sanakadi sages — Sanaka, Sanandana, Sanatana, and Sanatkumara — are the eternally young mind-born sons of Brahma introduced in Dashaka 10. Having refused worldly creation, they now seek the highest spiritual experience: direct vision of the Lord in Vaikuntha. The address 'Marutamandiresa' (Lord of Guruvayur) connects the cosmic narrative to Bhattathiri's personal devotion.",
+          words: [
+            { word: "क्रमेण", transliteration: "kramēṇa", meaning: "gradually, step by step" },
+            { word: "सर्गे", transliteration: "sargē", meaning: "in creation" },
+            { word: "परिवर्धमाने", transliteration: "parivardhamānē", meaning: "progressing, increasing" },
+            { word: "कदापि", transliteration: "kadāpi", meaning: "one day, once" },
+            { word: "दिव्याः", transliteration: "divyāḥ", meaning: "divine, celestial" },
+            { word: "सनकादयः", transliteration: "sanakādayaḥ", meaning: "Sanaka and others (the four Kumaras)" },
+            { word: "ते", transliteration: "tē", meaning: "those, they" },
+            { word: "भवद्विलोकाय", transliteration: "bhavadvilōkāya", meaning: "to see You, for Your darshana" },
+            { word: "विकुण्ठलोकम्", transliteration: "vikuṇṭhalōkam", meaning: "the realm of Vaikuntha" },
+            { word: "प्रपेदिरे", transliteration: "prapēdirē", meaning: "reached, arrived at" },
+            { word: "मारुतमन्दिरेश", transliteration: "mārutamandirēśa", meaning: "O Lord of the temple of Vayu (Guruvayur)" }
+          ]
+        },
+        {
+          dashaka: 11,
+          sloka: 2,
+          devanagari: "मनोज्ञनैश्रेयसकाननाद्यै-\nरनेकवापीमणिमन्दिरैश्च ।\nअनोपमं तं भवतो निकेतं\nमुनीश्वराः प्रापुरतीतकक्ष्याः ॥",
+          transliteration: "manōjñanaiśrēyasakānanādyai-\nranēkavāpīmaṇimandiraiśca |\nanōpamaṁ taṁ bhavatō nikētaṁ\nmunīśvarāḥ prāpuratītakakṣyāḥ ||",
+          translation: "Having crossed six enclosures, the great sages reached Your incomparable abode, which has the enchanting garden called Naishreyasa, numerous tanks, and mansions studded with gems.",
+          commentary: "Vaikuntha is described as having seven concentric enclosures or fortifications. The sages crossed six and reached the seventh and final gate. The garden 'Naishreyasa' (literally 'pertaining to the highest good') symbolizes the spiritual bliss of Vaikuntha. The description of material splendor — gem-studded mansions and tanks — conveys transcendental beauty in accessible terms.",
+          words: [
+            { word: "मनोज्ञ", transliteration: "manōjña", meaning: "enchanting, pleasing to the mind" },
+            { word: "नैश्रेयसकाननाद्यैः", transliteration: "naiśrēyasakānanādyaiḥ", meaning: "with the garden called Naishreyasa etc." },
+            { word: "अनेकवापी", transliteration: "anēkavāpī", meaning: "numerous tanks/pools" },
+            { word: "मणिमन्दिरैः", transliteration: "maṇimandiraiḥ", meaning: "with gem-studded mansions" },
+            { word: "अनोपमम्", transliteration: "anōpamam", meaning: "incomparable, beyond comparison" },
+            { word: "निकेतम्", transliteration: "nikētam", meaning: "abode, dwelling" },
+            { word: "मुनीश्वराः", transliteration: "munīśvarāḥ", meaning: "the great sages" },
+            { word: "प्रापुः", transliteration: "prāpuḥ", meaning: "reached, arrived at" },
+            { word: "अतीतकक्ष्याः", transliteration: "atītakakṣyāḥ", meaning: "having crossed the enclosures" }
+          ]
+        },
+        {
+          dashaka: 11,
+          sloka: 3,
+          devanagari: "भवद्दिदृक्षून्भवनं विविक्षून्\nद्वाःस्थौ जयस्तान् विजयोऽप्यरुन्धाम् ।\nतेषां च चित्ते पदमाप कोपः\nसर्वं भवत्प्रेरणयैव भूमन् ॥",
+          transliteration: "bhavaddidṛkṣūnbhavanaṁ vivikṣūn\ndvāḥsthau jayastān vijayō'pyarundhām |\ntēṣāṁ ca cittē padamāpa kōpaḥ\nsarvaṁ bhavatprēraṇayaiva bhūman ||",
+          translation: "The two gatekeepers Jaya and Vijaya blocked the sages who were desirous of seeing You and entering Your abode. Anger arose in the minds of the sages — all this happened by Your prompting alone, O Infinite Lord!",
+          commentary: "This is the critical turning point of the narrative. The sages, despite being eternally liberated beings, are stopped at the final gate. Bhattathiri adds the theological insight 'sarvam bhavatpreranayaiva' — everything happens by the Lord's will alone. The entire episode, including the sages' anger and the subsequent curse, is part of the Lord's divine plan (lila) to incarnate on earth.",
+          words: [
+            { word: "भवद्दिदृक्षून्", transliteration: "bhavaddidṛkṣūn", meaning: "those desirous of seeing You" },
+            { word: "भवनम्", transliteration: "bhavanam", meaning: "the abode, palace" },
+            { word: "विविक्षून्", transliteration: "vivikṣūn", meaning: "those wishing to enter" },
+            { word: "द्वाःस्थौ", transliteration: "dvāḥsthau", meaning: "the two door-keepers" },
+            { word: "जयः", transliteration: "jayaḥ", meaning: "Jaya (one gatekeeper)" },
+            { word: "विजयः", transliteration: "vijayaḥ", meaning: "Vijaya (the other gatekeeper)" },
+            { word: "अरुन्धाम्", transliteration: "arundhām", meaning: "blocked, prevented" },
+            { word: "चित्ते", transliteration: "cittē", meaning: "in the mind" },
+            { word: "पदमाप", transliteration: "padamāpa", meaning: "gained a foothold, arose" },
+            { word: "कोपः", transliteration: "kōpaḥ", meaning: "anger" },
+            { word: "भवत्प्रेरणया", transliteration: "bhavatprēraṇayā", meaning: "by Your prompting/will" },
+            { word: "भूमन्", transliteration: "bhūman", meaning: "O Infinite One, O All-pervading Lord" }
+          ]
+        },
+        {
+          dashaka: 11,
+          sloka: 4,
+          devanagari: "वैकुण्ठलोकानुचितप्रचेष्टौ\nकष्टौ युवां दैत्यगतिं भजेतम् ।\nइति प्रशप्तौ भवदाश्रयौ तौ\nहरिस्मृतिर्नोऽस्त्विति नेमतुस्तान् ॥",
+          transliteration: "vaikuṇṭhalōkānucitapracēṣṭau\nkaṣṭau yuvāṁ daityagatim bhajētam |\niti praśaptau bhavadāśrayau tau\nharismṛtirnō'stviti nēmatustān ||",
+          translation: "The sages cursed them: 'Your conduct is not befitting Vaikuntha! You wretches, be born as demons!' Thus cursed, those two servants of Yours bowed to the sages and prayed: 'May we at least retain the remembrance of Lord Hari!'",
+          commentary: "The curse is framed as a consequence of behavior unbecoming of Vaikuntha. The gatekeepers' response reveals their deep devotion — even facing birth as demons, their only concern is maintaining remembrance of the Lord (Hari-smriti). This echoes the Bhagavatam's teaching that a devotee's connection to God transcends all circumstances, even demonhood.",
+          words: [
+            { word: "वैकुण्ठलोकानुचित", transliteration: "vaikuṇṭhalōkānucita", meaning: "not befitting Vaikuntha" },
+            { word: "प्रचेष्टौ", transliteration: "pracēṣṭau", meaning: "conduct, behavior (of the two)" },
+            { word: "कष्टौ", transliteration: "kaṣṭau", meaning: "wretches, troublesome ones" },
+            { word: "युवाम्", transliteration: "yuvām", meaning: "you two" },
+            { word: "दैत्यगतिम्", transliteration: "daityagatim", meaning: "the fate/state of demons" },
+            { word: "भजेतम्", transliteration: "bhajētam", meaning: "attain, undergo" },
+            { word: "प्रशप्तौ", transliteration: "praśaptau", meaning: "cursed" },
+            { word: "भवदाश्रयौ", transliteration: "bhavadāśrayau", meaning: "those who have taken refuge in You" },
+            { word: "हरिस्मृतिः", transliteration: "harismṛtiḥ", meaning: "remembrance of Lord Hari" },
+            { word: "नेमतुः", transliteration: "nēmatuḥ", meaning: "bowed down, saluted" }
+          ]
+        },
+        {
+          dashaka: 11,
+          sloka: 5,
+          devanagari: "तदेतदाज्ञाय भवानवाप्तः\nसहैव लक्ष्म्या बहिरम्बुजाक्ष ।\nखगेश्वरांसार्पितचारुबाहु-\nरानन्दयंस्तानभिराममूर्त्या ॥",
+          transliteration: "tadētadājñāya bhavānavāptaḥ\nsahaiva lakṣmyā bahirambujākṣa |\nkhagēśvarāṁsārpitacārubāhu-\nrānandayaṁstānabhirāmamūrtyā ||",
+          translation: "Knowing all that had happened, You came out, O Lotus-eyed Lord, accompanied by Lakshmi, with Your beautiful arm resting on Garuda's shoulder, delighting the sages with Your enchanting form.",
+          commentary: "The Lord's appearance is a masterful poetic image. He emerges not in wrath but in beauty — lotus-eyed, accompanied by Lakshmi, casually resting on Garuda. The phrase 'abhiramamurtya' (enchanting form) emphasizes that the Lord's response to the crisis is not judicial punishment but aesthetic delight. He pacifies through beauty, not authority.",
+          words: [
+            { word: "तदेतत्", transliteration: "tadētat", meaning: "all this" },
+            { word: "आज्ञाय", transliteration: "ājñāya", meaning: "having known, understanding" },
+            { word: "अवाप्तः", transliteration: "avāptaḥ", meaning: "came, arrived" },
+            { word: "लक्ष्म्या", transliteration: "lakṣmyā", meaning: "with Lakshmi" },
+            { word: "बहिः", transliteration: "bahiḥ", meaning: "outside, out" },
+            { word: "अम्बुजाक्ष", transliteration: "ambujākṣa", meaning: "O Lotus-eyed One" },
+            { word: "खगेश्वर", transliteration: "khagēśvara", meaning: "lord of birds (Garuda)" },
+            { word: "अंसार्पित", transliteration: "aṁsārpita", meaning: "resting on the shoulder" },
+            { word: "चारुबाहुः", transliteration: "cārubāhuḥ", meaning: "with beautiful arm" },
+            { word: "आनन्दयन्", transliteration: "ānandayan", meaning: "delighting" },
+            { word: "अभिराममूर्त्या", transliteration: "abhirāmamūrtyā", meaning: "with enchanting form" }
+          ]
+        },
+        {
+          dashaka: 11,
+          sloka: 6,
+          devanagari: "प्रसाद्य गीर्भिः स्तुवतो मुनीन्द्रा-\nननन्यनाथावथ पार्षदौ तौ ।\nसंरम्भयोगेन भवैस्त्रिभिर्मा-\nमुपेतमित्यात्तकृपं न्यगादीः ॥",
+          transliteration: "prasādya gīrbhiḥ stuvatō munīndrā-\nnananyānāthāvatha pārṣadau tau |\nsaṁrambhayōgēna bhavaistrirbhirmā-\nmupētamityāttakṛpaṁ nyagādīḥ ||",
+          translation: "After pacifying the praising sages with pleasing words, You then spoke with great compassion to Your two helpless attendants: 'Through intense enmity toward Me in three births, you shall return to Me.'",
+          commentary: "The Lord offers His attendants a remarkable solution — they can return to Vaikuntha faster through three births of intense hatred (samrambha-yoga) toward Him, rather than seven births of devotion. This paradox — that even enmity toward God, when absolute, leads to liberation — is a profound Bhagavatam teaching. The Lord's compassion (attakripam) ensures His servants are never truly abandoned.",
+          words: [
+            { word: "प्रसाद्य", transliteration: "prasādya", meaning: "having pacified, pleased" },
+            { word: "गीर्भिः", transliteration: "gīrbhiḥ", meaning: "with words, speeches" },
+            { word: "स्तुवतः", transliteration: "stuvataḥ", meaning: "those who were praising" },
+            { word: "मुनीन्द्रान्", transliteration: "munīndrān", meaning: "the great sages" },
+            { word: "अनन्यनाथौ", transliteration: "ananyānāthau", meaning: "having no other protector, helpless" },
+            { word: "पार्षदौ", transliteration: "pārṣadau", meaning: "the two attendants" },
+            { word: "संरम्भयोगेन", transliteration: "saṁrambhayōgēna", meaning: "through the yoga of intense enmity" },
+            { word: "भवैः त्रिभिः", transliteration: "bhavaiḥ tribhiḥ", meaning: "in three births" },
+            { word: "उपेतम्", transliteration: "upētam", meaning: "come back, return" },
+            { word: "आत्तकृपम्", transliteration: "āttakṛpam", meaning: "with assumed/great compassion" },
+            { word: "न्यगादीः", transliteration: "nyagādīḥ", meaning: "You spoke, You said" }
+          ]
+        },
+        {
+          dashaka: 11,
+          sloka: 7,
+          devanagari: "त्वदीयभृत्यावथ काश्यपात्तौ\nसुरारिवीरावुदितौ दितौ द्वौ ।\nसन्ध्यासमुत्पादनकष्टचेष्टौ\nयमौ च लोकस्य यमाविवान्यौ ॥",
+          transliteration: "tvadīyabhṛtyāvatha kāśyapāttau\nsurārivīrāvuditau ditau dvau |\nsandhyāsamutpādanakaṣṭacēṣṭau\nyamau ca lōkasya yamāvivānyau ||",
+          translation: "Your two servants were then born through Kashyapa and Diti as two mighty demon warriors. Conceived during the inauspicious twilight hour through forced union, they were like twin Yamas (gods of death) to the world.",
+          commentary: "The verse traces the inauspicious circumstances of the demons' conception. Diti forced Kashyapa to unite with her during sandhya (twilight), a prohibited time for conjugal relations per Vedic injunctions. This 'kashta-cheshta' (improper conduct) set the tone for the resulting offspring. The comparison to Yama (god of death) foreshadows the terror they would unleash upon the three worlds.",
+          words: [
+            { word: "त्वदीयभृत्यौ", transliteration: "tvadīyabhṛtyau", meaning: "Your two servants" },
+            { word: "काश्यपात्", transliteration: "kāśyapāt", meaning: "from/through Kashyapa" },
+            { word: "सुरारिवीरौ", transliteration: "surārivīrau", meaning: "two heroic enemies of the gods" },
+            { word: "उदितौ", transliteration: "uditau", meaning: "born, arisen" },
+            { word: "दितौ", transliteration: "ditau", meaning: "in/from Diti" },
+            { word: "सन्ध्यासमुत्पादन", transliteration: "sandhyāsamutpādana", meaning: "conception during twilight" },
+            { word: "कष्टचेष्टौ", transliteration: "kaṣṭacēṣṭau", meaning: "of improper/forced conduct" },
+            { word: "यमौ", transliteration: "yamau", meaning: "twins" },
+            { word: "यमौ इव", transliteration: "yamau iva", meaning: "like two Yamas (gods of death)" },
+            { word: "अन्यौ", transliteration: "anyau", meaning: "other, another pair" }
+          ]
+        },
+        {
+          dashaka: 11,
+          sloka: 8,
+          devanagari: "हिरण्यपूर्वः कशिपुः किलैकः\nपरो हिरण्याक्ष इति प्रतीतः ।\nउभौ भवन्नाथमशेषलोकं\nरुषा न्यरुन्धां निजवासनान्धौ ॥",
+          transliteration: "hiraṇyapūrvaḥ kaśipuḥ kilaikaḥ\nparō hiraṇyākṣa iti pratītaḥ |\nubhau bhavannāthamaśēṣalōkaṁ\nruṣā nyarundhāṁ nijavāsanāndhau ||",
+          translation: "One became known as Hiranyakashipu and the other as Hiranyaksha. Both, blinded by their innate demonic tendencies, oppressed with fury the entire world that was under Your protection.",
+          commentary: "The names are etymologically significant: Hiranyakashipu means 'one with a golden cushion/bed' and Hiranyaksha means 'golden-eyed.' The phrase 'bhavannātham' (under Your lordship) reminds us that even as the demons oppressed creation, the Lord remained its ultimate sovereign. Their blindness (nijavasanandha) comes from their own karmic tendencies, not from the Lord.",
+          words: [
+            { word: "हिरण्यपूर्वः", transliteration: "hiraṇyapūrvaḥ", meaning: "with Hiranya as prefix" },
+            { word: "कशिपुः", transliteration: "kaśipuḥ", meaning: "Kashipu (soft cushion/bed)" },
+            { word: "एकः", transliteration: "ēkaḥ", meaning: "one (of the two)" },
+            { word: "परः", transliteration: "paraḥ", meaning: "the other" },
+            { word: "हिरण्याक्षः", transliteration: "hiraṇyākṣaḥ", meaning: "Hiranyaksha (golden-eyed)" },
+            { word: "प्रतीतः", transliteration: "pratītaḥ", meaning: "became known as" },
+            { word: "उभौ", transliteration: "ubhau", meaning: "both" },
+            { word: "भवन्नाथम्", transliteration: "bhavannātham", meaning: "under Your lordship" },
+            { word: "अशेषलोकम्", transliteration: "aśēṣalōkam", meaning: "the entire world" },
+            { word: "रुषा", transliteration: "ruṣā", meaning: "with fury, anger" },
+            { word: "न्यरुन्धाम्", transliteration: "nyarundhām", meaning: "oppressed, tormented" },
+            { word: "निजवासनान्धौ", transliteration: "nijavāsanāndhau", meaning: "blinded by their own innate tendencies" }
+          ]
+        },
+        {
+          dashaka: 11,
+          sloka: 9,
+          devanagari: "तयोर्हिरण्याक्षमहासुरेन्द्रो\nरणाय धावन्ननवाप्तवैरी ।\nभवत्प्रियां क्ष्मां सलिले निमज्य\nचचार गर्वाद्विनदन् गदावान् ॥",
+          transliteration: "tayōrhiraṇyākṣamahāsurēndrō\nraṇāya dhāvannanavāptavairī |\nbhavatpriyāṁ kṣmāṁ salilē nimajya\ncacāra garvādvinadan gadāvān ||",
+          translation: "Of the two, Hiranyaksha, the great demon-king, went about searching frantically for a worthy opponent to fight but found none. He then seized Your beloved Earth and plunged her into the cosmic waters, roaming about roaring with pride, wielding his mace.",
+          commentary: "Hiranyaksha's act of drowning the Earth in the cosmic ocean sets up the need for the Varaha (Boar) Avatar, which will be narrated in the next dashaka. The Earth is described as 'bhavatpriyam' (Your beloved), emphasizing the personal relationship between the Lord and his creation. Hiranyaksha's inability to find a worthy opponent reflects his delusion — he does not recognize that the only true opponent is the Lord Himself.",
+          words: [
+            { word: "तयोः", transliteration: "tayōḥ", meaning: "of the two" },
+            { word: "हिरण्याक्षमहासुरेन्द्रः", transliteration: "hiraṇyākṣamahāsurēndraḥ", meaning: "Hiranyaksha, the great demon-king" },
+            { word: "रणाय", transliteration: "raṇāya", meaning: "for battle" },
+            { word: "धावन्", transliteration: "dhāvan", meaning: "running about, searching" },
+            { word: "अनवाप्तवैरी", transliteration: "anavāptavairī", meaning: "not finding a worthy opponent" },
+            { word: "भवत्प्रियाम्", transliteration: "bhavatpriyām", meaning: "Your beloved" },
+            { word: "क्ष्माम्", transliteration: "kṣmām", meaning: "the Earth" },
+            { word: "सलिले", transliteration: "salilē", meaning: "in the waters" },
+            { word: "निमज्य", transliteration: "nimajya", meaning: "having submerged, plunged" },
+            { word: "चचार", transliteration: "cacāra", meaning: "wandered, roamed about" },
+            { word: "गर्वात्", transliteration: "garvāt", meaning: "with pride, arrogance" },
+            { word: "विनदन्", transliteration: "vinadan", meaning: "roaring, bellowing" },
+            { word: "गदावान्", transliteration: "gadāvān", meaning: "wielding a mace" }
+          ]
+        },
+        {
+          dashaka: 11,
+          sloka: 10,
+          devanagari: "ततो जलेशात् सदृशं भवन्तं\nनिशम्य बभ्राम गवेषयंस्त्वाम् ।\nभक्तैकदृश्यः स कृपानिधे त्वं\nनिरुन्धि रोगान् मरुदालयेश ॥",
+          transliteration: "tatō jalēśāt sadṛśaṁ bhavantaṁ\nniśamya babhhrāma gavēṣayaṁstvām |\nbhaktaikadṛśyaḥ sa kṛpānidhē tvaṁ\nnirundhi rōgān marudālayēśa ||",
+          translation: "Then, hearing from Varuna (the Lord of waters) that You alone were a match for him, he went about searching for You everywhere. O Lord who are visible only to true devotees, O treasure-house of mercy, O Lord of Guruvayur, please cure me of my diseases!",
+          commentary: "The concluding verse follows Bhattathiri's signature pattern. Hiranyaksha's search for the Lord is ironic — the demon seeks God as an enemy, yet the Lord reveals Himself only to devotees (bhaktaikadrishya). The poet pivots from the cosmic narrative to his personal plea: 'nirundhi rogaan' (destroy my diseases). This seamless transition from mythological storytelling to heartfelt personal prayer is characteristic of every dashaka's conclusion.",
+          words: [
+            { word: "ततः", transliteration: "tataḥ", meaning: "then, thereafter" },
+            { word: "जलेशात्", transliteration: "jalēśāt", meaning: "from the Lord of waters (Varuna)" },
+            { word: "सदृशम्", transliteration: "sadṛśam", meaning: "a match, equal" },
+            { word: "भवन्तम्", transliteration: "bhavantam", meaning: "You (respectful)" },
+            { word: "निशम्य", transliteration: "niśamya", meaning: "having heard" },
+            { word: "बभ्राम", transliteration: "babhhrāma", meaning: "wandered, roamed about" },
+            { word: "गवेषयन्", transliteration: "gavēṣayan", meaning: "searching for" },
+            { word: "भक्तैकदृश्यः", transliteration: "bhaktaikadṛśyaḥ", meaning: "visible only to devotees" },
+            { word: "कृपानिधे", transliteration: "kṛpānidhē", meaning: "O treasure-house of mercy" },
+            { word: "निरुन्धि", transliteration: "nirundhi", meaning: "cure, destroy, remove" },
+            { word: "रोगान्", transliteration: "rōgān", meaning: "diseases" },
+            { word: "मरुदालयेश", transliteration: "marudālayēśa", meaning: "O Lord of Guruvayur (temple of Vayu)" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 12,
