@@ -5746,7 +5746,231 @@ var NARAYANEEYAM_DATA = {
       theme: "avatar",
       verseCount: 10,
       summary: "Begins the Rama narrative with the birth of Lord Rama in Ayodhya as the son of King Dasharatha. Describes the divine circumstances of His advent and early childhood.",
-      slokas: []
+      slokas: [
+        {
+          dashaka: 27,
+          sloka: 1,
+          devanagari: "रावणस्य वधार्थाय देवैरभ्यर्थितो विभुः ।\nमानुषीं तनुमास्थाय जातो दशरथात्मजः ।\nसर्वलोकहितार्थाय भूभारापनुदे हरिः\nरामरूपधरो देवः प्रादुर्भूतो यदा भुवि ॥",
+          transliteration: "rāvaṇasya vadhārthāya dēvairabhyarthitō vibhuḥ |\nmānuṣīṁ tanumāsthāya jātō daśarathātmajaḥ |\nsarvalōkahitārthāya bhūbhārāpanudē hariḥ\nrāmarūpadharō dēvaḥ prādurbhūtō yadā bhuvi ||",
+          translation: "When the all-pervading Lord was entreated by the gods for the destruction of Ravana, He assumed a human form and was born as the son of Dasharatha. Hari, bearing the form of Rama, appeared on earth for the welfare of all worlds and the removal of the earth's burden.",
+          commentary: "This opening verse sets the cosmic stage for the Rama avatar. Bhattathiri follows the Bhagavatam tradition of framing the incarnation as a divine response to the gods' supplication. The word 'vibhu' (all-pervading) juxtaposed with 'manushi tanum' (human form) captures the central paradox of avatar theology — the infinite assuming finite form. The phrase 'sarva-loka-hitarthaya' (for the welfare of all worlds) echoes the Gita's 'dharma-samsthapanarthaya' and establishes that Rama's advent serves a universal cosmic purpose beyond the specific mission of slaying Ravana.",
+          words: [
+            { word: "रावणस्य", transliteration: "rāvaṇasya", meaning: "of Ravana" },
+            { word: "वधार्थाय", transliteration: "vadhārthāya", meaning: "for the purpose of slaying" },
+            { word: "देवैः", transliteration: "dēvaiḥ", meaning: "by the gods" },
+            { word: "अभ्यर्थितः", transliteration: "abhyarthitaḥ", meaning: "entreated, requested" },
+            { word: "विभुः", transliteration: "vibhuḥ", meaning: "the all-pervading Lord" },
+            { word: "मानुषीं तनुम्", transliteration: "mānuṣīṁ tanum", meaning: "human form" },
+            { word: "आस्थाय", transliteration: "āsthāya", meaning: "assuming, taking on" },
+            { word: "दशरथात्मजः", transliteration: "daśarathātmajaḥ", meaning: "son of Dasharatha" },
+            { word: "सर्वलोकहितार्थाय", transliteration: "sarvalōkahitārthāya", meaning: "for the welfare of all worlds" },
+            { word: "भूभारापनुदे", transliteration: "bhūbhārāpanudē", meaning: "for removing the earth's burden" },
+            { word: "रामरूपधरः", transliteration: "rāmarūpadharaḥ", meaning: "bearing the form of Rama" },
+            { word: "प्रादुर्भूतः", transliteration: "prādurbhūtaḥ", meaning: "manifested, appeared" }
+          ]
+        },
+        {
+          dashaka: 27,
+          sloka: 2,
+          devanagari: "ब्रह्मादयः सुरगणाः क्षीराब्धितटे स्थिताः\nस्तुत्वा विरिञ्चिमुखतः श्रुतवाक्यमीश्वरम् ।\nसम्भूय सर्वविबुधाः प्रणिपत्य माधवं\nरक्षो विनाशमकरोदिति याचयन्ति ते ॥",
+          transliteration: "brahmādayaḥ suragaṇāḥ kṣīrābdhitaṭē sthitāḥ\nstutvā viriñcimukhatḥ śrutavākyamīśvaram |\nsambhūya sarvavibudhāḥ praṇipatya mādhavaṁ\nrakṣō vināśamakarōditi yācayanti tē ||",
+          translation: "Brahma and the hosts of gods, stationed on the shores of the Milk Ocean, praised the Lord. Having heard the words spoken through Brahma's mouth, all the celestials gathered together, prostrated before Madhava, and beseeched Him to accomplish the destruction of the demons.",
+          commentary: "The scene shifts to the Kshira Sagara (Milk Ocean), the traditional location of divine councils in Puranic literature. Brahma serves as the spokesman (viriñci-mukhataḥ) for the assembled gods, a detail that preserves the hierarchy — even Brahma must petition Vishnu. The word 'sambhūya' (having assembled together) suggests the collective desperation of the devas, while 'praṇipatya' (having prostrated) conveys their complete surrender. This follows the Ramayana's Bala Kanda narrative where the gods approach Vishnu to deal with Ravana's tyranny.",
+          words: [
+            { word: "ब्रह्मादयः", transliteration: "brahmādayaḥ", meaning: "Brahma and others" },
+            { word: "सुरगणाः", transliteration: "suragaṇāḥ", meaning: "hosts of gods" },
+            { word: "क्षीराब्धितटे", transliteration: "kṣīrābdhitaṭē", meaning: "on the shore of the Milk Ocean" },
+            { word: "स्तुत्वा", transliteration: "stutvā", meaning: "having praised" },
+            { word: "विरिञ्चिमुखतः", transliteration: "viriñcimukhatḥ", meaning: "through Brahma's mouth" },
+            { word: "ईश्वरम्", transliteration: "īśvaram", meaning: "the Lord, the Supreme" },
+            { word: "सम्भूय", transliteration: "sambhūya", meaning: "having assembled together" },
+            { word: "विबुधाः", transliteration: "vibudhāḥ", meaning: "the wise ones, gods" },
+            { word: "प्रणिपत्य", transliteration: "praṇipatya", meaning: "having prostrated" },
+            { word: "माधवम्", transliteration: "mādhavam", meaning: "Madhava (Vishnu)" },
+            { word: "रक्षः", transliteration: "rakṣaḥ", meaning: "demons, rakshasas" },
+            { word: "विनाशम्", transliteration: "vināśam", meaning: "destruction" },
+            { word: "याचयन्ति", transliteration: "yācayanti", meaning: "they beseech, entreat" }
+          ]
+        },
+        {
+          dashaka: 27,
+          sloka: 3,
+          devanagari: "देवानामार्तिशमनं कर्तुकामो रमापतिः ।\nदशरथस्य नृपतेः पुत्रभावेन जन्म मे\nभविष्यतीति सुरपान् समाश्वास्य वचोऽब्रवीत् ।\nस्वांशैश्च मत्सहचरान् क्षितौ जन्म विधीयताम् ॥",
+          transliteration: "dēvānāmārtiśamanaṁ kartukāmō ramāpatiḥ |\ndaśarathasya nṛpatēḥ putrabhāvēna janma mē\nbhaviṣyatīti surapān samāśvāsya vacō'bravīt |\nsvāṁśaiśca matsahacarān kṣitau janma vidhīyatām ||",
+          translation: "The Lord of Lakshmi, desiring to quell the anguish of the gods, reassured the celestials with these words: 'My birth shall take place as the son of King Dasharatha. Let My companions also take birth on earth through My own portions.'",
+          commentary: "Vishnu's response combines compassion (arti-shamanam — quelling anguish) with strategic planning. He does not merely promise His own incarnation but arranges for an entire divine entourage (mat-sahacaran — My companions) to incarnate as partial manifestations (sva-amsha). This detail foreshadows the births of Bharata, Lakshmana, and Shatrughna as well as the vanara (monkey) chiefs who are divine beings incarnate. The word 'putra-bhavena' (in the nature of a son) is theologically significant — the Supreme Lord willingly accepts the subordinate role of a human child.",
+          words: [
+            { word: "देवानाम्", transliteration: "dēvānām", meaning: "of the gods" },
+            { word: "आर्तिशमनम्", transliteration: "ārtiśamanam", meaning: "quelling of anguish" },
+            { word: "कर्तुकामः", transliteration: "kartukāmaḥ", meaning: "desiring to do" },
+            { word: "रमापतिः", transliteration: "ramāpatiḥ", meaning: "Lord of Lakshmi" },
+            { word: "दशरथस्य", transliteration: "daśarathasya", meaning: "of Dasharatha" },
+            { word: "नृपतेः", transliteration: "nṛpatēḥ", meaning: "of the king" },
+            { word: "पुत्रभावेन", transliteration: "putrabhāvēna", meaning: "in the nature of a son" },
+            { word: "भविष्यति", transliteration: "bhaviṣyati", meaning: "shall be, will happen" },
+            { word: "सुरपान्", transliteration: "surapān", meaning: "the lords of gods" },
+            { word: "समाश्वास्य", transliteration: "samāśvāsya", meaning: "having reassured" },
+            { word: "स्वांशैः", transliteration: "svāṁśaiḥ", meaning: "through own portions" },
+            { word: "मत्सहचरान्", transliteration: "matsahacarān", meaning: "My companions" }
+          ]
+        },
+        {
+          dashaka: 27,
+          sloka: 4,
+          devanagari: "अयोध्यायां दशरथो नृपतिः पुत्रकाम्यया ।\nपुत्रकामेष्टियागं वै चकार मुनिसत्तमैः ।\nऋष्यशृङ्गप्रभृतिभिः ऋत्विग्भिर्वेदपारगैः\nहविर्भुजं समाराध्य प्रत्यैक्षत फलं मखात् ॥",
+          transliteration: "ayōdhyāyāṁ daśarathō nṛpatiḥ putrakāmyayā |\nputrakāmēṣṭiyāgaṁ vai cakāra munisattamaiḥ |\nṛṣyaśṛṅgaprabhṛtibhiḥ ṛtvigbhirvēdapāragaiḥ\nhavirbhujaṁ samārādhya pratyaikṣata phalaṁ makhāt ||",
+          translation: "In Ayodhya, King Dasharatha, longing for a son, performed the Putrakameshti sacrifice with the greatest of sages — Rishyashringa and other priests well-versed in the Vedas. Having worshipped the fire-god with oblations, he awaited the fruit of the sacrifice.",
+          commentary: "Bhattathiri now shifts to the earthly plane. The Putrakameshti (putra-kama-ishti — sacrifice for the desire of sons) is one of the most famous Vedic rituals in Indian literature. Rishyashringa, the son of Vibhandaka, is specifically named as the chief priest — following the Ramayana's account that this unique sage, raised in isolation from women, possessed extraordinary ritual power. The phrase 'veda-paragaih' (those who have crossed to the far shore of the Vedas) indicates complete mastery of Vedic knowledge. The king's patient waiting (pratyaikshata) after performing the sacrifice reflects the ideal of shraddha — faith in the efficacy of the ritual.",
+          words: [
+            { word: "अयोध्यायाम्", transliteration: "ayōdhyāyām", meaning: "in Ayodhya" },
+            { word: "दशरथः", transliteration: "daśarathaḥ", meaning: "King Dasharatha" },
+            { word: "पुत्रकाम्यया", transliteration: "putrakāmyayā", meaning: "with the desire for a son" },
+            { word: "पुत्रकामेष्टि", transliteration: "putrakāmēṣṭi", meaning: "Putrakameshti (sacrifice for sons)" },
+            { word: "यागम्", transliteration: "yāgam", meaning: "sacrifice, ritual" },
+            { word: "मुनिसत्तमैः", transliteration: "munisattamaiḥ", meaning: "by the greatest of sages" },
+            { word: "ऋष्यशृङ्गः", transliteration: "ṛṣyaśṛṅgaḥ", meaning: "Rishyashringa (the sage)" },
+            { word: "ऋत्विग्भिः", transliteration: "ṛtvigbhiḥ", meaning: "by the priests" },
+            { word: "वेदपारगैः", transliteration: "vēdapāragaiḥ", meaning: "well-versed in the Vedas" },
+            { word: "हविर्भुजम्", transliteration: "havirbhujam", meaning: "the fire-god (eater of oblations)" },
+            { word: "समाराध्य", transliteration: "samārādhya", meaning: "having worshipped" },
+            { word: "प्रत्यैक्षत", transliteration: "pratyaikṣata", meaning: "awaited, expected" },
+            { word: "मखात्", transliteration: "makhāt", meaning: "from the sacrifice" }
+          ]
+        },
+        {
+          dashaka: 27,
+          sloka: 5,
+          devanagari: "ततो विभावसोर्मध्याद् दिव्यपुरुष उत्थितः ।\nहेमपात्रधरः श्रीमान् पायसं दिव्यमुत्तमम् ।\nददौ दशरथायैवं भाग्यवन्तं मखोद्भवम्\nपत्नीभ्यस्तद्विभज्येति वचनं चाप्युवाच ह ॥",
+          transliteration: "tatō vibhāvasōrmadhyād divyapuruṣa utthitaḥ |\nhēmapātradharaḥ śrīmān pāyasaṁ divyamuttamam |\ndadau daśarathāyaivaṁ bhāgyavantaṁ makhōdbhavam\npatnībhyastavibhajyēti vacanaṁ cāpyuvāca ha ||",
+          translation: "Then, from the midst of the sacred fire, a divine being arose — radiant, bearing a golden vessel filled with divine, supreme payasam born of the sacrifice. He gave it to Dasharatha saying, 'Distribute this blessed offering among your queens.'",
+          commentary: "The appearance of the divine figure (divya-purusha) from the sacrificial fire is one of the most dramatic moments in the Ramayana's Bala Kanda. The golden vessel (hema-patra) containing the celestial payasam becomes the instrumental cause of the divine incarnation. The payasam is described with three adjectives — divyam (divine), uttamam (supreme), and makhod-bhavam (sacrifice-born) — emphasizing its sacred nature. The instruction to distribute among the queens (patnibhyas tad vibhajya) sets up the subsequent births of the four princes from the three queens, each receiving a portion proportional to the divine essence destined for her son.",
+          words: [
+            { word: "विभावसोः", transliteration: "vibhāvasōḥ", meaning: "from the fire" },
+            { word: "मध्यात्", transliteration: "madhyāt", meaning: "from the midst" },
+            { word: "दिव्यपुरुषः", transliteration: "divyapuruṣaḥ", meaning: "a divine being" },
+            { word: "उत्थितः", transliteration: "utthitaḥ", meaning: "arose, emerged" },
+            { word: "हेमपात्रधरः", transliteration: "hēmapātradharaḥ", meaning: "bearing a golden vessel" },
+            { word: "श्रीमान्", transliteration: "śrīmān", meaning: "radiant, glorious" },
+            { word: "पायसम्", transliteration: "pāyasam", meaning: "payasam (sweet milk-rice)" },
+            { word: "दिव्यम्", transliteration: "divyam", meaning: "divine, celestial" },
+            { word: "भाग्यवन्तम्", transliteration: "bhāgyavantam", meaning: "blessed, fortunate" },
+            { word: "मखोद्भवम्", transliteration: "makhōdbhavam", meaning: "born of the sacrifice" },
+            { word: "पत्नीभ्यः", transliteration: "patnībhyaḥ", meaning: "among the queens" },
+            { word: "विभज्य", transliteration: "vibhajya", meaning: "having distributed" }
+          ]
+        },
+        {
+          dashaka: 27,
+          sloka: 6,
+          devanagari: "चैत्रमासे नवम्यां तु पुनर्वस्वृक्षसंयुते ।\nकर्कटे शुभलग्ने च पञ्चस्वुच्चग्रहेषु च ।\nकौसल्यायां महादेवी रामं दिव्यचतुर्भुजम्\nशङ्खचक्रगदापद्मधारिणं समजीजनत् ॥",
+          transliteration: "caitramāsē navamyāṁ tu punarvsvṛkṣasaṁyutē |\nkarkaṭē śubhalagnē ca pañcasvuccagrahēṣu ca |\nkausalyāyāṁ mahādēvī rāmaṁ divyacaturbhujam\nśaṅkhacakragadāpadmadhāriṇaṁ samajījanat ||",
+          translation: "In the month of Chaitra, on the ninth day (Navami), under the Punarvasu star, in the auspicious Cancer ascendant with five planets exalted, the great queen Kausalya gave birth to Rama — divine and four-armed, bearing the conch, discus, mace, and lotus.",
+          commentary: "This verse packs extraordinary astronomical and theological detail into a compact frame. The precise birth details — Chaitra Navami (which becomes Rama Navami, one of the most celebrated Hindu festivals), Punarvasu nakshatra, Karkata lagna (Cancer ascendant), and five exalted planets — follow the traditional astrological specifications of Rama's birth found in the Ramayana and Jyotish texts. The revelation that the newborn appeared with four arms (divya-chaturbhuja) bearing Vishnu's four attributes (shankha, chakra, gada, padma) is the theological heart of this verse — the baby is immediately revealed as the Supreme Lord Himself, not merely a human child.",
+          words: [
+            { word: "चैत्रमासे", transliteration: "caitramāsē", meaning: "in the month of Chaitra" },
+            { word: "नवम्याम्", transliteration: "navamyām", meaning: "on the ninth day (Navami)" },
+            { word: "पुनर्वसु", transliteration: "punarvasū", meaning: "Punarvasu star" },
+            { word: "कर्कटे", transliteration: "karkaṭē", meaning: "in Cancer (zodiac sign)" },
+            { word: "शुभलग्ने", transliteration: "śubhalagnē", meaning: "in auspicious ascendant" },
+            { word: "उच्चग्रहेषु", transliteration: "uccagrahēṣu", meaning: "when planets are exalted" },
+            { word: "कौसल्यायाम्", transliteration: "kausalyāyām", meaning: "in Kausalya (from Kausalya)" },
+            { word: "दिव्यचतुर्भुजम्", transliteration: "divyacaturbhujam", meaning: "divine four-armed" },
+            { word: "शङ्खचक्रगदापद्म", transliteration: "śaṅkhacakragadāpadma", meaning: "conch, discus, mace, and lotus" },
+            { word: "धारिणम्", transliteration: "dhāriṇam", meaning: "bearer, wielder" },
+            { word: "समजीजनत्", transliteration: "samajījanat", meaning: "gave birth to" }
+          ]
+        },
+        {
+          dashaka: 27,
+          sloka: 7,
+          devanagari: "विश्वरूपं महाविष्णुं दृष्ट्वा सा जननी भिया ।\nतुष्टाव विविधैः स्तोत्रैः स्तम्भितेवाथ विस्मिता ।\nप्रसन्नवदनं विष्णुं प्रार्थयामास भामिनी\nसंहराशु चतुर्बाहुं रूपं मानुषतां व्रज ॥",
+          transliteration: "viśvarūpaṁ mahāviṣṇuṁ dṛṣṭvā sā jananī bhiyā |\ntuṣṭāva vividhaiḥ stōtraiḥ stambhitēvātha vismitā |\nprasannavadanaṁ viṣṇuṁ prārthayāmāsa bhāminī\nsaṁharāśu caturbāhuṁ rūpaṁ mānuṣatāṁ vraja ||",
+          translation: "Seeing the cosmic form of Maha Vishnu, the mother stood transfixed with awe and fear. She praised Him with various hymns, wonderstruck, and then the beautiful queen entreated the gracious-faced Vishnu: 'Withdraw Your four-armed form at once and assume a human appearance!'",
+          commentary: "Kausalya's response follows a dramatic arc: initial fear (bhiya), paralysis (stambhita iva), wonder (vismita), devotional praise (tushtava vividhaih stotraih), and finally a practical maternal plea. The theological tension is exquisite — a mother must ask her own newborn to stop being God and start being a baby. Her prayer 'manushatam vraja' (assume humanness) echoes the very purpose of the avatar: the divine must veil itself to function in the human drama. The word 'prasanna-vadanam' (gracious-faced) reassures that despite the awesome cosmic form, the Lord's fundamental nature remains benevolent.",
+          words: [
+            { word: "विश्वरूपम्", transliteration: "viśvarūpam", meaning: "the cosmic form" },
+            { word: "महाविष्णुम्", transliteration: "mahāviṣṇum", meaning: "the great Vishnu" },
+            { word: "दृष्ट्वा", transliteration: "dṛṣṭvā", meaning: "having seen" },
+            { word: "जननी", transliteration: "jananī", meaning: "the mother" },
+            { word: "भिया", transliteration: "bhiyā", meaning: "with fear, awe" },
+            { word: "तुष्टाव", transliteration: "tuṣṭāva", meaning: "praised, extolled" },
+            { word: "स्तम्भिता", transliteration: "stambhitā", meaning: "transfixed, paralyzed" },
+            { word: "विस्मिता", transliteration: "vismitā", meaning: "wonderstruck" },
+            { word: "प्रसन्नवदनम्", transliteration: "prasannavadanam", meaning: "gracious-faced" },
+            { word: "प्रार्थयामास", transliteration: "prārthayāmāsa", meaning: "entreated, prayed" },
+            { word: "संहर", transliteration: "saṁhara", meaning: "withdraw, retract" },
+            { word: "चतुर्बाहुम्", transliteration: "caturbāhum", meaning: "four-armed" },
+            { word: "मानुषताम्", transliteration: "mānuṣatām", meaning: "humanness, human form" }
+          ]
+        },
+        {
+          dashaka: 27,
+          sloka: 8,
+          devanagari: "भरतश्चापि कैकेय्यां लक्ष्मणश्चापि सुन्दरः ।\nशत्रुघ्नश्च सुमित्रायां जातास्ते भगवत्कलाः ।\nसर्वे दिव्यगुणोपेताः सर्वलक्षणसंयुताः\nनन्दयन्ति स्म राजानं राजपुत्राश्चतुष्टयम् ॥",
+          transliteration: "bharataścāpi kaikēyyāṁ lakṣmaṇaścāpi sundaraḥ |\nśatrughnaśca sumitrāyāṁ jātāstē bhagavatkalāḥ |\nsarvē divyaguṇōpētāḥ sarvalakṣaṇasaṁyutāḥ\nnandayanti sma rājānaṁ rājaputrāścatuṣṭayam ||",
+          translation: "Bharata was born to Kaikeyi, and the handsome Lakshmana and Shatrughna were born to Sumitra — all being portions of the Lord's own divine essence. Endowed with all divine qualities and auspicious marks, the four princes delighted the king.",
+          commentary: "Bhattathiri economically introduces all four princes and their maternal lineage. The term 'bhagavat-kalah' (portions of the Lord) is theologically precise — while Rama is the purna-avatara (full incarnation), the other three are amsha-avataras (partial manifestations). The Ramayana tradition assigns: Bharata carries half of Vishnu's essence, while Lakshmana and Shatrughna each carry a quarter. The compound 'sarva-lakshana-samyutah' (endowed with all auspicious marks) refers to the samudrika shastra — the science of bodily marks indicating divine or royal destiny. The closing image of the four princes delighting the king (nandayanti sma rajanam) is a tender domestic tableau.",
+          words: [
+            { word: "भरतः", transliteration: "bharataḥ", meaning: "Bharata" },
+            { word: "कैकेय्याम्", transliteration: "kaikēyyām", meaning: "in/from Kaikeyi" },
+            { word: "लक्ष्मणः", transliteration: "lakṣmaṇaḥ", meaning: "Lakshmana" },
+            { word: "सुन्दरः", transliteration: "sundaraḥ", meaning: "handsome, beautiful" },
+            { word: "शत्रुघ्नः", transliteration: "śatrughnaḥ", meaning: "Shatrughna (destroyer of enemies)" },
+            { word: "सुमित्रायाम्", transliteration: "sumitrāyām", meaning: "in/from Sumitra" },
+            { word: "भगवत्कलाः", transliteration: "bhagavatkalāḥ", meaning: "portions of the Lord" },
+            { word: "दिव्यगुणोपेताः", transliteration: "divyaguṇōpētāḥ", meaning: "endowed with divine qualities" },
+            { word: "सर्वलक्षणसंयुताः", transliteration: "sarvalakṣaṇasaṁyutāḥ", meaning: "possessing all auspicious marks" },
+            { word: "नन्दयन्ति", transliteration: "nandayanti", meaning: "delight, gladden" },
+            { word: "राजानम्", transliteration: "rājānam", meaning: "the king" },
+            { word: "राजपुत्राः", transliteration: "rājaputrāḥ", meaning: "princes, royal sons" },
+            { word: "चतुष्टयम्", transliteration: "catuṣṭayam", meaning: "the four (as a group)" }
+          ]
+        },
+        {
+          dashaka: 27,
+          sloka: 9,
+          devanagari: "अथो विश्वामित्रनामा मुनिवर्यः प्रतापवान् ।\nराजद्वारमुपागम्य दशरथं समभाषत ।\nराक्षसा मम यज्ञस्य विघ्नं कुर्वन्ति दारुणाः\nरामं मे देहि भद्रं ते रक्षार्थं क्रतुकर्मणाम् ॥",
+          transliteration: "athō viśvāmitranāmā munivaryaḥ pratāpavān |\nrājadvāramupāgamya daśarathaṁ samabhāṣata |\nrākṣasā mama yajñasya vighnaṁ kurvanti dāruṇāḥ\nrāmaṁ mē dēhi bhadraṁ tē rakṣārthaṁ kratukarmaṇām ||",
+          translation: "Then the powerful sage Vishwamitra by name approached the royal court and addressed Dasharatha: 'Terrible demons are disrupting my sacrifice. Give me Rama, may it be well with you, for the protection of my sacred rites.'",
+          commentary: "Vishwamitra's arrival marks the transition from Rama's sheltered childhood to His life of cosmic purpose. The sage's directness — 'ramam me dehi' (give me Rama) — is characteristic of his legendarily fierce temperament. The phrase 'bhadram te' (may it be well with you) is both a benediction and a veiled warning: compliance will bring blessing, refusal will not. For Dasharatha, this demand triggers the fundamental conflict between fatherly love and kshatriya dharma. The sage's request is the first of many separations that define the Rama narrative. This verse sets up the transition to the next dashaka, which will cover Rama's forest adventures with Vishwamitra.",
+          words: [
+            { word: "विश्वामित्र", transliteration: "viśvāmitra", meaning: "Vishwamitra (the sage)" },
+            { word: "मुनिवर्यः", transliteration: "munivaryaḥ", meaning: "greatest among sages" },
+            { word: "प्रतापवान्", transliteration: "pratāpavān", meaning: "powerful, valorous" },
+            { word: "राजद्वारम्", transliteration: "rājadvāram", meaning: "the royal court/gate" },
+            { word: "उपागम्य", transliteration: "upāgamya", meaning: "having approached" },
+            { word: "समभाषत", transliteration: "samabhāṣata", meaning: "addressed, spoke to" },
+            { word: "राक्षसाः", transliteration: "rākṣasāḥ", meaning: "demons, rakshasas" },
+            { word: "यज्ञस्य", transliteration: "yajñasya", meaning: "of the sacrifice" },
+            { word: "विघ्नम्", transliteration: "vighnam", meaning: "obstacle, disruption" },
+            { word: "दारुणाः", transliteration: "dāruṇāḥ", meaning: "terrible, fierce" },
+            { word: "रक्षार्थम्", transliteration: "rakṣārtham", meaning: "for the protection" },
+            { word: "क्रतुकर्मणाम्", transliteration: "kratukarmaṇām", meaning: "of the sacrificial rites" }
+          ]
+        },
+        {
+          dashaka: 27,
+          sloka: 10,
+          devanagari: "इत्थं दशरथस्यात्मजत्वेन जातो जगत्पते\nबाललीलां विभो विश्वमोहिनीं दर्शयन्नसौ ।\nत्वं रामरूपी भगवन् वेदवेद्यः परो हरिः\nकृष्ण मारुतगेहेश पालयाशु जगत्त्रयम् ।\nमरुत्पुरीश भगवन् पाहि मां करुणानिधे ॥",
+          transliteration: "itthaṁ daśarathasyātmajatvēna jātō jagatpatē\nbālalīlāṁ vibhō viśvamōhinīṁ darśayannasau |\ntvaṁ rāmarūpī bhagavan vēdavēdyaḥ parō hariḥ\nkṛṣṇa mārutagēhēśa pālayāśu jagattrayam |\nmarutpurīśa bhagavan pāhi māṁ karuṇānidhē ||",
+          translation: "Thus born as the son of Dasharatha, O Lord of the Universe, You displayed enchanting childhood pastimes that bewitched the entire world. You, O Lord, who assumed the form of Rama, are the Supreme Hari known through the Vedas. O Krishna, O Lord of Guruvayur temple, protect the three worlds! O Lord of Guruvayur, O treasure of compassion, protect me!",
+          commentary: "The closing verse is quintessential Bhattathiri — weaving together the narrative thread with personal devotion. The phrase 'bala-lilam vishva-mohinim' (childhood pastimes that bewitch the universe) captures the paradox of the supreme deity playing as a human child. The theological declaration 'veda-vedyah parah harih' (the Supreme Hari known through the Vedas) affirms Rama's identity with the Absolute. The shift from Rama to Krishna to Guruvayurappan in the final lines is characteristic of Narayaneeyam's vision — all avatars are one Lord, and that Lord stands before Bhattathiri in the temple of Guruvayur. The final plea 'pahi mam karunanidhe' (protect me, O treasure of compassion) is the poet's personal signature, linking cosmic narrative to individual salvation.",
+          words: [
+            { word: "आत्मजत्वेन", transliteration: "ātmajatvēna", meaning: "in the nature of a son" },
+            { word: "जगत्पते", transliteration: "jagatpatē", meaning: "O Lord of the Universe" },
+            { word: "बाललीलाम्", transliteration: "bālalīlām", meaning: "childhood pastimes" },
+            { word: "विश्वमोहिनीम्", transliteration: "viśvamōhinīm", meaning: "enchanting the universe" },
+            { word: "दर्शयन्", transliteration: "darśayan", meaning: "displaying, showing" },
+            { word: "रामरूपी", transliteration: "rāmarūpī", meaning: "in the form of Rama" },
+            { word: "वेदवेद्यः", transliteration: "vēdavēdyaḥ", meaning: "knowable through the Vedas" },
+            { word: "परः हरिः", transliteration: "paraḥ hariḥ", meaning: "the Supreme Hari" },
+            { word: "मारुतगेहेश", transliteration: "mārutagēhēśa", meaning: "Lord of Guruvayur temple" },
+            { word: "पालय", transliteration: "pālaya", meaning: "protect, preserve" },
+            { word: "करुणानिधे", transliteration: "karuṇānidhē", meaning: "O treasure of compassion" },
+            { word: "पाहि", transliteration: "pāhi", meaning: "protect, save" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 28,
