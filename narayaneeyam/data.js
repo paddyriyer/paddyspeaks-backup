@@ -4836,7 +4836,228 @@ var NARAYANEEYAM_DATA = {
       theme: "devotion",
       verseCount: 10,
       summary: "Narrates the tale of King Chitraketu who, after losing his only son, received spiritual instruction from Sage Narada and attained devotion to the Lord, eventually becoming a Vidyadhara.",
-      slokas: []
+      slokas: [
+        {
+          dashaka: 23,
+          sloka: 1,
+          devanagari: "शूरसेनेषु नृपतिश्चित्रकेतुरिति श्रुतः ।\nमहाविभवसम्पन्नः सर्वसम्पत्समन्वितः ।\nतस्यापि नाभवत्पुत्रो बहुभार्यस्य भूपतेः\nअपुत्रस्य महाराज दुःखशोकाकुलात्मनः ॥",
+          transliteration: "śūrasēnēṣu nṛpatiścitrakēturiti śrutaḥ |\nmahāvibhavasampannaḥ sarvasampat samanvitaḥ |\ntasyāpi nābhavatputrō bahubhāryasya bhūpatēḥ\naputrasya mahārāja duḥkhaśōkākulātmanaḥ ||",
+          translation: "In the land of Shurasena there was a king well-known as Chitraketu — endowed with great wealth and every kind of prosperity. Yet even this lord of the earth, though possessed of many wives, had no son; and that sonless king was overwhelmed by sorrow and grief.",
+          commentary: "Bhattathiri opens the Chitraketu narrative (Bhagavatam 6.14-17) by establishing the central paradox: material opulence without spiritual fulfillment. Chitraketu possessed maha-vibhava (great splendor) and sarva-sampat (all riches) yet lacked the one thing he desired — a son. The word 'api' (even) underscores that wealth cannot prevent sorrow. The compound 'duhkha-shoka-akula-atmanah' reveals his inner torment despite outer glory, setting up the teaching that worldly attachments inevitably lead to suffering.",
+          words: [
+            { word: "शूरसेनेषु", transliteration: "śūrasēnēṣu", meaning: "in the Shurasena country" },
+            { word: "नृपतिः", transliteration: "nṛpatiḥ", meaning: "king" },
+            { word: "चित्रकेतुः", transliteration: "citrakētuḥ", meaning: "Chitraketu (by name)" },
+            { word: "महाविभवसम्पन्नः", transliteration: "mahāvibhavasampannaḥ", meaning: "endowed with great wealth" },
+            { word: "सर्वसम्पत्", transliteration: "sarvasampat", meaning: "all prosperity" },
+            { word: "पुत्रः", transliteration: "putraḥ", meaning: "son" },
+            { word: "बहुभार्यस्य", transliteration: "bahubhāryasya", meaning: "of one having many wives" },
+            { word: "भूपतेः", transliteration: "bhūpatēḥ", meaning: "of the lord of the earth" },
+            { word: "अपुत्रस्य", transliteration: "aputrasya", meaning: "of the sonless one" },
+            { word: "दुःखशोकाकुलात्मनः", transliteration: "duḥkhaśōkākulātmanaḥ", meaning: "whose mind was agitated by grief and sorrow" },
+            { word: "महाराज", transliteration: "mahārāja", meaning: "O great king" }
+          ]
+        },
+        {
+          dashaka: 23,
+          sloka: 2,
+          devanagari: "तमेकदा महाभागो ह्यङ्गिरा नाम वै मुनिः ।\nचरन्भुवि महातेजा आजगाम नृपालयम् ।\nतं दृष्ट्वा सहसोत्थाय प्रणम्यावनतो नृपः\nकृताञ्जलिपुटो भूत्वा वरं वव्रे सुतं प्रति ॥",
+          transliteration: "tamēkadā mahābhāgō hyaṅgirā nāma vai muniḥ |\ncaranbhuvi mahātējā ājagāma nṛpālayam |\ntaṁ dṛṣṭvā sahasōtthāya praṇamyāvanatō nṛpaḥ\nkṛtāñjalipuṭō bhūtvā varaṁ vavrē sutaṁ prati ||",
+          translation: "One day, the greatly fortunate sage Angiras, of immense radiance, wandering across the earth, arrived at the king's palace. Seeing him, the king rose at once, bowed low in reverence, joined his palms in supplication, and begged the boon of a son.",
+          commentary: "The arrival of Sage Angiras represents divine grace responding to Chitraketu's unspoken prayer. The sage's wandering (caran bhuvi) shows how great souls move freely, dispensing grace where needed. Chitraketu's immediate and spontaneous reverence — rising (utthaya), bowing (pranamya), and joining palms (kritanjali-puta) — reveals his innate devotional nature despite his worldly anguish. The sage's epithet 'maha-teja' (of great radiance) indicates his capacity to illuminate the king's darkness.",
+          words: [
+            { word: "एकदा", transliteration: "ēkadā", meaning: "one day" },
+            { word: "महाभागः", transliteration: "mahābhāgaḥ", meaning: "the greatly fortunate one" },
+            { word: "अङ्गिराः", transliteration: "aṅgirāḥ", meaning: "Angiras (the sage)" },
+            { word: "मुनिः", transliteration: "muniḥ", meaning: "sage" },
+            { word: "चरन्", transliteration: "caran", meaning: "wandering" },
+            { word: "महातेजाः", transliteration: "mahātējāḥ", meaning: "of great radiance" },
+            { word: "नृपालयम्", transliteration: "nṛpālayam", meaning: "the king's palace" },
+            { word: "प्रणम्य", transliteration: "praṇamya", meaning: "having bowed" },
+            { word: "अवनतः", transliteration: "avanataḥ", meaning: "bending low" },
+            { word: "कृताञ्जलिपुटः", transliteration: "kṛtāñjalipuṭaḥ", meaning: "with palms joined in reverence" },
+            { word: "वरम्", transliteration: "varam", meaning: "boon" },
+            { word: "सुतम्", transliteration: "sutam", meaning: "son" }
+          ]
+        },
+        {
+          dashaka: 23,
+          sloka: 3,
+          devanagari: "अङ्गिराः प्रददौ तस्मै पुत्रेष्टिं विधिपूर्वकम् ।\nकृतायां तस्य पत्नीषु ज्येष्ठा कृतद्युतिर्नृप ।\nलेभे गर्भं महाभागा सा सुपुत्रमसूयत\nउत्सवः सर्वदेशेषु महानासीन्नृपालये ॥",
+          transliteration: "aṅgirāḥ pradadau tasmai putrēṣṭiṁ vidhipūrvakam |\nkṛtāyāṁ tasya patnīṣu jyēṣṭhā kṛtadyutirnṛpa |\nlēbhē garbhaṁ mahābhāgā sā suputramasūyata\nutsavaḥ sarvadēśēṣu mahānāsīnnṛpālayē ||",
+          translation: "Angiras performed for him the putreshti sacrifice according to scriptural rites. Among the king's wives, the chief queen Kritadyuti conceived and bore a fine son. Great celebration arose throughout the realm and in the royal palace.",
+          commentary: "The putreshti (son-producing sacrifice) performed by Angiras follows Vedic injunction (vidhi-purvakam), showing that even divine blessings operate within ritual frameworks. The chief queen Kritadyuti (whose name means 'of accomplished radiance') becomes the mother — but this detail is ominous, for her elevation through motherhood will provoke the jealousy of the other wives. The universal celebration (utsava sarva-deshesu) creates dramatic irony: the reader knows this joy will be short-lived.",
+          words: [
+            { word: "अङ्गिराः", transliteration: "aṅgirāḥ", meaning: "Sage Angiras" },
+            { word: "प्रददौ", transliteration: "pradadau", meaning: "gave, performed" },
+            { word: "पुत्रेष्टिम्", transliteration: "putrēṣṭim", meaning: "the sacrifice for obtaining a son" },
+            { word: "विधिपूर्वकम्", transliteration: "vidhipūrvakam", meaning: "according to scriptural rites" },
+            { word: "पत्नीषु", transliteration: "patnīṣu", meaning: "among the wives" },
+            { word: "ज्येष्ठा", transliteration: "jyēṣṭhā", meaning: "the chief, eldest" },
+            { word: "कृतद्युतिः", transliteration: "kṛtadyutiḥ", meaning: "Kritadyuti (the queen's name)" },
+            { word: "गर्भम्", transliteration: "garbham", meaning: "pregnancy, womb" },
+            { word: "सुपुत्रम्", transliteration: "suputram", meaning: "a fine son" },
+            { word: "असूयत", transliteration: "asūyata", meaning: "gave birth" },
+            { word: "उत्सवः", transliteration: "utsavaḥ", meaning: "celebration, festival" },
+            { word: "नृपालये", transliteration: "nṛpālayē", meaning: "in the royal palace" }
+          ]
+        },
+        {
+          dashaka: 23,
+          sloka: 4,
+          devanagari: "सपत्न्यस्तस्य भार्यास्तु ईर्ष्यारोषसमन्विताः ।\nविषं तस्मै कुमाराय प्रददुः पापबुद्धयः ।\nस बालकः क्षणेनैव प्राणान्प्राहात्यजत्तदा\nहा पुत्रेति रुदन्राजा पपात भुवि मोहितः ॥",
+          transliteration: "sapatnyastasya bhāryāstu īrṣyārōṣasamanvitāḥ |\nviṣaṁ tasmai kumārāya pradaduḥ pāpabuddhayaḥ |\nsa bālakaḥ kṣaṇēnaiva prāṇānprāhātyajattadā\nhā putrēti rudanrājā papāta bhuvi mōhitaḥ ||",
+          translation: "But the king's co-wives, consumed by jealousy and rage, those evil-minded women administered poison to the infant prince. That child gave up his life-breaths in an instant. Crying 'O my son!', the king fell to the ground, overwhelmed by grief.",
+          commentary: "The poisoning of the innocent child by the co-wives (sapatnyah) is narrated with devastating swiftness — 'kshanena eva' (in just a moment) the boy dies. The jealousy (irshya) and anger (rosha) that motivated the murder are the bitter fruits of polygamous court life. Chitraketu's cry 'ha putra' and his falling senseless to the ground recall similar scenes of parental grief throughout the epics. Bhattathiri condenses the Bhagavatam's elaborate description of the king's agony into a single devastating verse, emphasizing impermanence of worldly joy.",
+          words: [
+            { word: "सपत्न्यः", transliteration: "sapatnyaḥ", meaning: "co-wives" },
+            { word: "ईर्ष्यारोषसमन्विताः", transliteration: "īrṣyārōṣasamanvitāḥ", meaning: "filled with jealousy and rage" },
+            { word: "विषम्", transliteration: "viṣam", meaning: "poison" },
+            { word: "कुमाराय", transliteration: "kumārāya", meaning: "to the young prince" },
+            { word: "पापबुद्धयः", transliteration: "pāpabuddhayaḥ", meaning: "those of sinful intent" },
+            { word: "बालकः", transliteration: "bālakaḥ", meaning: "the child" },
+            { word: "क्षणेन", transliteration: "kṣaṇēna", meaning: "in a moment" },
+            { word: "प्राणान्", transliteration: "prāṇān", meaning: "life-breaths" },
+            { word: "अत्यजत्", transliteration: "atyajat", meaning: "gave up, abandoned" },
+            { word: "रुदन्", transliteration: "rudan", meaning: "weeping, crying" },
+            { word: "पपात", transliteration: "papāta", meaning: "fell down" },
+            { word: "मोहितः", transliteration: "mōhitaḥ", meaning: "deluded, overwhelmed" }
+          ]
+        },
+        {
+          dashaka: 23,
+          sloka: 5,
+          devanagari: "सुतशोकाकुलं दृष्ट्वा नृपं विकलचेतसम् ।\nनारदोऽङ्गिरसा सार्धमाजगाम नृपान्तिकम् ।\nदेहबन्धुषु को राजन् पुत्रो भ्राता पिता सुहृत्\nदेहेनात्मा न बध्येत स नित्यः परमार्थतः ॥",
+          transliteration: "sutaśōkākulaṁ dṛṣṭvā nṛpaṁ vikalacētasam |\nnāradō'ṅgirasā sārdhamājagāma nṛpāntikam |\ndēhabandhuṣu kō rājan putrō bhrātā pitā suhṛt\ndēhēnātmā na badhyēta sa nityaḥ paramārthataḥ ||",
+          translation: "Seeing the king distracted by grief for his son, Narada arrived together with Angiras. 'Among these bodily relations, O king, who is truly a son, brother, father, or friend? The Self is not bound by the body — It is eternal in the highest truth.'",
+          commentary: "The arrival of Narada with Angiras at the moment of deepest despair represents the classic pattern of grace appearing when the ego is broken. The teaching is direct and uncompromising: deha-bandhusu (among bodily relatives) there is no real relationship. The question 'ko putra?' (who is a son?) demolishes the very premise of Chitraketu's grief. The Self (atma) is nitya (eternal) and paramarthata (in ultimate truth) unbound by bodily connections. This echoes the Gita's teaching that the wise grieve neither for the living nor the dead.",
+          words: [
+            { word: "सुतशोकाकुलम्", transliteration: "sutaśōkākulam", meaning: "agitated by grief for the son" },
+            { word: "विकलचेतसम्", transliteration: "vikalacētasam", meaning: "with disturbed mind" },
+            { word: "नारदः", transliteration: "nāradaḥ", meaning: "Sage Narada" },
+            { word: "अङ्गिरसा", transliteration: "aṅgirasā", meaning: "with Angiras" },
+            { word: "नृपान्तिकम्", transliteration: "nṛpāntikam", meaning: "near the king" },
+            { word: "देहबन्धुषु", transliteration: "dēhabandhuṣu", meaning: "among bodily relations" },
+            { word: "पुत्रः", transliteration: "putraḥ", meaning: "son" },
+            { word: "भ्राता", transliteration: "bhrātā", meaning: "brother" },
+            { word: "आत्मा", transliteration: "ātmā", meaning: "the Self, soul" },
+            { word: "बध्येत", transliteration: "badhyēta", meaning: "is bound" },
+            { word: "नित्यः", transliteration: "nityaḥ", meaning: "eternal" },
+            { word: "परमार्थतः", transliteration: "paramārthataḥ", meaning: "in the highest truth" }
+          ]
+        },
+        {
+          dashaka: 23,
+          sloka: 6,
+          devanagari: "नारदेन समाहूतो बालकस्यात्मनि स्थितः ।\nजीवः प्रोवाच राजानं को मे ताता कुतः सुतः ।\nबहुजन्मसु राजेन्द्र बहवो बान्धवा मम\nकस्य पुत्रो भवाम्यत्र कस्य भ्राता पिता सुहृत् ॥",
+          transliteration: "nāradēna samāhūtō bālakasyātmani sthitaḥ |\njīvaḥ prōvāca rājānaṁ kō mē tāta kutaḥ sutaḥ |\nbahujanmasu rājēndra bahavō bāndhavā mama\nkasya putrō bhavāmyatra kasya bhrātā pitā suhṛt ||",
+          translation: "Summoned by Narada, the soul dwelling in the child's body spoke to the king: 'Who is my father? Whence a son? Through many births, O king, I have had many relatives. Whose son am I here? Whose brother, father, or friend?'",
+          commentary: "This is one of the most philosophically powerful moments in the Bhagavatam. The jiva (individual soul) summoned by Narada speaks from the perspective of transmigration: across countless births (bahu-janmasu), it has had countless relatives (bahavah bandhavah). The devastating question 'ko me tata?' (who is my father?) demolishes the illusion of permanent familial bonds. The soul's speech is an existential thunderbolt — the very child for whom the king grieves denies the permanence of their relationship. This is Vedantic viveka (discrimination) in dramatic form.",
+          words: [
+            { word: "समाहूतः", transliteration: "samāhūtaḥ", meaning: "summoned, called forth" },
+            { word: "बालकस्य", transliteration: "bālakasya", meaning: "of the child" },
+            { word: "आत्मनि", transliteration: "ātmani", meaning: "in the self, within" },
+            { word: "स्थितः", transliteration: "sthitaḥ", meaning: "situated, dwelling" },
+            { word: "जीवः", transliteration: "jīvaḥ", meaning: "the individual soul" },
+            { word: "प्रोवाच", transliteration: "prōvāca", meaning: "spoke forth" },
+            { word: "ताता", transliteration: "tātā", meaning: "father (affectionate)" },
+            { word: "बहुजन्मसु", transliteration: "bahujanmasu", meaning: "in many births" },
+            { word: "बान्धवाः", transliteration: "bāndhavāḥ", meaning: "relatives, kinsmen" },
+            { word: "पुत्रः", transliteration: "putraḥ", meaning: "son" },
+            { word: "भवामि", transliteration: "bhavāmi", meaning: "I become" },
+            { word: "सुहृत्", transliteration: "suhṛt", meaning: "friend, well-wisher" }
+          ]
+        },
+        {
+          dashaka: 23,
+          sloka: 7,
+          devanagari: "विज्ञानदीपितमतिं चित्रकेतुं विशोच्य सः ।\nनारदो भगवान्प्रादात्सङ्कर्षणमनुं शुभम् ।\nसङ्कर्षणाख्यं भगवन्तं निरञ्जनमनामयम्\nयं ध्यात्वा मुच्यते जन्तुः संसारान्नात्र संशयः ॥",
+          transliteration: "vijñānadīpitamatiṁ citrakētuṁ viśōcya saḥ |\nnāradō bhagavānprādātsaṅkarṣaṇamanuṁ śubham |\nsaṅkarṣaṇākhyaṁ bhagavantaṁ nirañjanamānāmayam\nyaṁ dhyātvā mucyatē jantuḥ saṁsārānnātra saṁśayaḥ ||",
+          translation: "Having awakened the intellect of Chitraketu through wisdom, the divine Narada bestowed upon him the auspicious Sankarshana mantra — for meditating upon that Lord called Sankarshana, who is stainless and free from affliction, a being is liberated from samsara — there is no doubt.",
+          commentary: "Narada's gift of the Sankarshana mantra is the pivotal spiritual turning point. First came vijnana (discriminative knowledge) — 'vijñana-dipita-mati' (intellect illumined by wisdom). Upon this prepared ground, Narada plants the seed of devotion through mantra-diksha. Sankarshana, the first expansion of Vasudeva, represents the transcendental principle (niranjana — stainless, anamaya — free from affliction). The emphatic 'natra samshayah' (there is no doubt) is characteristic of Bhattathiri's confident devotional assertions. The mantra bridges jnana and bhakti.",
+          words: [
+            { word: "विज्ञानदीपितमतिम्", transliteration: "vijñānadīpitamatim", meaning: "whose intellect was illumined by wisdom" },
+            { word: "विशोच्य", transliteration: "viśōcya", meaning: "having consoled, instructed" },
+            { word: "नारदः", transliteration: "nāradaḥ", meaning: "Sage Narada" },
+            { word: "भगवान्", transliteration: "bhagavān", meaning: "the divine, illustrious" },
+            { word: "प्रादात्", transliteration: "prādāt", meaning: "bestowed, gave" },
+            { word: "सङ्कर्षणमनुम्", transliteration: "saṅkarṣaṇamanum", meaning: "the Sankarshana mantra" },
+            { word: "शुभम्", transliteration: "śubham", meaning: "auspicious" },
+            { word: "निरञ्जनम्", transliteration: "nirañjanam", meaning: "stainless, unblemished" },
+            { word: "अनामयम्", transliteration: "anāmayam", meaning: "free from affliction" },
+            { word: "ध्यात्वा", transliteration: "dhyātvā", meaning: "having meditated upon" },
+            { word: "मुच्यते", transliteration: "mucyatē", meaning: "is liberated" },
+            { word: "संसारात्", transliteration: "saṁsārāt", meaning: "from the cycle of birth and death" },
+            { word: "संशयः", transliteration: "saṁśayaḥ", meaning: "doubt" }
+          ]
+        },
+        {
+          dashaka: 23,
+          sloka: 8,
+          devanagari: "सप्ताहं मनुमावर्त्य भक्त्या परमया युतः ।\nददर्श भगवन्तं तं सङ्कर्षणमनन्तकम् ।\nसहस्रवदनं देवं शेषभोगासनस्थितम्\nतेजसा घटितं विश्वं यं दृष्ट्वा विस्मयं ययौ ॥",
+          transliteration: "saptāhaṁ manumāvartya bhaktyā paramayā yutaḥ |\ndadarśa bhagavantaṁ taṁ saṅkarṣaṇamanantakam |\nsahasravadanaṁ dēvaṁ śēṣabhōgāsanasthitam\ntējasā ghaṭitaṁ viśvaṁ yaṁ dṛṣṭvā vismayaṁ yayau ||",
+          translation: "For seven days he repeated the mantra with supreme devotion, and then beheld that Lord Sankarshana, the Infinite One — the thousand-headed God seated upon the coils of Shesha, by whose radiance the entire universe is illumined. Seeing Him, the king was filled with wonder.",
+          commentary: "The seven-day mantra practice (saptaham manum avartya) produces the fruit of direct vision (darshana). The description of Sankarshana as Anantaka (the Infinite), Sahasra-vadana (thousand-faced), and seated on Shesha's coils evokes the cosmic form. The phrase 'tejasa ghatitam vishvam' (the universe fashioned by His radiance) identifies Sankarshana as the cosmic substrate. Chitraketu's vismaya (wonder) is the characteristic response of the devotee upon first divine vision — the same wonder Arjuna felt seeing the Vishvarupa.",
+          words: [
+            { word: "सप्ताहम्", transliteration: "saptāham", meaning: "for seven days" },
+            { word: "मनुम्", transliteration: "manum", meaning: "the mantra" },
+            { word: "आवर्त्य", transliteration: "āvartya", meaning: "having repeated" },
+            { word: "भक्त्या", transliteration: "bhaktyā", meaning: "with devotion" },
+            { word: "परमया", transliteration: "paramayā", meaning: "supreme" },
+            { word: "ददर्श", transliteration: "dadarśa", meaning: "he beheld, saw" },
+            { word: "सङ्कर्षणम्", transliteration: "saṅkarṣaṇam", meaning: "Lord Sankarshana" },
+            { word: "अनन्तकम्", transliteration: "anantakam", meaning: "the Infinite One" },
+            { word: "सहस्रवदनम्", transliteration: "sahasravadanam", meaning: "thousand-faced" },
+            { word: "शेषभोगासनस्थितम्", transliteration: "śēṣabhōgāsanasthitam", meaning: "seated on the coils of Shesha" },
+            { word: "तेजसा", transliteration: "tējasā", meaning: "by radiance" },
+            { word: "विस्मयम्", transliteration: "vismayam", meaning: "wonder, amazement" }
+          ]
+        },
+        {
+          dashaka: 23,
+          sloka: 9,
+          devanagari: "विद्याधरपदं प्राप्तो भक्तिभावसमन्वितः ।\nविमानेन विचरन्नेकदा किलकैलासशिखरे ।\nपार्वतीक्रोडमासीनं शिवमालोक्य सस्मितम्\nकिञ्चिदुक्त्वा तयोरीषदपराद्धो व्यशापि सः ॥",
+          transliteration: "vidyādharapadaṁ prāptō bhaktibhāvasamanvitaḥ |\nvimānēna vicarannēkadā kilakailāsaśikharē |\npārvatīkrōḍamāsīnaṁ śivamālōkya sasmitam\nkiñciduktavā tayōrīṣadaparāddhō vyaśāpi saḥ ||",
+          translation: "Having attained the status of a Vidyadhara, endowed with devotional fervor, he once roamed in his celestial chariot. Upon the peak of Kailasa he saw Shiva seated with Parvati on his lap, and with a smile spoke some words. Having slightly offended them, he was cursed by Parvati.",
+          commentary: "Chitraketu's transformation into a Vidyadhara (celestial being of knowledge) through devotion is itself remarkable, but Bhattathiri deftly narrates the famous encounter on Kailasa. The 'sasmita' (with a smile) indicates Chitraketu's remark was not malicious but born of the confidence of a Vaishnava devotee. His 'slight offense' (ishat aparaddha) to Shiva and Parvati — questioning the propriety of Shiva's posture — led to Parvati's curse. The verse hints that even elevated devotees must exercise humility, while foreshadowing that the curse itself will serve a divine purpose.",
+          words: [
+            { word: "विद्याधरपदम्", transliteration: "vidyādharapadam", meaning: "the status of a Vidyadhara (celestial being)" },
+            { word: "प्राप्तः", transliteration: "prāptaḥ", meaning: "having attained" },
+            { word: "भक्तिभावसमन्वितः", transliteration: "bhaktibhāvasamanvitaḥ", meaning: "endowed with devotional feeling" },
+            { word: "विमानेन", transliteration: "vimānēna", meaning: "by celestial chariot" },
+            { word: "कैलासशिखरे", transliteration: "kailāsaśikharē", meaning: "on the peak of Kailasa" },
+            { word: "पार्वतीक्रोडम्", transliteration: "pārvatīkrōḍam", meaning: "with Parvati on the lap" },
+            { word: "शिवम्", transliteration: "śivam", meaning: "Lord Shiva" },
+            { word: "आलोक्य", transliteration: "ālōkya", meaning: "having seen" },
+            { word: "सस्मितम्", transliteration: "sasmitam", meaning: "with a smile" },
+            { word: "अपराद्धः", transliteration: "aparāddhaḥ", meaning: "having offended" },
+            { word: "व्यशापि", transliteration: "vyaśāpi", meaning: "was cursed" }
+          ]
+        },
+        {
+          dashaka: 23,
+          sloka: 10,
+          devanagari: "वृत्रासुरत्वमापन्नोऽप्यचलभक्तिसमन्वितः ।\nत्वद्भक्तिरेव शापेऽपि रक्षा चित्रकेतोरभूत् ।\nशापोऽपि सम्पदेवासीद्भक्तानां ते कृपानिधे\nतं त्वां गुरुवायुपुरेश्वरं भजे मारुतालयेश्वर पाहि माम् ॥",
+          transliteration: "vṛtrāsuratvamāpannō'pyacalabhaktisamanvitaḥ |\ntvadbhaktirēva śāpē'pi rakṣā citrakētōrabhūt |\nśāpō'pi sampadēvāsīdbhaktānāṁ tē kṛpānidhē\ntaṁ tvāṁ guruvāyupurēśvaraṁ bhajē mārutālayēśvara pāhi mām ||",
+          translation: "Though he became the demon Vritra, his unwavering devotion remained. Your devotion alone was Chitraketu's protection even amidst the curse. For Your devotees, O Treasury of Compassion, even a curse becomes a blessing. I worship You, O Lord of Guruvayur — O Lord of the Temple of the Wind, protect me!",
+          commentary: "The closing verse reveals the supreme message of the Chitraketu narrative: even Parvati's curse — which turned him into the great demon Vritra — could not destroy his bhakti. As Vritra, Chitraketu fought Indra but attained liberation through devotion (as described in later Bhagavatam passages). The paradox 'shapo'pi sampad eva asit' (even the curse became a blessing) encapsulates the invincibility of divine grace for devotees. Bhattathiri concludes with his signature prayer to Guruvayurappan (Marutalayeshvara), transforming the narrative into personal supplication. The epithet 'kripa-nidhi' (treasury of compassion) resonates with the entire dashaka's teaching: the Lord's grace transforms every situation — even apparent curses — into spiritual advancement.",
+          words: [
+            { word: "वृत्रासुरत्वम्", transliteration: "vṛtrāsuratvam", meaning: "the state of being the demon Vritra" },
+            { word: "आपन्नः", transliteration: "āpannaḥ", meaning: "having attained, become" },
+            { word: "अचलभक्तिसमन्वितः", transliteration: "acalabhaktisamanvitaḥ", meaning: "endowed with unwavering devotion" },
+            { word: "त्वद्भक्तिः", transliteration: "tvadbhaktiḥ", meaning: "devotion to You" },
+            { word: "रक्षा", transliteration: "rakṣā", meaning: "protection" },
+            { word: "शापः", transliteration: "śāpaḥ", meaning: "curse" },
+            { word: "सम्पत्", transliteration: "sampat", meaning: "blessing, wealth" },
+            { word: "भक्तानाम्", transliteration: "bhaktānām", meaning: "of the devotees" },
+            { word: "कृपानिधे", transliteration: "kṛpānidhē", meaning: "O treasury of compassion" },
+            { word: "गुरुवायुपुरेश्वरम्", transliteration: "guruvāyupurēśvaram", meaning: "the Lord of Guruvayur" },
+            { word: "भजे", transliteration: "bhajē", meaning: "I worship" },
+            { word: "मारुतालयेश्वर", transliteration: "mārutālayēśvara", meaning: "O Lord of the Temple of the Wind" },
+            { word: "पाहि", transliteration: "pāhi", meaning: "protect" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 24,
