@@ -1732,12 +1732,218 @@ var NARAYANEEYAM_DATA = {
     },
     {
       dashaka: 10,
-      titleSanskrit: "वामनावतारवर्णनम्",
-      titleEnglish: "Vamana Avatar",
-      theme: "avatar",
-      verseCount: 13,
-      summary: "The Lord incarnates as Vamana, a dwarf brahmachari, and approaches King Bali seeking three paces of land. He then assumes the cosmic Trivikrama form spanning the three worlds.",
-      slokas: []
+      titleSanskrit: "सृष्टिवैविध्यम्",
+      titleEnglish: "The Variety of Creation",
+      theme: "philosophy",
+      verseCount: 10,
+      summary: "Describes how Brahma, empowered by the Lord, carried out diverse creation — the five forms of ignorance, the four Kumaras who refused to procreate, the birth of Rudra from Brahma's wrath, the ten Prajapatis, and finally Svayambhuva Manu and Shatarupa through whom mankind began.",
+      slokas: [
+        {
+          dashaka: 10,
+          sloka: 1,
+          devanagari: "वैकुण्ठ वर्धितबलोऽथ भवत्प्रसादा-\nदम्भोजयोनिरसृजत् किल जीवदेहान् ।\nस्थास्नूनि भूरुहमयानि तथा तिरश्चां\nजातीर्मनुष्यनिवहानपि देवभेदान् ॥",
+          transliteration: "vaikuṇṭha vardhitabalō'tha bhavatprasādā-\ndambhōjayōnirasṛjatkila jīvadēhān |\nsthāsnūni bhūruhamayāni tathā tiraścāṁ\njātīrmanuṣyanivahānapi dēvabhēdān ||",
+          translation: "O Lord of Vaikuntha! Empowered by Your grace, Brahma (the lotus-born) created bodies for the jivas — the immovable beings such as trees, the various species of animals, hosts of human beings, and different classes of gods.",
+          commentary: "This opening verse sets the stage for the dashaka. Brahma, having received strength from Lord Vishnu, begins populating the universe. The verse emphasizes that creation is karmic — jivas receive bodies suited to their accumulated merit and demerit from before the dissolution.",
+          words: [
+            { word: "वैकुण्ठ", transliteration: "vaikuṇṭha", meaning: "O Lord of Vaikuntha" },
+            { word: "वर्धितबलः", transliteration: "vardhitabalaḥ", meaning: "with increased strength" },
+            { word: "भवत्प्रसादात्", transliteration: "bhavatprasādāt", meaning: "by Your grace" },
+            { word: "अम्भोजयोनिः", transliteration: "ambhōjayōniḥ", meaning: "the lotus-born one (Brahma)" },
+            { word: "असृजत्", transliteration: "asṛjat", meaning: "created" },
+            { word: "जीवदेहान्", transliteration: "jīvadēhān", meaning: "bodies for the living beings" },
+            { word: "स्थास्नूनि", transliteration: "sthāsnūni", meaning: "immovable beings" },
+            { word: "भूरुहमयानि", transliteration: "bhūruhamayāni", meaning: "consisting of trees" },
+            { word: "तिरश्चाम्", transliteration: "tiraścām", meaning: "of animals" },
+            { word: "मनुष्यनिवहान्", transliteration: "manuṣyanivahān", meaning: "hosts of human beings" },
+            { word: "देवभेदान्", transliteration: "dēvabhēdān", meaning: "different classes of gods" }
+          ]
+        },
+        {
+          dashaka: 10,
+          sloka: 2,
+          devanagari: "मिथ्याग्रहास्मिमतिरागविकोपभीति-\nरज्ञानवृत्तिमिति पञ्चविधां स सृष्ट्वा ।\nउद्दामतामसपदार्थविधानदूनः\nतेने त्वदीयचरणस्मरणं विशुद्ध्यै ॥",
+          transliteration: "mithyāgrahāsmimatirāgavikōpabhīti-\nrajñānavṛttimiti pañcavidhāṁ sa sṛṣṭvā |\nuddāmatāmasapadārthavidhānadūnaḥ\ntēnē tvadīyacaraṇasmaraṇaṁ viśuddhyai ||",
+          translation: "Brahma first created the five types of ignorance: false notion, egoism, attachment, anger, and fear. Distressed at having created such predominantly tamasic entities, he meditated upon Your lotus feet for purification.",
+          commentary: "The five forms of ignorance — andhatamisra, tamisra, mahamoha, moha, and tamas — represent the fundamental delusions that bind jivas. Brahma's dismay at this dark first creation and his instinctive turning to the Lord for purification highlights the devotional core of the Narayaneeyam.",
+          words: [
+            { word: "मिथ्याग्रहः", transliteration: "mithyāgrahaḥ", meaning: "false notion, delusion" },
+            { word: "अस्मिमतिः", transliteration: "asmimatiḥ", meaning: "egoism, sense of 'I'" },
+            { word: "रागः", transliteration: "rāgaḥ", meaning: "attachment" },
+            { word: "विकोपः", transliteration: "vikōpaḥ", meaning: "anger, agitation" },
+            { word: "भीतिः", transliteration: "bhītiḥ", meaning: "fear" },
+            { word: "अज्ञानवृत्तिम्", transliteration: "ajñānavṛttim", meaning: "the mode of ignorance" },
+            { word: "पञ्चविधाम्", transliteration: "pañcavidhām", meaning: "of five kinds" },
+            { word: "तामसपदार्थ", transliteration: "tāmasapadārtha", meaning: "tamasic entities" },
+            { word: "विधानदूनः", transliteration: "vidhānadūnaḥ", meaning: "distressed by the creation" },
+            { word: "चरणस्मरणम्", transliteration: "caraṇasmaraṇam", meaning: "remembrance of the feet" },
+            { word: "विशुद्ध्यै", transliteration: "viśuddhyai", meaning: "for purification" }
+          ]
+        },
+        {
+          dashaka: 10,
+          sloka: 3,
+          devanagari: "तावत् ससर्ज मनसा सनकं सनन्दं\nभूयः सनातनमुनिं च सनत्कुमारम् ।\nते सृष्टिकर्मणि तु तेन नियुज्यमानाः\nत्वत्पादभक्तिरसिका जगृहुर्न वाणीम् ॥",
+          transliteration: "tāvatsasarja manasā sanakaṁ sanandaṁ\nbhūyassanātanamuniṁ ca sanatkumāram |\ntē sṛṣṭikarmaṇi tu tēna niyujyamānāḥ\ntvatpādabhaktirasikā jagṛhurna vāṇīm ||",
+          translation: "Then Brahma created from his mind the four Kumaras — Sanaka, Sananda, Sanatana, and Sanatkumara. But when directed to engage in creation, they, being absorbed in devotion to Your lotus feet, refused to obey.",
+          commentary: "The four Kumaras are mind-born sons of Brahma. Despite being his first conscious creation after purification, they were so absorbed in brahmavidya and devotion to Vishnu that worldly creation held no interest. The phrase 'tvatpādabhaktirasikā' (those who relish devotion to Your feet) elevates bhakti above all other pursuits.",
+          words: [
+            { word: "ससर्ज", transliteration: "sasarja", meaning: "created" },
+            { word: "मनसा", transliteration: "manasā", meaning: "from the mind" },
+            { word: "सनकम्", transliteration: "sanakam", meaning: "Sanaka" },
+            { word: "सनन्दम्", transliteration: "sanandam", meaning: "Sananda" },
+            { word: "सनातनमुनिम्", transliteration: "sanātanamunim", meaning: "the sage Sanatana" },
+            { word: "सनत्कुमारम्", transliteration: "sanatkumāram", meaning: "Sanatkumara" },
+            { word: "सृष्टिकर्मणि", transliteration: "sṛṣṭikarmaṇi", meaning: "in the work of creation" },
+            { word: "नियुज्यमानाः", transliteration: "niyujyamānāḥ", meaning: "being directed, commanded" },
+            { word: "त्वत्पादभक्तिरसिकाः", transliteration: "tvatpādabhaktirasikāḥ", meaning: "those who relish devotion to Your feet" },
+            { word: "जगृहुः न वाणीम्", transliteration: "jagṛhuḥ na vāṇīm", meaning: "did not accept the command" }
+          ]
+        },
+        {
+          dashaka: 10,
+          sloka: 4,
+          devanagari: "तावत् प्रकोपमुदितं प्रतिरुन्धतोऽस्य\nभ्रूमध्यतोऽजनि मृडो भवदेकदेशः ।\nनामानि मे कुरु पदानि च हा विरिञ्चे-\nत्यादौ रुरोद किल तेन स रुद्रनामा ॥",
+          transliteration: "tāvat prakōpamuditaṁ pratirundhato'sya\nbhrūmadhyatō'jani mṛḍō bhavadēkadēśaḥ |\nnāmāni mē kuru padāni ca hā viriñcē-\ntyādau rurōda kila tēna sa rudranāmā ||",
+          translation: "While Brahma was suppressing the anger that arose at the Kumaras' refusal, from between his eyebrows was born Mrida (Rudra/Shiva), who is a part of Your own being. Rudra cried out to Brahma: 'Give me names and abodes!' — and because he cried (ruroda), he was named Rudra.",
+          commentary: "The birth of Rudra from Brahma's wrath is a famous episode from Bhagavatam 3.12.7-8. The phrase 'bhavadekadesha' (a part of Your being) affirms the theological position that Shiva is an aspect of Vishnu. The folk-etymology of 'Rudra' from 'ruroda' (he who cried) follows the Bhagavatam account.",
+          words: [
+            { word: "प्रकोपम्", transliteration: "prakōpam", meaning: "anger, rage" },
+            { word: "प्रतिरुन्धतः", transliteration: "pratirundhataḥ", meaning: "of one trying to suppress" },
+            { word: "भ्रूमध्यतः", transliteration: "bhrūmadhyataḥ", meaning: "from between the eyebrows" },
+            { word: "अजनि", transliteration: "ajani", meaning: "was born" },
+            { word: "मृडः", transliteration: "mṛḍaḥ", meaning: "Mrida (Shiva, the gracious one)" },
+            { word: "भवदेकदेशः", transliteration: "bhavadēkadēśaḥ", meaning: "a part of Your being" },
+            { word: "नामानि", transliteration: "nāmāni", meaning: "names" },
+            { word: "पदानि", transliteration: "padāni", meaning: "abodes, stations" },
+            { word: "विरिञ्च", transliteration: "viriñca", meaning: "O Brahma (vocative)" },
+            { word: "रुरोद", transliteration: "rurōda", meaning: "he cried" },
+            { word: "रुद्रनामा", transliteration: "rudranāmā", meaning: "named Rudra" }
+          ]
+        },
+        {
+          dashaka: 10,
+          sloka: 5,
+          devanagari: "एकादशाह्वयतया च विभिन्नरूपं\nरुद्रं विधाय दयिता वनिताश्च दत्वा ।\nतावन्त्यदत्त च पदानि भवत्प्रणुन्नः\nप्राह प्रजाविरचनाय च सादरं तम् ॥",
+          transliteration: "ēkādaśāhvayatayā ca vibhinnarūpaṁ\nrudraṁ vidhāya dayitā vanitāśca datvā |\ntāvantyadatta ca padāni bhavatpraṇunnaḥ\nprāha prajāvirachanāya ca sādaraṁ tam ||",
+          translation: "Brahma, prompted by You, gave Rudra eleven names and eleven distinct forms, and bestowed upon each an equal number of wives and abodes. He then respectfully requested Rudra to engage in the work of creation.",
+          commentary: "The eleven Rudras are a well-known Vedic concept. Brahma gives Rudra multiple manifestations to assist in creation. The phrase 'bhavatpranunnah' emphasizes that Brahma acts under divine direction, not independently.",
+          words: [
+            { word: "एकादशाह्वयतया", transliteration: "ēkādaśāhvayatayā", meaning: "with eleven appellations" },
+            { word: "विभिन्नरूपम्", transliteration: "vibhinnarūpam", meaning: "in distinct forms" },
+            { word: "विधाय", transliteration: "vidhāya", meaning: "having made, arranged" },
+            { word: "दयिताः वनिताः", transliteration: "dayitāḥ vanitāḥ", meaning: "beloved wives" },
+            { word: "पदानि", transliteration: "padāni", meaning: "abodes, stations" },
+            { word: "भवत्प्रणुन्नः", transliteration: "bhavatpraṇunnaḥ", meaning: "prompted/inspired by You" },
+            { word: "प्रजाविरचनाय", transliteration: "prajāvirachanāya", meaning: "for the work of creating progeny" },
+            { word: "सादरम्", transliteration: "sādaram", meaning: "respectfully" }
+          ]
+        },
+        {
+          dashaka: 10,
+          sloka: 6,
+          devanagari: "रुद्राभिसृष्टभयदाकृतिरुद्रसंघ-\nसम्पूर्यमाणभुवनत्रयभीतचेताः ।\nमा मा प्रजाः सृज तपश्चर मङ्गलाये-\nत्याचष्ट तं कमलभूर्भवदीरितात्मा ॥",
+          transliteration: "rudrābhisṛṣṭabhyadākṛtirudrasaṁgha-\nsampūryamāṇabhuvanatrayabhītacēdāḥ |\nmā mā prajāḥ sṛja tapaścara maṅgalāyē-\ntyācaṣṭa taṁ kamalabhūrbhavadīritātmā ||",
+          translation: "When the three worlds were being filled with hordes of fierce Rudra-like beings, Brahma became terrified. Inspired by You, Brahma told Rudra: 'Stop! Do not create such beings! Perform penance for the welfare of the world.'",
+          commentary: "Rudra's creations mirrored his own fierce temperament. This episode shows the divine hierarchy — Brahma redirects Rudra to tapas rather than creation, and this redirection is itself inspired by the Lord. Rudra's tapas would make him the great Mahayogi.",
+          words: [
+            { word: "रुद्राभिसृष्ट", transliteration: "rudrābhisṛṣṭa", meaning: "created by Rudra" },
+            { word: "भयदाकृति", transliteration: "bhayadākṛti", meaning: "of fearsome form" },
+            { word: "सम्पूर्यमाण", transliteration: "sampūryamāṇa", meaning: "being filled up" },
+            { word: "भुवनत्रय", transliteration: "bhuvanataya", meaning: "three worlds" },
+            { word: "भीतचेताः", transliteration: "bhītacētāḥ", meaning: "with frightened mind" },
+            { word: "मा मा", transliteration: "mā mā", meaning: "do not, do not (emphatic prohibition)" },
+            { word: "तपश्चर", transliteration: "tapaścara", meaning: "perform penance" },
+            { word: "मङ्गलाय", transliteration: "maṅgalāya", meaning: "for welfare, auspiciousness" },
+            { word: "कमलभूः", transliteration: "kamalabhūḥ", meaning: "the lotus-born one (Brahma)" },
+            { word: "भवदीरितात्मा", transliteration: "bhavadīritātmā", meaning: "with mind inspired by You" }
+          ]
+        },
+        {
+          dashaka: 10,
+          sloka: 7,
+          devanagari: "तस्याथ सर्गरसिकस्य मरीचिरत्रिः\nतत्राङ्गिराः क्रतुमुनिः पुलहः पुलस्त्यः ।\nअङ्गादजायत भृगुश्च वसिष्ठदक्षौ\nश्रीनारदश्च भगवन् भवदङ्घ्रिदासः ॥",
+          transliteration: "tasyātha sargarasikasya marīciratriḥ\ntatrāṅgirāḥ kratumuniḥ pulahaḥ pulastyaḥ |\naṅgādajāyata bhṛguśca vasiṣṭhadakṣau\nśrīnāradaśca bhagavan bhavadaṅghridāsaḥ ||",
+          translation: "Then, from the body of Brahma, who was eager to create, were born the great sages: Marichi, Atri, Angiras, Kratu, Pulaha, Pulastya, Bhrigu, Vasishtha, and Daksha. And also Sri Narada, O Lord, the devoted servant of Your lotus feet.",
+          commentary: "These are the ten Prajapatis (progenitors) of Brahma who would carry forward creation. Bhattathiri singles out Narada with the devotional epithet 'bhavadanghridasah' (servant of Your feet), consistent with Narada's role throughout the Bhagavatam as the supreme bhakta and wandering devotee-sage.",
+          words: [
+            { word: "सर्गरसिकस्य", transliteration: "sargarasikasya", meaning: "of one eager to create" },
+            { word: "मरीचिः", transliteration: "marīciḥ", meaning: "sage Marichi" },
+            { word: "अत्रिः", transliteration: "atriḥ", meaning: "sage Atri" },
+            { word: "अङ्गिराः", transliteration: "aṅgirāḥ", meaning: "sage Angiras" },
+            { word: "क्रतुमुनिः", transliteration: "kratumuniḥ", meaning: "sage Kratu" },
+            { word: "पुलहः", transliteration: "pulahaḥ", meaning: "sage Pulaha" },
+            { word: "पुलस्त्यः", transliteration: "pulastyaḥ", meaning: "sage Pulastya" },
+            { word: "भृगुः", transliteration: "bhṛguḥ", meaning: "sage Bhrigu" },
+            { word: "वसिष्ठदक्षौ", transliteration: "vasiṣṭhadakṣau", meaning: "Vasishtha and Daksha" },
+            { word: "श्रीनारदः", transliteration: "śrīnāradaḥ", meaning: "Sri Narada" },
+            { word: "भवदङ्घ्रिदासः", transliteration: "bhavadaṅghridāsaḥ", meaning: "servant of Your lotus feet" }
+          ]
+        },
+        {
+          dashaka: 10,
+          sloka: 8,
+          devanagari: "धर्मादिकानभिसृजन्नथ कर्दमं च\nवाणीं विधाय विधिरङ्गजसंकुलोऽभूत् ।\nत्वद्बोधितैस्सनकदक्षमुखैस्तनूजैः\nउद्बोधितश्च विरराम तमो विमुञ्चन् ॥",
+          transliteration: "dharmādikānabhisṛjannatha kardamaṁ ca\nvāṇīṁ vidhāya vidhiraṅgajasaṁkulō'bhūt |\ntvadbōdhitaissanakadakṣamukhaistanūjaiḥ\nudbōdhitaśca virarāma tamō vimuñcan ||",
+          translation: "Brahma then created Dharma, Sage Kardama, and Goddess Vani (Saraswati). Upon creating Saraswati, Brahma became afflicted with passion. But enlightened by his sons — Sanaka, Daksha, and others — who were inspired by You, he gave up that delusion.",
+          commentary: "Brahma's momentary infatuation with his own creation (Saraswati) represents the cosmic danger of creator-attachment. His sons' intervention, described as divinely inspired ('tvadbōdhitaiḥ'), shows that even the creator is subject to maya and needs the Lord's grace.",
+          words: [
+            { word: "धर्मादिकान्", transliteration: "dharmādikān", meaning: "Dharma and others" },
+            { word: "कर्दमम्", transliteration: "kardamam", meaning: "sage Kardama" },
+            { word: "वाणीम्", transliteration: "vāṇīm", meaning: "Vani (Saraswati, goddess of speech)" },
+            { word: "विधिः", transliteration: "vidhiḥ", meaning: "Brahma" },
+            { word: "अङ्गजसंकुलः", transliteration: "aṅgajasaṁkulaḥ", meaning: "agitated by passion (Kamadeva)" },
+            { word: "त्वद्बोधितैः", transliteration: "tvadbōdhitaiḥ", meaning: "enlightened by You" },
+            { word: "तनूजैः", transliteration: "tanūjaiḥ", meaning: "by his sons" },
+            { word: "उद्बोधितः", transliteration: "udbōdhitaḥ", meaning: "awakened, made aware" },
+            { word: "विरराम", transliteration: "virarāma", meaning: "desisted, gave up" },
+            { word: "तमः विमुञ्चन्", transliteration: "tamaḥ vimuñcan", meaning: "releasing/abandoning darkness (delusion)" }
+          ]
+        },
+        {
+          dashaka: 10,
+          sloka: 9,
+          devanagari: "वेदान् पुराणनिवहानपि सर्वविद्याः\nकुर्वन् निजाननगणाच्चतुराननोऽसौ ।\nपुत्रेषु तेषु विनिधाय स सर्गवृद्धिं\nअप्राप्नुवंस्तव पदाम्बुजमाश्रितोऽभूत् ॥",
+          transliteration: "vēdān purāṇanivahānapi sarvavidyāḥ\nkurvan nijānanagaṇāccaturānanō'sau |\nputrēṣu tēṣu vinidhāya sa sargavṛddhiṁ\naprāpnuvaṁstava padāmbujamāśritō'bhūt ||",
+          translation: "The four-faced Brahma brought forth the Vedas, the Puranas, and all branches of knowledge from his four faces, and entrusted them to his sons. Yet, when creation still did not progress, he took refuge at Your lotus feet.",
+          commentary: "Despite producing the entire corpus of sacred knowledge, Brahma found that intellectual creation alone was insufficient for populating the universe. This sets up the solution in the final verse — the creation of Manu and Shatarupa through bodily division.",
+          words: [
+            { word: "वेदान्", transliteration: "vēdān", meaning: "the Vedas" },
+            { word: "पुराणनिवहान्", transliteration: "purāṇanivahān", meaning: "collections of Puranas" },
+            { word: "सर्वविद्याः", transliteration: "sarvavidyāḥ", meaning: "all branches of knowledge" },
+            { word: "निजाननगणात्", transliteration: "nijānanagaṇāt", meaning: "from his own set of faces" },
+            { word: "चतुराननः", transliteration: "caturānanaḥ", meaning: "the four-faced one (Brahma)" },
+            { word: "विनिधाय", transliteration: "vinidhāya", meaning: "having entrusted, deposited" },
+            { word: "सर्गवृद्धिम्", transliteration: "sargavṛddhim", meaning: "progress of creation" },
+            { word: "अप्राप्नुवन्", transliteration: "aprāpnuvan", meaning: "not attaining" },
+            { word: "पदाम्बुजम्", transliteration: "padāmbujam", meaning: "lotus feet" },
+            { word: "आश्रितः", transliteration: "āśritaḥ", meaning: "took refuge" }
+          ]
+        },
+        {
+          dashaka: 10,
+          sloka: 10,
+          devanagari: "जानन्नुपायमथ देहमजो विभज्य\nस्त्रीपुंसभावमभजन्मनुतद्वधूभ्याम् ।\nताभ्यां च मानुषकुलानि विवर्धयंस्त्वं\nगोविन्द मारुतपुराधिप रुन्धि रोगान् ॥",
+          transliteration: "jānannupāyamatha dēhamajō vibhajya\nstrīpuṁsabhāvamabhajanmanutadvadūbhyām |\ntābhyāṁ ca mānuṣakulāni vivardhayaṁstvaṁ\ngōvinda mārutapurādhipa rundhi rōgān ||",
+          translation: "Then, knowing the means, Brahma divided his own body into male and female halves. From the male half arose Svayambhuva Manu, and from the female half, his consort Shatarupa. Through them, O Govinda, You multiplied the human race. O Lord of Guruvayur, please cure me of my diseases!",
+          commentary: "The concluding verse narrates the origin of Svayambhuva Manu and Shatarupa (Bhagavatam 3.12.35), the first human couple through whom mankind propagated. The verse ends with Bhattathiri's characteristic prayer — 'rundhi rogaan' (destroy my diseases).",
+          words: [
+            { word: "जानन्", transliteration: "jānan", meaning: "knowing" },
+            { word: "उपायम्", transliteration: "upāyam", meaning: "the means, method" },
+            { word: "देहम्", transliteration: "dēham", meaning: "body" },
+            { word: "अजः", transliteration: "ajaḥ", meaning: "the unborn one (Brahma)" },
+            { word: "विभज्य", transliteration: "vibhajya", meaning: "having divided" },
+            { word: "स्त्रीपुंसभावम्", transliteration: "strīpuṁsabhāvam", meaning: "the nature of male and female" },
+            { word: "मनु", transliteration: "manu", meaning: "Svayambhuva Manu" },
+            { word: "तद्वधूभ्याम्", transliteration: "tadvadūbhyām", meaning: "with his consort (Shatarupa)" },
+            { word: "मानुषकुलानि", transliteration: "mānuṣakulāni", meaning: "human families/races" },
+            { word: "विवर्धयन्", transliteration: "vivardhayan", meaning: "multiplying, increasing" },
+            { word: "गोविन्द", transliteration: "gōvinda", meaning: "O Govinda" },
+            { word: "मारुतपुराधिप", transliteration: "mārutapurādhipa", meaning: "O Lord of Guruvayur" },
+            { word: "रुन्धि रोगान्", transliteration: "rundhi rōgān", meaning: "destroy the diseases" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 11,
