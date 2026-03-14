@@ -3067,12 +3067,206 @@ var NARAYANEEYAM_DATA = {
     },
     {
       dashaka: 14,
-      titleSanskrit: "प्रह्लादचरितसमाप्तिः",
-      titleEnglish: "Story of Prahlada - Conclusion",
-      theme: "devotion",
+      titleSanskrit: "कपिलावतारवर्णनम्",
+      titleEnglish: "The Kapila Incarnation",
+      theme: "avatar",
       verseCount: 10,
-      summary: "Concludes the Prahlada narrative with the child-devotee's teachings on the ninefold path of bhakti and his establishment as a righteous king after Narasimha slays Hiranyakashipu.",
-      slokas: []
+      summary: "Describes the Lord's incarnation as Sage Kapila. Svayambhuva Manu lives a life of devotion; Prajapati Kardama worships the Lord for ten thousand years and receives blessings — marriage to Devahuti, nine daughters, and the Lord Himself as his son Kapila. After Kardama retires to the forest, Kapila imparts the supreme knowledge of the Self (Paramatma Tattva Vidya) to his mother Devahuti.",
+      slokas: [
+        {
+          dashaka: 14,
+          sloka: 1,
+          devanagari: "समनुस्मृततावकाङ्घ्रियुग्मः\nस मनुः पङ्कजसम्भवाङ्गजन्मा ।\nनिजमन्तरमन्तरायहीनं\nचरितं ते कथयन् सुखं निनाय ॥",
+          transliteration: "samanusmṛtatāvakāṅghriyugmaḥ\nsa manuḥ paṅkajasambhavāṅgajanmā |\nnijamantaramantarāyahīnaṁ\ncaritaṁ tē kathayan sukhaṁ nināya ||",
+          translation: "That Svayambhuva Manu, born from Brahma's body, spent his entire Manvantara happily and without any obstacles — constantly remembering Your pair of lotus feet and narrating Your divine deeds.",
+          commentary: "The dashaka opens with a portrait of ideal devotion. Svayambhuva Manu's life was 'antaraya-hinam' (free from obstacles) precisely because of his constant remembrance (anusmrita) of the Lord's feet. The word-play 'antaram-antaraya-hinam' (his Manvantara was obstacle-free) is characteristic of Bhattathiri's poetic skill. The message is clear: devotion to the Lord is the guarantee of an untroubled life.",
+          words: [
+            { word: "समनुस्मृत", transliteration: "samanusmṛta", meaning: "constantly remembering" },
+            { word: "तावकाङ्घ्रियुग्मः", transliteration: "tāvakāṅghriyugmaḥ", meaning: "Your pair of feet" },
+            { word: "मनुः", transliteration: "manuḥ", meaning: "Manu" },
+            { word: "पङ्कजसम्भवाङ्गजन्मा", transliteration: "paṅkajasambhavāṅgajanmā", meaning: "born from the body of the Lotus-born (Brahma)" },
+            { word: "निजमन्तरम्", transliteration: "nijamantaram", meaning: "his own Manvantara (cosmic age)" },
+            { word: "अन्तरायहीनम्", transliteration: "antarāyahīnam", meaning: "free from obstacles" },
+            { word: "चरितम्", transliteration: "caritam", meaning: "deeds, stories" },
+            { word: "कथयन्", transliteration: "kathayan", meaning: "narrating" },
+            { word: "सुखम्", transliteration: "sukham", meaning: "happily" },
+            { word: "निनाय", transliteration: "nināya", meaning: "spent, passed" }
+          ]
+        },
+        {
+          dashaka: 14,
+          sloka: 2,
+          devanagari: "समये खलु तत्र कर्दमाख्यो\nद्रुहिणच्छायभवस्तदीयवाचा ।\nधृतसर्गरसो निसर्गरम्यं\nभगवंस्त्वामयुतं समाः सिषेवे ॥",
+          transliteration: "samayē khalu tatra kardamākhyō\ndruhiṇacchāyabhavastadiiyavācā |\ndhṛtasargarasō nisargaramyaṁ\nbhagavaṁstvāmayutaṁ samāḥ siṣēvē ||",
+          translation: "At that time, one named Kardama — born from Brahma's shadow — at Brahma's command took up the task of creation and worshipped You, who are naturally beautiful, for ten thousand years, O Lord!",
+          commentary: "Kardama's origin is unique: he was born from Brahma's shadow (druhina-cchaya-bhava), unlike other Prajapatis who emerged from Brahma's mind or body. His worship for ten thousand years (ayutam samah) shows extraordinary devotion and patience. The compound 'nisarga-ramyam' (naturally/innately beautiful) describes the Lord — His beauty requires no adornment, it is His very nature.",
+          words: [
+            { word: "समये", transliteration: "samayē", meaning: "at that time" },
+            { word: "कर्दमाख्यः", transliteration: "kardamākhyaḥ", meaning: "one named Kardama" },
+            { word: "द्रुहिणच्छायभवः", transliteration: "druhiṇacchāyabhavaḥ", meaning: "born from Brahma's shadow" },
+            { word: "तदीयवाचा", transliteration: "tadīyavācā", meaning: "by his (Brahma's) words/command" },
+            { word: "धृतसर्गरसः", transliteration: "dhṛtasargarasaḥ", meaning: "having taken up the task of creation" },
+            { word: "निसर्गरम्यम्", transliteration: "nisargaramyam", meaning: "naturally beautiful" },
+            { word: "अयुतम्", transliteration: "ayutam", meaning: "ten thousand" },
+            { word: "समाः", transliteration: "samāḥ", meaning: "years" },
+            { word: "सिषेवे", transliteration: "siṣēvē", meaning: "worshipped, served" }
+          ]
+        },
+        {
+          dashaka: 14,
+          sloka: 3,
+          devanagari: "गरुडोपरि कालमेघकान्तं\nविलसत्केलिसरोजपाणिपद्मम् ।\nहसितोल्लसिताननं विभो त्वं\nवपुराविष्कुरुषे स्म कर्दमाय ॥",
+          transliteration: "garuḍōpari kālamēghakāntaṁ\nvilasatkēlisarōjapāṇipadmam |\nhasitōllasitānanaṁ vibhō tvaṁ\nvapurāviṣkuruṣē sma kardamāya ||",
+          translation: "O All-pervading Lord! You revealed to Kardama Your divine form — seated upon Garuda, radiant as a dark rain-cloud, holding a playfully blooming lotus in Your hand, Your face illumined by a charming smile.",
+          commentary: "The Lord's appearance to Kardama is a classic theophany. Every detail conveys accessibility: He is seated on Garuda (showing His supreme sovereignty), dark as a rain-cloud (kala-megha-kantam — the cloud that brings life-giving rain), holding a lotus (symbol of beauty and grace, not a weapon), and smiling (hasita-ullasita-ananam). This is not a fearsome vision but an intimate darshana for a devoted worshipper.",
+          words: [
+            { word: "गरुडोपरि", transliteration: "garuḍōpari", meaning: "atop Garuda" },
+            { word: "कालमेघकान्तम्", transliteration: "kālamēghakāntam", meaning: "beautiful as a dark rain-cloud" },
+            { word: "विलसत्", transliteration: "vilasat", meaning: "shining, blooming" },
+            { word: "केलिसरोज", transliteration: "kēlisarōja", meaning: "playful lotus" },
+            { word: "पाणिपद्मम्", transliteration: "pāṇipadmam", meaning: "lotus-hand (lotus in the lotus-like hand)" },
+            { word: "हसितोल्लसिताननम्", transliteration: "hasitōllasitānanam", meaning: "face illumined by a smile" },
+            { word: "वपुः", transliteration: "vapuḥ", meaning: "form, body" },
+            { word: "आविष्कुरुषे", transliteration: "āviṣkuruṣē", meaning: "You revealed" },
+            { word: "कर्दमाय", transliteration: "kardamāya", meaning: "to Kardama" }
+          ]
+        },
+        {
+          dashaka: 14,
+          sloka: 4,
+          devanagari: "स्तुवते पुलकावृताय तस्मै\nमनुपुत्रीं दयितां नवापि पुत्रीः ।\nकपिलं च सुतं स्वमेव पश्चा-\nत्स्वगतिं चाप्यनुगृह्य निर्गतोऽभूः ॥",
+          transliteration: "stuvatē pulakāvṛtāya tasmai\nmanuputrīṁ dayitāṁ navāpi putrīḥ |\nkapilaṁ ca sutaṁ svamēva paścā-\ntsvagatiṁ cāpyanugṛhya nirgatō'bhūḥ ||",
+          translation: "To him who stood praising You with hair standing on end in ecstasy, You promised Manu's daughter as his beloved wife, nine daughters, and Kapila — Your own Self — as his son. Granting him also the boon of final liberation, You disappeared.",
+          commentary: "The Lord's blessings unfold in ascending order: a wife (worldly life), nine daughters (creative purpose), Kapila as son (divine incarnation in his family), and finally 'svagatim' (the Lord's own abode — moksha). The phrase 'svam eva' (Your very Self) emphasizes that Kapila is not merely an inspired sage but the Lord Himself. Kardama's devotion earns the rarest reward: God becomes his child.",
+          words: [
+            { word: "स्तुवते", transliteration: "stuvatē", meaning: "to him who was praising" },
+            { word: "पुलकावृताय", transliteration: "pulakāvṛtāya", meaning: "covered with horripilation (ecstasy)" },
+            { word: "मनुपुत्रीम्", transliteration: "manuputrīm", meaning: "Manu's daughter (Devahuti)" },
+            { word: "दयिताम्", transliteration: "dayitām", meaning: "as beloved wife" },
+            { word: "नव", transliteration: "nava", meaning: "nine" },
+            { word: "पुत्रीः", transliteration: "putrīḥ", meaning: "daughters" },
+            { word: "कपिलम्", transliteration: "kapilam", meaning: "Kapila" },
+            { word: "सुतम्", transliteration: "sutam", meaning: "as son" },
+            { word: "स्वमेव", transliteration: "svamēva", meaning: "His very own Self" },
+            { word: "स्वगतिम्", transliteration: "svagatim", meaning: "attainment of His own abode (moksha)" },
+            { word: "अनुगृह्य", transliteration: "anugṛhya", meaning: "having blessed, granted" },
+            { word: "निर्गतः", transliteration: "nirgataḥ", meaning: "disappeared, departed" }
+          ]
+        },
+        {
+          dashaka: 14,
+          sloka: 5,
+          devanagari: "स पुनर्नारदस्य शासनेन\nप्रजसो मानवपुङ्गवेन दत्ताम् ।\nसमवाप्यत कर्दमो मनूजां\nमहिषीं ते कृतसाभिलाषमासम् ॥",
+          transliteration: "sa punarnāradasya śāsanēna\nprajasō mānavapuṅgavēna dattām |\nsamavāpyata kardamō manūjāṁ\nmahiṣīṁ tē kṛtasābhilāṣamāsam ||",
+          translation: "Then, guided by Narada's counsel, Svayambhuva Manu — the best among men — gave his daughter Devahuti in marriage to Kardama, who received her with heartfelt desire.",
+          commentary: "Narada acts as the divine matchmaker, a role he frequently plays in Puranic narratives. Svayambhuva Manu, described as 'manavapungava' (the best among men), gives Devahuti to Kardama. The marriage is divinely ordained — the Lord Himself had promised it — making this union part of the cosmic plan for Kapila's incarnation.",
+          words: [
+            { word: "नारदस्य", transliteration: "nāradasya", meaning: "of Narada" },
+            { word: "शासनेन", transliteration: "śāsanēna", meaning: "by the counsel/instruction" },
+            { word: "प्रजसः", transliteration: "prajasaḥ", meaning: "of his progeny" },
+            { word: "मानवपुङ्गवेन", transliteration: "mānavapuṅgavēna", meaning: "by the best among men (Manu)" },
+            { word: "दत्ताम्", transliteration: "dattām", meaning: "given" },
+            { word: "कर्दमः", transliteration: "kardamaḥ", meaning: "Kardama" },
+            { word: "मनूजाम्", transliteration: "manūjām", meaning: "Manu's daughter" },
+            { word: "महिषीम्", transliteration: "mahiṣīm", meaning: "wife, queen" },
+            { word: "सभिलाषम्", transliteration: "sābhilāṣam", meaning: "with desire, willingly" }
+          ]
+        },
+        {
+          dashaka: 14,
+          sloka: 6,
+          devanagari: "मनुनोपहृतां च देवहूतिं\nतरुणीरत्नमवाप्य कर्दमोऽसौ ।\nभवदर्चननिर्वृतोऽपि तस्यां\nदृढशुश्रूषणया दधौ प्रसादम् ॥",
+          transliteration: "manunōpahṛtāṁ ca dēvahūtiṁ\ntaruṇīratnamavāpya kardamō'sau |\nbhavadarcanannirvṛtō'pi tasyāṁ\ndṛḍhaśuśrūṣaṇayā dadhau prasādam ||",
+          translation: "Receiving Devahuti — that jewel among women — offered by Manu, Kardama, though absorbed in the bliss of worshipping You, was pleased by her steadfast devoted service and bestowed his grace upon her.",
+          commentary: "Devahuti is called 'taruni-ratnam' (a jewel among young women). Despite Kardama's primary focus being worship of the Lord (bhavad-archana-nirvritah), Devahuti's dedicated service (dridha-shushrushanaya) wins his affection. This verse models the ideal Vedic marriage: the husband devoted to God, the wife devoted to husband, and through that chain of devotion, both ultimately connected to the divine.",
+          words: [
+            { word: "मनुना", transliteration: "manunā", meaning: "by Manu" },
+            { word: "उपहृताम्", transliteration: "upahṛtām", meaning: "offered, given" },
+            { word: "देवहूतिम्", transliteration: "dēvahūtim", meaning: "Devahuti" },
+            { word: "तरुणीरत्नम्", transliteration: "taruṇīratnam", meaning: "jewel among women" },
+            { word: "भवदर्चननिर्वृतः", transliteration: "bhavadarcanannirvṛtaḥ", meaning: "absorbed in the bliss of worshipping You" },
+            { word: "दृढशुश्रूषणया", transliteration: "dṛḍhaśuśrūṣaṇayā", meaning: "by steadfast devoted service" },
+            { word: "दधौ", transliteration: "dadhau", meaning: "bestowed, gave" },
+            { word: "प्रसादम्", transliteration: "prasādam", meaning: "grace, favour" }
+          ]
+        },
+        {
+          dashaka: 14,
+          sloka: 7,
+          devanagari: "स पुनस्त्वदुपासनप्रभावा-\nद्दयिताकामकृते कृते विमाने ।\nवनिताकुलसङ्कुलो नवात्मा\nव्यहरद्देवपथेषु देवहूत्या ॥",
+          transliteration: "sa punastvaduāsanaprbhāvā-\nddayitākāmakṛtē kṛtē vimānē |\nvanitākulasaṅkulō navātmā\nvyaharaddēvapathēṣu dēvahūtyā ||",
+          translation: "By the power of his worship of You, Kardama created an aerial chariot for his beloved's pleasure. Assuming nine forms simultaneously, surrounded by groups of celestial maidens, he sported with Devahuti in the heavenly pathways.",
+          commentary: "Kardama's yogic powers, gained through devotion, allow him to create a divine flying palace and multiply himself into nine forms (navatma). This is not mere indulgence — it fulfills his duty to procreate (as commanded by Brahma) while demonstrating that true devotion grants all material and spiritual powers. The celestial honeymoon (deva-patheshu — in divine pathways) shows that even worldly pleasures are sanctified when rooted in devotion.",
+          words: [
+            { word: "त्वदुपासनप्रभावात्", transliteration: "tvaduāsanaprabhāvāt", meaning: "by the power of worshipping You" },
+            { word: "दयिताकामकृते", transliteration: "dayitākāmakṛtē", meaning: "created for his beloved's pleasure" },
+            { word: "विमाने", transliteration: "vimānē", meaning: "aerial chariot/palace" },
+            { word: "वनिताकुलसङ्कुलः", transliteration: "vanitākulasaṅkulaḥ", meaning: "surrounded by groups of maidens" },
+            { word: "नवात्मा", transliteration: "navātmā", meaning: "with nine forms/selves" },
+            { word: "व्यहरत्", transliteration: "vyaharat", meaning: "sported, played" },
+            { word: "देवपथेषु", transliteration: "dēvapathēṣu", meaning: "in the celestial pathways" },
+            { word: "देवहूत्या", transliteration: "dēvahūtyā", meaning: "with Devahuti" }
+          ]
+        },
+        {
+          dashaka: 14,
+          sloka: 8,
+          devanagari: "शतवर्षमथ व्यतीत्य सोऽयं\nनव कन्याः समवाप्य धन्यरूपाः ।\nवनयानसमुद्यतोऽपि कान्ता-\nहितकृत्त्वज्जननोत्सुको न्यवात्सीत् ॥",
+          transliteration: "śatavarṣamatha vyatītya sō'yaṁ\nnava kanyāḥ samavāpya dhanyarūpāḥ |\nvanayānasamudyatō'pi kāntā-\nhitakṛttvajjananōtsukō nyavātsīt ||",
+          translation: "After a hundred years had passed, having obtained nine blessed daughters, Kardama — though eager to retire to the forest — remained at home out of concern for his wife and longing for Your birth as his son.",
+          commentary: "Kardama's inner conflict is poignantly described: he yearns for forest renunciation (vanayanasamudyatah) but stays for two reasons — concern for Devahuti (kanta-hitakrit) and longing for the Lord's promised incarnation as his son (tvajjanana-utsukah). This tension between renunciation and worldly duty, resolved through devotion, is a recurring Bhagavata theme.",
+          words: [
+            { word: "शतवर्षम्", transliteration: "śatavarṣam", meaning: "a hundred years" },
+            { word: "व्यतीत्य", transliteration: "vyatītya", meaning: "having passed" },
+            { word: "नव कन्याः", transliteration: "nava kanyāḥ", meaning: "nine daughters" },
+            { word: "धन्यरूपाः", transliteration: "dhanyarūpāḥ", meaning: "of blessed/beautiful forms" },
+            { word: "वनयानसमुद्यतः", transliteration: "vanayānasamudyataḥ", meaning: "eager to go to the forest" },
+            { word: "कान्ताहितकृत्", transliteration: "kāntāhitakṛt", meaning: "acting for his wife's welfare" },
+            { word: "त्वज्जननोत्सुकः", transliteration: "tvajjananōtsukaḥ", meaning: "longing for Your birth" },
+            { word: "न्यवात्सीत्", transliteration: "nyavātsīt", meaning: "remained, stayed" }
+          ]
+        },
+        {
+          dashaka: 14,
+          sloka: 9,
+          devanagari: "निजभर्तृगिरा भवन्निषेवा-\nनिरतायामथ देव देवहूत्याम् ।\nकपिलस्त्वमजायथा जनानां\nप्रथयिष्यन् परमात्मतत्त्वविद्याम् ॥",
+          transliteration: "nijabhartṛgirā bhavannniṣēvā-\nniratāyāmatha dēva dēvahūtyām |\nkapilastvamajaāyathā janānāṁ\nprathayiṣyan paramātmatattvaidyām ||",
+          translation: "When Devahuti, instructed by her husband, devoted herself to worshipping You, O Lord — You were born as Kapila from her, to propagate the knowledge of the Supreme Self for the benefit of mankind!",
+          commentary: "The climactic verse of the dashaka. Devahuti's worship, directed by Kardama's guidance, creates the spiritual conditions for the divine birth. Kapila's purpose is stated clearly: 'prathayishyan paramatma-tattva-vidyam' — to spread the knowledge of the Supreme Self (Paramatma Tattva Vidya). This is the Sankhya philosophy, which Kapila will teach his own mother, making Devahuti both the biological and spiritual beneficiary of the incarnation.",
+          words: [
+            { word: "निजभर्तृगिरा", transliteration: "nijabhartṛgirā", meaning: "by her husband's words/instruction" },
+            { word: "भवन्निषेवानिरतायाम्", transliteration: "bhavannniṣēvāniratāyām", meaning: "who was devoted to worshipping You" },
+            { word: "देवहूत्याम्", transliteration: "dēvahūtyām", meaning: "in/from Devahuti" },
+            { word: "कपिलः", transliteration: "kapilaḥ", meaning: "as Kapila" },
+            { word: "अजायथाः", transliteration: "ajāyathāḥ", meaning: "You were born" },
+            { word: "जनानाम्", transliteration: "janānām", meaning: "for the people, for mankind" },
+            { word: "प्रथयिष्यन्", transliteration: "prathayiṣyan", meaning: "to propagate, spread" },
+            { word: "परमात्मतत्त्वविद्याम्", transliteration: "paramātmatattvaidyām", meaning: "the knowledge of the Supreme Self" }
+          ]
+        },
+        {
+          dashaka: 14,
+          sloka: 10,
+          devanagari: "वनमेयुषि कर्दमे प्रसन्ने\nमतसर्वस्वमुपादिशन् जनन्यै ।\nकपिलात्मक वायुमन्दिरेश\nपरिपाहि प्रणतं सदाऽऽमयेभ्यः ॥",
+          transliteration: "vanamēyuṣi kardamē prasannē\nmatasarvasvamupādiśan jananyai |\nkapilātmaka vāyumandirēśa\nparipāhi praṇataṁ sadā''mayēbhyaḥ ||",
+          translation: "After the contented Kardama departed for the forest, You taught the essence of all philosophy to Your mother. O Lord in the form of Kapila, O Lord of Guruvayur, protect me who am prostrate before You, always, from all diseases!",
+          commentary: "The closing verse encapsulates the entire Kapila narrative: Kardama's peaceful departure (prasanne — contented), and Kapila teaching 'mata-sarvasvam' (the entire essence of philosophy/doctrine) to his mother Devahuti. This teaching is the Kapila-Sankhya, one of the foundational philosophical systems of Hinduism. Bhattathiri's personal prayer (paripahi pranatam sada amayebhyah — always protect this prostrate one from diseases) connects the cosmic incarnation to his own healing need at Guruvayur.",
+          words: [
+            { word: "वनम्", transliteration: "vanam", meaning: "to the forest" },
+            { word: "एयुषि", transliteration: "ēyuṣi", meaning: "when he went/departed" },
+            { word: "कर्दमे", transliteration: "kardamē", meaning: "Kardama" },
+            { word: "प्रसन्ने", transliteration: "prasannē", meaning: "contented, serene" },
+            { word: "मतसर्वस्वम्", transliteration: "matasarvasvam", meaning: "the entire essence of philosophy" },
+            { word: "उपादिशन्", transliteration: "upādiśan", meaning: "teaching, instructing" },
+            { word: "जनन्यै", transliteration: "jananyai", meaning: "to the mother" },
+            { word: "कपिलात्मक", transliteration: "kapilātmaka", meaning: "O one whose form is Kapila" },
+            { word: "वायुमन्दिरेश", transliteration: "vāyumandirēśa", meaning: "O Lord of the temple of Vayu (Guruvayur)" },
+            { word: "परिपाहि", transliteration: "paripāhi", meaning: "protect completely" },
+            { word: "प्रणतम्", transliteration: "praṇatam", meaning: "the prostrate one (me)" },
+            { word: "आमयेभ्यः", transliteration: "āmayēbhyaḥ", meaning: "from diseases" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 15,
