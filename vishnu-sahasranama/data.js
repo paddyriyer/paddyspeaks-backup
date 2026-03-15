@@ -991,8 +991,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Yagna ijyo mahe-jyashcha kratuh-satram satam-gatih",
-        "Sarva-darshee nivru-tatma sarva-gno gnana muttamam"
+        "Yagno ijyo mahejyashcha kratuh satram satam-gatih",
+        "Sarva-darshee vimukt-atma sarvagno gnanam-uttamam"
       ]
     },
     {
@@ -1007,8 +1007,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Suvrata-sumukha-sookshmah sughosha-sukhada-suhrut",
-        "Mano-haro jita-krodho veerba-burvi-daranah"
+        "Suvratah sumukhah sookshmah sughoshah sukhadah suhrut",
+        "Mano-haro jita-krodho veera-bahur-vidaranah"
       ]
     },
     {
@@ -1023,8 +1023,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Swapanah svavasho vyapee naika-tma naika-karmakrut",
-        "Vatsaro vatsalo vatsee ratnagarbho dhaneshvarah"
+        "Swapanah svavasho vyapee naikatma naika-karmakrut",
+        "Vatsaro vatsalo vatsee ratna-garbho dhaneshvarah"
       ]
     },
     {
@@ -1039,8 +1039,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Dharmagubdharmakrutdharmee sadasatksharamaksharam",
-        "Avignata saha-sramshuh vidhata kruta-lakshanah"
+        "Dharmagub dharmakrut dharmee sad-asat ksharam aksharam",
+        "Avignatah sahasramshuh vidhata kruta-lakshanah"
       ]
     },
     {
@@ -1055,8 +1055,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Gabhasti-nemi-satvasthah simho bhoota-mahe-shvarah",
-        "Adidevo mahadevo devesho deva-bhrudguruh"
+        "Gabhasti-nemih satvasthah simho bhoota-maheshvarah",
+        "Adidevo mahadevo devesho deva-bhrud-guruh"
       ]
     },
     {
@@ -1071,8 +1071,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Uttaro gopatir-gopta gnana-gamyah pura-tanah",
-        "Shareera-bhoota-bhrud-bhokta kapee-ndro bhoori-dakshinah"
+        "Uttaro gopatir-gopta gnana-gamyah puratanah",
+        "Shareera-bhoota-bhrud-bhokta kapeendro bhoori-dakshinah"
       ]
     },
     {
@@ -1087,8 +1087,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Somapo mrutapa-somah purujit-puru-sattamah",
-        "Vinayo-jaya-satya-sandho dasha-rhah satva-tampatih"
+        "Somapo mrutapah somah purujit puru-sattamah",
+        "Vinayo jayah satya-sandho dasharhah satvatam-patih"
       ]
     },
     {
@@ -1103,8 +1103,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Jeevo vina-yita sakshee mukundo mita vikramah",
-        "Ambho-nidhi rana-ntatma maho-dadhi-shayo-ntakah"
+        "Jeevo vinayita sakshee mukundo amita-vikramah",
+        "Ambho-nidhir-anantatma maho-dadhi-shayontakah"
       ]
     },
     {
@@ -1119,8 +1119,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Ajo maharhah svadhavyo jita-mitrah pramo-danah",
-        "Anando nandano nandah satya-dharma trivi-kramah"
+        "Ajo maharhah svabhavyo jita-mitrah pramodanah",
+        "Anando nandano nandah satya-dharma trivikramah"
       ]
     },
     {
@@ -1135,8 +1135,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Maharshih kapila-charyah krutagno medi-neepatih",
-        "Tripada-strida-shadh-yakshah maha-shringah krutan-takrut"
+        "Maharshih kapilacharyah krutagno medineepatih",
+        "Tripadah tridash-adhyakshah maha-shringah krutanta-krut"
       ]
     },
     {
@@ -1151,8 +1151,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Maha-varaho govindah sushenah kana-kangadee",
-        "Guhyo gabheero gahano gupta-shchakra gadadharah"
+        "Maha-varaho govindah sushenah kanakangadee",
+        "Guhyo gabheero gahano guptash-chakra-gadadharah"
       ]
     },
     {
@@ -1167,8 +1167,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Vedhah-svango jitah-krishno dridha-sankarshano chyutah",
-        "Varuno varuno vrukshah pushka-raksho maha-manah"
+        "Vedhah svango ajitah krishno dridhah sankarshano achyutah",
+        "Varuno varuno vrukshah pushkarakshah maha-manah"
       ]
     },
     {
@@ -1183,8 +1183,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Bhaga-van bhagaha-nandee vana-malee hala-yudhah",
-        "Adityo jyoti-radityah sahishnur-gati-sattamah"
+        "Bhagavan bhagaha nandee vana-malee hala-yudhah",
+        "Adityo jyotiradityah sahishnur gati-sattamah"
       ]
     },
     {
@@ -1199,8 +1199,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Sudhanva khana-parashuh daruno dravinah pradah",
-        "Divi-spru-ksarva drugvyaso vacha-spati rayonijah"
+        "Sudhanva khanda-parashur-daruno dravina-pradah",
+        "Divah-spruk sarva-drug-vyaso vachaspatir-ayonijah"
       ]
     },
     {
@@ -1215,8 +1215,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Trisama samaga-samah nirvanam bheshajam bhishak",
-        "Sanya-sakrutchha-mashanto nishtha-shantih para-yanam"
+        "Trisama samagah samah nirvanam bheshajam bhishak",
+        "Sanyasa-krut chamah shanto nishtha shantih parayanam"
       ]
     },
     {
@@ -1231,8 +1231,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Shubhanga-shanti-dasrushta kumudah kuva-leshayah",
-        "Gohito gopati-rgopta vrusha-bhaksho vrusha-priyah"
+        "Shubhangah shantidah srashta kumudah kuvaleshayah",
+        "Gohito gopatir-gopta vrushabhaksho vrushapriyah"
       ]
     },
     {
@@ -1247,8 +1247,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Anivarthee nivru-ttatma samkshepta kshema-krutchhivah",
-        "Shree-vatsa-vakshah shree-vasah shree-pathih shree-matam varaah"
+        "Anivartee nivruttatma samkshepta kshema-krut-shivah",
+        "Shreevatsa-vakshah shreevasah shreepathih shreematam varah"
       ]
     },
     {
@@ -1263,8 +1263,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Shreeda-shreeshah shree-nivasah shree-nidil-shree-vibhavanah",
-        "Shree-dhara-shree-kara-shreyah shreem-man-lokatra-yashrayah"
+        "Shreedah shreeshah shreenivasah shreenidhih shree-vibhavanah",
+        "Shreedharah shreekarah shreyah shreeman lokatray-ashrayah"
       ]
     },
     {
@@ -1279,8 +1279,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Svaksha svangah shata-nando nandi-rjyoti rgane-shvarah",
-        "Viji-tatma vidhe-yatma satkeerti-shchhinna samshayah"
+        "Svakshah svangah shatanando nandir-jyotir-ganeshvarah",
+        "Vijitatma vidheyatma satkeertish-chhinna-samshayah"
       ]
     },
     {
@@ -1295,8 +1295,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Udeerna-sarva-tashchakshuh aneesha shashvatah sthirah",
-        "Bhooshayo bhooshano bhooti vishoka shoka-nashanah"
+        "Udeernah sarvatash-chakshuh aneeshah shashvatah sthirah",
+        "Bhooshayo bhooshano bhootih vishokah shoka-nashanah"
       ]
     },
     {
@@ -1311,8 +1311,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Archishma narchitah kumbho vishu-ddhatma visho-dhanah",
-        "Aniriddho apratirathah pradyumno mita-vikramah"
+        "Archishman architah kumbho vishuddhatma vishodhanah",
+        "Aniruddho apratirathah pradyumno amita-vikramah"
       ]
     },
     {
@@ -1327,8 +1327,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Kala-neminiha veerah shourih shoora-jane-shvarah",
-        "Tilo-katma trilo-keshah keshavah keshiha harih"
+        "Kala-neminiha veerah shourih shoora-janeshvarah",
+        "Trilokatma trilokeshah keshavah keshiha harih"
       ]
     },
     {
@@ -1343,8 +1343,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Kama-devah kama-palah kamee kantah kruta-gamah",
-        "Anirde-shyavapuh vishnuh veero nantho dhananjayah"
+        "Kama-devah kama-palah kamee kantah krutagamah",
+        "Anirdeshya-vapuh vishnur veero ananto dhananjayah"
       ]
     },
     {
@@ -1359,8 +1359,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Brahmanyo brahma-krut brahma brahma brahma vivar-dhanah",
-        "Brahma-vitbrahmano brahmee brahmagnoh brahmana-priyah"
+        "Brahmanyo brahma-krut brahma brahma brahma-vivardhanah",
+        "Brahma-vid brahmano brahmee brahmagnoh brahmana-priyah"
       ]
     },
     {
@@ -1376,7 +1376,7 @@ const VISHNU_DATA = {
       ],
       "english_halves": [
         "Maha-kramo maha-karma maha-teja mahoragah",
-        "Maha-kritu rmahayajva maha-yagno maha-havih"
+        "Maha-kratur-mahayajva maha-yagno maha-havih"
       ]
     },
     {
@@ -1391,8 +1391,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Stavya-stava-priya stotram stuta stotaa rana priyah",
-        "Poornah poorayita punyah punya-keerti ana-mayah"
+        "Stavyah stava-priyah stotram stutih stota rana-priyah",
+        "Poornah poorayita punyah punya-keertih anamayah"
       ]
     },
     {
@@ -1407,8 +1407,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Mano-java steertha-karo vasu-reta vasu-pradah",
-        "Vasu-prado vasu-devo vasur-vasu-mana havih"
+        "Mano-javah teertha-karah vasu-retah vasu-pradah",
+        "Vasu-pradah vasu-devah vasur-vasu-manah havih"
       ]
     },
     {
@@ -1423,8 +1423,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Sadgati satkruti-satta sadbhooti satpa-rayanah",
-        "Shoora-seno yadu-shreshthah sanni-vasa suya-munah"
+        "Sadgatih satkrutih sattah sadbhootih sat-parayanah",
+        "Shoora-seno yadu-shreshthah sannivasah suyamunah"
       ]
     },
     {
@@ -1439,8 +1439,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Bhoota-vaso vasu-devah sarva-sunilayo nalah",
-        "Darpaha darpado drupto durdharo thapa-rajitah"
+        "Bhoota-vasah vasu-devah sarvasunilayah analah",
+        "Darpahah darpadah druptah durdharah aparajitah"
       ]
     },
     {
@@ -1455,8 +1455,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Vishva-moortir-maha-moortih deepta-moorti ramoortiman",
-        "Aneka-moorti-ravyaktah shata-moorti shata-nanah"
+        "Vishva-moortir-maha-moortih deepta-moortir-amoortiman",
+        "Aneka-moortir-avyaktah shata-moortih shata-nanah"
       ]
     },
     {
@@ -1471,8 +1471,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Eko-naika savah kah kim yatta-tpada manu-ttamam",
-        "Loka-bandhu rlokanatho madhavo bhakta-vatsalah"
+        "Eko naikah savah kah kim yat-tat-padam-anuttamam",
+        "Loka-bandhur-lokanathah madhavo bhakta-vatsalah"
       ]
     },
     {
@@ -1487,8 +1487,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Suvarna varno hemango varanga shchhanda-nangadee",
-        "Veeraha vishama shoonyo khritashee rachala shchalah"
+        "Suvarna-varnah hemangah varangash-chandanangadee",
+        "Veeraha vishamah shoonyah ghritasheeh achalash-chalah"
       ]
     },
     {
@@ -1503,8 +1503,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Amanee manado manyo loka-swamee trilo-kadhrut",
-        "Sumedha medhajo dhanyah satya-medha dhara-dharah"
+        "Amanee manadah manyah loka-swamee triloka-dhrut",
+        "Sumedhah medhajah dhanyah satya-medhah dhara-dharah"
       ]
     },
     {
@@ -1519,8 +1519,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Tejo vrusho dyuti-dharah sarva-shastra-bhrutam varah",
-        "Pragraho nigraho vyagro naika-shrungo gada-grajah"
+        "Tejo-vrusho dyuti-dharah sarva-shastra-bhrutam varah",
+        "Pragraho nigraho vyagro naika-shrungo gadagrajah"
       ]
     },
     {
@@ -1535,8 +1535,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Chatur-moorti chatur-bhahu chatur-vyoohah chatur-gatih",
-        "Chatu-ratma chatur-bhavah chatur-veda-videkapat"
+        "Chatur-moortih chatur-bahuh chatur-vyoohah chatur-gatih",
+        "Chatur-atma chatur-bhavah chatur-veda-vid-ekapaat"
       ]
     },
     {
@@ -1551,8 +1551,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Sama-varto nivru-ttatma durjayo durati-kramah",
-        "Durlabho durgamo durgo dura-vaso dura-riha"
+        "Samavartah nivruttatma durjayah duratikramah",
+        "Durlabhah durgamah durgah duravasah durariha"
       ]
     },
     {
@@ -1567,8 +1567,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Shubhango loka-sarangah sutantu stantu-vardhanah",
-        "Indra-karma maha-karma kruta-karma kruta-gamah"
+        "Shubhangah loka-sarangah sutantuh tantu-vardhanah",
+        "Indra-karma maha-karma kruta-karma krutagamah"
       ]
     },
     {
@@ -1583,8 +1583,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Udbhava sundara sundo ratana-nabha sulo-chanah",
-        "Arko vaja-sani shrungi jayantah sarva-vijjayee"
+        "Udbhavah sundarah sundah ratna-nabhah sulochanah",
+        "Arkah vajasanih shrungee jayantah sarva-vijjayee"
       ]
     },
     {
@@ -1599,8 +1599,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Suvarna bindu-rakshobhyah sarva-vagee-shvare-shvarah",
-        "Maha-hrado maha-garto maha-bhooto maha-nidhih"
+        "Suvarna-binduh akshobhyah sarva-vageshvareshvarah",
+        "Maha-hradah maha-gartah maha-bhootah maha-nidhih"
       ]
     },
     {
@@ -1615,8 +1615,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Kumudah kundarah kundah parjnyah pavano nilah",
-        "Amrutamsho mruta-vapuh sarvagnah sarva-tomukhah"
+        "Kumudah kundarah kundah parjanyah pavanah anilah",
+        "Amrutamshah mruta-vapuh sarvagnah sarva-tomukhah"
       ]
     },
     {
@@ -1631,8 +1631,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Sulabha suvratah siddhah shatruji chhatru-tapanah",
-        "Nyagro-dhodumbaro shvatthah chanoo-randhru nishoo-danah"
+        "Sulabhah suvratah siddhah shatrujit shatru-tapanah",
+        "Nyagrodhah udumbarah ashvatthah chanoorandhra-nisoodanah"
       ]
     },
     {
@@ -1647,8 +1647,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Saha-srarchi sapta-jihvah saptai-dha sapta-vahanah",
-        "Amoorti ranagho chintyo bhaya-krudbhaya-nashanah"
+        "Sahasrarchih sapta-jihvah saptaidhah sapta-vahanah",
+        "Amoortih anaghah achintyah bhaya-krud-bhaya-nashanah"
       ]
     },
     {
@@ -1663,8 +1663,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Anur-bruhat-krushah sthoolo guna-bhrunnir-guno-mahan",
-        "Adhruta svadhruta svastyah pragvamsho vamsha vardhanah"
+        "Anuh bruhat krushah sthoolah guna-bhrun-nirgunah mahan",
+        "Adhrutah sva-dhrutah svasyah pragvamshah vamsha-vardhanah"
       ]
     },
     {
@@ -1679,8 +1679,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Bhara-bhrut kathito yogee yogeeshah sarva kamdah",
-        "Ashrama shramanah kshamah suparno vayu-vahanah"
+        "Bhara-bhrut kathitah yogee yogeeshah sarva-kamadah",
+        "Ashramah shramanah kshamah suparnah vayu-vahanah"
       ]
     },
     {
@@ -1695,8 +1695,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Dhanur-dharo dhanur-vedo dando damayita damah",
-        "Apara-jita sarva-saho niyanta niyamo yamah"
+        "Dhanur-dharah dhanur-vedah dandah damayita damah",
+        "Aparajitah sarva-sahah niyanta niyamah yamah"
       ]
     },
     {
@@ -1711,8 +1711,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Satvavan satvika satyah satya-dharma para-yanah",
-        "Abhi-prayah priyarhorhah priyakrut preeti-vardhanah"
+        "Satvavan satvikah satyah satya-dharma-parayanah",
+        "Abhiprayah priyarhah arhah priyakrut preeti-vardhanah"
       ]
     },
     {
@@ -1727,8 +1727,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Vihaya-sagati rjyotih suruchir-hutabhug-vibhuh",
-        "Ravi rvirochana sooryah savita ravi lochanah"
+        "Vihayasa-gatih jyotih suruchir-hutabhug-vibhuh",
+        "Ravih virochanah sooryah savita ravilochanah"
       ]
     },
     {
@@ -1743,8 +1743,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Ananta huta-bhugbhokta sukhado naikado grajah",
-        "Anirvinna sada-marshee lokadhi-shthana madbhutah"
+        "Anantah huta-bhug-bhokta sukhadah naikajah agrajah",
+        "Anirvinnah sada-marshee lokadhi-shthanam adbhutah"
       ]
     },
     {
@@ -1759,8 +1759,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Sanaa tsana-tana-tamah kapilah kapi-ravyayah",
-        "Svastida svasti-krut svasti svastibhuk svasti-dakshinah"
+        "Sanat sanatana-tamah kapilah kapih avyayah",
+        "Svastidah svasti-krut svastih svasti-bhuk svasti-dakshinah"
       ]
     },
     {
@@ -1775,8 +1775,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Aroudrah kundalee chakree vikra-myoorjita shasanah",
-        "Shabdatiga shabda-sahah shishira sharva-reekarah"
+        "Aroudrah kundalee chakree vikramee oorjita-shasanah",
+        "Shabdatigah shabda-sahah shishirah sharvareekarah"
       ]
     },
     {
@@ -1791,8 +1791,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Akroorah peshalo daksho dakshinah kshaminam varah",
-        "Vidvattamo veeta-bhayah punya-shravana keertanah"
+        "Akroorah peshalah dakshah dakshinah kshaminam-varah",
+        "Vidvattamah veeta-bhayah punya-shravana-keertanah"
       ]
     },
     {
@@ -1807,8 +1807,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Uttarano dushkrutiha punyo dussvapna nashanah",
-        "Veeraha rakshana santo jeevanah parya-vasthitah"
+        "Uttaranah dushkrutiha punyah dussvapna-nashanah",
+        "Veeraha rakshanah santah jeevanah paryavasthitah"
       ]
     },
     {
@@ -1823,8 +1823,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Anantha-roopo anantha-shreeh jitamanyur-bhayapahah",
-        "Chatu-rasro gabhee-ratma vidisho vyadisho dishah"
+        "Anantha-roopah anantha-shreeh jitamanyuh bhayapahah",
+        "Chaturasrah gabheeratma vidishah vyadishah dishah"
       ]
     },
     {
@@ -1839,8 +1839,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Anadir-bhoorbhuvo lakshmeeh suveero ruchi-rangadah",
-        "Janano jana janmadih bheemo bheema-para-kramah"
+        "Anadih bhoorbhuvah lakshmee suveerah ruchi-rangadah",
+        "Jananah jana-janmadih bheemah bheema-parakramah"
       ]
     },
     {
@@ -1855,8 +1855,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Adhara nilayo dhata pushpa-hasah praja-garah",
-        "Urdhvaga satpa-thacharah pranadah pranavah panah"
+        "Adharah nilayah dhata pushpahasah prajagarah",
+        "Oordhvagah satpathacharah pranadah pranavah panah"
       ]
     },
     {
@@ -1871,8 +1871,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Pramanam prana nilayah prana-bhrut prana jeevanah",
-        "Tattvam tattva videkatma janma mrutyu jaratigah"
+        "Pramanam prana-nilayah prana-bhrut prana-jeevanah",
+        "Tattvam tattva-vid ekatma janma-mrutyu-jaratigah"
       ]
     },
     {
@@ -1887,8 +1887,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Bhoorbhuva svasta-rustarah savita prapi-tamahah",
-        "Yagno yagna-patir-yajva yagnango yagna-vahanah"
+        "Bhoorbhuvah-svas-taruh tarah savita prapitamahah",
+        "Yagnah yagna-patir-yajva yagnangah yagna-vahanah"
       ]
     },
     {
@@ -1904,7 +1904,7 @@ const VISHNU_DATA = {
       ],
       "english_halves": [
         "Yagna-bhrut yagnakrut yagee yagnabhuk yagna-sadhanah",
-        "Yajna-ntakrut yagna guhyam anna mannada eva-cha"
+        "Yagnantakrut yagna-guhyam annam-annada eva-cha"
       ]
     },
     {
@@ -1919,8 +1919,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Atma-yoni svayam jaato vaikhana sama-gayanah",
-        "Devakee nandana srashta kshiteeshah papa-nashanah"
+        "Atma-yonih svayam-jatah vaikhanah sama-gayanah",
+        "Devakee-nandanah srashta kshiteeshah papa-nashanah"
       ]
     },
     {
@@ -1935,8 +1935,8 @@ const VISHNU_DATA = {
         ""
       ],
       "english_halves": [
-        "Shankha-bhrut nandakee chakree sharngadhanva gada-dharah",
-        "Rathanga-pani rakshobhyah sarva-praharana-yudhah"
+        "Shankha-bhrut nandakee chakree sharnga-dhanva gada-dharah",
+        "Rathanga-panih akshobhyah sarva-praharanayudhah"
       ]
     }
   ],
