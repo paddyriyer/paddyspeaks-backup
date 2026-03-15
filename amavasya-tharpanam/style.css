@@ -517,6 +517,138 @@ body {
     font-size: 0.6rem;
 }
 
+/* --- Word-by-Word --- */
+.word-by-word {
+    margin-top: 0.75rem;
+    border-top: 1px solid var(--color-border-light);
+    padding-top: 0.5rem;
+}
+
+.wbw-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0.4rem 0;
+    user-select: none;
+}
+
+.wbw-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--color-pitru-light);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.wbw-arrow {
+    font-size: 0.7rem;
+    color: var(--color-pitru-light);
+    transition: transform 0.2s ease;
+}
+
+.word-by-word.open .wbw-arrow {
+    transform: rotate(180deg);
+}
+
+.wbw-grid {
+    display: none;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.word-by-word.open .wbw-grid {
+    display: flex;
+}
+
+.wbw-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-white);
+    border: 1px solid var(--color-border-light);
+    border-radius: 6px;
+    padding: 0.4rem 0.6rem;
+    min-width: 80px;
+    text-align: center;
+}
+
+.wbw-word {
+    font-family: var(--font-devanagari);
+    font-size: 0.9rem;
+    color: #2a1a30;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.wbw-translit {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: var(--color-pitru-light);
+    line-height: 1.3;
+}
+
+.wbw-meaning {
+    font-size: 0.72rem;
+    color: var(--color-text-muted);
+    line-height: 1.3;
+    margin-top: 0.15rem;
+}
+
+/* --- Rules Block --- */
+.rules-block {
+    margin: 1rem 0 2rem;
+}
+
+.rules-title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--color-pitru);
+    margin-bottom: 0.75rem;
+}
+
+.rules-list {
+    list-style: none;
+    padding: 1.25rem;
+    background: var(--color-white);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+}
+
+.rules-list li {
+    padding: 0.4rem 0;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    border-bottom: 1px solid var(--color-border-light);
+    line-height: 1.6;
+}
+
+.rules-list li:last-child {
+    border-bottom: none;
+}
+
+/* --- Koorcham Diagram --- */
+.koorcham-block {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.koorcham-title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--color-pitru);
+    margin-bottom: 0.75rem;
+}
+
+.koorcham-diagram {
+    max-width: 100%;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+}
+
 /* --- Sections Grid (All Steps View) --- */
 .sections-grid {
     display: grid;

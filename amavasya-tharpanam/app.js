@@ -50,12 +50,47 @@
     }
   }
 
+  // --- Render Rules ---
+  function renderRules() {
+    var container = document.getElementById('rules-list');
+    if (container && THARPANAM_DATA.rules) {
+      var html = '';
+      THARPANAM_DATA.rules.forEach(function (rule, i) {
+        html += '<li><strong>' + (i + 1) + '.</strong> ' + escapeHtml(rule) + '</li>';
+      });
+      container.innerHTML = html;
+    }
+  }
+
+  // --- Build word-by-word HTML ---
+  function buildWordByWordHtml(words) {
+    if (!words || words.length === 0) return '';
+    var html = '<div class="word-by-word">';
+    html += '<div class="wbw-toggle" onclick="this.parentNode.classList.toggle(\'open\')">';
+    html += '<span class="wbw-label">Word-by-Word</span><span class="wbw-arrow">&#9660;</span>';
+    html += '</div>';
+    html += '<div class="wbw-grid">';
+    words.forEach(function (w) {
+      html += '<div class="wbw-item">';
+      html += '<span class="wbw-word">' + escapeHtml(w.word) + '</span>';
+      html += '<span class="wbw-translit">' + escapeHtml(w.transliteration) + '</span>';
+      html += '<span class="wbw-meaning">' + escapeHtml(w.meaning) + '</span>';
+      html += '</div>';
+    });
+    html += '</div></div>';
+    return html;
+  }
+
   // --- Build mantra HTML ---
   function buildMantraHtml(mantra) {
     var html = '<div class="mantra-block">';
 
     html += '<div class="mantra-devanagari">' + escapeHtml(mantra.devanagari).replace(/\n/g, '<br>') + '</div>';
     html += '<div class="mantra-text">' + escapeHtml(mantra.text).replace(/\n/g, '<br>') + '</div>';
+
+    if (mantra.words && mantra.words.length > 0) {
+      html += buildWordByWordHtml(mantra.words);
+    }
 
     if (mantra.meaning) {
       html += '<div class="mantra-meaning">' + escapeHtml(mantra.meaning) + '</div>';
@@ -339,6 +374,7 @@
     renderIntro();
     renderTraditions();
     renderItems();
+    renderRules();
     renderSections();
     renderSectionsGrid();
     setupSearch();
