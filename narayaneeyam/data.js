@@ -8355,7 +8355,204 @@ var NARAYANEEYAM_DATA = {
       theme: "leela",
       verseCount: 10,
       summary: "Describes the naming ceremony performed by Sage Garga and the charming childhood pastimes of Krishna and Balarama, including their crawling, first steps, and playful mischief in Gokula.",
-      slokas: []
+      slokas: [
+        {
+          dashaka: 40,
+          sloka: 1,
+          devanagari: "नन्दस्तु कालेन सुतस्य कर्तुं\nसंस्कारमिच्छन् स गुरुं ममर्ष ।\nगर्गं समाहूय पुरोहितं स्वं\nसम्प्रार्थयामास स नामकर्म ॥",
+          transliteration: "nandastu kālena sutasya kartuṁ\nsaṁskāramicchansa guruṁ mamarṣa |\ngargaṁ samāhūya purohitaṁ svaṁ\nsamprārthayāmāsa sa nāmakarma ||",
+          translation: "Nanda, desiring to perform the sacraments for his son in due time, thought of a guru. He invited Garga, his family priest, and requested him to perform the naming ceremony.",
+          commentary: "This opening verse sets the scene for the nāmakaraṇa (naming ceremony) of Krishna and Balarama. As described in Bhagavatam 10.8.1-5, Nanda invited the great sage Garga, who was the family priest of the Yadu dynasty, to perform the sacred rites. Bhattathiri follows the Bhagavatam narrative faithfully, beginning with the domestic occasion that would reveal the children's divine names.",
+          words: [
+            { word: "नन्दः", transliteration: "nandaḥ", meaning: "Nanda (Krishna's foster father)" },
+            { word: "कालेन", transliteration: "kālena", meaning: "in due time" },
+            { word: "सुतस्य", transliteration: "sutasya", meaning: "of the son" },
+            { word: "संस्कारम्", transliteration: "saṁskāram", meaning: "sacrament, sacred rite" },
+            { word: "गर्गम्", transliteration: "gargam", meaning: "Garga (the sage)" },
+            { word: "समाहूय", transliteration: "samāhūya", meaning: "having invited, having summoned" },
+            { word: "पुरोहितम्", transliteration: "purohitam", meaning: "family priest" },
+            { word: "नामकर्म", transliteration: "nāmakarma", meaning: "naming ceremony" }
+          ]
+        },
+        {
+          dashaka: 40,
+          sloka: 2,
+          devanagari: "गर्गस्तु कंसाद्भयमानचेताः\nगोपालसंसत्सु विगर्हमाणः ।\nरहस्यगोष्ठे नृप नामकर्म\nचक्रे कुमारद्वयसंस्कृतिं सः ॥",
+          transliteration: "gargastu kaṁsādbhayamānacetāḥ\ngopālasaṁsatsu vigarhamāṇaḥ |\nrahasyagoṣṭhe nṛpa nāmakarma\ncakre kumāradvayasaṁskṛtiṁ saḥ ||",
+          translation: "Sage Garga, with a mind apprehensive of Kamsa, and avoiding public gatherings of cowherds, performed the naming ceremony of the two boys secretly in a secluded cow-pen.",
+          commentary: "Garga was wary that performing the ceremony publicly might draw Kamsa's attention. As the family priest of the Yadus, his presence in Gokula could arouse suspicion that the child was actually Devaki's son. Bhagavatam 10.8.6-7 describes how Nanda persuaded Garga despite these fears, and the sage agreed to perform the rites in secret within the goṣṭha (cow-pen).",
+          words: [
+            { word: "गर्गः", transliteration: "gargaḥ", meaning: "Sage Garga" },
+            { word: "कंसात्", transliteration: "kaṁsāt", meaning: "from Kamsa" },
+            { word: "भयमानचेताः", transliteration: "bhayamānacetāḥ", meaning: "with an apprehensive mind" },
+            { word: "गोपालसंसत्सु", transliteration: "gopālasaṁsatsu", meaning: "in the assemblies of cowherds" },
+            { word: "विगर्हमाणः", transliteration: "vigarhamāṇaḥ", meaning: "avoiding, shunning" },
+            { word: "रहस्य", transliteration: "rahasya", meaning: "secret, secluded" },
+            { word: "गोष्ठे", transliteration: "goṣṭhe", meaning: "in the cow-pen" },
+            { word: "कुमारद्वय", transliteration: "kumāradvaya", meaning: "the two boys" },
+            { word: "संस्कृतिम्", transliteration: "saṁskṛtim", meaning: "sacramental rite" }
+          ]
+        },
+        {
+          dashaka: 40,
+          sloka: 3,
+          devanagari: "रामो वसुदेवसुतो बभूव\nसङ्कर्षणात्मा विविधैः गुणौघैः ।\nरामः इति श्रीमदनन्तमूर्तिः\nनाम्ना बलं चास्य बलं बलाच्च ॥",
+          transliteration: "rāmo vasudevasuto babhūva\nsaṅkarṣaṇātmā vividhaiḥ guṇaughaiḥ |\nrāmaḥ iti śrīmadanantamūrtiḥ\nnāmnā balaṁ cāsya balaṁ balācca ||",
+          translation: "The son of Vasudeva's lineage became known as Rama, being the embodiment of Sankarshana, endowed with manifold qualities. He was named Rama, the glorious form of Ananta, and because of his great strength, he was also called Bala (Balarama).",
+          commentary: "Garga reveals the identity of the elder child. As described in Bhagavatam 10.8.12, Garga named him Rama because he delights (ramayati) everyone, and Bala because of his extraordinary strength (bala). The sage also revealed that this child is Sankarshana, the divine serpent Ananta in human form, who was transferred from Devaki's womb to Rohini's. Bhattathiri condenses the Bhagavatam's account of Garga's revelation.",
+          words: [
+            { word: "रामः", transliteration: "rāmaḥ", meaning: "Rama (Balarama)" },
+            { word: "वसुदेवसुतः", transliteration: "vasudevasutaḥ", meaning: "son of Vasudeva's lineage" },
+            { word: "सङ्कर्षणात्मा", transliteration: "saṅkarṣaṇātmā", meaning: "the embodiment of Sankarshana" },
+            { word: "गुणौघैः", transliteration: "guṇaughaiḥ", meaning: "with a flood of qualities" },
+            { word: "अनन्तमूर्तिः", transliteration: "anantamūrtiḥ", meaning: "the form of Ananta (the infinite)" },
+            { word: "बलम्", transliteration: "balam", meaning: "strength" }
+          ]
+        },
+        {
+          dashaka: 40,
+          sloka: 4,
+          devanagari: "नानावर्णविभेदेन युगे युगे तु भूतले ।\nश्वेतरक्तादिवर्णः स्यात् कृष्णवर्णोऽयमीदृशः ।\nकृष्णः इत्यस्य नाम स्यात् नन्दसूनोरिति प्रभो ॥",
+          transliteration: "nānāvarṇavibhedena yuge yuge tu bhūtale |\nśvetaraktādivarṇaḥ syāt kṛṣṇavarṇo'yamīdṛśaḥ |\nkṛṣṇaḥ ityasya nāma syāt nandasūnoriti prabho ||",
+          translation: "In each age on this earth, He assumes different colors — white, red, and others. In this age, He has a dark complexion; therefore the name of this son of Nanda shall be Krishna, O Lord.",
+          commentary: "This verse captures the crucial moment of Krishna's naming. Drawing from Bhagavatam 10.8.13, Garga explains that this child of Nanda has appeared in previous yugas with white (śveta), red (rakta), and yellow complexions, and now appears with a dark (kṛṣṇa) hue. The name 'Krishna' means the dark one, the all-attractive one. Garga carefully avoids revealing that this child is actually the son of Vasudeva, to protect the secret from Kamsa.",
+          words: [
+            { word: "नानावर्ण", transliteration: "nānāvarṇa", meaning: "various colors" },
+            { word: "विभेदेन", transliteration: "vibhedena", meaning: "by differentiation" },
+            { word: "युगे युगे", transliteration: "yuge yuge", meaning: "in each age" },
+            { word: "भूतले", transliteration: "bhūtale", meaning: "on the earth" },
+            { word: "श्वेतरक्तादि", transliteration: "śvetaraktādi", meaning: "white, red, and other" },
+            { word: "कृष्णवर्णः", transliteration: "kṛṣṇavarṇaḥ", meaning: "of dark complexion" },
+            { word: "कृष्णः", transliteration: "kṛṣṇaḥ", meaning: "Krishna (the dark one, the all-attractive)" },
+            { word: "नन्दसूनोः", transliteration: "nandasūnoḥ", meaning: "of the son of Nanda" }
+          ]
+        },
+        {
+          dashaka: 40,
+          sloka: 5,
+          devanagari: "नारायणसमं चैनं गुणतस्त्वं विदिष्यसि ।\nगर्ग इत्युक्त्वा गतवान् नन्दोऽपि परमोत्सुकः ।\nपुत्रसंस्कारसंहृष्टो गोकुलं पर्यवर्तत ॥",
+          transliteration: "nārāyaṇasamaṁ cainaṁ guṇatastvam vidiṣyasi |\ngarga ityuktvā gatavān nando'pi paramotsukāḥ |\nputrasaṁskārasaṁhṛṣṭo gokulaṁ paryavartata ||",
+          translation: "You will find this child equal to Narayana in His qualities — saying this, Garga departed. Nanda, supremely overjoyed at his son's sacraments, returned to Gokula in high spirits.",
+          commentary: "Garga's parting words — that this child is equal to Narayana in qualities — are a veiled revelation of the truth. As described in Bhagavatam 10.8.19, Garga carefully uses the phrase 'equal to Narayana' rather than saying the child IS Narayana, to maintain the secret. Nanda, understanding this simply as high praise for his son, is delighted. Bhattathiri captures both the surface meaning for Nanda and the deeper theological truth for the devotee.",
+          words: [
+            { word: "नारायणसमम्", transliteration: "nārāyaṇasamam", meaning: "equal to Narayana" },
+            { word: "गुणतः", transliteration: "guṇataḥ", meaning: "in qualities" },
+            { word: "विदिष्यसि", transliteration: "vidiṣyasi", meaning: "you will know, you will find" },
+            { word: "गर्गः", transliteration: "gargaḥ", meaning: "Sage Garga" },
+            { word: "उक्त्वा", transliteration: "uktvā", meaning: "having said" },
+            { word: "गतवान्", transliteration: "gatavān", meaning: "departed, went away" },
+            { word: "परमोत्सुकः", transliteration: "paramotsukāḥ", meaning: "supremely eager/joyful" },
+            { word: "पुत्रसंस्कार", transliteration: "putrasaṁskāra", meaning: "son's sacramental rites" },
+            { word: "संहृष्टः", transliteration: "saṁhṛṣṭaḥ", meaning: "overjoyed, delighted" }
+          ]
+        },
+        {
+          dashaka: 40,
+          sloka: 6,
+          devanagari: "जानुभ्यां सरसं सर्पन् मणिनूपुरशिञ्जितैः ।\nव्रजे प्रसर्पन् भवतः कनकक्वणितैस्तथा ।\nअलं चक्रुर्मनोहारि गोपीनां हृदयानि ते ॥",
+          transliteration: "jānubhyāṁ sarasaṁ sarpan maṇinūpuraśiñjitaiḥ |\nvraje prasarpan bhavataḥ kanakakvaṇitaistathā |\nalaṁ cakrur manohāri gopīnāṁ hṛdayāni te ||",
+          translation: "Crawling gracefully on Your knees, with the jingling of gem-studded anklets and golden ornaments tinkling as You moved about Vraja — You thoroughly captivated the hearts of the gopis.",
+          commentary: "After the naming ceremony, Bhattathiri transitions to the charming baby leelas. Bhagavatam 10.8.21-22 describes baby Krishna crawling about the courtyard. The sound of His ornaments — anklets (nūpura) set with gems (maṇi) and golden bangles — announced His presence and enchanted the gopis. The crawling (sarpan) of the Supreme Lord on His knees is a beloved image in Vaishnava devotion, representing divine humility.",
+          words: [
+            { word: "जानुभ्याम्", transliteration: "jānubhyām", meaning: "on the two knees" },
+            { word: "सरसम्", transliteration: "sarasam", meaning: "gracefully, with charm" },
+            { word: "सर्पन्", transliteration: "sarpan", meaning: "crawling" },
+            { word: "मणिनूपुर", transliteration: "maṇinūpura", meaning: "gem-studded anklets" },
+            { word: "शिञ्जितैः", transliteration: "śiñjitaiḥ", meaning: "with jingling sounds" },
+            { word: "प्रसर्पन्", transliteration: "prasarpan", meaning: "moving about, crawling forth" },
+            { word: "कनकक्वणितैः", transliteration: "kanakakvaṇitaiḥ", meaning: "with the tinkling of golden ornaments" },
+            { word: "मनोहारि", transliteration: "manohāri", meaning: "captivating, stealing the mind" },
+            { word: "गोपीनाम्", transliteration: "gopīnām", meaning: "of the gopis" },
+            { word: "हृदयानि", transliteration: "hṛdayāni", meaning: "hearts" }
+          ]
+        },
+        {
+          dashaka: 40,
+          sloka: 7,
+          devanagari: "पदे पदे निपतन् भूमौ विलुठन् उत्थितः पुनः ।\nमातरं स्मितवक्त्रेण वीक्षमाणो मुदान्वितः ।\nप्रथमं पादविन्यासं कृतवान् त्वं जगत्पते ॥",
+          transliteration: "pade pade nipatan bhūmau viluṭhan utthitaḥ punaḥ |\nmātaraṁ smitavaktreṇa vīkṣamāṇo mudānvitaḥ |\nprathamaṁ pādavinyāsaṁ kṛtavān tvaṁ jagatpate ||",
+          translation: "Falling at every step upon the ground, rolling and getting up again, looking at Your mother with a smiling face full of joy — thus did You take Your first steps, O Lord of the universe.",
+          commentary: "This tender verse describes baby Krishna's first steps, drawing from Bhagavatam 10.8.22-23. The Lord whose feet are worshipped by Brahma and Shiva stumbles and falls as He learns to walk. Bhattathiri underscores the paradox with the address 'jagatpate' (Lord of the universe) — the one who supports all creation now needs His mother's support to stand. The smiling face turned toward Yashoda captures the intimacy of vātsalya-bhakti.",
+          words: [
+            { word: "पदे पदे", transliteration: "pade pade", meaning: "at every step" },
+            { word: "निपतन्", transliteration: "nipatan", meaning: "falling down" },
+            { word: "भूमौ", transliteration: "bhūmau", meaning: "on the ground" },
+            { word: "विलुठन्", transliteration: "viluṭhan", meaning: "rolling about" },
+            { word: "उत्थितः", transliteration: "utthitaḥ", meaning: "having risen, getting up" },
+            { word: "मातरम्", transliteration: "mātaram", meaning: "mother" },
+            { word: "स्मितवक्त्रेण", transliteration: "smitavaktreṇa", meaning: "with a smiling face" },
+            { word: "वीक्षमाणः", transliteration: "vīkṣamāṇaḥ", meaning: "looking at, beholding" },
+            { word: "मुदान्वितः", transliteration: "mudānvitaḥ", meaning: "filled with joy" },
+            { word: "पादविन्यासम्", transliteration: "pādavinyāsam", meaning: "placement of feet, first steps" },
+            { word: "जगत्पते", transliteration: "jagatpate", meaning: "O Lord of the universe" }
+          ]
+        },
+        {
+          dashaka: 40,
+          sloka: 8,
+          devanagari: "नवनीतं समादाय चोरवद्गोपवेश्मसु ।\nभक्षयन् वितरन् बालो वानरेभ्यश्च दत्तवान् ।\nगृहिणीनां च रोषं तं विहसन् हृदयङ्गमः ॥",
+          transliteration: "navanītaṁ samādāya coravaḍgopaveśmasu |\nbhakṣayan vitaran bālo vānarebhyaśca dattavān |\ngṛhiṇīnāṁ ca roṣaṁ taṁ vihasan hṛdayaṅgamaḥ ||",
+          translation: "Taking butter like a thief from the houses of the cowherds, eating it and distributing it, the child even gave it to the monkeys. Laughing at the anger of the housewives, He stole their very hearts.",
+          commentary: "The butter-stealing leela is among the most celebrated of Krishna's childhood pastimes. Bhagavatam 10.8.29-31 describes how baby Krishna would stealthily enter the homes of the gopis, steal butter, eat some and feed the rest to monkeys. When the gopi housewives would become angry, His innocent laughter would melt their hearts. The word hṛdayaṅgama (one who enters the heart) is a double meaning — He steals butter but truly steals hearts.",
+          words: [
+            { word: "नवनीतम्", transliteration: "navanītam", meaning: "fresh butter" },
+            { word: "समादाय", transliteration: "samādāya", meaning: "having taken" },
+            { word: "चोरवत्", transliteration: "coravat", meaning: "like a thief" },
+            { word: "गोपवेश्मसु", transliteration: "gopaveśmasu", meaning: "in the houses of the cowherds" },
+            { word: "भक्षयन्", transliteration: "bhakṣayan", meaning: "eating" },
+            { word: "वितरन्", transliteration: "vitaran", meaning: "distributing" },
+            { word: "वानरेभ्यः", transliteration: "vānarebhyaḥ", meaning: "to the monkeys" },
+            { word: "दत्तवान्", transliteration: "dattavān", meaning: "gave" },
+            { word: "गृहिणीनाम्", transliteration: "gṛhiṇīnām", meaning: "of the housewives" },
+            { word: "रोषम्", transliteration: "roṣam", meaning: "anger" },
+            { word: "विहसन्", transliteration: "vihasan", meaning: "laughing" },
+            { word: "हृदयङ्गमः", transliteration: "hṛdayaṅgamaḥ", meaning: "one who enters/steals the heart" }
+          ]
+        },
+        {
+          dashaka: 40,
+          sloka: 9,
+          devanagari: "यशोदा तव चापल्यं दृष्ट्वा प्रीतिसमन्विता ।\nभर्त्सयन्ती स्मितमुखी बालं त्वां परिरब्धवान् ।\nवात्सल्यामृतसम्पूर्णा धन्या गोकुलनायिका ॥",
+          transliteration: "yaśodā tava cāpalyaṁ dṛṣṭvā prītisamanvitā |\nbhartsayantī smitamukhī bālaṁ tvāṁ parirabdhavān |\nvātsalyāmṛtasampūrṇā dhanyā gokulanāyikā ||",
+          translation: "Yashoda, seeing Your mischief, was filled with affection. Scolding You with a smiling face, she embraced the child. Overflowing with the nectar of maternal love, that blessed queen of Gokula was truly fortunate.",
+          commentary: "This verse captures the essence of Yashoda's vātsalya-bhakti (parental devotion). Even as she scolds Krishna for His mischief, her smiling face reveals her true delight. Bhagavatam 10.8.31-32 describes how the gopis would complain to Yashoda about Krishna's pranks, but she could never truly punish Him. Bhattathiri celebrates Yashoda as dhanyā (blessed) — for she had the supreme privilege of being the mother of the Lord of all worlds.",
+          words: [
+            { word: "यशोदा", transliteration: "yaśodā", meaning: "Yashoda (Krishna's foster mother)" },
+            { word: "चापल्यम्", transliteration: "cāpalyam", meaning: "mischief, playful restlessness" },
+            { word: "प्रीतिसमन्विता", transliteration: "prītisamanvitā", meaning: "filled with affection" },
+            { word: "भर्त्सयन्ती", transliteration: "bhartsayantī", meaning: "scolding, chiding" },
+            { word: "स्मितमुखी", transliteration: "smitamukhī", meaning: "with a smiling face" },
+            { word: "परिरब्धवान्", transliteration: "parirabdhavān", meaning: "embraced" },
+            { word: "वात्सल्यामृत", transliteration: "vātsalyāmṛta", meaning: "nectar of maternal love" },
+            { word: "सम्पूर्णा", transliteration: "sampūrṇā", meaning: "completely filled, overflowing" },
+            { word: "धन्या", transliteration: "dhanyā", meaning: "blessed, fortunate" },
+            { word: "गोकुलनायिका", transliteration: "gokulanāyikā", meaning: "queen/leader of Gokula" }
+          ]
+        },
+        {
+          dashaka: 40,
+          sloka: 10,
+          devanagari: "एवं बालचरित्राणि दर्शयन् गोकुले हरे ।\nनामकर्मादिसंस्कारैः शोभितो नन्दनन्दनः ।\nगुरुवायुपुराधीश पाहि मां कृपया तव ।\nबाललीलामृतं पीत्वा निरामयमशेषतः ॥",
+          transliteration: "evaṁ bālacaritāṇi darśayan gokule hare |\nnāmakarmādisaṁskāraiḥ śobhito nandanandanaḥ |\nguruvāyupurādhīśa pāhi māṁ kṛpayā tava |\nbālalīlāmṛtaṁ pītvā nirāmayamaśeṣataḥ ||",
+          translation: "Thus displaying these childhood exploits in Gokula, O Hari, adorned by the naming ceremony and other sacraments, the son of Nanda shone resplendent. O Lord of Guruvayur, protect me by Your grace. Having drunk the nectar of Your childhood pastimes, may I be completely free from all ailments.",
+          commentary: "The concluding verse follows the standard Narayaneeyam pattern, summarizing the dashaka's content and ending with a prayer to Guruvayurappan. Bhattathiri addresses the Lord as both Nandanandana (son of Nanda) and Guruvāyupurādhīśa (Lord of Guruvayur), connecting the historical Krishna-līlā with the present deity he worships for healing. The phrase nirāmayam aśeṣataḥ (complete freedom from all disease) reflects the poet's personal plea, as he composed the entire Narayaneeyam while suffering from a debilitating illness.",
+          words: [
+            { word: "बालचरित्राणि", transliteration: "bālacaritāṇi", meaning: "childhood exploits" },
+            { word: "दर्शयन्", transliteration: "darśayan", meaning: "displaying, showing" },
+            { word: "हरे", transliteration: "hare", meaning: "O Hari (one who removes suffering)" },
+            { word: "नामकर्मादि", transliteration: "nāmakarmādi", meaning: "naming ceremony and other rites" },
+            { word: "संस्कारैः", transliteration: "saṁskāraiḥ", meaning: "by sacraments" },
+            { word: "शोभितः", transliteration: "śobhitaḥ", meaning: "adorned, made resplendent" },
+            { word: "नन्दनन्दनः", transliteration: "nandanandanaḥ", meaning: "son of Nanda" },
+            { word: "गुरुवायुपुराधीश", transliteration: "guruvāyupurādhīśa", meaning: "O Lord of Guruvayur" },
+            { word: "पाहि", transliteration: "pāhi", meaning: "protect" },
+            { word: "कृपया", transliteration: "kṛpayā", meaning: "by grace, by compassion" },
+            { word: "बाललीलामृतम्", transliteration: "bālalīlāmṛtam", meaning: "nectar of childhood pastimes" },
+            { word: "निरामयम्", transliteration: "nirāmayam", meaning: "free from disease" },
+            { word: "अशेषतः", transliteration: "aśeṣataḥ", meaning: "completely, entirely" }
+          ]
+        }
+      ]
     },
     {
       dashaka: 41,
