@@ -794,10 +794,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 36,
-      "text": "amoghāḥ puṇḍarīkākṣo vṛṣakarmā vṛṣākṛtiḥ .\nrudro bahūśirā babhrurviśvayoniḥ śucīśravaḥ ..",
+      "text": "skandaḥ skanda-dharaḥ dhuryo varado vāyu-vāhanaḥ .\nvāsu-devo bṛhad-bhānur-ādi-devaḥ purandaraḥ ..",
       "halves": [
-        "amoghāḥ puṇḍarīkākṣo vṛṣakarmā vṛṣākṛtiḥ",
-        "rudro bahūśirā babhrurviśvayoniḥ śucīśravaḥ"
+        "skandaḥ skanda-dharaḥ dhuryo varado vāyu-vāhanaḥ",
+        "vāsu-devo bṛhad-bhānur-ādi-devaḥ purandaraḥ"
       ],
       "translations": [
         ""
@@ -809,10 +809,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 37,
-      "text": "amṛtaḥ śāśvataḥsthāṇurvarāroho mahātapāḥ .\nsarvagaḥ sarvavidbhānurviṣvakseno janārdanaḥ ..",
+      "text": "aśokas-tāraṇas-tāraḥ śūraḥ śaurir-janeśvaraḥ .\nanukūlaḥ śatāvartaḥ padmī padma-nibhekṣaṇaḥ ..",
       "halves": [
-        "amṛtaḥ śāśvataḥsthāṇurvarāroho mahātapāḥ",
-        "sarvagaḥ sarvavidbhānurviṣvakseno janārdanaḥ"
+        "aśokas-tāraṇas-tāraḥ śūraḥ śaurir-janeśvaraḥ",
+        "anukūlaḥ śatāvartaḥ padmī padma-nibhekṣaṇaḥ"
       ],
       "translations": [
         ""
@@ -824,10 +824,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 38,
-      "text": "vedo vedavidavyaṅgo vedāṅgo vedavitkaviḥ .\nlokādhyakṣaḥ surādhyakṣo dharmādhyakṣaḥ kṛtākṛtaḥ ..",
+      "text": "padma-nābho'ravindākṣaḥ padma-garbhaḥ śarīra-bhṛt .\nmaharddhir-ṛddho vṛddhātmā mahākṣo garuḍa-dhvajaḥ ..",
       "halves": [
-        "vedo vedavidavyaṅgo vedāṅgo vedavitkaviḥ",
-        "lokādhyakṣaḥ surādhyakṣo dharmādhyakṣaḥ kṛtākṛtaḥ"
+        "padma-nābho'ravindākṣaḥ padma-garbhaḥ śarīra-bhṛt",
+        "maharddhir-ṛddho vṛddhātmā mahākṣo garuḍa-dhvajaḥ"
       ],
       "translations": [
         ""
@@ -839,10 +839,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 39,
-      "text": "caturātmā caturvyūhaścaturdaṃṣṭraścaturbhujaḥ .\nbhrājiṣṇurbhojanaṃ bhoktā sahiṣṇurjagadādijaḥ ..",
+      "text": "atulaḥ śarabho bhīmaḥ sama-yajño havirhariḥ .\nsarva-lakṣaṇa-lakṣaṇyo lakṣmīvān samitiñjayaḥ ..",
       "halves": [
-        "caturātmā caturvyūhaścaturdaṃṣṭraścaturbhujaḥ",
-        "bhrājiṣṇurbhojanaṃ bhoktā sahiṣṇurjagadādijaḥ"
+        "atulaḥ śarabho bhīmaḥ sama-yajño havirhariḥ",
+        "sarva-lakṣaṇa-lakṣaṇyo lakṣmīvān samitiñjayaḥ"
       ],
       "translations": [
         ""
@@ -854,10 +854,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 40,
-      "text": "anagho vijayo jetā viśvayoniḥ punarvasuḥ .\nupendro vāmanaḥ prāṃśurāmoghaḥ śucirūrjitaḥ ..",
+      "text": "vikṣaro rohito mārgo hetur-dāmodaraḥ sahaḥ .\nmahīdharo mahā-bhāgo vegavān-amitāśanaḥ ..",
       "halves": [
-        "anagho vijayo jetā viśvayoniḥ punarvasuḥ",
-        "upendro vāmanaḥ prāṃśurāmoghaḥ śucirūrjitaḥ"
+        "vikṣaro rohito mārgo hetur-dāmodaraḥ sahaḥ",
+        "mahīdharo mahā-bhāgo vegavān-amitāśanaḥ"
       ],
       "translations": [
         ""
@@ -869,10 +869,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 41,
-      "text": "kartā vikartā gahanaḥ guhaḥ vyavasāyaḥ .\nvyavasthānaḥ saṃsthānaḥ sthānada dhruvaḥ ..",
+      "text": "udbhavaḥ kṣobhaṇo devaḥ śrīgarbhaḥ parameśvaraḥ .\nkaraṇaṃ kāraṇaṃ kartā vikartā gahano guhaḥ ..",
       "halves": [
-        "kartā vikartā gahanaḥ guhaḥ vyavasāyaḥ",
-        "vyavasthānaḥ saṃsthānaḥ sthānada dhruvaḥ"
+        "udbhavaḥ kṣobhaṇo devaḥ śrīgarbhaḥ parameśvaraḥ",
+        "karaṇaṃ kāraṇaṃ kartā vikartā gahano guhaḥ"
       ],
       "translations": [
         "",
@@ -885,10 +885,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 42,
-      "text": "pararddhiḥ parama-spaṣṭaḥ tuṣṭaḥ puṣṭaḥ śubhekṣaṇaḥ .\nrāmaḥ virāmaḥ virajo mārgaḥ neyaḥ ..",
+      "text": "vyavasāyo vyavasthānaḥ saṃsthānaḥ sthānado dhruvaḥ .\npararddhiḥ parama-spaṣṭas-tuṣṭaḥ puṣṭaḥ śubhekṣaṇaḥ ..",
       "halves": [
-        "pararddhiḥ parama-spaṣṭaḥ tuṣṭaḥ puṣṭaḥ śubhekṣaṇaḥ",
-        "rāmaḥ virāmaḥ virajo mārgaḥ neyaḥ"
+        "vyavasāyo vyavasthānaḥ saṃsthānaḥ sthānado dhruvaḥ",
+        "pararddhiḥ parama-spaṣṭas-tuṣṭaḥ puṣṭaḥ śubhekṣaṇaḥ"
       ],
       "translations": [
         "",
@@ -901,10 +901,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 43,
-      "text": "nayaḥ anayaḥ vīraḥ śakti-mataḥ-śreṣṭhaḥ dharmaḥ .\ndharma-vid-uttamaḥ vaikuṇṭhaḥ puruṣaḥ prāṇaḥ prāṇadaḥ ..",
+      "text": "rāmo virāmo virajo mārgo neyo nayo'nayaḥ .\nvīraḥ śaktimatāṃ-śreṣṭho dharmo dharma-vid-uttamaḥ ..",
       "halves": [
-        "nayaḥ anayaḥ vīraḥ śakti-mataḥ-śreṣṭhaḥ dharmaḥ",
-        "dharma-vid-uttamaḥ vaikuṇṭhaḥ puruṣaḥ prāṇaḥ prāṇadaḥ"
+        "rāmo virāmo virajo mārgo neyo nayo'nayaḥ",
+        "vīraḥ śaktimatāṃ-śreṣṭho dharmo dharma-vid-uttamaḥ"
       ],
       "translations": [
         "",
@@ -917,10 +917,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 44,
-      "text": "praṇavaḥ pṛthuḥ hiraṇya-garbhaḥ śatru-ghnaḥ vyāptaḥ .\nvāyuḥ adhokṣajaḥ ṛtuḥ su-darśanaḥ ..",
+      "text": "vaikuṇṭhaḥ puruṣaḥ prāṇaḥ prāṇadaḥ praṇavaḥ pṛthuḥ .\nhiraṇya-garbhaḥ śatru-ghno vyāpto vāyur-adhokṣajaḥ ..",
       "halves": [
-        "praṇavaḥ pṛthuḥ hiraṇya-garbhaḥ śatru-ghnaḥ vyāptaḥ",
-        "vāyuḥ adhokṣajaḥ ṛtuḥ su-darśanaḥ"
+        "vaikuṇṭhaḥ puruṣaḥ prāṇaḥ prāṇadaḥ praṇavaḥ pṛthuḥ",
+        "hiraṇya-garbhaḥ śatru-ghno vyāpto vāyur-adhokṣajaḥ"
       ],
       "translations": [
         "",
@@ -933,10 +933,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 45,
-      "text": "kālaḥ parameṣṭhī parigrahaḥ ugraḥ saṃvatsaraḥ .\ndakṣaḥ viśrāmaḥ viśva-dakṣiṇaḥ vistāraḥ ..",
+      "text": "ṛtuḥ sudarśanaḥ kālaḥ parameṣṭhī parigrahaḥ .\nugraḥ saṃvatsaro dakṣo viśrāmo viśva-dakṣiṇaḥ ..",
       "halves": [
-        "kālaḥ parameṣṭhī parigrahaḥ ugraḥ saṃvatsaraḥ",
-        "dakṣaḥ viśrāmaḥ viśva-dakṣiṇaḥ vistāraḥ"
+        "ṛtuḥ sudarśanaḥ kālaḥ parameṣṭhī parigrahaḥ",
+        "ugraḥ saṃvatsaro dakṣo viśrāmo viśva-dakṣiṇaḥ"
       ],
       "translations": [
         "",
@@ -949,10 +949,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 46,
-      "text": "sthāvara-sthāṇuḥ pramāṇam bījaṃ avyayam arthaḥ anarthaḥ .\nmahā-kośaḥ mahā-bhogaḥ mahā-dhanaḥ anirviṇṇaḥ sthaviyān ..",
+      "text": "vistāraḥ sthāvara-sthāṇuḥ pramāṇaṃ bījaṃ avyayam .\nartho'nartho mahā-kośo mahā-bhogo mahā-dhanaḥ ..",
       "halves": [
-        "sthāvara-sthāṇuḥ pramāṇam bījaṃ avyayam arthaḥ anarthaḥ",
-        "mahā-kośaḥ mahā-bhogaḥ mahā-dhanaḥ anirviṇṇaḥ sthaviyān"
+        "vistāraḥ sthāvara-sthāṇuḥ pramāṇaṃ bījaṃ avyayam",
+        "artho'nartho mahā-kośo mahā-bhogo mahā-dhanaḥ"
       ],
       "translations": [
         "",
@@ -965,10 +965,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 47,
-      "text": "bhū-dharaḥ dharma-gup dharma-kṛt dharmī sat .\nasat kṣaram akṣaram avijñātā ..",
+      "text": "anirviṇṇaḥ sthaviṣṭho bhūr-dharma-yūpo mahā-makhaḥ .\nnakṣatra-nemir-nakṣatrī kṣamaḥ kṣāmaḥ samīhanaḥ ..",
       "halves": [
-        "bhū-dharaḥ dharma-gup dharma-kṛt dharmī sat",
-        "asat kṣaram akṣaram avijñātā"
+        "anirviṇṇaḥ sthaviṣṭho bhūr-dharma-yūpo mahā-makhaḥ",
+        "nakṣatra-nemir-nakṣatrī kṣamaḥ kṣāmaḥ samīhanaḥ"
       ],
       "translations": [
         "",
@@ -981,10 +981,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 48,
-      "text": "sahasrāṃśuḥ vidhātā kṛta-lakṣaṇaḥ gabhasti-nemīḥ sattva-sthaḥ .\nsiṃhaḥ bhūta-maheśvaraḥ ādi-devaḥ mahā-devaḥ deveśaḥ ..",
+      "text": "yajña ijyo mahejyaśca kratuḥ satraṃ satāṃ gatiḥ .\nsarva-darśī vimuktātmā sarvajño jñānam-uttamam ..",
       "halves": [
-        "sahasrāṃśuḥ vidhātā kṛta-lakṣaṇaḥ gabhasti-nemīḥ sattva-sthaḥ",
-        "siṃhaḥ bhūta-maheśvaraḥ ādi-devaḥ mahā-devaḥ deveśaḥ"
+        "yajña ijyo mahejyaśca kratuḥ satraṃ satāṃ gatiḥ",
+        "sarva-darśī vimuktātmā sarvajño jñānam-uttamam"
       ],
       "translations": [
         "",
@@ -997,10 +997,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 49,
-      "text": "deva-bhṛt-guruḥ uttaraḥ go-patiḥ goptā jñāna-gamyaḥ .\npurātanaḥ śarīra-bhūta-bhṛt bhoktā kapīndraḥ ..",
+      "text": "suvrataḥ sumukhaḥ sūkṣmaḥ sughoṣaḥ sukhadaḥ suhṛt .\nmanoharaḥ jita-krodho vīra-bāhur-vidāraṇaḥ ..",
       "halves": [
-        "deva-bhṛt-guruḥ uttaraḥ go-patiḥ goptā jñāna-gamyaḥ",
-        "purātanaḥ śarīra-bhūta-bhṛt bhoktā kapīndraḥ"
+        "suvrataḥ sumukhaḥ sūkṣmaḥ sughoṣaḥ sukhadaḥ suhṛt",
+        "manoharaḥ jita-krodho vīra-bāhur-vidāraṇaḥ"
       ],
       "translations": [
         "",
@@ -1013,10 +1013,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 50,
-      "text": "bhūri-dakṣiṇaḥ soma-paḥ amṛta-paḥ somaḥ purujit .\npuru-sattamaḥ vinayaḥ jayaḥ satya-sandhaḥ ..",
+      "text": "svāpanaḥ sva-vaśo vyāpī naikātmā naika-karma-kṛt .\nvatsaro vatsalo vatsī ratna-garbho dhaneśvaraḥ ..",
       "halves": [
-        "bhūri-dakṣiṇaḥ soma-paḥ amṛta-paḥ somaḥ purujit",
-        "puru-sattamaḥ vinayaḥ jayaḥ satya-sandhaḥ"
+        "svāpanaḥ sva-vaśo vyāpī naikātmā naika-karma-kṛt",
+        "vatsaro vatsalo vatsī ratna-garbho dhaneśvaraḥ"
       ],
       "translations": [
         "",
@@ -1029,10 +1029,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 51,
-      "text": "dāśārhaḥ sātvatāṃ patiḥ jīvaḥ vinayi-tā sākṣī .\nmukunda amita-vikramaḥ ambho-nidhiḥ anantātmā mahā-udadhi-śayaḥ ..",
+      "text": "dharma-gub-dharma-kṛd-dharmī sad-asat-kṣaram-akṣaram .\navijñātā sahasrāṃśur-vidhātā kṛta-lakṣaṇaḥ ..",
       "halves": [
-        "dāśārhaḥ sātvatāṃ patiḥ jīvaḥ vinayi-tā sākṣī",
-        "mukunda amita-vikramaḥ ambho-nidhiḥ anantātmā mahā-udadhi-śayaḥ"
+        "dharma-gub-dharma-kṛd-dharmī sad-asat-kṣaram-akṣaram",
+        "avijñātā sahasrāṃśur-vidhātā kṛta-lakṣaṇaḥ"
       ],
       "translations": [
         "",
@@ -1045,10 +1045,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 52,
-      "text": "antakaḥ ajaḥ mahārhaḥ svābhāvyaḥ jitāmitraḥ .\npramodanaḥ ānandaḥ nandanaḥ nandaḥ satya-dharmā ..",
+      "text": "gabhasti-nemiḥ sattva-sthaḥ siṃho bhūta-maheśvaraḥ .\nādi-devo mahā-devo deveśo deva-bhṛd-guruḥ ..",
       "halves": [
-        "antakaḥ ajaḥ mahārhaḥ svābhāvyaḥ jitāmitraḥ",
-        "pramodanaḥ ānandaḥ nandanaḥ nandaḥ satya-dharmā"
+        "gabhasti-nemiḥ sattva-sthaḥ siṃho bhūta-maheśvaraḥ",
+        "ādi-devo mahā-devo deveśo deva-bhṛd-guruḥ"
       ],
       "translations": [
         "",
@@ -1061,10 +1061,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 53,
-      "text": "trivikramaḥ maharṣiḥ kapilaḥ ācāryaḥ kṛta-jñaḥ medinī-patiḥ tri-padaḥ .\ntri-daśādhyakṣaḥ mahā-śṛṅgaḥ kṛtānta-kṛt mahāvarāhaḥ ..",
+      "text": "uttaro gopatir-goptā jñāna-gamyaḥ purātanaḥ .\nśarīra-bhūta-bhṛd-bhoktā kapīndro bhūri-dakṣiṇaḥ ..",
       "halves": [
-        "trivikramaḥ maharṣiḥ kapilaḥ ācāryaḥ kṛta-jñaḥ medinī-patiḥ tri-padaḥ",
-        "tri-daśādhyakṣaḥ mahā-śṛṅgaḥ kṛtānta-kṛt mahāvarāhaḥ"
+        "uttaro gopatir-goptā jñāna-gamyaḥ purātanaḥ",
+        "śarīra-bhūta-bhṛd-bhoktā kapīndro bhūri-dakṣiṇaḥ"
       ],
       "translations": [
         "",
@@ -1077,10 +1077,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 54,
-      "text": "govindaḥ suṣeṇaḥ kanakāṅgadī guhyaḥ gabhīraḥ .\ngahanaḥ guptaḥ cakra-gadā-dharaḥ vedāḥ ..",
+      "text": "somapo'mṛtapaḥ somaḥ puru-jit puru-sattamaḥ .\nvinayo jayaḥ satya-sandho dāśārhaḥ sātvatāṃ patiḥ ..",
       "halves": [
-        "govindaḥ suṣeṇaḥ kanakāṅgadī guhyaḥ gabhīraḥ",
-        "gahanaḥ guptaḥ cakra-gadā-dharaḥ vedāḥ"
+        "somapo'mṛtapaḥ somaḥ puru-jit puru-sattamaḥ",
+        "vinayo jayaḥ satya-sandho dāśārhaḥ sātvatāṃ patiḥ"
       ],
       "translations": [
         "",
@@ -1093,10 +1093,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 55,
-      "text": "svāṅgaḥ ajitaḥ kṛṣṇaḥ dṛḍhaḥ saṅkarṣaṇaḥ acyutaḥ .\nvaruṇaḥ vāruṇaḥ vṛkṣaḥ puṣkarākṣaḥ mahā-manāḥ ..",
+      "text": "jīvo vinayitā sākṣī mukundo'mita-vikramaḥ .\nambho-nidhir-anantātmā mahodadhi-śayo'ntakaḥ ..",
       "halves": [
-        "svāṅgaḥ ajitaḥ kṛṣṇaḥ dṛḍhaḥ saṅkarṣaṇaḥ acyutaḥ",
-        "varuṇaḥ vāruṇaḥ vṛkṣaḥ puṣkarākṣaḥ mahā-manāḥ"
+        "jīvo vinayitā sākṣī mukundo'mita-vikramaḥ",
+        "ambho-nidhir-anantātmā mahodadhi-śayo'ntakaḥ"
       ],
       "translations": [
         "",
@@ -1109,10 +1109,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 56,
-      "text": "bhagavān bhaga-hā ānandī vana-mālī halāyudhaḥ .\nādityaḥ jyotir-ādityaḥ sahiṣṇuḥ gati-sattamaḥ ..",
+      "text": "ajo mahārhaḥ svābhāvyo jitāmitraḥ pramodanaḥ .\nānando nandano nandaḥ satya-dharmā trivikramaḥ ..",
       "halves": [
-        "bhagavān bhaga-hā ānandī vana-mālī halāyudhaḥ",
-        "ādityaḥ jyotir-ādityaḥ sahiṣṇuḥ gati-sattamaḥ"
+        "ajo mahārhaḥ svābhāvyo jitāmitraḥ pramodanaḥ",
+        "ānando nandano nandaḥ satya-dharmā trivikramaḥ"
       ],
       "translations": [
         "",
@@ -1125,10 +1125,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 57,
-      "text": "su-dharmā dharma-gup dharma-kṛt dharmī sat .\nasat-kṣaram avijñātā sahasrāṃśuḥ vidhātā ..",
+      "text": "maharṣiḥ kapilācāryaḥ kṛtajño medinī-patiḥ .\ntri-padas-tri-daśādhyakṣo mahā-śṛṅgaḥ kṛtānta-kṛt ..",
       "halves": [
-        "su-dharmā dharma-gup dharma-kṛt dharmī sat",
-        "asat-kṣaram avijñātā sahasrāṃśuḥ vidhātā"
+        "maharṣiḥ kapilācāryaḥ kṛtajño medinī-patiḥ",
+        "tri-padas-tri-daśādhyakṣo mahā-śṛṅgaḥ kṛtānta-kṛt"
       ],
       "translations": [
         "",
@@ -1141,10 +1141,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 58,
-      "text": "kṛta-lakṣaṇaḥ gabhasti-nemīḥ sattva-sthaḥ siṃhaḥ bhūta-maheśvaraḥ .\nādi-devaḥ mahā-devaḥ deveśaḥ deva-bhṛt guruḥ ..",
+      "text": "mahā-varāho govindaḥ suṣeṇaḥ kanakāṅgadī .\nguhyo gabhīro gahano guptaś-cakra-gadā-dharaḥ ..",
       "halves": [
-        "kṛta-lakṣaṇaḥ gabhasti-nemīḥ sattva-sthaḥ siṃhaḥ bhūta-maheśvaraḥ",
-        "ādi-devaḥ mahā-devaḥ deveśaḥ deva-bhṛt guruḥ"
+        "mahā-varāho govindaḥ suṣeṇaḥ kanakāṅgadī",
+        "guhyo gabhīro gahano guptaś-cakra-gadā-dharaḥ"
       ],
       "translations": [
         "",
@@ -1157,10 +1157,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 59,
-      "text": "uttaraḥ go-patiḥ goptā jñāna-gamyaḥ purātanaḥ .\nśarīra-bhūta-bhṛt bhoktā kapīndraḥ bhūri-dakṣiṇaḥ soma-paḥ ..",
+      "text": "vedhāḥ svāṅgo'jitaḥ kṛṣṇo dṛḍhaḥ saṅkarṣaṇo'cyutaḥ .\nvaruṇo vāruṇo vṛkṣaḥ puṣkarākṣo mahā-manāḥ ..",
       "halves": [
-        "uttaraḥ go-patiḥ goptā jñāna-gamyaḥ purātanaḥ",
-        "śarīra-bhūta-bhṛt bhoktā kapīndraḥ bhūri-dakṣiṇaḥ soma-paḥ"
+        "vedhāḥ svāṅgo'jitaḥ kṛṣṇo dṛḍhaḥ saṅkarṣaṇo'cyutaḥ",
+        "varuṇo vāruṇo vṛkṣaḥ puṣkarākṣo mahā-manāḥ"
       ],
       "translations": [
         "",
@@ -1173,10 +1173,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 60,
-      "text": "amṛta-paḥ somaḥ puru-jit puru-sattamaḥ vinayaḥ .\njayaḥ satya-sandhaḥ dāśārhaḥ sātvatāṃ-patiḥ jīvaḥ ..",
+      "text": "bhagavān bhaga-hā nandī vana-mālī halāyudhaḥ .\nādityo jyotir-ādityaḥ sahiṣṇur-gati-sattamaḥ ..",
       "halves": [
-        "amṛta-paḥ somaḥ puru-jit puru-sattamaḥ vinayaḥ",
-        "jayaḥ satya-sandhaḥ dāśārhaḥ sātvatāṃ-patiḥ jīvaḥ"
+        "bhagavān bhaga-hā nandī vana-mālī halāyudhaḥ",
+        "ādityo jyotir-ādityaḥ sahiṣṇur-gati-sattamaḥ"
       ],
       "translations": [
         "",
@@ -1189,10 +1189,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 61,
-      "text": "vinayitā sākṣī mukundaḥ amita-vikramaḥ ambho-nidhiḥ .\nanantātmā mahā-udadhi-śayaḥ antakaḥ ajaḥ ..",
+      "text": "sudhanvā khaṇḍa-paraśur-dāruṇo draviṇa-pradaḥ .\ndivaḥ-spṛk sarva-dṛg-vyāso vācaspatir-ayonijaḥ ..",
       "halves": [
-        "vinayitā sākṣī mukundaḥ amita-vikramaḥ ambho-nidhiḥ",
-        "anantātmā mahā-udadhi-śayaḥ antakaḥ ajaḥ"
+        "sudhanvā khaṇḍa-paraśur-dāruṇo draviṇa-pradaḥ",
+        "divaḥ-spṛk sarva-dṛg-vyāso vācaspatir-ayonijaḥ"
       ],
       "translations": [
         "",
@@ -1205,10 +1205,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 62,
-      "text": "mahārhaḥ svābhāvyaḥ jitāmitraḥ pramodanaḥ ānandaḥ .\nnandanaḥ nandaḥ satya-dharmā trivikramaḥ maharṣiḥ kapilaḥ ācāryaḥ ..",
+      "text": "tri-sāmā sāma-gaḥ sāma nirvāṇaṃ bheṣajaṃ bhiṣak .\nsannyāsa-kṛc-chamaḥ śānto niṣṭhā śāntiḥ parāyaṇam ..",
       "halves": [
-        "mahārhaḥ svābhāvyaḥ jitāmitraḥ pramodanaḥ ānandaḥ",
-        "nandanaḥ nandaḥ satya-dharmā trivikramaḥ maharṣiḥ kapilaḥ ācāryaḥ"
+        "tri-sāmā sāma-gaḥ sāma nirvāṇaṃ bheṣajaṃ bhiṣak",
+        "sannyāsa-kṛc-chamaḥ śānto niṣṭhā śāntiḥ parāyaṇam"
       ],
       "translations": [
         "",
@@ -1221,10 +1221,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 63,
-      "text": "kṛtajñaḥ medinī-patiḥ tri-padaḥ tri-daśādhyakṣaḥ mahā-śṛṅgaḥ .\nkṛtānta-kṛt mahā-varāhaḥ govindaḥ suṣeṇaḥ ..",
+      "text": "śubhāṅgaḥ śānti-daḥ sraṣṭā kumudaḥ kuvaleśayaḥ .\ngohitaḥ gopatir-goptā vṛṣabhākṣo vṛṣa-priyaḥ ..",
       "halves": [
-        "kṛtajñaḥ medinī-patiḥ tri-padaḥ tri-daśādhyakṣaḥ mahā-śṛṅgaḥ",
-        "kṛtānta-kṛt mahā-varāhaḥ govindaḥ suṣeṇaḥ"
+        "śubhāṅgaḥ śānti-daḥ sraṣṭā kumudaḥ kuvaleśayaḥ",
+        "gohitaḥ gopatir-goptā vṛṣabhākṣo vṛṣa-priyaḥ"
       ],
       "translations": [
         "",
@@ -1237,10 +1237,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 64,
-      "text": "kanakāṅgadī guhyaḥ gabhīraḥ gahanaḥ guptaḥ .\ncakra-gadā-dharaḥ vedāḥ svāṅgaḥ ajitaḥ ..",
+      "text": "anivartī nivṛttātmā saṅkṣeptā kṣema-kṛc-chivaḥ .\nśrīvatsa-vakṣāḥ śrīvāsaḥ śrīpatiḥ śrīmatāṃ varaḥ ..",
       "halves": [
-        "kanakāṅgadī guhyaḥ gabhīraḥ gahanaḥ guptaḥ",
-        "cakra-gadā-dharaḥ vedāḥ svāṅgaḥ ajitaḥ"
+        "anivartī nivṛttātmā saṅkṣeptā kṣema-kṛc-chivaḥ",
+        "śrīvatsa-vakṣāḥ śrīvāsaḥ śrīpatiḥ śrīmatāṃ varaḥ"
       ],
       "translations": [
         "",
@@ -1253,10 +1253,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 65,
-      "text": "kṛṣṇaḥ dṛḍhaḥ saṅkarṣaṇaḥ acyutaḥ varuṇaḥ .\nvāruṇaḥ vṛkṣaḥ puṣkarākṣaḥ mahā-manāḥ ..",
+      "text": "śrīdaḥ śrīśaḥ śrī-nivāsaḥ śrī-nidhiḥ śrī-vibhāvanaḥ .\nśrī-dharaḥ śrī-karaḥ śreyaḥ śrīmān loka-trayāśrayaḥ ..",
       "halves": [
-        "kṛṣṇaḥ dṛḍhaḥ saṅkarṣaṇaḥ acyutaḥ varuṇaḥ",
-        "vāruṇaḥ vṛkṣaḥ puṣkarākṣaḥ mahā-manāḥ"
+        "śrīdaḥ śrīśaḥ śrī-nivāsaḥ śrī-nidhiḥ śrī-vibhāvanaḥ",
+        "śrī-dharaḥ śrī-karaḥ śreyaḥ śrīmān loka-trayāśrayaḥ"
       ],
       "translations": [
         "",
@@ -1269,10 +1269,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 66,
-      "text": "bhagavān bhaga-hā ānandī vana-mālī halāyudhaḥ .\nādityaḥ jyotir-ādityaḥ sahiṣṇuḥ gati-sattamaḥ su-dharmā ..",
+      "text": "svakṣaḥ svaṅgaḥ śatānando nandir-jyotir-gaṇeśvaraḥ .\nvijitātmā vidheyātmā sat-kīrtiś-chinna-saṃśayaḥ ..",
       "halves": [
-        "bhagavān bhaga-hā ānandī vana-mālī halāyudhaḥ",
-        "ādityaḥ jyotir-ādityaḥ sahiṣṇuḥ gati-sattamaḥ su-dharmā"
+        "svakṣaḥ svaṅgaḥ śatānando nandir-jyotir-gaṇeśvaraḥ",
+        "vijitātmā vidheyātmā sat-kīrtiś-chinna-saṃśayaḥ"
       ],
       "translations": [
         "",
@@ -1285,10 +1285,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 67,
-      "text": "khaṇḍa-paraśuḥ dāruṇaḥ draviṇa-pradaḥ divi-spṛk sarva-dṛg-vyāsaḥ .\nvācaspatiḥ ayonija tri-sāmā sāma-gaḥ sāma ..",
+      "text": "udīrṇaḥ sarvataś-cakṣur-anīśaḥ śāśvataḥ sthiraḥ .\nbhūśayo bhūṣaṇo bhūtir-viśokaḥ śoka-nāśanaḥ ..",
       "halves": [
-        "khaṇḍa-paraśuḥ dāruṇaḥ draviṇa-pradaḥ divi-spṛk sarva-dṛg-vyāsaḥ",
-        "vācaspatiḥ ayonija tri-sāmā sāma-gaḥ sāma"
+        "udīrṇaḥ sarvataś-cakṣur-anīśaḥ śāśvataḥ sthiraḥ",
+        "bhūśayo bhūṣaṇo bhūtir-viśokaḥ śoka-nāśanaḥ"
       ],
       "translations": [
         "",
@@ -1301,10 +1301,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 68,
-      "text": "nirvāṇam bheṣajam bhiṣak sannyāsa-kṛt śamaḥ .\nśāntiḥ niṣṭhā śāntiḥ parāyaṇam ..",
+      "text": "arciṣmān arcitaḥ kumbho viśuddhātmā viśodhanaḥ .\naniruddho'pratirathḥ pradyumno'mita-vikramaḥ ..",
       "halves": [
-        "nirvāṇam bheṣajam bhiṣak sannyāsa-kṛt śamaḥ",
-        "śāntiḥ niṣṭhā śāntiḥ parāyaṇam"
+        "arciṣmān arcitaḥ kumbho viśuddhātmā viśodhanaḥ",
+        "aniruddho'pratirathḥ pradyumno'mita-vikramaḥ"
       ],
       "translations": [
         "",
@@ -1317,10 +1317,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 69,
-      "text": "śubhāṅgaḥ śānti-daḥ sṛṣṭā kumudaḥ kuvaleśayaḥ .\ngohitaḥ go-patiḥ goptā vṛṣabhākṣaḥ ..",
+      "text": "kāla-nemi-nihā vīraḥ śauriḥ śūra-janeśvaraḥ .\ntri-lokātmā tri-lokeśaḥ keśavaḥ keśi-hā hariḥ ..",
       "halves": [
-        "śubhāṅgaḥ śānti-daḥ sṛṣṭā kumudaḥ kuvaleśayaḥ",
-        "gohitaḥ go-patiḥ goptā vṛṣabhākṣaḥ"
+        "kāla-nemi-nihā vīraḥ śauriḥ śūra-janeśvaraḥ",
+        "tri-lokātmā tri-lokeśaḥ keśavaḥ keśi-hā hariḥ"
       ],
       "translations": [
         "",
@@ -1333,10 +1333,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 70,
-      "text": "vṛṣa-priyaḥ anivartī nivṛttātmā saṅkṣeptā kṣema-kṛt .\nśivaḥ śrī-vatsa-vakṣāḥ śrī-vāsaḥ śrī-patiḥ śrī-mataṃ-varaḥ ..",
+      "text": "kāma-devaḥ kāma-pālaḥ kāmī kāntaḥ kṛtāgamaḥ .\nanirdeśya-vapuḥ viṣṇur-vīro'nanto dhanañjayaḥ ..",
       "halves": [
-        "vṛṣa-priyaḥ anivartī nivṛttātmā saṅkṣeptā kṣema-kṛt",
-        "śivaḥ śrī-vatsa-vakṣāḥ śrī-vāsaḥ śrī-patiḥ śrī-mataṃ-varaḥ"
+        "kāma-devaḥ kāma-pālaḥ kāmī kāntaḥ kṛtāgamaḥ",
+        "anirdeśya-vapuḥ viṣṇur-vīro'nanto dhanañjayaḥ"
       ],
       "translations": [
         "",
@@ -1349,10 +1349,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 71,
-      "text": "śrī-daḥ śrī-śaḥ śrī-nivāsaḥ śrī-nidhiḥ śrī-vibhāvanaḥ .\nśrī-dharaḥ śrī-karaḥ śreyaḥ śrī-mān ..",
+      "text": "brahmaṇyo brahma-kṛd brahmā brahma brahma-vivardhanah .\nbrahma-vid brāhmaṇo brahmī brahmajño brāhmaṇa-priyaḥ ..",
       "halves": [
-        "śrī-daḥ śrī-śaḥ śrī-nivāsaḥ śrī-nidhiḥ śrī-vibhāvanaḥ",
-        "śrī-dharaḥ śrī-karaḥ śreyaḥ śrī-mān"
+        "brahmaṇyo brahma-kṛd brahmā brahma brahma-vivardhanah",
+        "brahma-vid brāhmaṇo brahmī brahmajño brāhmaṇa-priyaḥ"
       ],
       "translations": [
         "",
@@ -1365,10 +1365,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 72,
-      "text": "loka-trayāśrayaḥ svakṣaḥ svaṅgaḥ śatānandaḥ nandaḥ .\njyotir-gaṇeśvaraḥ vijitātmā vidheyātmā sat-kīrtiḥ chinnaḥ-saṃśayaḥ ..",
+      "text": "mahā-kramo mahā-karmā mahā-tejā mahoragaḥ .\nmahā-kratur-mahā-yajvā mahā-yajño mahā-haviḥ ..",
       "halves": [
-        "loka-trayāśrayaḥ svakṣaḥ svaṅgaḥ śatānandaḥ nandaḥ",
-        "jyotir-gaṇeśvaraḥ vijitātmā vidheyātmā sat-kīrtiḥ chinnaḥ-saṃśayaḥ"
+        "mahā-kramo mahā-karmā mahā-tejā mahoragaḥ",
+        "mahā-kratur-mahā-yajvā mahā-yajño mahā-haviḥ"
       ],
       "translations": [
         "",
@@ -1381,10 +1381,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 73,
-      "text": "udīrṇaḥ sarva-taś-cakṣuḥ anīśaḥ śāśvata-sthiraḥ bhūśayaḥ .\nbhūṣaṇaḥ bhūtiḥ viśokaḥ śoka-nāśanaḥ ..",
+      "text": "stavyaḥ stava-priyaḥ stotraṃ stutiḥ stotā raṇa-priyaḥ .\npūrṇaḥ pūrayitā puṇyaḥ puṇya-kīrtir-anāmayaḥ ..",
       "halves": [
-        "udīrṇaḥ sarva-taś-cakṣuḥ anīśaḥ śāśvata-sthiraḥ bhūśayaḥ",
-        "bhūṣaṇaḥ bhūtiḥ viśokaḥ śoka-nāśanaḥ"
+        "stavyaḥ stava-priyaḥ stotraṃ stutiḥ stotā raṇa-priyaḥ",
+        "pūrṇaḥ pūrayitā puṇyaḥ puṇya-kīrtir-anāmayaḥ"
       ],
       "translations": [
         "",
@@ -1397,10 +1397,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 74,
-      "text": "arciṣmān arcitaḥ kumbhaḥ viśuddhātmā viśodhanaḥ .\naniruddhaḥ apratirathḥ pradyumnaḥ amita-vikramaḥ ..",
+      "text": "mano-javaḥ tīrtha-karo vasu-retā vasu-pradaḥ .\nvasu-prado vāsu-devo vasur-vasu-manā haviḥ ..",
       "halves": [
-        "arciṣmān arcitaḥ kumbhaḥ viśuddhātmā viśodhanaḥ",
-        "aniruddhaḥ apratirathḥ pradyumnaḥ amita-vikramaḥ"
+        "mano-javaḥ tīrtha-karo vasu-retā vasu-pradaḥ",
+        "vasu-prado vāsu-devo vasur-vasu-manā haviḥ"
       ],
       "translations": [
         "",
@@ -1413,10 +1413,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 75,
-      "text": "kāla-nemi-nihā vīraḥ śauriḥ śūra-janeśvaraḥ tri-lokātmā .\ntri-lokeśaḥ keśavaḥ keśi-hā hariḥ kāma-devaḥ ..",
+      "text": "sad-gatiḥ sat-kṛtiḥ sattā sad-bhūtiḥ sat-parāyaṇaḥ .\nśūra-seno yadu-śreṣṭhaḥ sannivāsaḥ suyāmunaḥ ..",
       "halves": [
-        "kāla-nemi-nihā vīraḥ śauriḥ śūra-janeśvaraḥ tri-lokātmā",
-        "tri-lokeśaḥ keśavaḥ keśi-hā hariḥ kāma-devaḥ"
+        "sad-gatiḥ sat-kṛtiḥ sattā sad-bhūtiḥ sat-parāyaṇaḥ",
+        "śūra-seno yadu-śreṣṭhaḥ sannivāsaḥ suyāmunaḥ"
       ],
       "translations": [
         "",
@@ -1429,10 +1429,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 76,
-      "text": "kāma-pālaḥ kāmī kāntaḥ kṛtāgamaḥ .\nanirdeśya-vapuḥ viṣṇuḥ vīraḥ anantaḥ ..",
+      "text": "bhūtāvāso vāsu-devaḥ sarvāsu-nilayo'nalaḥ .\ndarpa-hā darpa-do dṛpto dur-dharo'thāparājitaḥ ..",
       "halves": [
-        "kāma-pālaḥ kāmī kāntaḥ kṛtāgamaḥ",
-        "anirdeśya-vapuḥ viṣṇuḥ vīraḥ anantaḥ"
+        "bhūtāvāso vāsu-devaḥ sarvāsu-nilayo'nalaḥ",
+        "darpa-hā darpa-do dṛpto dur-dharo'thāparājitaḥ"
       ],
       "translations": [
         "",
@@ -1445,10 +1445,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 77,
-      "text": "dhanañjayaḥ brahmaṇyaḥ brahmakṛt brahmā brahma .\nbrahma-vivardhanah brahma-vid brāhmaṇaḥ brahmi ..",
+      "text": "viśva-mūrtir-mahā-mūrtir-dīpta-mūrtir-a-mūrtimān .\naneka-mūrtir-avyaktaḥ śata-mūrtiḥ śatānanaḥ ..",
       "halves": [
-        "dhanañjayaḥ brahmaṇyaḥ brahmakṛt brahmā brahma",
-        "brahma-vivardhanah brahma-vid brāhmaṇaḥ brahmi"
+        "viśva-mūrtir-mahā-mūrtir-dīpta-mūrtir-a-mūrtimān",
+        "aneka-mūrtir-avyaktaḥ śata-mūrtiḥ śatānanaḥ"
       ],
       "translations": [
         "",
@@ -1461,10 +1461,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 78,
-      "text": "brahma-jñaḥ brāhmaṇa-priyaḥ mahā-kramo mahā-karmā mahā-tejāḥ .\nmahoragaḥ mahā-kratuḥ mahā-yajvā mahā-yajñaḥ ..",
+      "text": "eko naikaḥ savaḥ kaḥ kim yat-tat-padam-anuttamam .\nloka-bandhur-loka-nātho mādhavo bhakta-vatsalaḥ ..",
       "halves": [
-        "brahma-jñaḥ brāhmaṇa-priyaḥ mahā-kramo mahā-karmā mahā-tejāḥ",
-        "mahoragaḥ mahā-kratuḥ mahā-yajvā mahā-yajñaḥ"
+        "eko naikaḥ savaḥ kaḥ kim yat-tat-padam-anuttamam",
+        "loka-bandhur-loka-nātho mādhavo bhakta-vatsalaḥ"
       ],
       "translations": [
         "",
@@ -1477,10 +1477,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 79,
-      "text": "mahā-haviḥ stavyaḥ stava-priyaḥ stotraḥ stutiḥ .\nstotā raṇa-priyaḥ pūrṇaḥ pūrayitā ..",
+      "text": "suvarṇa-varṇo hemāṅgo varāṅgaś-candanāṅgadī .\nvīra-hā viṣamaḥ śūnyo ghṛtāśīr-acalaś-calaḥ ..",
       "halves": [
-        "mahā-haviḥ stavyaḥ stava-priyaḥ stotraḥ stutiḥ",
-        "stotā raṇa-priyaḥ pūrṇaḥ pūrayitā"
+        "suvarṇa-varṇo hemāṅgo varāṅgaś-candanāṅgadī",
+        "vīra-hā viṣamaḥ śūnyo ghṛtāśīr-acalaś-calaḥ"
       ],
       "translations": [
         "",
@@ -1493,10 +1493,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 80,
-      "text": "puṇyaḥ puṇya-kīrtiḥ anāmayaḥ mano-javaḥ tīrtha-karaḥ .\nvasu-retāḥ vasu-pradaḥ vasu-pradaḥ vāsu-devaḥ vasuḥ ..",
+      "text": "amānī māna-do mānyo loka-svāmī tri-loka-dhṛk .\nsu-medhā medhajo dhanyaḥ satya-medhā dharā-dharaḥ ..",
       "halves": [
-        "puṇyaḥ puṇya-kīrtiḥ anāmayaḥ mano-javaḥ tīrtha-karaḥ",
-        "vasu-retāḥ vasu-pradaḥ vasu-pradaḥ vāsu-devaḥ vasuḥ"
+        "amānī māna-do mānyo loka-svāmī tri-loka-dhṛk",
+        "su-medhā medhajo dhanyaḥ satya-medhā dharā-dharaḥ"
       ],
       "translations": [
         "",
@@ -1509,10 +1509,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 81,
-      "text": "vasu-manāḥ haviḥ sadgatiḥ satkṛtiḥ sattā .\nsadbhūtiḥ satparāyaṇaḥ śūrasenaḥ yadu-śreṣṭhaḥ ..",
+      "text": "tejo-vṛṣo dyuti-dharaḥ sarva-śastra-bhṛtāṃ varaḥ .\npragraho nigraho vyagro naika-śṛṅgo gadāgrajaḥ ..",
       "halves": [
-        "vasu-manāḥ haviḥ sadgatiḥ satkṛtiḥ sattā",
-        "sadbhūtiḥ satparāyaṇaḥ śūrasenaḥ yadu-śreṣṭhaḥ"
+        "tejo-vṛṣo dyuti-dharaḥ sarva-śastra-bhṛtāṃ varaḥ",
+        "pragraho nigraho vyagro naika-śṛṅgo gadāgrajaḥ"
       ],
       "translations": [
         "",
@@ -1525,10 +1525,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 82,
-      "text": "sannivāsaḥ suyāmunaḥ bhūtāvāsaḥ vāsudevaḥ sarvāsunilayaḥ .\nanalaḥ darpaḥ darpa-daḥ dṛptaḥ ..",
+      "text": "catur-mūrtiś-catur-bāhuś-catur-vyūhaś-catur-gatiḥ .\ncatur-ātmā catur-bhāvaś-catur-veda-vid-eka-pāt ..",
       "halves": [
-        "sannivāsaḥ suyāmunaḥ bhūtāvāsaḥ vāsudevaḥ sarvāsunilayaḥ",
-        "analaḥ darpaḥ darpa-daḥ dṛptaḥ"
+        "catur-mūrtiś-catur-bāhuś-catur-vyūhaś-catur-gatiḥ",
+        "catur-ātmā catur-bhāvaś-catur-veda-vid-eka-pāt"
       ],
       "translations": [
         "",
@@ -1541,10 +1541,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 83,
-      "text": "dur-dharaḥ aparājitaḥ viśva-mūrtiḥ mahā-mūrtiḥ dīpta-mūrtiḥ .\na-mūrtiḥ-mān aneka-mūrtiḥ avyaktaḥ śata-mūrtiḥ śatānanaḥ ..",
+      "text": "samāvarto nivṛttātmā dur-jayo duratikramaḥ .\ndurlabho durgamo durgo durāvāso durāri-hā ..",
       "halves": [
-        "dur-dharaḥ aparājitaḥ viśva-mūrtiḥ mahā-mūrtiḥ dīpta-mūrtiḥ",
-        "a-mūrtiḥ-mān aneka-mūrtiḥ avyaktaḥ śata-mūrtiḥ śatānanaḥ"
+        "samāvarto nivṛttātmā dur-jayo duratikramaḥ",
+        "durlabho durgamo durgo durāvāso durāri-hā"
       ],
       "translations": [
         "",
@@ -1557,10 +1557,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 84,
-      "text": "ekaḥ naikaḥ savaḥ kaḥ kim .\nyat tat padam-anuttamam loka-bandhuḥ loka-nāthaḥ ..",
+      "text": "śubhāṅgo loka-sāraṅgaḥ su-tantuḥ tantu-vardhanaḥ .\nindra-karmā mahā-karmā kṛta-karmā kṛtāgamaḥ ..",
       "halves": [
-        "ekaḥ naikaḥ savaḥ kaḥ kim",
-        "yat tat padam-anuttamam loka-bandhuḥ loka-nāthaḥ"
+        "śubhāṅgo loka-sāraṅgaḥ su-tantuḥ tantu-vardhanaḥ",
+        "indra-karmā mahā-karmā kṛta-karmā kṛtāgamaḥ"
       ],
       "translations": [
         "",
@@ -1573,10 +1573,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 85,
-      "text": "mādhavaḥ bhakta-vatsalaḥ su-varṇa-varṇaḥ hemāṅgaḥ varāṅgaḥ .\ncandanāṅgadī vīra-hā viṣamaḥ śūnyaḥ ..",
+      "text": "udbhavaḥ sundaraḥ sundo ratna-nābhaḥ su-locanaḥ .\narko vāja-saniḥ śṛṅgī jayantaḥ sarva-vij-jayī ..",
       "halves": [
-        "mādhavaḥ bhakta-vatsalaḥ su-varṇa-varṇaḥ hemāṅgaḥ varāṅgaḥ",
-        "candanāṅgadī vīra-hā viṣamaḥ śūnyaḥ"
+        "udbhavaḥ sundaraḥ sundo ratna-nābhaḥ su-locanaḥ",
+        "arko vāja-saniḥ śṛṅgī jayantaḥ sarva-vij-jayī"
       ],
       "translations": [
         "",
@@ -1589,10 +1589,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 86,
-      "text": "ghṛtāśīḥ acalaḥ calaḥ amānī māna-daḥ .\nmānyaḥ loka-svāmī tri-loka-dhṛk su-medhā ..",
+      "text": "suvarṇa-binduḥ akṣobhyaḥ sarva-vāgīśvareśvaraḥ .\nmahā-hṛdaḥ mahā-gartaḥ mahā-bhūtaḥ mahā-nidhiḥ ..",
       "halves": [
-        "ghṛtāśīḥ acalaḥ calaḥ amānī māna-daḥ",
-        "mānyaḥ loka-svāmī tri-loka-dhṛk su-medhā"
+        "suvarṇa-binduḥ akṣobhyaḥ sarva-vāgīśvareśvaraḥ",
+        "mahā-hṛdaḥ mahā-gartaḥ mahā-bhūtaḥ mahā-nidhiḥ"
       ],
       "translations": [
         "",
@@ -1605,10 +1605,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 87,
-      "text": "medhajah dhanyaḥ satya-medhāḥ dharā-dharaḥ tejo-vṛṣaḥ .\ndyuti-dharaḥ sarvaśastra-bhṛtāṃ varaḥ pragraho nigraho vyagraḥ ..",
+      "text": "kumudaḥ kundaraḥ kundaḥ parjanyaḥ pāvano'nilaḥ .\namṛtāṃśo mṛta-vapuḥ sarvajñaḥ sarva-tomukhaḥ ..",
       "halves": [
-        "medhajah dhanyaḥ satya-medhāḥ dharā-dharaḥ tejo-vṛṣaḥ",
-        "dyuti-dharaḥ sarvaśastra-bhṛtāṃ varaḥ pragraho nigraho vyagraḥ"
+        "kumudaḥ kundaraḥ kundaḥ parjanyaḥ pāvano'nilaḥ",
+        "amṛtāṃśo mṛta-vapuḥ sarvajñaḥ sarva-tomukhaḥ"
       ],
       "translations": [
         "",
@@ -1621,10 +1621,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 88,
-      "text": "naika-śṛṅgaḥ gadāgrajaḥ catur-mūrtiḥ catur-bāhuḥ catur-vyūhaḥ .\ncatur-gatiḥ catur-ātmā catur-bhāvaḥ catur-veda-vit ..",
+      "text": "sulabhaḥ su-vrataḥ siddhaḥ śatru-jic-chatru-tāpanaḥ .\nnyag-rodho'dumbaraḥ aśvatthaś-cāṇūrāndhra-niṣūdanaḥ ..",
       "halves": [
-        "naika-śṛṅgaḥ gadāgrajaḥ catur-mūrtiḥ catur-bāhuḥ catur-vyūhaḥ",
-        "catur-gatiḥ catur-ātmā catur-bhāvaḥ catur-veda-vit"
+        "sulabhaḥ su-vrataḥ siddhaḥ śatru-jic-chatru-tāpanaḥ",
+        "nyag-rodho'dumbaraḥ aśvatthaś-cāṇūrāndhra-niṣūdanaḥ"
       ],
       "translations": [
         "",
@@ -1637,10 +1637,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 89,
-      "text": "ekapāt samāvartaḥ nivṛttātmā dur-jayo duratikramaḥ .\ndurlabhaḥ durgamaḥ durgaḥ durāvāsaḥ ..",
+      "text": "sahasrārciḥ sapta-jihvaḥ saptaidhāḥ sapta-vāhanaḥ .\namūrtir-anagho'cintyo bhaya-kṛd-bhaya-nāśanaḥ ..",
       "halves": [
-        "ekapāt samāvartaḥ nivṛttātmā dur-jayo duratikramaḥ",
-        "durlabhaḥ durgamaḥ durgaḥ durāvāsaḥ"
+        "sahasrārciḥ sapta-jihvaḥ saptaidhāḥ sapta-vāhanaḥ",
+        "amūrtir-anagho'cintyo bhaya-kṛd-bhaya-nāśanaḥ"
       ],
       "translations": [
         "",
@@ -1653,10 +1653,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 90,
-      "text": "durāri-hā śubhāṅgaḥ loka-sāraṅgaḥ su-tantuh tantu-vardhanah .\nindra-karmā mahā-karmā kṛta-karmā kṛtāgamaḥ ..",
+      "text": "aṇur-bṛhat-kṛśaḥ sthūlo guṇa-bhṛn-nirguṇo mahān .\nadhṛtaḥ sva-dhṛtaḥ svāsyaḥ prāg-vaṃśo vaṃśa-vardhanaḥ ..",
       "halves": [
-        "durāri-hā śubhāṅgaḥ loka-sāraṅgaḥ su-tantuh tantu-vardhanah",
-        "indra-karmā mahā-karmā kṛta-karmā kṛtāgamaḥ"
+        "aṇur-bṛhat-kṛśaḥ sthūlo guṇa-bhṛn-nirguṇo mahān",
+        "adhṛtaḥ sva-dhṛtaḥ svāsyaḥ prāg-vaṃśo vaṃśa-vardhanaḥ"
       ],
       "translations": [
         "",
@@ -1669,10 +1669,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 91,
-      "text": "udbhavaḥ sundaraḥ sundaḥ ratna-nābhaḥ su-locanah .\narkaḥ vāja-saniḥ śṛṅgī jayantaḥ ..",
+      "text": "bhāra-bhṛt kathitaḥ yogī yogīśaḥ sarva-kāma-daḥ .\nāśramaḥ śramaṇaḥ kṣāmaḥ suparṇo vāyu-vāhanaḥ ..",
       "halves": [
-        "udbhavaḥ sundaraḥ sundaḥ ratna-nābhaḥ su-locanah",
-        "arkaḥ vāja-saniḥ śṛṅgī jayantaḥ"
+        "bhāra-bhṛt kathitaḥ yogī yogīśaḥ sarva-kāma-daḥ",
+        "āśramaḥ śramaṇaḥ kṣāmaḥ suparṇo vāyu-vāhanaḥ"
       ],
       "translations": [
         "",
@@ -1685,10 +1685,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 92,
-      "text": "sarva-vij-jayī suvarṇa-binduḥ akṣobhyaḥ sarva-vāgīśvareśvaraḥ mahā-hṛdaḥ .\nmahā-gartaḥ mahā-bhūtaḥ mahā-nidhiḥ kumudaḥ kundaraḥ ..",
+      "text": "dhanur-dharaḥ dhanur-vedaḥ daṇḍaḥ damayitā damaḥ .\naparājitaḥ sarva-saho niyantā niyamo yamaḥ ..",
       "halves": [
-        "sarva-vij-jayī suvarṇa-binduḥ akṣobhyaḥ sarva-vāgīśvareśvaraḥ mahā-hṛdaḥ",
-        "mahā-gartaḥ mahā-bhūtaḥ mahā-nidhiḥ kumudaḥ kundaraḥ"
+        "dhanur-dharaḥ dhanur-vedaḥ daṇḍaḥ damayitā damaḥ",
+        "aparājitaḥ sarva-saho niyantā niyamo yamaḥ"
       ],
       "translations": [
         "",
@@ -1701,10 +1701,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 93,
-      "text": "kundaḥ parjanyaḥ pāvanaḥ anilaḥ amṛtāśaḥ .\namṛta-vapuḥ sarvajñaḥ sarva-tomukhah sulabhaḥ ..",
+      "text": "sattvavān sāttvikaḥ satyaḥ satya-dharma-parāyaṇaḥ .\nabhiprāyaḥ priyārho'rhaḥ priya-kṛt prīti-vardhanaḥ ..",
       "halves": [
-        "kundaḥ parjanyaḥ pāvanaḥ anilaḥ amṛtāśaḥ",
-        "amṛta-vapuḥ sarvajñaḥ sarva-tomukhah sulabhaḥ"
+        "sattvavān sāttvikaḥ satyaḥ satya-dharma-parāyaṇaḥ",
+        "abhiprāyaḥ priyārho'rhaḥ priya-kṛt prīti-vardhanaḥ"
       ],
       "translations": [
         "",
@@ -1717,10 +1717,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 94,
-      "text": "su-vrataḥ siddhaḥ śatru-jit śatru-tāpanaḥ nyag-rodhah .\nudumbaraḥ aśvatthaḥ cāṇūrāndhra-niṣūdanaḥ sahasrārciḥ sapta-jihvaḥ ..",
+      "text": "vihāyasa-gatir-jyotiḥ surucir-huta-bhug-vibhuḥ .\nraviḥ virocanaḥ sūryaḥ savitā ravi-locanaḥ ..",
       "halves": [
-        "su-vrataḥ siddhaḥ śatru-jit śatru-tāpanaḥ nyag-rodhah",
-        "udumbaraḥ aśvatthaḥ cāṇūrāndhra-niṣūdanaḥ sahasrārciḥ sapta-jihvaḥ"
+        "vihāyasa-gatir-jyotiḥ surucir-huta-bhug-vibhuḥ",
+        "raviḥ virocanaḥ sūryaḥ savitā ravi-locanaḥ"
       ],
       "translations": [
         "",
@@ -1733,10 +1733,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 95,
-      "text": "saptaidhāḥ sapta-vāhanaḥ amūrtiḥ anaghaḥ acintya .\nbhaya-kṛt bhaya-nāśanaḥ aṇuḥ bṛhat ..",
+      "text": "anantaḥ huta-bhug-bhoktā sukhado naika-jo'gra-jaḥ .\nanirviṇṇaḥ sadā-marṣī lokādhiṣṭhānam-adbhutaḥ ..",
       "halves": [
-        "saptaidhāḥ sapta-vāhanaḥ amūrtiḥ anaghaḥ acintya",
-        "bhaya-kṛt bhaya-nāśanaḥ aṇuḥ bṛhat"
+        "anantaḥ huta-bhug-bhoktā sukhado naika-jo'gra-jaḥ",
+        "anirviṇṇaḥ sadā-marṣī lokādhiṣṭhānam-adbhutaḥ"
       ],
       "translations": [
         "",
@@ -1749,10 +1749,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 96,
-      "text": "kṛśaḥ sthūlaḥ guṇa-bhṛt nir-guṇaḥ mahān .\nadhṛtaḥ sva-dhṛtaḥ svāsyaḥ prāg-vaṃśaḥ ..",
+      "text": "sanāt sanātana-tamaḥ kapilaḥ kapir-avyayaḥ .\nsvasti-daḥ svasti-kṛt svasti svasti-bhuk svasti-dakṣiṇaḥ ..",
       "halves": [
-        "kṛśaḥ sthūlaḥ guṇa-bhṛt nir-guṇaḥ mahān",
-        "adhṛtaḥ sva-dhṛtaḥ svāsyaḥ prāg-vaṃśaḥ"
+        "sanāt sanātana-tamaḥ kapilaḥ kapir-avyayaḥ",
+        "svasti-daḥ svasti-kṛt svasti svasti-bhuk svasti-dakṣiṇaḥ"
       ],
       "translations": [
         "",
@@ -1765,10 +1765,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 97,
-      "text": "vaṃśa-vardhanah bhāra-bhṛt kathitaḥ yogī yogīśaḥ .\nsarva-kāma-daḥ āśramaḥ śramaṇaḥ kṣāmaḥ suparṇaḥ ..",
+      "text": "araudraḥ kuṇḍalī cakrī vikramī ūrjita-śāsanaḥ .\nśabdātigaḥ śabda-sahaḥ śiśiraḥ śarvarī-karaḥ ..",
       "halves": [
-        "vaṃśa-vardhanah bhāra-bhṛt kathitaḥ yogī yogīśaḥ",
-        "sarva-kāma-daḥ āśramaḥ śramaṇaḥ kṣāmaḥ suparṇaḥ"
+        "araudraḥ kuṇḍalī cakrī vikramī ūrjita-śāsanaḥ",
+        "śabdātigaḥ śabda-sahaḥ śiśiraḥ śarvarī-karaḥ"
       ],
       "translations": [
         "",
@@ -1781,10 +1781,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 98,
-      "text": "vāyu-vāhanaḥ dhanuḥ-dharaḥ dhanuḥ-vedaḥ daṇḍaḥ damayitā .\ndamaḥ aparājitaḥ sarva-sahaḥ aniyantā ..",
+      "text": "akrūraḥ peśalo dakṣo dakṣiṇaḥ kṣamiṇāṃ varaḥ .\nvidvattamo vīta-bhayaḥ puṇya-śravaṇa-kīrtanaḥ ..",
       "halves": [
-        "vāyu-vāhanaḥ dhanuḥ-dharaḥ dhanuḥ-vedaḥ daṇḍaḥ damayitā",
-        "damaḥ aparājitaḥ sarva-sahaḥ aniyantā"
+        "akrūraḥ peśalo dakṣo dakṣiṇaḥ kṣamiṇāṃ varaḥ",
+        "vidvattamo vīta-bhayaḥ puṇya-śravaṇa-kīrtanaḥ"
       ],
       "translations": [
         "",
@@ -1797,10 +1797,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 99,
-      "text": "niyamaḥ ayamaḥ sattva-vān sāttvikaḥ satyaḥ .\nsatya-dharma-parāyaṇaḥ abhiprāyaḥ priyārhaḥ arhaḥ priya-kṛt ..",
+      "text": "uttāraṇo duṣ-kṛti-hā puṇyo duḥsvapna-nāśanaḥ .\nvīra-hā rakṣaṇaḥ santaḥ jīvanaḥ pary-avasthitaḥ ..",
       "halves": [
-        "niyamaḥ ayamaḥ sattva-vān sāttvikaḥ satyaḥ",
-        "satya-dharma-parāyaṇaḥ abhiprāyaḥ priyārhaḥ arhaḥ priya-kṛt"
+        "uttāraṇo duṣ-kṛti-hā puṇyo duḥsvapna-nāśanaḥ",
+        "vīra-hā rakṣaṇaḥ santaḥ jīvanaḥ pary-avasthitaḥ"
       ],
       "translations": [
         "",
@@ -1813,10 +1813,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 100,
-      "text": "prīti-vardhanah vihāya-sa-gatiḥ jyotiḥ su-rucih huta-bhuk .\nvibhuḥ raviḥ virocanaḥ sūryaḥ ..",
+      "text": "ananta-rūpo'nanta-śrīḥ jita-manyur-bhayāpahaḥ .\ncatur-aśro gabhīrātmā vidiśo vyādiśo diśaḥ ..",
       "halves": [
-        "prīti-vardhanah vihāya-sa-gatiḥ jyotiḥ su-rucih huta-bhuk",
-        "vibhuḥ raviḥ virocanaḥ sūryaḥ"
+        "ananta-rūpo'nanta-śrīḥ jita-manyur-bhayāpahaḥ",
+        "catur-aśro gabhīrātmā vidiśo vyādiśo diśaḥ"
       ],
       "translations": [
         "",
@@ -1829,10 +1829,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 101,
-      "text": "savitā ravi-locanaḥ ananta-huta-bhuk-bhoktā sukha-daḥ naika-jaḥ .\nagra-jaḥ anir-vinnaḥ sadā-marṣī lokādhiṣṭhānam ..",
+      "text": "anādir-bhūr-bhuvo lakṣmīḥ suvīro ruci-rāṅgadaḥ .\njanano jana-janmādir-bhīmo bhīma-parākramaḥ ..",
       "halves": [
-        "savitā ravi-locanaḥ ananta-huta-bhuk-bhoktā sukha-daḥ naika-jaḥ",
-        "agra-jaḥ anir-vinnaḥ sadā-marṣī lokādhiṣṭhānam"
+        "anādir-bhūr-bhuvo lakṣmīḥ suvīro ruci-rāṅgadaḥ",
+        "janano jana-janmādir-bhīmo bhīma-parākramaḥ"
       ],
       "translations": [
         "",
@@ -1845,10 +1845,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 102,
-      "text": "adbhutaḥ sanāt sanātana-tamaḥ kapilaḥ kapiḥ .\napyayaḥ svastidaḥ svasti-kṛt svasti svasti-bhuk ..",
+      "text": "ādhāro nilayo dhātā puṣpahāsaḥ prajāgaraḥ .\nūrdhvagaḥ sat-pathācāraḥ prāṇadaḥ praṇavaḥ paṇaḥ ..",
       "halves": [
-        "adbhutaḥ sanāt sanātana-tamaḥ kapilaḥ kapiḥ",
-        "apyayaḥ svastidaḥ svasti-kṛt svasti svasti-bhuk"
+        "ādhāro nilayo dhātā puṣpahāsaḥ prajāgaraḥ",
+        "ūrdhvagaḥ sat-pathācāraḥ prāṇadaḥ praṇavaḥ paṇaḥ"
       ],
       "translations": [
         "",
@@ -1861,10 +1861,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 103,
-      "text": "svasti-dakṣiṇaḥ araudraḥ kuṇḍalī cakrī vikramī .\nūrjita-śāsanaḥ śabdātigaḥ śabda-sahaḥ śiśiraḥ ..",
+      "text": "pramāṇaṃ prāṇa-nilayaḥ prāṇa-bhṛt prāṇa-jīvanaḥ .\ntattvaṃ tattva-vid-ekātmā janma-mṛtyu-jarātigaḥ ..",
       "halves": [
-        "svasti-dakṣiṇaḥ araudraḥ kuṇḍalī cakrī vikramī",
-        "ūrjita-śāsanaḥ śabdātigaḥ śabda-sahaḥ śiśiraḥ"
+        "pramāṇaṃ prāṇa-nilayaḥ prāṇa-bhṛt prāṇa-jīvanaḥ",
+        "tattvaṃ tattva-vid-ekātmā janma-mṛtyu-jarātigaḥ"
       ],
       "translations": [
         "",
@@ -1877,10 +1877,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 104,
-      "text": "śarva-rī-karaḥ akrūraḥ peśalaḥ dakṣaḥ dakṣiṇaḥ .\nkṣamiṇāṃ-varaḥ vidvattamo vīta-bhayaḥ puṇya-śravaṇa-kīrtanaḥ ..",
+      "text": "bhūr-bhuvaḥ-svas-taruḥ tāraḥ savitā pra-pitā-mahaḥ .\nyajño yajña-patir-yajvā yajñāṅgo yajña-vāhanaḥ ..",
       "halves": [
-        "śarva-rī-karaḥ akrūraḥ peśalaḥ dakṣaḥ dakṣiṇaḥ",
-        "kṣamiṇāṃ-varaḥ vidvattamo vīta-bhayaḥ puṇya-śravaṇa-kīrtanaḥ"
+        "bhūr-bhuvaḥ-svas-taruḥ tāraḥ savitā pra-pitā-mahaḥ",
+        "yajño yajña-patir-yajvā yajñāṅgo yajña-vāhanaḥ"
       ],
       "translations": [
         "",
@@ -1893,10 +1893,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 105,
-      "text": "uttāraṇaḥ duṣkṛti-hā puṇyaḥ duḥsvapna-nāśanaḥ vīra-hā .\nrakṣaṇaḥ santaḥ jīvanaḥ paryavasthitaḥ ananta-rūpaḥ ..",
+      "text": "yajña-bhṛd yajña-kṛd yajñī yajña-bhuk yajña-sādhanaḥ .\nyajñānta-kṛd yajña-guhyam annam-annāda eva ca ..",
       "halves": [
-        "uttāraṇaḥ duṣkṛti-hā puṇyaḥ duḥsvapna-nāśanaḥ vīra-hā",
-        "rakṣaṇaḥ santaḥ jīvanaḥ paryavasthitaḥ ananta-rūpaḥ"
+        "yajña-bhṛd yajña-kṛd yajñī yajña-bhuk yajña-sādhanaḥ",
+        "yajñānta-kṛd yajña-guhyam annam-annāda eva ca"
       ],
       "translations": [
         "",
@@ -1909,10 +1909,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 106,
-      "text": "ananta-śrīḥ jita-manyuḥ bhayāpahaḥ catur-aśraḥ gabhīrātmā .\nvidiśaḥ vyādiśaḥ diśaḥ anādiḥ ..",
+      "text": "ātma-yoniḥ svayaṃ-jāto vaikhānaḥ sāma-gāyanaḥ .\ndevakī-nandanaḥ sraṣṭā kṣitīśaḥ pāpa-nāśanaḥ ..",
       "halves": [
-        "ananta-śrīḥ jita-manyuḥ bhayāpahaḥ catur-aśraḥ gabhīrātmā",
-        "vidiśaḥ vyādiśaḥ diśaḥ anādiḥ"
+        "ātma-yoniḥ svayaṃ-jāto vaikhānaḥ sāma-gāyanaḥ",
+        "devakī-nandanaḥ sraṣṭā kṣitīśaḥ pāpa-nāśanaḥ"
       ],
       "translations": [
         "",
@@ -1925,10 +1925,10 @@ const VISHNU_DATA = {
     },
     {
       "num": 107,
-      "text": "bhūr-bhuvaḥ lakṣmīḥ suvīraḥ .\nruci-rāṅgadaḥ jananaḥ ..",
+      "text": "śaṅkha-bhṛn-nandakī cakrī śārṅga-dhanvā gadā-dharaḥ .\nrathāṅga-pāṇir-akṣobhyaḥ sarva-praharaṇāyudhaḥ ..",
       "halves": [
-        "bhūr-bhuvaḥ lakṣmīḥ suvīraḥ",
-        "ruci-rāṅgadaḥ jananaḥ"
+        "śaṅkha-bhṛn-nandakī cakrī śārṅga-dhanvā gadā-dharaḥ",
+        "rathāṅga-pāṇir-akṣobhyaḥ sarva-praharaṇāyudhaḥ"
       ],
       "translations": [
         "",
