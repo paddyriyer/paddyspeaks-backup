@@ -1,9 +1,50 @@
 # Session Handoff — where we left off
 
-_Last updated: 2026-09-05 (Bay Area article: post-publication numerical corrections). This file is the running memory between Claude Code
+_Last updated: 2026-09-05 (Bay Area article: rebuilt as a 17-slide visual essay). This file is the running memory between Claude Code
 sessions (the web container clones fresh each time). CLAUDE.md points here._
 
 ## TL;DR of current state
+
+- **NEW (2026-09-05, FOURTH pass): the Bay Area article was REBUILT as a 17-slide
+  visual essay.** Paddy supplied a 17-slide deck (`images/Slide1..17.jpeg`, now
+  `images/articles/can-you-really-afford-the-bay-area/slides/slide-01..17.jpg`) and asked
+  for it to lead the piece: *"you can massage them and show it accordingly Less text better"*.
+  - **~13,900 words -> ~4,700; ~240KB -> ~64KB.** Every table, all six charts and all ten
+    hand-drawn SVG illustrations were **removed** - the slides cover that ground. The page is
+    now 17 slides + short connective prose, each slide in a lightbox (`#lb`, Escape/backdrop
+    close, focus restored to the opening button).
+  - `scripts/make_bay_area_charts.py` was **deleted** (orphaned with the charts).
+  - **THE FHFA DECISION FROM THE THIRD PASS IS REVERSED.** The note above says the reviewer's
+    FHFA back-cast was "tested and rejected" because it puts 1980 housing at 110% of median
+    income. Paddy was given that trade-off explicitly and chose **"Slides win - rebuild the
+    article"**. `scripts/bay_area_affordability_model.py` is now built on the FHFA path,
+    pinned to the deck's published figures, and the article's framing absorbs the result:
+    *this house was never within reach of the median household; what changed is the size of
+    the gap.* That reframing is what makes the 1980 number coherent rather than absurd.
+    **Do not "restore" the modelled series** - it would contradict all 17 slides.
+  - Model and deck now agree exactly: P&I+tax as % of income = 100/91/84/70/61/94%;
+    price/income = 2.7/3.3/8.1/9.5/10.3/11.6/11.7/12.9. Property tax rate is 1.1%.
+  - Cards are now **derived from the cover slide** by
+    `images/articles/can-you-really-afford-the-bay-area/source/make_cards.py`:
+    `share-card.jpg` (1200x630, padded - PNG was 766KB for a photographic slide) and
+    `poster.webp` (800x1000; the whole slide over a blurred enlargement of itself, because a
+    straight 4:5 crop sliced the title in half). The old `poster.png/svg`, `share-card.svg`
+    and `share-card.png` are gone. **Re-running that script after replacing `slide-01.jpg`
+    is all that is needed to sharpen both cards.**
+  - **Two slides contradict themselves and need fixing in the re-export** (both are flagged
+    in the article's figcaptions as an interim measure, so the page never states a number
+    it knows to be wrong):
+    - **slide-05.jpg** (deck slide 4): the cartoon panel reads **$1,430** for the 1980
+      monthly P&I; the bar chart *on the same slide* reads **$1,773**. $152,000 at 13.74%
+      over 30 years is $1,770 - the chart is right, the cartoon is wrong.
+    - **slide-04.jpg** (deck slide 3): the 1985 house panel reads **~$360,000** assessed /
+      **~$3,000** tax; the stat card below it reads **~$414K** / **~$4,100**. The stat card
+      is right ($200,000 compounded at Prop 13 factors reaches ~$414,000).
+  - Paddy is sending **higher-resolution slide exports**; they drop in at the same paths.
+  - Homepage/metadata: read time 42 -> 15 min, new subtitle and card copy, `hero_image` ->
+    `share-card.jpg`. No new article, so the deck counts stay All (147) / Personality (3).
+  - Pre-existing and NOT caused by this pass: `index.html` overflows ~23px horizontally at
+    390px wide (an SVG in the hero). Present on HEAD too; left alone here.
 
 - **NEW (2026-09-05, third pass): the Bay Area article was CORRECTED after publication**
   following a source-by-source review against Census, FHFA/FRED, Freddie Mac, BLS,
