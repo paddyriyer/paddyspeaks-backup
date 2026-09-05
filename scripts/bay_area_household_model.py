@@ -116,7 +116,7 @@ INCOMES = (120_000, 200_000, 300_000, 400_000, 500_000, 700_000)
 HOUSING_CHOICES = [("Rent a 3-bed ($4,200/mo)", None),
                    ("Buy $1.4M townhouse", 1_400_000),
                    ("Buy $1.8M 3-bed", 1_800_000),
-                   ("Buy $2.3M 4-bed", 2_300_000)]
+                   ("Buy $2.2M 4-bed", 2_200_000)]
 
 
 def annual_housing(price: float | None, down_pct: float = .20,
@@ -150,19 +150,19 @@ def report_taxes_and_scenarios():
               f"{m(t['total']):>11}{t['total']/g*100:>6.1f}%{m(t['net']):>12}")
 
     print("\n" + "=" * 116)
-    print("PART IV -- THE $200,000 PARADOX (buying the $2.3M representative house)")
+    print("PART IV -- THE $200,000 PARADOX (buying the $2.2M representative house)")
     print("=" * 116)
     t = taxes(200_000)
     # Same line items as the article's Part IV waterfall: P&I, property tax,
     # insurance of $2,200, maintenance of $9,030 and a $6,000 major-systems reserve.
-    full = (pmt(1_840_000, RATE_2026) * 12 + 2_300_000 * PROPERTY_TAX_RATE
+    full = (pmt(1_760_000, RATE_2026) * 12 + 2_200_000 * PROPERTY_TAX_RATE
             + 2_200 + 9_030 + 6_000)
     print(f"  take-home {m(t['net'])} ({t['net']/200_000*100:.0f}% of gross); "
           f"all-in housing {m(full)}")
     print(f"  left after housing {m(t['net'] - full)}  "
           f"-- housing is {full/200_000*100:.0f}% of gross, {full/t['net']*100:.0f}% of take-home")
     dti_ceiling = 200_000 * .43 / 12
-    actual = (pmt(1_840_000, RATE_2026) * 12 + 28_750 + 2_200) / 12
+    actual = (pmt(1_760_000, RATE_2026) * 12 + 27_500 + 2_200) / 12
     print(f"  a 43% back-end DTI allows {m(dti_ceiling)}/mo; PITI here is {m(actual)}/mo "
           f"({actual/dti_ceiling*100:.0f}% of the ceiling)")
 
@@ -238,7 +238,7 @@ HOUSEHOLDS = [
     ("A - $200K, renting",           200_000,       0,         0,         0, 0.00,  40_000,       0, 180_000,  92_000),
     ("B - $300K, $1.4M bought 2022", 300_000,       0, 1_400_000, 1_050_000, 5.00,  60_000,  25_000, 260_000,  98_000),
     ("C - $400K, $1.8M bought 2024", 300_000, 100_000, 1_800_000, 1_440_000, 6.50, 120_000,  60_000, 340_000, 120_000),
-    ("D - $500K, $2.3M bought 2026", 350_000, 150_000, 2_300_000, 1_840_000, 6.71, 150_000, 250_000, 420_000, 140_000),
+    ("D - $500K, $2.2M bought 2026", 350_000, 150_000, 2_200_000, 1_760_000, 6.71, 150_000, 250_000, 420_000, 140_000),
     ("E - $700K, $3.0M bought 2026", 400_000, 300_000, 3_000_000, 2_250_000, 6.71, 300_000, 700_000, 700_000, 165_000),
 ]
 RENT_ANNUAL = 50_700

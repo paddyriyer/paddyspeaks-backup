@@ -1,9 +1,39 @@
 # Session Handoff — where we left off
 
-_Last updated: 2026-09-05 (Bay Area article: six data charts added). This file is the running memory between Claude Code
+_Last updated: 2026-09-05 (Bay Area article: post-publication numerical corrections). This file is the running memory between Claude Code
 sessions (the web container clones fresh each time). CLAUDE.md points here._
 
 ## TL;DR of current state
+
+- **NEW (2026-09-05, third pass): the Bay Area article was CORRECTED after publication**
+  following a source-by-source review against Census, FHFA/FRED, Freddie Mac, BLS,
+  California BOE, C.A.R., PPIC and IRS. It was already live when the review arrived.
+  - **The 2026 anchor moved $2.3M -> $2.2M** (C.A.R. July 2026 county median existing
+    single-family price ~$1.955M; the modelled 4BR sits ~13% above it). This cascades
+    through every table, both model scripts and three of the six charts.
+  - **The income series is now census + SAIPE**, replacing earlier estimates:
+    $7,417 (1960, median FAMILY income - a definitional break now flagged in the text),
+    $23,369 / $48,115 / $74,705 / $84,627 / $139,462 / $166,984 (2024). The 2010 and
+    **2020** rows moved materially ($89,100 -> $84,627 and $126,000 -> $139,462).
+    **There is no published 2026 median household income** - $175,000 is labelled an estimate.
+  - **CPI now uses the published July 2026 value, 333.918.** $20,000 (1960) = $225,620 today;
+    real appreciation ~9.8x.
+  - **The headline Part III finding changed: 3.03% -> 3.83%.** It is no longer "almost exactly
+    the 2020 rate" and the passage was rewritten. Do not restore the old phrasing.
+  - **An FHFA repeat-sales cross-check was added to Part I** with the index values published
+    inline so readers can verify. IMPORTANT: the reviewer's proposal to *rebuild* the price
+    path by back-casting FHFA from the 2026 anchor was **tested and rejected** - it produces
+    1980 housing at **110% of median income** and a 1980 price/income of **8.1**, i.e. 1980
+    worse than 2026, which is not defensible. The modelled series is kept and the index is
+    used as corroboration (the two agree within ~17% per decade). Do not "fix" this again
+    without re-running that test.
+  - **The "non-housing family cost" column was removed** from the generational table -
+    a modelled nominal 1960 family spend cannot be defended and invites easy attack.
+  - Softened: "you cannot refinance a principal" (principal amortises and can be prepaid).
+    The three-year career horizon is now explicitly a **stress-test assumption**, with PPIC
+    survey data (49% / 32% / 57%) supplied as the defensible evidence instead.
+  - A dated **Corrections** block and a note that FRED was unreachable from the authoring
+    environment (so the FHFA values are quoted, not read) sit above the Sources section.
 
 - **NEW (2026-09-05, second pass): six data charts added to the Bay Area article.**
   The first cut was 13.5k words against 10 illustrations - one visual per ~1,350
