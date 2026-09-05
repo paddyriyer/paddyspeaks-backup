@@ -55,7 +55,7 @@ SS_RATE, MEDICARE_RATE, ADDL_MEDICARE_RATE = .062, .0145, .009
 ADDL_MEDICARE_THRESHOLD_MFJ = 250_000
 
 RATE_2026 = 6.71                  # FACT: Freddie Mac PMMS, 3 September 2026
-PROPERTY_TAX_RATE = .0125         # MODEL: 1% Prop 13 base + ~0.25% local bonds
+PROPERTY_TAX_RATE = .011         # MODEL: 1% Prop 13 base levy + typical voter-approved debt
 
 
 def _bracket_tax(taxable: float, table) -> float:
@@ -162,7 +162,7 @@ def report_taxes_and_scenarios():
     print(f"  left after housing {m(t['net'] - full)}  "
           f"-- housing is {full/200_000*100:.0f}% of gross, {full/t['net']*100:.0f}% of take-home")
     dti_ceiling = 200_000 * .43 / 12
-    actual = (pmt(1_760_000, RATE_2026) * 12 + 27_500 + 2_200) / 12
+    actual = (pmt(1_760_000, RATE_2026) * 12 + 24_200 + 2_200) / 12
     print(f"  a 43% back-end DTI allows {m(dti_ceiling)}/mo; PITI here is {m(actual)}/mo "
           f"({actual/dti_ceiling*100:.0f}% of the ceiling)")
 

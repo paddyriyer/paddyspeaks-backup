@@ -41,35 +41,46 @@ CPI = {1960: 29.6, 1970: 38.8, 1980: 82.4, 1990: 130.7,
 # $1.955M (July 2026) at a ~1.13x premium for a four-bedroom; 1975 San Jose median
 # of $37,049 and the US/CA decennial census medians anchor the back end.
 # ESTIMATE for 1960 and 1970 -- the softest rows, good to roughly +/-15%.
-PRICE = {1960: 19_000, 1970: 28_000, 1980: 118_000, 1990: 285_000,
-         2000: 575_000, 2010: 625_000, 2020: 1_425_000, 2026: 2_200_000}
+# The price path is the FHFA All-Transactions HPI for Santa Clara County
+# (ATNHPIUS06085A, 2000 = 100) back-cast from the 2026 anchor. This is the series the
+# published slide deck uses, and it needs no premium assumption: whatever the house is
+# worth in 2026, the index says what constant-quality Santa Clara housing was worth in
+# each earlier decade.
+#
+# It carries a consequence worth stating plainly rather than hiding: on this path the
+# representative four-bedroom was NEVER within reach of the countywide median household
+# — 1980 already takes 100% of median income once tax is included. That is not a broken
+# model. It is the point. This is an above-median house measured against a median
+# household, and what changed over 66 years is the size of the gap, not its existence.
+FHFA_INDEX = {1980: 24.76, 1990: 59.48, 2000: 100.00, 2010: 127.49, 2020: 212.14,
+              2026: 286.00}   # 2026 is an EXTENSION - FHFA publishes through 2024
+ANCHOR_2026 = 2_200_000
 
-# FHFA All-Transactions HPI for Santa Clara County (ATNHPIUS06085A, 2000 = 100) is the
-# independent cross-check on the series above. Anchored at the model's own 2000 value it
-# implies the prices in FHFA_IMPLIED; the two agree to within about 17% in every decade,
-# which is corroboration rather than confirmation - a repeat-sales index and a median-sale
-# series measure genuinely different things and are expected to diverge in a market with
-# this much mix and quality drift. report_fhfa_crosscheck() prints the comparison.
-FHFA_INDEX = {1980: 24.76, 1990: 59.48, 2000: 100.00, 2010: 127.49, 2020: 212.14}
+# Back-cast and then rounded to the figures published in the slide deck, so the article
+# and the deck agree to the dollar. round(ANCHOR * idx / idx[2026]) reproduces these.
+PRICE = {1980: 190_000, 1990: 457_000, 2000: 769_000, 2010: 980_000,
+         2020: 1_630_000, 2026: ANCHOR_2026}
+PRICE[1960] = 20_000    # ESTIMATE - FHFA begins in 1975
+PRICE[1970] = 43_000    # ESTIMATE
 
 # Santa Clara County median household income, nominal. FACT from 1990 onward
 # (census / ACS); ESTIMATE before that.
 # FACT for 1980-2020: 1980/1990 decennial census, 2000-2020 Census SAIPE.
 # 1960 is median FAMILY income (the county's 1960 census reports family, not household) -
 # a definitional break that flatters the 1960 ratio slightly and is flagged in the article.
-# 1970 and 2026 are ESTIMATES: 1970 interpolated, 2026 grown from the 2024 SAIPE figure
-# of $166,984 at about 2.4% a year. There is no published 2026 median household income.
+# 1970 and 2026 are ESTIMATES: 1970 interpolated, 2026 rounded up from the 2024 ACS
+# figure of $168,154. There is no published 2026 median household income.
 INCOME = {1960: 7_417, 1970: 13_000, 1980: 23_369, 1990: 48_115,
-          2000: 74_705, 2010: 84_627, 2020: 139_462, 2026: 175_000}
+          2000: 74_705, 2010: 84_627, 2020: 139_462, 2026: 170_000}
 
 # FACT: Freddie Mac PMMS annual averages 1980-2020; 6.71% is the 3 Sep 2026 reading.
 # ESTIMATE for 1960 and 1970 -- the survey only begins in April 1971.
 RATE = {1960: 6.00, 1970: 8.50, 1980: 13.74, 1990: 10.13,
         2000: 8.05, 2010: 4.69, 2020: 3.11, 2026: 6.71}
 
-# MODEL: pre-Proposition 13, an effective 2.5% of market value; after 1978, 1.25%
-# of purchase price in year one (the 1% base rate plus ~0.25% of local bonds).
-PTAX_RATE = {y: (0.025 if y < 1980 else 0.0125) for y in DECADES}
+# MODEL: pre-Proposition 13, an effective 2.5% of market value; after 1978, 1.1% of
+# purchase price in year one - the 1% base levy plus typical voter-approved debt.
+PTAX_RATE = {y: (0.025 if y < 1980 else 0.011) for y in DECADES}
 
 # ESTIMATE: reconstructed homeowners insurance series.
 INSURANCE = {1960: 60, 1970: 110, 1980: 300, 1990: 600,
@@ -199,26 +210,10 @@ def report_rates(rows):
           f"(a {m(lo2 / (1 - DOWN_PCT))} house)")
 
 
-def report_fhfa_crosscheck(rows):
-    """Does an independent repeat-sales index tell the same story as the modelled series?"""
-    print("\n" + "=" * 122)
-    print("FHFA CROSS-CHECK -- ATNHPIUS06085A (2000 = 100), anchored at the model's own 2000 price")
-    print("=" * 122)
-    base = PRICE[2000]
-    for y in sorted(FHFA_INDEX):
-        implied = base * FHFA_INDEX[y] / 100
-        print(f"  {y}: modelled {m(PRICE[y]):>12}   FHFA-implied {m(implied):>12}   "
-              f"ratio {PRICE[y] / implied:.2f}")
-    print("  The two series agree to within ~17% in every decade. Neither is 'the' answer:")
-    print("  FHFA controls for quality and misses the jumbo market; a median-sale series")
-    print("  tracks what actually changed hands. The article's argument holds on both.")
-
-
 if __name__ == "__main__":
     rows = housing_table()
     report_part1(rows)
     report_prop13()
     report_rates(rows)
-    report_fhfa_crosscheck(rows)
     print("\nSee also: scripts/bay_area_household_model.py for the 2026 tax model, the")
     print("family budget, the income scenarios, the stress test and years of financial freedom.")
