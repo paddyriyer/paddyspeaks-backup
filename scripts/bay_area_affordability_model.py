@@ -34,19 +34,33 @@ DECADES = [1960, 1970, 1980, 1990, 2000, 2010, 2020, 2026]
 
 # FACT (BLS CPI-U annual averages); 2026 taken as ~333 for mid-year.
 CPI = {1960: 29.6, 1970: 38.8, 1980: 82.4, 1990: 130.7,
-       2000: 172.2, 2010: 218.1, 2020: 258.8, 2026: 333.0}
+       2000: 172.2, 2010: 218.1, 2020: 258.8, 2026: 333.918}   # 2026 = BLS CPI-U, July 2026
 
 # MODEL: representative 4-bedroom = county median single-family sale price x ~1.10.
-# 2026 anchored on the CAR county median of ~$2.1M (May 2026); 1975 San Jose median
+# 2026 anchored on the C.A.R. county median existing single-family price of about
+# $1.955M (July 2026) at a ~1.13x premium for a four-bedroom; 1975 San Jose median
 # of $37,049 and the US/CA decennial census medians anchor the back end.
 # ESTIMATE for 1960 and 1970 -- the softest rows, good to roughly +/-15%.
 PRICE = {1960: 19_000, 1970: 28_000, 1980: 118_000, 1990: 285_000,
-         2000: 575_000, 2010: 625_000, 2020: 1_425_000, 2026: 2_300_000}
+         2000: 575_000, 2010: 625_000, 2020: 1_425_000, 2026: 2_200_000}
+
+# FHFA All-Transactions HPI for Santa Clara County (ATNHPIUS06085A, 2000 = 100) is the
+# independent cross-check on the series above. Anchored at the model's own 2000 value it
+# implies the prices in FHFA_IMPLIED; the two agree to within about 17% in every decade,
+# which is corroboration rather than confirmation - a repeat-sales index and a median-sale
+# series measure genuinely different things and are expected to diverge in a market with
+# this much mix and quality drift. report_fhfa_crosscheck() prints the comparison.
+FHFA_INDEX = {1980: 24.76, 1990: 59.48, 2000: 100.00, 2010: 127.49, 2020: 212.14}
 
 # Santa Clara County median household income, nominal. FACT from 1990 onward
 # (census / ACS); ESTIMATE before that.
-INCOME = {1960: 7_400, 1970: 12_700, 1980: 24_700, 1990: 48_100,
-          2000: 74_300, 2010: 89_100, 2020: 126_000, 2026: 175_000}
+# FACT for 1980-2020: 1980/1990 decennial census, 2000-2020 Census SAIPE.
+# 1960 is median FAMILY income (the county's 1960 census reports family, not household) -
+# a definitional break that flatters the 1960 ratio slightly and is flagged in the article.
+# 1970 and 2026 are ESTIMATES: 1970 interpolated, 2026 grown from the 2024 SAIPE figure
+# of $166,984 at about 2.4% a year. There is no published 2026 median household income.
+INCOME = {1960: 7_417, 1970: 13_000, 1980: 23_369, 1990: 48_115,
+          2000: 74_705, 2010: 84_627, 2020: 139_462, 2026: 175_000}
 
 # FACT: Freddie Mac PMMS annual averages 1980-2020; 6.71% is the 3 Sep 2026 reading.
 # ESTIMATE for 1960 and 1970 -- the survey only begins in April 1971.
@@ -131,7 +145,7 @@ def report_part1(rows):
 
 # ------------------------------------------------- part II: proposition 13 ----
 def report_prop13(bought_year=1995, bought_price=310_000, now_year=2026,
-                  new_price=2_300_000, rate=0.0125):
+                  new_price=2_200_000, rate=0.0125):
     print("\n" + "=" * 122)
     print("PART II -- PROPOSITION 13: SAME STREET, SAME HOUSE")
     print("=" * 122)
@@ -174,7 +188,7 @@ def report_rates(rows):
         hi, lo = (mid, lo) if pmt(loan26, mid) > target else (hi, mid)
     print(f"\n  1980's payment was {rows[1980]['pi_pct']:.0f}% of median income "
           f"-> the 2026 equivalent is {m(target)}/mo")
-    print(f"    On {m(loan26)} that needs a rate of {lo:.2f}%  <-- i.e. roughly the 2020 rate")
+    print(f"    On {m(loan26)} that needs a rate of {lo:.2f}%  <-- a rate last seen in the 2010s")
 
     # ...or, holding the rate, how small would the loan have to be?
     lo2, hi2 = 1.0, 5_000_000.0
@@ -185,10 +199,26 @@ def report_rates(rows):
           f"(a {m(lo2 / (1 - DOWN_PCT))} house)")
 
 
+def report_fhfa_crosscheck(rows):
+    """Does an independent repeat-sales index tell the same story as the modelled series?"""
+    print("\n" + "=" * 122)
+    print("FHFA CROSS-CHECK -- ATNHPIUS06085A (2000 = 100), anchored at the model's own 2000 price")
+    print("=" * 122)
+    base = PRICE[2000]
+    for y in sorted(FHFA_INDEX):
+        implied = base * FHFA_INDEX[y] / 100
+        print(f"  {y}: modelled {m(PRICE[y]):>12}   FHFA-implied {m(implied):>12}   "
+              f"ratio {PRICE[y] / implied:.2f}")
+    print("  The two series agree to within ~17% in every decade. Neither is 'the' answer:")
+    print("  FHFA controls for quality and misses the jumbo market; a median-sale series")
+    print("  tracks what actually changed hands. The article's argument holds on both.")
+
+
 if __name__ == "__main__":
     rows = housing_table()
     report_part1(rows)
     report_prop13()
     report_rates(rows)
+    report_fhfa_crosscheck(rows)
     print("\nSee also: scripts/bay_area_household_model.py for the 2026 tax model, the")
     print("family budget, the income scenarios, the stress test and years of financial freedom.")

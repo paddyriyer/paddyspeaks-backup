@@ -76,8 +76,8 @@ def frame(vb_w, vb_h, title, desc, cid, body):
 # ============================================================ CHART 1 ========
 def chart_price_to_income():
     """Job: change over time, one series, one point is the story -> columns + emphasis."""
-    data = [(1960, 2.6), (1970, 2.2), (1980, 4.8), (1990, 5.9),
-            (2000, 7.7), (2010, 7.0), (2020, 11.3), (2026, 13.1)]
+    data = [(1960, 2.6), (1970, 2.2), (1980, 5.0), (1990, 5.9),
+            (2000, 7.7), (2010, 7.4), (2020, 10.2), (2026, 12.6)]
     W, H = 1000, 430
     L, Rm, T, B = 62, 26, 34, 62
     pw, ph = W - L - Rm, H - T - B
@@ -112,17 +112,17 @@ def chart_price_to_income():
              f'fill="{INK_3}">Santa Clara County &#183; representative four-bedroom</text>')
     return frame(W, H, "House price divided by median household income, 1960 to 2026",
                  "A column chart of the price-to-income ratio for the representative four-bedroom house. "
-                 "It runs 2.6 in 1960, 2.2 in 1970, 4.8 in 1980, 5.9 in 1990, 7.7 in 2000, 7.0 in 2010, "
-                 "11.3 in 2020, and 13.1 in 2026, with the 2026 column highlighted.", "c1", "\n".join(o))
+                 "It runs 2.6 in 1960, 2.2 in 1970, 5.0 in 1980, 5.9 in 1990, 7.7 in 2000, 7.4 in 2010, "
+                 "10.2 in 2020, and 12.6 in 2026, with the 2026 column highlighted.", "c1", "\n".join(o))
 
 
 # ============================================================ CHART 2 ========
 def chart_burden_composition():
     """Job: part-to-whole over time, segments have a natural order -> ordinal stack."""
     # (year, P&I, property tax, insurance + maintenance) as % of median household income
-    data = [(1960, 14.8, 6.4, 7.0), (1970, 16.3, 5.5, 6.6), (1980, 53.4, 6.0, 8.3),
-            (1990, 50.5, 7.4, 7.7), (2000, 54.8, 9.7, 7.1), (2010, 34.9, 8.8, 7.9),
-            (2020, 46.4, 14.1, 6.8), (2026, 81.5, 16.4, 6.4)]
+    data = [(1960, 14.7, 6.4, 7.0), (1970, 15.9, 5.4, 6.4), (1980, 56.4, 6.3, 8.8),
+            (1990, 50.4, 7.4, 7.7), (2000, 54.5, 9.6, 7.1), (2010, 36.7, 9.2, 8.3),
+            (2020, 41.9, 12.8, 6.1), (2026, 78.0, 15.7, 6.4)]
     W, H = 1000, 470
     L, Rm, T, B = 62, 26, 74, 62
     pw, ph = W - L - Rm, H - T - B
@@ -172,7 +172,7 @@ def chart_burden_composition():
     return frame(W, H, "What the housing bill is made of, 1960 to 2026",
                  "A stacked column chart showing total annual housing cost as a share of median household "
                  "income, split into mortgage principal and interest, property tax, and insurance plus "
-                 "upkeep. The total runs 28 percent in 1960 and 104 percent in 2026, crossing the "
+                 "upkeep. The total runs 28 percent in 1960 and 100 percent in 2026, reaching the "
                  "100-percent-of-income line in the final column.", "c2", "\n".join(o))
 
 
@@ -225,7 +225,7 @@ def chart_where_money_goes():
 def chart_cash_runway():
     """Job: magnitude against a fixed target -> bars + a threshold rule."""
     data = [("A &#183; $200K, renting", 3.4), ("B &#183; $300K, $1.4M home", 3.7),
-            ("C &#183; $400K, $1.8M home", 5.5), ("D &#183; $500K, $2.3M home", 5.6),
+            ("C &#183; $400K, $1.8M home", 5.5), ("D &#183; $500K, $2.2M home", 5.7),
             ("E &#183; $700K, $3.0M home", 9.3)]
     W = 1000
     L, Rm, T, B = 228, 86, 66, 54
@@ -327,8 +327,8 @@ def chart_years_of_freedom():
 # ============================================================ CHART 6 ========
 def chart_down_payment():
     """Job: change over time, one series -> columns, single hue, emphasis on the last."""
-    data = [(1960, 0.51), (1970, 0.44), (1980, 0.96), (1990, 1.19),
-            (2000, 1.55), (2010, 1.40), (2020, 2.26), (2026, 2.63)]
+    data = [(1960, 0.51), (1970, 0.43), (1980, 1.01), (1990, 1.18),
+            (2000, 1.54), (2010, 1.48), (2020, 2.04), (2026, 2.51)]
     W, H = 1000, 330
     L, Rm, T, B = 62, 26, 40, 58
     pw, ph = W - L - Rm, H - T - B
@@ -360,7 +360,7 @@ def chart_down_payment():
              f'fill="{INK_3}">YEARS OF MEDIAN INCOME NEEDED FOR THE 20&#37; DEPOSIT</text>')
     return frame(W, H, "The deposit, measured in years of median household income",
                  "A column chart of the 20 percent down payment expressed in years of median household "
-                 "income. It falls from 0.51 in 1960 to 0.44 in 1970, then climbs steadily to 2.63 by 2026.",
+                 "income. It falls from 0.51 in 1960 to 0.43 in 1970, then climbs steadily to 2.51 by 2026.",
                  "c6", "\n".join(o))
 
 
